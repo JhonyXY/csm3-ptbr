@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "total": 1414,
-    "falhas": 4
+    "total": 2097,
+    "falhas": 1
   },
   "traducoes": [
     {
@@ -5326,17 +5326,6 @@
       ]
     },
     {
-      "id": "f0392_24CE",
-      "jp": "たよりにしてるよ、{g}",
-      "pt": "Depender de você,",
-      "chars_jp": 12,
-      "chars_pt": 17,
-      "aplica_em": [
-        "f0392_24CE"
-      ],
-      "erro": "placeholders divergem: ['{g}'] -> []"
-    },
-    {
       "id": "f0392_2508",
       "jp": "しかしワガハイはどんな実なのか知らんのじゃ",
       "pt": "Contudo, não sei que fruto seja.",
@@ -9700,25 +9689,6 @@
       ]
     },
     {
-      "id": "f0521_0608",
-      "jp": "マーネイル宿場　ほほえみ亭前",
-      "pt": "",
-      "chars_jp": 14,
-      "chars_pt": 0,
-      "aplica_em": [
-        "f0521_0608",
-        "f0621_0598",
-        "f0721_05C2",
-        "f1021_053E",
-        "f1121_053E",
-        "f1221_076E",
-        "f1321_053E",
-        "f1421_009A",
-        "f1521_05AC"
-      ],
-      "erro": "vazia"
-    },
-    {
       "id": "f0521_0802",
       "jp": "まずほほえみ亭って宿屋に行こう",
       "pt": "Vamos ao Hohoemi-tei primeiro.",
@@ -9844,17 +9814,6 @@
         "f1523_009A",
         "f1523_047C"
       ]
-    },
-    {
-      "id": "f0523_099A",
-      "jp": "なんだかまた、大変なことになっちゃったけど…がんばってね、{d}",
-      "pt": "Parece que deu problema de novo... Vai dar tudo certo, Murn.",
-      "chars_jp": 32,
-      "chars_pt": 60,
-      "aplica_em": [
-        "f0523_099A"
-      ],
-      "erro": "placeholders divergem: ['{d}'] -> []"
     },
     {
       "id": "f0523_0A26",
@@ -15238,17 +15197,6 @@
       ]
     },
     {
-      "id": "f0791_382C",
-      "jp": "{d}さん…ミューノ様を守ることにもう、迷いはないんですか？",
-      "pt": "{d}... Não tem mais dúvidas de proteger {d}?",
-      "chars_jp": 30,
-      "chars_pt": 44,
-      "aplica_em": [
-        "f0791_382C"
-      ],
-      "erro": "placeholders divergem: ['{d}'] -> ['{d}', '{d}']"
-    },
-    {
       "id": "f0791_3A6E",
       "jp": "ティエにまでケガさせるなんて…あいつら、何をするかわからないぞ早くミューノを見つけないと！",
       "pt": "Fazer mal até pra Tier... Esses caras não sabem o que vão fazer. Temos que achar Murno logo!",
@@ -16155,6 +16103,7346 @@
         "f0891_14B8",
         "f0891_1A26",
         "f0891_1ED4"
+      ]
+    },
+    {
+      "id": "f0891_0FB6",
+      "jp": "なんだったかな？",
+      "pt": "O que será?",
+      "chars_jp": 8,
+      "chars_pt": 11,
+      "aplica_em": [
+        "f0891_0FB6",
+        "f0891_14CC",
+        "f0891_1A3A",
+        "f0891_1EE8"
+      ]
+    },
+    {
+      "id": "f0891_0FEE",
+      "jp": "ソレハ　私ガ答エラレル内容デハ　アリマセン",
+      "pt": "Não é algo que eu possa responder.",
+      "chars_jp": 21,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f0891_0FEE"
+      ]
+    },
+    {
+      "id": "f0891_1022",
+      "jp": "アナタ自身デ　考エルベキカト　判断シマス",
+      "pt": "Você deve pensar e julgar por si.",
+      "chars_jp": 20,
+      "chars_pt": 33,
+      "aplica_em": [
+        "f0891_1022"
+      ]
+    },
+    {
+      "id": "f0891_1080",
+      "jp": "そうだな…これは自分自身で答える問題だな",
+      "pt": "É isso... tem que responder por conta própria.",
+      "chars_jp": 20,
+      "chars_pt": 46,
+      "aplica_em": [
+        "f0891_1080",
+        "f0891_15A4",
+        "f0891_1AE2",
+        "f0891_1FD0"
+      ]
+    },
+    {
+      "id": "f0891_10B4",
+      "jp": "そうだね…これは自分自身で答える問題よね",
+      "pt": "É isso... tem que responder por conta própria.",
+      "chars_jp": 20,
+      "chars_pt": 46,
+      "aplica_em": [
+        "f0891_10B4",
+        "f0891_15D8",
+        "f0891_1B16",
+        "f0891_2004"
+      ]
+    },
+    {
+      "id": "f0891_1106",
+      "jp": "期待シテイマス",
+      "pt": "Estou esperando.",
+      "chars_jp": 7,
+      "chars_pt": 16,
+      "aplica_em": [
+        "f0891_1106"
+      ]
+    },
+    {
+      "id": "f0891_11D0",
+      "jp": "なんじゃと？ちゃんと数えたのか！？",
+      "pt": "O quê? Você contou direito?!",
+      "chars_jp": 17,
+      "chars_pt": 28,
+      "aplica_em": [
+        "f0891_11D0"
+      ]
+    },
+    {
+      "id": "f0891_1210",
+      "jp": "ギャラハン殿も言っておったからよもやハンマーを忘れてはおらぬと思うが…",
+      "pt": "Gallahan disse, então não acho que você esqueceu o martelo...",
+      "chars_jp": 35,
+      "chars_pt": 61,
+      "aplica_em": [
+        "f0891_1210"
+      ]
+    },
+    {
+      "id": "f0891_131A",
+      "jp": "やれやれ…、世話がやけるのぉ",
+      "pt": "Ai, que cansaço...",
+      "chars_jp": 14,
+      "chars_pt": 18,
+      "aplica_em": [
+        "f0891_131A"
+      ]
+    },
+    {
+      "id": "f0891_13E2",
+      "jp": "なんじゃ…？その３種類であれば見た目からでも判断はできるであろう？",
+      "pt": "O quê? Com esses três tipos, dá pra julgar só pela aparência?",
+      "chars_jp": 33,
+      "chars_pt": 61,
+      "aplica_em": [
+        "f0891_13E2"
+      ]
+    },
+    {
+      "id": "f0891_144E",
+      "jp": "ああ、そういえば…",
+      "pt": "Ah, falando nisso...",
+      "chars_jp": 9,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f0891_144E"
+      ]
+    },
+    {
+      "id": "f0891_1504",
+      "jp": "悪いがこの問題はワシが答えても仕方ないな",
+      "pt": "Desculpa, mas não adianta eu responder isso.",
+      "chars_jp": 20,
+      "chars_pt": 44,
+      "aplica_em": [
+        "f0891_1504"
+      ]
+    },
+    {
+      "id": "f0891_154E",
+      "jp": "おぬし自身で答えを導き出すのじゃ",
+      "pt": "Você mesmo tem que achar a resposta.",
+      "chars_jp": 16,
+      "chars_pt": 36,
+      "aplica_em": [
+        "f0891_154E"
+      ]
+    },
+    {
+      "id": "f0891_162A",
+      "jp": "期待しておるぞ",
+      "pt": "Tenho expectativas.",
+      "chars_jp": 7,
+      "chars_pt": 19,
+      "aplica_em": [
+        "f0891_162A"
+      ]
+    },
+    {
+      "id": "f0891_16F4",
+      "jp": "ちっ…そんなことは自分で何とかしろ",
+      "pt": "Tsc... resolve isso sozinho.",
+      "chars_jp": 17,
+      "chars_pt": 28,
+      "aplica_em": [
+        "f0891_16F4",
+        "f0891_18CA"
+      ]
+    },
+    {
+      "id": "f0891_1750",
+      "jp": "わかったよ…え〜っと、おっちゃんも言ってた通りハンマーを入れると…",
+      "pt": "Entendi... como o tio disse, se colocar o martelo...",
+      "chars_jp": 33,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f0891_1750"
+      ]
+    },
+    {
+      "id": "f0891_17A2",
+      "jp": "わかったわよ…え〜っと、おじさんも言ってた通りハンマーを入れると…",
+      "pt": "Entendi... como o tio disse, se colocar o martelo...",
+      "chars_jp": 33,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f0891_17A2"
+      ]
+    },
+    {
+      "id": "f0891_1814",
+      "jp": "やれやれ…",
+      "pt": "Ah, qual é...",
+      "chars_jp": 5,
+      "chars_pt": 13,
+      "aplica_em": [
+        "f0891_1814"
+      ]
+    },
+    {
+      "id": "f0891_1926",
+      "jp": "わかったよ…え〜っと、こういう時は見た目の大きさから考えてみるかな…",
+      "pt": "Entendi... nessas horas, vou pensar pelo tamanho...",
+      "chars_jp": 34,
+      "chars_pt": 51,
+      "aplica_em": [
+        "f0891_1926"
+      ]
+    },
+    {
+      "id": "f0891_197A",
+      "jp": "わかったわよ…え〜っと、こういう時は見た目の大きさから考えてみようかな…",
+      "pt": "Entendi... nessas horas, vou pensar pelo tamanho...",
+      "chars_jp": 36,
+      "chars_pt": 51,
+      "aplica_em": [
+        "f0891_197A"
+      ]
+    },
+    {
+      "id": "f0891_1A72",
+      "jp": "そんな問題を私に聞いてどうするんだ？自分で何とかしろ！",
+      "pt": "Por que me pergunta isso? Resolva sozinho!",
+      "chars_jp": 27,
+      "chars_pt": 42,
+      "aplica_em": [
+        "f0891_1A72"
+      ]
+    },
+    {
+      "id": "f0891_1B68",
+      "jp": "やれやれだ…",
+      "pt": "Ah, qual é...",
+      "chars_jp": 6,
+      "chars_pt": 13,
+      "aplica_em": [
+        "f0891_1B68"
+      ]
+    },
+    {
+      "id": "f0891_1C30",
+      "jp": "ギャラハンさんも言ってましたからハンマーを忘れるようなことはありませんわね…？",
+      "pt": "Gallahan disse, não vou esquecer o martelo, né...?",
+      "chars_jp": 39,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f0891_1C30"
+      ]
+    },
+    {
+      "id": "f0891_1CFE",
+      "jp": "や、やだなぁ忘れるわけないでしょー？",
+      "pt": "Ah, que bobagem, não vou esquecer!",
+      "chars_jp": 18,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f0891_1CFE"
+      ]
+    },
+    {
+      "id": "f0891_1D4E",
+      "jp": "忘れてたんですね…",
+      "pt": "Você tinha esquecido...",
+      "chars_jp": 9,
+      "chars_pt": 23,
+      "aplica_em": [
+        "f0891_1D4E"
+      ]
+    },
+    {
+      "id": "f0891_1E0C",
+      "jp": "どれって…その３種類なら見た目からでもわかると思いますよ",
+      "pt": "Qual? Se são esses três, dá pra ver só pela aparência.",
+      "chars_jp": 28,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f0891_1E0C"
+      ]
+    },
+    {
+      "id": "f0891_1F20",
+      "jp": "{d}さん鍛冶師なら、この問題はひとに聞いちゃダメですわ",
+      "pt": "Se for um ferreiro, {d}, não pode perguntar isso a ninguém.",
+      "chars_jp": 28,
+      "chars_pt": 59,
+      "aplica_em": [
+        "f0891_1F20"
+      ]
+    },
+    {
+      "id": "f0891_1F76",
+      "jp": "あなた自身で答えを導き出すべきです！",
+      "pt": "Você deve achar a resposta sozinho!",
+      "chars_jp": 18,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f0891_1F76"
+      ]
+    },
+    {
+      "id": "f0891_2056",
+      "jp": "期待していますわ",
+      "pt": "Tenho expectativas.",
+      "chars_jp": 8,
+      "chars_pt": 19,
+      "aplica_em": [
+        "f0891_2056"
+      ]
+    },
+    {
+      "id": "f0891_2196",
+      "jp": "よっし！この武器をちゃんと修理して鍛冶師だってみとめさせるぜ！",
+      "pt": "Certo! Vou consertar essa arma e fazer eles me reconhecer ferreiro!",
+      "chars_jp": 31,
+      "chars_pt": 67,
+      "aplica_em": [
+        "f0891_2196",
+        "f0891_232A",
+        "f0891_24CC",
+        "f0891_2644"
+      ]
+    },
+    {
+      "id": "f0891_21E4",
+      "jp": "よーし！この武器をちゃんと修理して鍛冶師だってみとめさせるんだから！",
+      "pt": "Certo! Vou consertar essa arma e fazer eles me reconhecer ferreira!",
+      "chars_jp": 34,
+      "chars_pt": 67,
+      "aplica_em": [
+        "f0891_21E4",
+        "f0891_2378",
+        "f0891_251A",
+        "f0891_2692"
+      ]
+    },
+    {
+      "id": "f0891_2258",
+      "jp": "ソウデスネ現在ノ装備デハ　ぎゃらはんサンノ撃退ハ　ムズカシイト思ワレマス",
+      "pt": "É verdade, com o equipamento atual, acho difícil derrotar Gyarahan-san.",
+      "chars_jp": 36,
+      "chars_pt": 71,
+      "aplica_em": [
+        "f0891_2258"
+      ]
+    },
+    {
+      "id": "f0891_22CA",
+      "jp": "あんましコワイことは考えないように！",
+      "pt": "Não pense em coisas assustadoras!",
+      "chars_jp": 18,
+      "chars_pt": 33,
+      "aplica_em": [
+        "f0891_22CA"
+      ]
+    },
+    {
+      "id": "f0891_23EC",
+      "jp": "そうじゃのう…鍛冶師としてはそれが正しい実力行使の仕方かもしれんのう…",
+      "pt": "Hum... Como ferreiro, talvez esse seja o jeito certo de usar minha força...",
+      "chars_jp": 35,
+      "chars_pt": 75,
+      "aplica_em": [
+        "f0891_23EC"
+      ]
+    },
+    {
+      "id": "f0891_245C",
+      "jp": "実力行使って…なんかアブナイこと考えてなかった？",
+      "pt": "Usar minha força... não pensou em algo perigoso?",
+      "chars_jp": 24,
+      "chars_pt": 48,
+      "aplica_em": [
+        "f0891_245C"
+      ]
+    },
+    {
+      "id": "f0891_258E",
+      "jp": "そうだな…とりあえず武器でも手に入ればあの男を…",
+      "pt": "É verdade... Se conseguir uma arma, posso enfrentar aquele cara...",
+      "chars_jp": 24,
+      "chars_pt": 66,
+      "aplica_em": [
+        "f0891_258E"
+      ]
+    },
+    {
+      "id": "f0891_25E8",
+      "jp": "こ、コワイことは考えないように！",
+      "pt": "Não pense em coisas ruins!",
+      "chars_jp": 16,
+      "chars_pt": 26,
+      "aplica_em": [
+        "f0891_25E8"
+      ]
+    },
+    {
+      "id": "f0891_2706",
+      "jp": "そ、そうですね…ギャラハンさんには逆らわない方がいいかもしれませんよ…",
+      "pt": "Bem... acho que não devemos desafiar o Gallahan...",
+      "chars_jp": 35,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f0891_2706"
+      ]
+    },
+    {
+      "id": "f0891_2776",
+      "jp": "な…、なんかあったの？",
+      "pt": "O-o que aconteceu?",
+      "chars_jp": 11,
+      "chars_pt": 18,
+      "aplica_em": [
+        "f0891_2776"
+      ]
+    },
+    {
+      "id": "f0891_27EC",
+      "jp": "ミューノがエサに…",
+      "pt": "Murno como isca...",
+      "chars_jp": 9,
+      "chars_pt": 18,
+      "aplica_em": [
+        "f0891_27EC"
+      ]
+    },
+    {
+      "id": "f0891_2812",
+      "jp": "させるかよ！",
+      "pt": "Deixa ela ser isca?!",
+      "chars_jp": 6,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f0891_2812"
+      ]
+    },
+    {
+      "id": "f0891_2826",
+      "jp": "させるもんか！",
+      "pt": "Não vou deixar isso!",
+      "chars_jp": 7,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f0891_2826"
+      ]
+    },
+    {
+      "id": "f0891_2896",
+      "jp": "{g}を助けないと…",
+      "pt": "Tenho que salvar {g}...",
+      "chars_jp": 10,
+      "chars_pt": 23,
+      "aplica_em": [
+        "f0891_2896"
+      ]
+    },
+    {
+      "id": "f0891_29C0",
+      "jp": "ミューノを召喚獣のエサになんかさせるもんか！",
+      "pt": "Não vou deixar Murno vir comida da besta!",
+      "chars_jp": 22,
+      "chars_pt": 41,
+      "aplica_em": [
+        "f0891_29C0",
+        "f0891_2B06",
+        "f0891_2C52",
+        "f0891_2DD0",
+        "f0892_0110",
+        "f0892_0316",
+        "f0892_0522",
+        "f0892_0760"
+      ]
+    },
+    {
+      "id": "f0891_2A04",
+      "jp": "急ぐぞ、{g}！",
+      "pt": "Anda, {g}!",
+      "chars_jp": 8,
+      "chars_pt": 10,
+      "aplica_em": [
+        "f0891_2A04",
+        "f0891_2B4A",
+        "f0891_2C96",
+        "f0891_2E14",
+        "f0892_0154",
+        "f0892_035A",
+        "f0892_0566",
+        "f0892_07A4"
+      ]
+    },
+    {
+      "id": "f0891_2A18",
+      "jp": "急ぐよ、{g}！",
+      "pt": "Vamos logo, {g}!",
+      "chars_jp": 8,
+      "chars_pt": 16,
+      "aplica_em": [
+        "f0891_2A18",
+        "f0891_2B5E",
+        "f0891_2CAA",
+        "f0891_2E28",
+        "f0892_0168",
+        "f0892_036E",
+        "f0892_057A",
+        "f0892_07B8"
+      ]
+    },
+    {
+      "id": "f0891_2A4C",
+      "jp": "村ハズレノ　れくいノ水遺跡トイウ地下宮殿ガ　目的地デス発見サレナイヨウ　注意シテクダサイ",
+      "pt": "O destino é o palácio de Rekui, fora da vila. Cuidado para não serem vistos.",
+      "chars_jp": 44,
+      "chars_pt": 76,
+      "aplica_em": [
+        "f0891_2A4C",
+        "f0892_019C",
+        "f0892_0B2E"
+      ]
+    },
+    {
+      "id": "f0891_2B92",
+      "jp": "村はずれのレクイの水遺跡という地下宮殿にミューノはいるようじゃぞ助け出すまで捕まってはならんぞ",
+      "pt": "Murno está no palácio de Rekui, fora da vila. Não",
+      "chars_jp": 47,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f0891_2B92",
+        "f0892_03A2",
+        "f0892_0D36"
+      ]
+    },
+    {
+      "id": "f0891_2CDE",
+      "jp": "村はずれのレクイの水遺跡という地下宮殿にミューノはいるようようだが捕まらずにそこまでたどりつけるか？",
+      "pt": "Murno está no palácio submersível de Rekui, fora da vila. Conseguimos chegar lá sem ser pegos?",
+      "chars_jp": 50,
+      "chars_pt": 94,
+      "aplica_em": [
+        "f0891_2CDE",
+        "f0892_05AE",
+        "f0892_0F44"
+      ]
+    },
+    {
+      "id": "f0891_2D7C",
+      "jp": "まかせとけって！",
+      "pt": "Deixa comigo!",
+      "chars_jp": 8,
+      "chars_pt": 13,
+      "aplica_em": [
+        "f0891_2D7C",
+        "f0892_064C",
+        "f1191_2418"
+      ]
+    },
+    {
+      "id": "f0891_2D94",
+      "jp": "まかせといてよ！",
+      "pt": "Deixa comigo!",
+      "chars_jp": 8,
+      "chars_pt": 13,
+      "aplica_em": [
+        "f0891_2D94",
+        "f0892_0664",
+        "f1191_2430"
+      ]
+    },
+    {
+      "id": "f0891_2E5C",
+      "jp": "村はずれのレクイの水遺跡という地下宮殿にミューノ様はいるそうです村人に見つからないように行きますよ",
+      "pt": "Murno está no palácio de Rekui, fora da vila. Vou lá para os aldeões não nos encontrarem.",
+      "chars_jp": 49,
+      "chars_pt": 89,
+      "aplica_em": [
+        "f0891_2E5C",
+        "f0892_07EC",
+        "f0892_115C"
+      ]
+    },
+    {
+      "id": "f0892_0258",
+      "jp": "でも、装備が心配だな…おっちゃんの工房が使えるといいんだけど…",
+      "pt": "Mas estou preocupado com o equipamento... Espero poder usar a oficina do velho.",
+      "chars_jp": 31,
+      "chars_pt": 79,
+      "aplica_em": [
+        "f0892_0258",
+        "f0892_0464",
+        "f0892_06A2",
+        "f0892_08B2"
+      ]
+    },
+    {
+      "id": "f0892_02A6",
+      "jp": "でも、装備が心配だね…おじさんの工房が使えるといいんだけど…",
+      "pt": "Mas estou preocupada com o equipamento... Espero poder usar a oficina do velho.",
+      "chars_jp": 30,
+      "chars_pt": 79,
+      "aplica_em": [
+        "f0892_02A6",
+        "f0892_04B2",
+        "f0892_06F0",
+        "f0892_0900"
+      ]
+    },
+    {
+      "id": "f0892_0A80",
+      "jp": "おっちゃんの工房も使えそうだし全力でミューノを助けに行くぞ！",
+      "pt": "Posso usar a oficina do velho.",
+      "chars_jp": 30,
+      "chars_pt": 30,
+      "aplica_em": [
+        "f0892_0A80",
+        "f0892_0C88",
+        "f0892_0E96",
+        "f0892_10AE"
+      ]
+    },
+    {
+      "id": "f0892_0AC8",
+      "jp": "おじさんの工房も使えそうだし全力でミューノを助けに行こう！",
+      "pt": "A oficina do velho serve. Vamos ajudar Murno com tudo!",
+      "chars_jp": 29,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f0892_0AC8",
+        "f0892_0CD0",
+        "f0892_0EDE",
+        "f0892_10F6"
+      ]
+    },
+    {
+      "id": "f0892_0BC0",
+      "jp": "わかってる！ミューノを召喚獣のエサになんかさせるもんか！",
+      "pt": "Entendi! Não vou deixar Murno vir como comida das Bestas!",
+      "chars_jp": 28,
+      "chars_pt": 57,
+      "aplica_em": [
+        "f0892_0BC0",
+        "f0892_0DCE",
+        "f0892_11F8"
+      ]
+    },
+    {
+      "id": "f0892_0C08",
+      "jp": "わかってるって！ミューノを召喚獣のエサになんかさせないから！",
+      "pt": "Eu sei! Não deixarei Murno vir comida pra invocador!",
+      "chars_jp": 30,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f0892_0C08",
+        "f0892_0E16",
+        "f0892_1240"
+      ]
+    },
+    {
+      "id": "f0892_0FE2",
+      "jp": "まかせとけって！ミューノを召喚獣のエサになんかさせるもんか！",
+      "pt": "Deixa comigo! Não vou deixar Murno vir pra ser comida do monstro!",
+      "chars_jp": 30,
+      "chars_pt": 65,
+      "aplica_em": [
+        "f0892_0FE2"
+      ]
+    },
+    {
+      "id": "f0892_102E",
+      "jp": "まかせといてよ！ミューノを召喚獣のエサになんかさせないから！",
+      "pt": "Não se preocupa! Eu não vou deixar Murno virar comida de monstro!",
+      "chars_jp": 30,
+      "chars_pt": 65,
+      "aplica_em": [
+        "f0892_102E"
+      ]
+    },
+    {
+      "id": "f0892_13B4",
+      "jp": "レクイの水遺跡の一番下にいるヌシってヤツからミューノを助け出すんだ！",
+      "pt": "Vou resgatar Murno do Nushi lá no fundo da ruína de Rekui!",
+      "chars_jp": 34,
+      "chars_pt": 58,
+      "aplica_em": [
+        "f0892_13B4",
+        "f0892_155E",
+        "f0892_1712",
+        "f0892_189E",
+        "f0892_1B40",
+        "f0892_1D7E",
+        "f0892_1FEE",
+        "f0892_2216",
+        "f0892_2A44",
+        "f0892_2C12",
+        "f0892_2E2A",
+        "f0892_2FDC"
+      ]
+    },
+    {
+      "id": "f0892_1408",
+      "jp": "レクイの水遺跡の一番下にいるヌシさまって召喚獣からミューノを助け出さなくっちゃ！",
+      "pt": "Tenho que resgatar Murno do Nushi-sama na ruína de Rekui da Besta de Invocação!",
+      "chars_jp": 40,
+      "chars_pt": 79,
+      "aplica_em": [
+        "f0892_1408",
+        "f0892_15B2",
+        "f0892_1766",
+        "f0892_18F2",
+        "f0892_1B94",
+        "f0892_1DD2",
+        "f0892_2042",
+        "f0892_226A",
+        "f0892_2A98",
+        "f0892_2C66",
+        "f0892_2E7E",
+        "f0892_3030"
+      ]
+    },
+    {
+      "id": "f0892_1488",
+      "jp": "遺跡内デハ　カスカナえねるぎーガ検知サレテイマス十分　気ヲツケテクダサイ",
+      "pt": "Dentro da ruína, energia fraca está sendo detectada. Por favor, tome cuidado.",
+      "chars_jp": 36,
+      "chars_pt": 77,
+      "aplica_em": [
+        "f0892_1488"
+      ]
+    },
+    {
+      "id": "f0892_14FA",
+      "jp": "よくわからないけどとにかく気をつけるよ！",
+      "pt": "Não sei bem, mas vou ter cuidado!",
+      "chars_jp": 20,
+      "chars_pt": 33,
+      "aplica_em": [
+        "f0892_14FA"
+      ]
+    },
+    {
+      "id": "f0892_1632",
+      "jp": "遺跡の中にはイヤな気が充満しておる…気をつけるのじゃぞ！",
+      "pt": "O interior da ruína está cheio de algo ruim... Tome cuidado!",
+      "chars_jp": 28,
+      "chars_pt": 60,
+      "aplica_em": [
+        "f0892_1632"
+      ]
+    },
+    {
+      "id": "f0892_1694",
+      "jp": "気とか言われても正直よくわからないけど…とにかく気をつけるよ！",
+      "pt": "Não entendo bem o que é esse 'sentimento'... Mas vou ter cuidado!",
+      "chars_jp": 31,
+      "chars_pt": 65,
+      "aplica_em": [
+        "f0892_1694"
+      ]
+    },
+    {
+      "id": "f0892_17E6",
+      "jp": "遺跡内のかすかな波動…イヤな感じだ",
+      "pt": "Uma onda fraca na ruína... Sinto algo ruim.",
+      "chars_jp": 17,
+      "chars_pt": 43,
+      "aplica_em": [
+        "f0892_17E6"
+      ]
+    },
+    {
+      "id": "f0892_182E",
+      "jp": "いつにもましてキゲンが悪いなぁ…とにかく気をつけよう",
+      "pt": "O clima está pior que nunca... Vamos ter cuidado.",
+      "chars_jp": 26,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f0892_182E"
+      ]
+    },
+    {
+      "id": "f0892_1972",
+      "jp": "遺跡内の感じ…イヤな予感がしますわ…気をつけてくださいね",
+      "pt": "Sinto algo estranho na ruína... Tenho um pressentimento ruim. Cuidado.",
+      "chars_jp": 28,
+      "chars_pt": 70,
+      "aplica_em": [
+        "f0892_1972"
+      ]
+    },
+    {
+      "id": "f0892_19D4",
+      "jp": "そういう予感は当たらないといいけど…",
+      "pt": "Espero que não acerte.",
+      "chars_jp": 18,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f0892_19D4"
+      ]
+    },
+    {
+      "id": "f0892_1C14",
+      "jp": "先ホドノ　てぃえサンノ様ナ　現象ガマタ発生スルカモシレマセン十分　気ヲツケテクダサイ",
+      "pt": "Pode acontecer um fenômeno como TIESAN. Por favor, tenha muito cuidado.",
+      "chars_jp": 42,
+      "chars_pt": 71,
+      "aplica_em": [
+        "f0892_1C14"
+      ]
+    },
+    {
+      "id": "f0892_1CA2",
+      "jp": "どんなシカケかわかんないんだからどう気をつけていいかわかんないけどな",
+      "pt": "Não sei que tipo de mecanismo é, então não sei como ter cuidado.",
+      "chars_jp": 34,
+      "chars_pt": 64,
+      "aplica_em": [
+        "f0892_1CA2"
+      ]
+    },
+    {
+      "id": "f0892_1CF6",
+      "jp": "どんなシカケかわかんないんだからどう気をつけていいかわかんないけどね",
+      "pt": "Não sei que coisa é, não sei como ter cuidado.",
+      "chars_jp": 34,
+      "chars_pt": 46,
+      "aplica_em": [
+        "f0892_1CF6"
+      ]
+    },
+    {
+      "id": "f0892_1E52",
+      "jp": "先ほどのティエの様なことがまた起きるやもしれん十分気をつけるのじゃぞ",
+      "pt": "Algo como a Tier pode voltar. Tenham cuidado.",
+      "chars_jp": 34,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f0892_1E52"
+      ]
+    },
+    {
+      "id": "f0892_1ED0",
+      "jp": "「人じゃない」とか言われてもどう気をつければいいんだよ…",
+      "pt": "Mesmo dizendo que não é humano, como devo ter cuidado?",
+      "chars_jp": 28,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f0892_1ED0"
+      ]
+    },
+    {
+      "id": "f0892_1F14",
+      "jp": "「人じゃない」とか言われてどう気をつければいいのよ…",
+      "pt": "Mesmo dizendo que não é humano, como devo ter cuidado?",
+      "chars_jp": 26,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f0892_1F14"
+      ]
+    },
+    {
+      "id": "f0892_1F72",
+      "jp": "不必要にコワがらないことじゃ幽霊の正体見たり、枯れ尾花じゃよ",
+      "pt": "Não tenha medo desnecessário, ou verá o fantasma ou a flor.",
+      "chars_jp": 30,
+      "chars_pt": 59,
+      "aplica_em": [
+        "f0892_1F72"
+      ]
+    },
+    {
+      "id": "f0892_20C2",
+      "jp": "さっきのティエの様なヤツがまた出るかもしれんな…",
+      "pt": "Algo como a Tier pode aparecer de novo...",
+      "chars_jp": 24,
+      "chars_pt": 41,
+      "aplica_em": [
+        "f0892_20C2"
+      ]
+    },
+    {
+      "id": "f0892_2128",
+      "jp": "「人じゃない」とか言われてもどうすりゃいいんだよ…",
+      "pt": "Mesmo dizendo que não é humano, o que faço?",
+      "chars_jp": 25,
+      "chars_pt": 43,
+      "aplica_em": [
+        "f0892_2128"
+      ]
+    },
+    {
+      "id": "f0892_2166",
+      "jp": "「人じゃない」とか言われてもどうすればいいのよ…",
+      "pt": "Mesmo dizendo que não é humano, o que faço?",
+      "chars_jp": 24,
+      "chars_pt": 43,
+      "aplica_em": [
+        "f0892_2166"
+      ]
+    },
+    {
+      "id": "f0892_21C0",
+      "jp": "どうもこうもない消すだけだ",
+      "pt": "Não importa, só elimine.",
+      "chars_jp": 13,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f0892_21C0"
+      ]
+    },
+    {
+      "id": "f0892_22EA",
+      "jp": "またさっきのティエさんみたいのが出るかもしれませんね…気をつけないと…",
+      "pt": "Algo como a Tier pode aparecer de novo... Preciso ter cuidado...",
+      "chars_jp": 35,
+      "chars_pt": 64,
+      "aplica_em": [
+        "f0892_22EA"
+      ]
+    },
+    {
+      "id": "f0892_236A",
+      "jp": "なんだかよくわからないけどなんとかなったから大丈夫だよ勇気だして行こうぜ！",
+      "pt": "Não sei bem, mas deu certo, então vamos com coragem!",
+      "chars_jp": 37,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f0892_236A"
+      ]
+    },
+    {
+      "id": "f0892_23C4",
+      "jp": "なんだかよくわからないけどなんとかなったから大丈夫だよ勇気だして行こう！",
+      "pt": "Não sei bem, mas deu certo, então vamos com coragem!",
+      "chars_jp": 36,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f0892_23C4"
+      ]
+    },
+    {
+      "id": "f0892_243A",
+      "jp": "そんな、大丈夫ですわ！コワくなんてないですから！",
+      "pt": "Não, está tudo bem! Não há nada para temer!",
+      "chars_jp": 24,
+      "chars_pt": 43,
+      "aplica_em": [
+        "f0892_243A"
+      ]
+    },
+    {
+      "id": "f0892_258A",
+      "jp": "どうしてこんなところで親方の声が…？",
+      "pt": "Por que a voz do Chefe aqui?",
+      "chars_jp": 18,
+      "chars_pt": 28,
+      "aplica_em": [
+        "f0892_258A",
+        "f0892_26C8",
+        "f0892_2750",
+        "f0892_280A"
+      ]
+    },
+    {
+      "id": "f0892_25D6",
+      "jp": "発信源ハ　不明デス…せんさーニ　カスカナ乱レガ発生シテイマス",
+      "pt": "A fonte é desconhecida... Sensores detectam ruído fraco.",
+      "chars_jp": 30,
+      "chars_pt": 56,
+      "aplica_em": [
+        "f0892_25D6"
+      ]
+    },
+    {
+      "id": "f0892_264C",
+      "jp": "とにかく…たしかめに行ってみるか",
+      "pt": "De qualquer forma... vou checar.",
+      "chars_jp": 16,
+      "chars_pt": 32,
+      "aplica_em": [
+        "f0892_264C"
+      ]
+    },
+    {
+      "id": "f0892_2678",
+      "jp": "とにかく…たしかめに行ってみよう",
+      "pt": "De qualquer forma... vamos checar.",
+      "chars_jp": 16,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f0892_2678"
+      ]
+    },
+    {
+      "id": "f0892_2714",
+      "jp": "たしかめてみるかの？",
+      "pt": "Devo checar?",
+      "chars_jp": 10,
+      "chars_pt": 12,
+      "aplica_em": [
+        "f0892_2714"
+      ]
+    },
+    {
+      "id": "f0892_279C",
+      "jp": "この感じ、また…",
+      "pt": "Esse sentimento de novo...",
+      "chars_jp": 8,
+      "chars_pt": 26,
+      "aplica_em": [
+        "f0892_279C"
+      ]
+    },
+    {
+      "id": "f0892_27CE",
+      "jp": "とにかく行ってみよう",
+      "pt": "De qualquer forma, vamos.",
+      "chars_jp": 10,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f0892_27CE"
+      ]
+    },
+    {
+      "id": "f0892_2856",
+      "jp": "どどどどどうしてでしょうか？",
+      "pt": "Mas por quê?",
+      "chars_jp": 14,
+      "chars_pt": 12,
+      "aplica_em": [
+        "f0892_2856"
+      ]
+    },
+    {
+      "id": "f0892_28A4",
+      "jp": "それを聞いてるんだけどなとりあえず、行ってみよう",
+      "pt": "Tô ouvindo isso, mas vamos checar.",
+      "chars_jp": 24,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f0892_28A4"
+      ]
+    },
+    {
+      "id": "f0892_28E0",
+      "jp": "それを聞いてるんだけどねとりあえず、行ってみよう",
+      "pt": "Tô ouvindo isso, mas vamos checar.",
+      "chars_jp": 24,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f0892_28E0"
+      ]
+    },
+    {
+      "id": "f0892_2B18",
+      "jp": "てぃえサン、あにきサン、親方ノコトハ遺跡内デ検知サレテイル　えねるぎーガ関係シテイルト　思ワレマスガ…",
+      "pt": "Ti-san, Ani-san, penso que o Chefe está sendo detectado na ruína por energia...",
+      "chars_jp": 51,
+      "chars_pt": 79,
+      "aplica_em": [
+        "f0892_2B18"
+      ]
+    },
+    {
+      "id": "f0892_2BA8",
+      "jp": "まだ何かあるかもしれない…けど、進まなくちゃ！",
+      "pt": "Pode ter mais coisas... mas temos que seguir!",
+      "chars_jp": 23,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f0892_2BA8"
+      ]
+    },
+    {
+      "id": "f0892_2CE6",
+      "jp": "ティエに続き、アニキと親方とは…遺跡内のイヤな気と関係あることはたしかじゃと思うのじゃが…",
+      "pt": "Seguindo Tier, Aniki e Mestre... acho que tem relação com a energia ruim da ruína...",
+      "chars_jp": 45,
+      "chars_pt": 84,
+      "aplica_em": [
+        "f0892_2CE6"
+      ]
+    },
+    {
+      "id": "f0892_2D7A",
+      "jp": "まだ、何かあるかもしれないな…でも、進まなくちゃ！",
+      "pt": "Pode ter mais coisas... mas temos que seguir!",
+      "chars_jp": 25,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f0892_2D7A"
+      ]
+    },
+    {
+      "id": "f0892_2DB8",
+      "jp": "まだ、何かあるかもしれないね…でも、進まなくちゃ！",
+      "pt": "Pode ter mais coisas... mas temos que seguir!",
+      "chars_jp": 25,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f0892_2DB8"
+      ]
+    },
+    {
+      "id": "f0892_2EFE",
+      "jp": "ふ…ここまでくると次はどいつが出てくるか楽しみだな",
+      "pt": "Hmmm... até aqui, estou ansioso para ver quem vem agora.",
+      "chars_jp": 25,
+      "chars_pt": 56,
+      "aplica_em": [
+        "f0892_2EFE"
+      ]
+    },
+    {
+      "id": "f0892_2F6A",
+      "jp": "弱そうなヤツだといいけど",
+      "pt": "Espero que seja fraco.",
+      "chars_jp": 12,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f0892_2F6A"
+      ]
+    },
+    {
+      "id": "f0892_2F8A",
+      "jp": "弱そうな人だといいけど",
+      "pt": "Espero que seja fraco.",
+      "chars_jp": 11,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f0892_2F8A"
+      ]
+    },
+    {
+      "id": "f0892_30B0",
+      "jp": "もう誰が来たってビックリしませんわ！急ぎましょう！",
+      "pt": "Não vou me assustar com quem vier! Vamos logo!",
+      "chars_jp": 25,
+      "chars_pt": 46,
+      "aplica_em": [
+        "f0892_30B0"
+      ]
+    },
+    {
+      "id": "f0892_311C",
+      "jp": "そうだな！どんとこいってんだ！",
+      "pt": "É isso! Tragam tudo!",
+      "chars_jp": 15,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f0892_311C"
+      ]
+    },
+    {
+      "id": "f0892_3146",
+      "jp": "そうだね！どんとこいって感じ！",
+      "pt": "É isso! Tragam tudo!",
+      "chars_jp": 15,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f0892_3146"
+      ]
+    },
+    {
+      "id": "f0892_3298",
+      "jp": "もうニセモノはたくさんだ！本物のミューノは…",
+      "pt": "Já tem muitos falsos! A Murno de verdade é...",
+      "chars_jp": 22,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f0892_3298",
+        "f0892_3408",
+        "f0892_3582",
+        "f0892_36FC"
+      ]
+    },
+    {
+      "id": "f0892_32D0",
+      "jp": "もうニセモノはたくさん！本物のミューノは…",
+      "pt": "Já tem muitos falsos! A Murno de verdade é...",
+      "chars_jp": 21,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f0892_32D0",
+        "f0892_3440",
+        "f0892_35BA",
+        "f0892_3734"
+      ]
+    },
+    {
+      "id": "f0892_3326",
+      "jp": "れくいノ水遺跡ノ　一番下デス！急ガナイト　みゅーの様ガ召喚獣ノ　エサニ…！",
+      "pt": "Rekui, no fundo das ruínas d'água! Corra, Murno será comida da Besta!",
+      "chars_jp": 37,
+      "chars_pt": 69,
+      "aplica_em": [
+        "f0892_3326"
+      ]
+    },
+    {
+      "id": "f0892_339A",
+      "jp": "そんなこと絶対にさせるもんか！",
+      "pt": "Não vou deixar isso acontecer!",
+      "chars_jp": 15,
+      "chars_pt": 30,
+      "aplica_em": [
+        "f0892_339A",
+        "f0892_3514",
+        "f0892_368E",
+        "f0892_3812"
+      ]
+    },
+    {
+      "id": "f0892_3496",
+      "jp": "レクイの水遺跡の一番下の階じゃ！早くせんとミューノがヌシと呼ばれる召喚獣のエサに…！",
+      "pt": "É o fundo das ruínas d'água de Rekui! Se não correr, Murno será comida da Besta Nushi!",
+      "chars_jp": 42,
+      "chars_pt": 86,
+      "aplica_em": [
+        "f0892_3496"
+      ]
+    },
+    {
+      "id": "f0892_3610",
+      "jp": "レクイの水遺跡の一番下の階だ！早くしないとヌシとかいう召喚獣のエサにされてしまうぞ！",
+      "pt": "É o fundo das ruínas d'água de Rekui! Se não correr, será comida da Besta Nushi!",
+      "chars_jp": 42,
+      "chars_pt": 80,
+      "aplica_em": [
+        "f0892_3610"
+      ]
+    },
+    {
+      "id": "f0892_378A",
+      "jp": "レクイの水遺跡の一番下の階ですわ！早くしないとヌシさまという召喚獣のエサにされてしまいますわ！",
+      "pt": "É o fundo das ruínas d'água de Rekui! Se não correr, seremos comida do Nushi-sama!",
+      "chars_jp": 47,
+      "chars_pt": 82,
+      "aplica_em": [
+        "f0892_378A"
+      ]
+    },
+    {
+      "id": "f0936_0378",
+      "jp": "何らかのメッセージ予定",
+      "pt": "Mensagem a definir.",
+      "chars_jp": 11,
+      "chars_pt": 19,
+      "aplica_em": [
+        "f0936_0378",
+        "f1037_07AE",
+        "f1137_056E",
+        "f1237_0422",
+        "f1337_0458",
+        "f1437_077E"
+      ]
+    },
+    {
+      "id": "f0961_09E6",
+      "jp": "今はとにかくアニスを連れてこないと！",
+      "pt": "Agora preciso trazer a Anise!",
+      "chars_jp": 18,
+      "chars_pt": 29,
+      "aplica_em": [
+        "f0961_09E6",
+        "f0961_0B5E"
+      ]
+    },
+    {
+      "id": "f0962_07F2",
+      "jp": "にゃ？",
+      "pt": "Miau?",
+      "chars_jp": 3,
+      "chars_pt": 5,
+      "aplica_em": [
+        "f0962_07F2",
+        "f3004_0BB8",
+        "f3034_0780",
+        "f3094_06F4",
+        "f3124_077E",
+        "f3184_050A",
+        "f3307_06C8",
+        "f3334_1046",
+        "f3363_0B54"
+      ]
+    },
+    {
+      "id": "f0962_0822",
+      "jp": "迷いネコを保護した！",
+      "pt": "Resgate um gato perdido!",
+      "chars_jp": 10,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f0962_0822",
+        "f3004_0BE8",
+        "f3034_07B0",
+        "f3094_0724",
+        "f3124_07AE",
+        "f3184_053A",
+        "f3307_06F8",
+        "f3334_1076",
+        "f3363_0B84"
+      ]
+    },
+    {
+      "id": "f0962_12CA",
+      "jp": "こんなカビくさい村を出て大きな町に行きたいわああ〜でも村の掟が…",
+      "pt": "Quero sair dessa vila mofada e ir pra cidade grande... mas as regras...",
+      "chars_jp": 32,
+      "chars_pt": 71,
+      "aplica_em": [
+        "f0962_12CA",
+        "f1062_10F8",
+        "f1161_0CAC",
+        "f1261_0E20",
+        "f1362_1274",
+        "f1463_0CEA",
+        "f1573_0ADA"
+      ]
+    },
+    {
+      "id": "f0963_085E",
+      "jp": "トラムがオレたちとの勝負を待ってるんだグマグの炎遺跡に行かなくちゃ！",
+      "pt": "Tram espera um duelo com a gente. Temos que ir às Ruínas de Fogo de Gmagma!",
+      "chars_jp": 34,
+      "chars_pt": 75,
+      "aplica_em": [
+        "f0963_085E"
+      ]
+    },
+    {
+      "id": "f0963_08B2",
+      "jp": "トラムがわたしたちとの勝負を待ってるよグマグの炎遺跡に行こう！",
+      "pt": "Tram espera um duelo com a gente. Vamos às Ruínas de Fogo de Gmagma!",
+      "chars_jp": 31,
+      "chars_pt": 68,
+      "aplica_em": [
+        "f0963_08B2"
+      ]
+    },
+    {
+      "id": "f0963_0980",
+      "jp": "ミューノがトラムといっしょに炎遺跡に魔晶柱を調べに行ってるんだオレたちも急ごう！",
+      "pt": "Murno tá indo com Tram na Ruína de Fogo ver o pilar de cristal. Vamos logo!",
+      "chars_jp": 40,
+      "chars_pt": 75,
+      "aplica_em": [
+        "f0963_0980"
+      ]
+    },
+    {
+      "id": "f0963_09E0",
+      "jp": "ミューノがトラムといっしょに炎遺跡に魔晶柱を調べに行っちゃったわたしたちも急がなくちゃ！",
+      "pt": "Murno foi com Tram ver o pilar de cristal na Ruína de Fogo. Temos que correr!",
+      "chars_jp": 44,
+      "chars_pt": 77,
+      "aplica_em": [
+        "f0963_09E0"
+      ]
+    },
+    {
+      "id": "f0963_0AA8",
+      "jp": "とにかく今はマグドラドを何とかしないと！",
+      "pt": "De qualquer jeito, temos que fazer algo contra Magdrad agora!",
+      "chars_jp": 20,
+      "chars_pt": 61,
+      "aplica_em": [
+        "f0963_0AA8"
+      ]
+    },
+    {
+      "id": "f0964_05AC",
+      "jp": "この間は手荒なことをしてすまなかった…",
+      "pt": "Peço desculpas por ter sido rude da última vez...",
+      "chars_jp": 19,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f0964_05AC"
+      ]
+    },
+    {
+      "id": "f0964_05DC",
+      "jp": "今はアニスを見張ってるんだまさか、アニスがオレたちをうらぎるなんて…",
+      "pt": "Estou de olho em Anise. Não acredito que ela possa trair a gente...",
+      "chars_jp": 34,
+      "chars_pt": 67,
+      "aplica_em": [
+        "f0964_05DC"
+      ]
+    },
+    {
+      "id": "f0971_071C",
+      "jp": "魔晶柱のある祭壇までは強力な召喚獣がたくさんいるから気をつけるんだな",
+      "pt": "Tem muitos monstros poderosos até o altar do pilar de cristal. Cuidado.",
+      "chars_jp": 34,
+      "chars_pt": 71,
+      "aplica_em": [
+        "f0971_071C"
+      ]
+    },
+    {
+      "id": "f0973_0A72",
+      "jp": "ギャラハンか…アレも辛いだろうによくやっておるのぅ",
+      "pt": "Gallahan... Deve ser difícil. Ele está se virando bem.",
+      "chars_jp": 25,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f0973_0A72"
+      ]
+    },
+    {
+      "id": "f0973_0AF4",
+      "jp": "わしら誰にも迷惑かけずに静かに暮らしておるのにあの日、多くの者が家族を失った",
+      "pt": "Nós vivíamos quietos, sem incomodar ninguém, mas naquele dia, muitos perderam a família.",
+      "chars_jp": 38,
+      "chars_pt": 88,
+      "aplica_em": [
+        "f0973_0AF4"
+      ]
+    },
+    {
+      "id": "f0973_0B4E",
+      "jp": "トラムの両親もそうじゃ若いのにしっかりしておる",
+      "pt": "Os pais de Tram também são assim. Jovens, mas fortes.",
+      "chars_jp": 23,
+      "chars_pt": 53,
+      "aplica_em": [
+        "f0973_0B4E"
+      ]
+    },
+    {
+      "id": "f0991_0114",
+      "jp": "いよいよトラムとの勝負だぜ",
+      "pt": "Finalmente, a luta contra Tram!",
+      "chars_jp": 13,
+      "chars_pt": 31,
+      "aplica_em": [
+        "f0991_0114",
+        "f0991_0238",
+        "f0991_037E",
+        "f0991_04DC"
+      ]
+    },
+    {
+      "id": "f0991_0136",
+      "jp": "いよいよトラムとの勝負だね",
+      "pt": "Finalmente, a luta contra Tram.",
+      "chars_jp": 13,
+      "chars_pt": 31,
+      "aplica_em": [
+        "f0991_0136",
+        "f0991_025A",
+        "f0991_03A0",
+        "f0991_04FE"
+      ]
+    },
+    {
+      "id": "f0991_0178",
+      "jp": "勝利シテクダサイみゅーの様ノタメニ",
+      "pt": "Por favor, vençam pelo Murno.",
+      "chars_jp": 17,
+      "chars_pt": 29,
+      "aplica_em": [
+        "f0991_0178"
+      ]
+    },
+    {
+      "id": "f0991_01D0",
+      "jp": "おう！行くぜ！",
+      "pt": "Ei! Vamos nessa!",
+      "chars_jp": 7,
+      "chars_pt": 16,
+      "aplica_em": [
+        "f0991_01D0",
+        "f0991_05A2"
+      ]
+    },
+    {
+      "id": "f0991_01EA",
+      "jp": "うん！行こう！",
+      "pt": "Sim! Vamos!",
+      "chars_jp": 7,
+      "chars_pt": 11,
+      "aplica_em": [
+        "f0991_01EA",
+        "f0991_05BC"
+      ]
+    },
+    {
+      "id": "f0991_029C",
+      "jp": "ミューノのためにもこの勝負必ず勝つとワガハイのマゲに誓うのじゃ！",
+      "pt": "Juro pela minha barba que vencerei este desafio por Murno!",
+      "chars_jp": 32,
+      "chars_pt": 58,
+      "aplica_em": [
+        "f0991_029C"
+      ]
+    },
+    {
+      "id": "f0991_0316",
+      "jp": "おう！誓うぜ！",
+      "pt": "É! Eu juro!",
+      "chars_jp": 7,
+      "chars_pt": 11,
+      "aplica_em": [
+        "f0991_0316"
+      ]
+    },
+    {
+      "id": "f0991_0330",
+      "jp": "うん！誓うわ！",
+      "pt": "Sim! Eu juro!",
+      "chars_jp": 7,
+      "chars_pt": 13,
+      "aplica_em": [
+        "f0991_0330"
+      ]
+    },
+    {
+      "id": "f0991_03E2",
+      "jp": "メンドウなことにならないように必ず勝て",
+      "pt": "Vence de vez pra não dar problema.",
+      "chars_jp": 19,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f0991_03E2"
+      ]
+    },
+    {
+      "id": "f0991_043E",
+      "jp": "はいはい、ミューノのためだろ？がんばるよ",
+      "pt": "É, é, é por Murno, né? Vou dar o meu melhor.",
+      "chars_jp": 20,
+      "chars_pt": 44,
+      "aplica_em": [
+        "f0991_043E"
+      ]
+    },
+    {
+      "id": "f0991_0472",
+      "jp": "はいはい、ミューノのためでしょ？がんばるよ",
+      "pt": "É, é, é por Murno, né? Vou dar o meu melhor.",
+      "chars_jp": 21,
+      "chars_pt": 44,
+      "aplica_em": [
+        "f0991_0472"
+      ]
+    },
+    {
+      "id": "f0991_0540",
+      "jp": "絶対に勝ってくださいねミューノ様のためにも！",
+      "pt": "Por Murno, por favor, vença!",
+      "chars_jp": 22,
+      "chars_pt": 28,
+      "aplica_em": [
+        "f0991_0540"
+      ]
+    },
+    {
+      "id": "f0991_06FE",
+      "jp": "トラムとの勝負の準備を調えて遺跡前の広場に行こうみんな待ってるぞ",
+      "pt": "Vamos nos preparar para a luta contra Tram e ir à praça das ruínas. Todos esperam!",
+      "chars_jp": 32,
+      "chars_pt": 82,
+      "aplica_em": [
+        "f0991_06FE",
+        "f0991_08F8",
+        "f0991_0B02",
+        "f0991_0CFE"
+      ]
+    },
+    {
+      "id": "f0991_074E",
+      "jp": "トラムとの勝負の準備を調えて遺跡前の広場に行こうみんな待ってるよ",
+      "pt": "Vamos nos preparar para a luta contra Tram e ir à praça das ruínas. Todos esperam!",
+      "chars_jp": 32,
+      "chars_pt": 82,
+      "aplica_em": [
+        "f0991_074E",
+        "f0991_0948",
+        "f0991_0B52",
+        "f0991_0D4E"
+      ]
+    },
+    {
+      "id": "f0991_07BE",
+      "jp": "遺跡ノ中ニアル　魔晶柱ヲ見ル許可ヲ　得ルタメニ遺跡ノ中デ　勝負スルヨウデスガ…",
+      "pt": "Lutaremos dentro das ruínas para obter permissão para ver o Pilar de Cristal Mágico...",
+      "chars_jp": 39,
+      "chars_pt": 86,
+      "aplica_em": [
+        "f0991_07BE"
+      ]
+    },
+    {
+      "id": "f0991_0846",
+      "jp": "いきおいで決まった勝負だ細かいことは気にするな！",
+      "pt": "É uma luta decidida. Não se preocupe com nada!",
+      "chars_jp": 24,
+      "chars_pt": 46,
+      "aplica_em": [
+        "f0991_0846",
+        "f0991_0A50",
+        "f0991_0C4C",
+        "f0991_0E42"
+      ]
+    },
+    {
+      "id": "f0991_0882",
+      "jp": "いきおいで決まった勝負だよ細かいことは気にしちゃダメ！",
+      "pt": "É uma luta decidida, não se preocupa com detalhes!",
+      "chars_jp": 27,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f0991_0882",
+        "f0991_0A8C",
+        "f0991_0C88",
+        "f0991_0E7E"
+      ]
+    },
+    {
+      "id": "f0991_09B8",
+      "jp": "しかし、遺跡の中にある魔晶柱を見るために、遺跡の中で勝負をするということになっておる様じゃが…",
+      "pt": "Mas parece que faremos a luta nas ruínas para ver o Pilar de Cristal Mágico...",
+      "chars_jp": 47,
+      "chars_pt": 78,
+      "aplica_em": [
+        "f0991_09B8"
+      ]
+    },
+    {
+      "id": "f0991_0BC2",
+      "jp": "キサマ、気がついているか？遺跡の中の魔晶柱を見るために遺跡の中で勝負するようだぞ",
+      "pt": "Ei, tá ligado? Vamos brigar nas ruínas pra ver os pilares de cristal.",
+      "chars_jp": 40,
+      "chars_pt": 69,
+      "aplica_em": [
+        "f0991_0BC2"
+      ]
+    },
+    {
+      "id": "f0991_0DBE",
+      "jp": "そういえば裁きの間って遺跡の中なんですよね…ミューノ様の調べたい魔晶柱も…",
+      "pt": "O Salão do Julgamento é nas ruínas, né? E o Pilar de Cristal Mágico que Murno quer ver...",
+      "chars_jp": 37,
+      "chars_pt": 89,
+      "aplica_em": [
+        "f0991_0DBE"
+      ]
+    },
+    {
+      "id": "f0991_0FD8",
+      "jp": "グマグの炎遺跡にある裁きの間に…",
+      "pt": "No Salão do Julgamento, nas Ruínas de Fogo de Gugumu...",
+      "chars_jp": 16,
+      "chars_pt": 55,
+      "aplica_em": [
+        "f0991_0FD8",
+        "f0991_10D2",
+        "f0991_11BE",
+        "f0991_12E4"
+      ]
+    },
+    {
+      "id": "f0991_1020",
+      "jp": "話シテイル場合デハ　アリマセンみゅーの様ヲ　追イカケマス",
+      "pt": "Não dá pra conversar. Vamos atrás de Murno.",
+      "chars_jp": 28,
+      "chars_pt": 43,
+      "aplica_em": [
+        "f0991_1020"
+      ]
+    },
+    {
+      "id": "f0991_108E",
+      "jp": "お、おう",
+      "pt": "É.",
+      "chars_jp": 4,
+      "chars_pt": 2,
+      "aplica_em": [
+        "f0991_108E",
+        "f0991_117A",
+        "f0991_1396"
+      ]
+    },
+    {
+      "id": "f0991_109E",
+      "jp": "う、うん",
+      "pt": "Sim.",
+      "chars_jp": 4,
+      "chars_pt": 4,
+      "aplica_em": [
+        "f0991_109E",
+        "f0991_118A",
+        "f0991_13A6"
+      ]
+    },
+    {
+      "id": "f0991_111A",
+      "jp": "何をしておる！早くミューノを追いかけるぞ！",
+      "pt": "O que faz! Vai atrás de Murno logo!",
+      "chars_jp": 21,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f0991_111A"
+      ]
+    },
+    {
+      "id": "f0991_1206",
+      "jp": "グズグズするな！おいていくぞ",
+      "pt": "Não perca tempo! Vamos!",
+      "chars_jp": 14,
+      "chars_pt": 23,
+      "aplica_em": [
+        "f0991_1206"
+      ]
+    },
+    {
+      "id": "f0991_1258",
+      "jp": "ミューノのことになるとやっぱちがうなぁ…",
+      "pt": "Com Murno, é sempre diferente...",
+      "chars_jp": 20,
+      "chars_pt": 32,
+      "aplica_em": [
+        "f0991_1258",
+        "f0991_128C"
+      ]
+    },
+    {
+      "id": "f0991_132C",
+      "jp": "何をしてるんですの？早くミューノ様を追いかけないと！",
+      "pt": "O que está fazendo? Precisa correr atrás da Murno!",
+      "chars_jp": 26,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f0991_132C"
+      ]
+    },
+    {
+      "id": "f0991_14DE",
+      "jp": "裁きの間まで行かなきゃならないけどグマグの炎遺跡ってすごく暑いぞ{g}、大丈夫か？",
+      "pt": "Tenho que ir à Sala do Julgamento, mas a Ruína da Chama de Gmag é quente, {g}. Tá bem?",
+      "chars_jp": 41,
+      "chars_pt": 86,
+      "aplica_em": [
+        "f0991_14DE",
+        "f0991_16B4",
+        "f0991_192A",
+        "f0991_1B94"
+      ]
+    },
+    {
+      "id": "f0991_153C",
+      "jp": "裁きの間まで行かなきゃならないけどグマグの炎遺跡ってすごく暑いよ{g}、大丈夫？",
+      "pt": "Tenho que ir à Sala do Julgamento, mas a Ruína da Chama de Gmag é muito quente, {g}. Tá bem?",
+      "chars_jp": 40,
+      "chars_pt": 92,
+      "aplica_em": [
+        "f0991_153C",
+        "f0991_1712",
+        "f0991_1988",
+        "f0991_1BF2"
+      ]
+    },
+    {
+      "id": "f0991_15B8",
+      "jp": "冷却しすてむガ　稼動シマスカラ問題アリマセンガ装甲ノ表面温度ガ　高クナリマス",
+      "pt": "O sistema de resfriamento funciona, mas a temperatura da armadura está alta.",
+      "chars_jp": 38,
+      "chars_pt": 76,
+      "aplica_em": [
+        "f0991_15B8"
+      ]
+    },
+    {
+      "id": "f0991_1626",
+      "jp": "私ニ触ルト　ヤケドシマスヨ",
+      "pt": "Se tocar, você se queima.",
+      "chars_jp": 13,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f0991_1626"
+      ]
+    },
+    {
+      "id": "f0991_1662",
+      "jp": "な、なんかカッコイイ…",
+      "pt": "É... é legal...",
+      "chars_jp": 11,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f0991_1662"
+      ]
+    },
+    {
+      "id": "f0991_178E",
+      "jp": "心頭滅却すれば火もまた涼しと言っての、ワガハイほどになればこの程度の暑さなど気にならんのじゃ",
+      "pt": "Dizem que o fogo esfria com a mente. Para alguém como eu, esse calor não importa.",
+      "chars_jp": 46,
+      "chars_pt": 81,
+      "aplica_em": [
+        "f0991_178E"
+      ]
+    },
+    {
+      "id": "f0991_1824",
+      "jp": "へぇ、スゴイな{g}ってモサモサしてるから暑いのには弱いかと思った",
+      "pt": "Hã, que legal, {g}. Achei que você era fraco ao",
+      "chars_jp": 33,
+      "chars_pt": 47,
+      "aplica_em": [
+        "f0991_1824"
+      ]
+    },
+    {
+      "id": "f0991_1872",
+      "jp": "へぇ、スゴイね{g}ってモサモサしてるから暑いのには弱いかと思った",
+      "pt": "Nossa, você é demais, {g}. Por ser peludo, ache que não aguentaria calor.",
+      "chars_jp": 33,
+      "chars_pt": 73,
+      "aplica_em": [
+        "f0991_1872"
+      ]
+    },
+    {
+      "id": "f0991_18DE",
+      "jp": "も…モサモサじゃと！",
+      "pt": "Não sou peludo!",
+      "chars_jp": 10,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f0991_18DE"
+      ]
+    },
+    {
+      "id": "f0991_1A04",
+      "jp": "…………………………………",
+      "pt": "Tudo bem.",
+      "chars_jp": 13,
+      "chars_pt": 9,
+      "aplica_em": [
+        "f0991_1A04"
+      ]
+    },
+    {
+      "id": "f0991_1A58",
+      "jp": "ちょっと、{g}…？お前、ホント大丈夫か？",
+      "pt": "Ei, {g}...? Você tá bem mesmo?",
+      "chars_jp": 21,
+      "chars_pt": 30,
+      "aplica_em": [
+        "f0991_1A58"
+      ]
+    },
+    {
+      "id": "f0991_1A8A",
+      "jp": "ちょっと、{g}…？あなた、ホントに大丈夫？",
+      "pt": "Espera, {g}...? Você tá bem de verdade?",
+      "chars_jp": 22,
+      "chars_pt": 39,
+      "aplica_em": [
+        "f0991_1A8A"
+      ]
+    },
+    {
+      "id": "f0991_1ADC",
+      "jp": "…ただでさえ暑いんだ…それ以上さわるな",
+      "pt": "Tá quente demais... Não toca mais nisso.",
+      "chars_jp": 19,
+      "chars_pt": 40,
+      "aplica_em": [
+        "f0991_1ADC"
+      ]
+    },
+    {
+      "id": "f0991_1B2C",
+      "jp": "（コ…、コワ〜…こっちはすずしくなったよ）",
+      "pt": "(Co... Tenho medo... Aqui esfriou.)",
+      "chars_jp": 21,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f0991_1B2C"
+      ]
+    },
+    {
+      "id": "f0991_1C6E",
+      "jp": "たしかにすごく暑いですけど大丈夫ですわいざとなったら脱ぎますから",
+      "pt": "É muito quente, mas estou bem. Se precisar, tiro.",
+      "chars_jp": 32,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f0991_1C6E"
+      ]
+    },
+    {
+      "id": "f0991_1D28",
+      "jp": "帽子ですけど…？ダメなんですか？",
+      "pt": "É um chapéu...? Não serve?",
+      "chars_jp": 16,
+      "chars_pt": 26,
+      "aplica_em": [
+        "f0991_1D28"
+      ]
+    },
+    {
+      "id": "f0991_1D6E",
+      "jp": "ああ、いや、いいよ、全然",
+      "pt": "Ah, não, tá tudo bem.",
+      "chars_jp": 12,
+      "chars_pt": 21,
+      "aplica_em": [
+        "f0991_1D6E"
+      ]
+    },
+    {
+      "id": "f0991_1EB2",
+      "jp": "いよいよトラムと１対１の勝負だ！最強の武器をひとつバッチリ装備して行くぜ！",
+      "pt": "Finalmente, um duelo contra Tram! Vou equipar minha arma mais forte!",
+      "chars_jp": 37,
+      "chars_pt": 68,
+      "aplica_em": [
+        "f0991_1EB2",
+        "f0991_2084",
+        "f0991_2284",
+        "f0991_24EC"
+      ]
+    },
+    {
+      "id": "f0991_1F0C",
+      "jp": "いよいよトラムと１対１の勝負だ！最強の武器をひとつシッカリ装備して行かなきゃ！",
+      "pt": "Finalmente, um duelo contra Tram! Tenho que equipar minha arma mais forte!",
+      "chars_jp": 39,
+      "chars_pt": 74,
+      "aplica_em": [
+        "f0991_1F0C",
+        "f0991_20DE",
+        "f0991_22DE",
+        "f0991_2546"
+      ]
+    },
+    {
+      "id": "f0991_1F8A",
+      "jp": "ガンバッテクダサイぱーとなー",
+      "pt": "Boa sorte, parceiro.",
+      "chars_jp": 14,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f0991_1F8A"
+      ]
+    },
+    {
+      "id": "f0991_1FDC",
+      "jp": "おう！{g}が応援してくれるんだ絶対に勝つぜ！",
+      "pt": "Ei! {g} tá torcendo, eu vou ganhar!",
+      "chars_jp": 23,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f0991_1FDC",
+        "f0991_21DC"
+      ]
+    },
+    {
+      "id": "f0991_2016",
+      "jp": "うん！{g}が応援してくれるんだ絶対に勝つよ！",
+      "pt": "Sim! {g} tá torcendo, eu vou ganhar!",
+      "chars_jp": 23,
+      "chars_pt": 36,
+      "aplica_em": [
+        "f0991_2016",
+        "f0991_2216"
+      ]
+    },
+    {
+      "id": "f0991_215C",
+      "jp": "ワガハイにできるのはおぬしを応援することぐらいじゃががんばるのじゃぞ！",
+      "pt": "Tudo que posso fazer é torcer por você. Vou me esforçar!",
+      "chars_jp": 35,
+      "chars_pt": 56,
+      "aplica_em": [
+        "f0991_215C"
+      ]
+    },
+    {
+      "id": "f0991_235C",
+      "jp": "ここまで来たんだここでキサマが負けたとしても私がヤツらをたおせばどうとでもなる",
+      "pt": "Chegamos até aqui. Mesmo que você perca, eu derrbo os caras de qualquer jeito.",
+      "chars_jp": 39,
+      "chars_pt": 78,
+      "aplica_em": [
+        "f0991_235C"
+      ]
+    },
+    {
+      "id": "f0991_23CC",
+      "jp": "適当にサッサと終わらせろ",
+      "pt": "Acaba logo, sem frescura.",
+      "chars_jp": 12,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f0991_23CC"
+      ]
+    },
+    {
+      "id": "f0991_2416",
+      "jp": "言ってることはブッソウだけどオレを心配してくれていると思いたい！",
+      "pt": "O que eu digo é mentira, mas quero que ache que se preocupa comigo!",
+      "chars_jp": 32,
+      "chars_pt": 67,
+      "aplica_em": [
+        "f0991_2416"
+      ]
+    },
+    {
+      "id": "f0991_2466",
+      "jp": "言ってることはブッソウだけどわたしを心配してくれていると思いたい！",
+      "pt": "O que eu digo é mentira, mas quero que ache que se preocupa comigo!",
+      "chars_jp": 33,
+      "chars_pt": 67,
+      "aplica_em": [
+        "f0991_2466"
+      ]
+    },
+    {
+      "id": "f0991_25C4",
+      "jp": "がんばるのはいいですけどムチャなことだけは絶対しないでくださいね！",
+      "pt": "É bom se esforçar, mas não faça nada impossível, por favor!",
+      "chars_jp": 33,
+      "chars_pt": 59,
+      "aplica_em": [
+        "f0991_25C4"
+      ]
+    },
+    {
+      "id": "f0991_2640",
+      "jp": "あ、うんありがとう、わかったよ",
+      "pt": "Ah, sim, obrigado. Entendi.",
+      "chars_jp": 15,
+      "chars_pt": 27,
+      "aplica_em": [
+        "f0991_2640"
+      ]
+    },
+    {
+      "id": "f0991_266A",
+      "jp": "あ、うんありがとう、わかった",
+      "pt": "Ah, sim, obrigada, entendi.",
+      "chars_jp": 14,
+      "chars_pt": 27,
+      "aplica_em": [
+        "f0991_266A"
+      ]
+    },
+    {
+      "id": "f0991_27AA",
+      "jp": "みゅーの様ハ　ぐまぐノ炎遺跡内魔晶柱ノアル場所ヘ　向カイマシタ追イカケマショウ！",
+      "pt": "Murno-sama, vamos ao local da coluna de cristal na Ruína de Chama de Gumagu!",
+      "chars_jp": 40,
+      "chars_pt": 76,
+      "aplica_em": [
+        "f0991_27AA"
+      ]
+    },
+    {
+      "id": "f0991_2836",
+      "jp": "いいけどさ、よく考えたらオレが行っても魔晶柱を調べるのにジャマになったりしないかな…",
+      "pt": "Tá bom, mas se eu for, não vou atrapalhar a checagem da coluna?",
+      "chars_jp": 42,
+      "chars_pt": 63,
+      "aplica_em": [
+        "f0991_2836",
+        "f0991_2A10",
+        "f0991_2E56"
+      ]
+    },
+    {
+      "id": "f0991_289A",
+      "jp": "いいけどさ、よく考えたらわたしが行っても魔晶柱を調べるのにジャマになったりしないかな…",
+      "pt": "Tá bom, mas se eu for, não vou atrapalhar a checagem da coluna?",
+      "chars_jp": 43,
+      "chars_pt": 63,
+      "aplica_em": [
+        "f0991_289A",
+        "f0991_2A74",
+        "f0991_2EBA"
+      ]
+    },
+    {
+      "id": "f0991_2942",
+      "jp": "わ、わかった！急いで行こう！",
+      "pt": "Entendi! Vamos logo!",
+      "chars_jp": 14,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f0991_2942"
+      ]
+    },
+    {
+      "id": "f0991_298A",
+      "jp": "ミューノはグマグの炎遺跡にある奇妙な魔晶柱を見に行ったぞ我らも急ぐのじゃ！",
+      "pt": "Murno foi ver a estranha coluna de cristal na Ruína de Chama de Gumagu. Vamos!",
+      "chars_jp": 37,
+      "chars_pt": 78,
+      "aplica_em": [
+        "f0991_298A"
+      ]
+    },
+    {
+      "id": "f0991_2AF8",
+      "jp": "突然なにを言い出すのじゃ？なんじゃ？　ミューノがつれていかれてスネておるのか？",
+      "pt": "Que bobagem é essa? O que é? Está seguindo Murno?",
+      "chars_jp": 39,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f0991_2AF8"
+      ]
+    },
+    {
+      "id": "f0991_2B80",
+      "jp": "そんなことあるか！行くぞ！",
+      "pt": "Que nada! Vamos!",
+      "chars_jp": 13,
+      "chars_pt": 16,
+      "aplica_em": [
+        "f0991_2B80"
+      ]
+    },
+    {
+      "id": "f0991_2BA6",
+      "jp": "なに言ってるのよ！もう、行くわよ！",
+      "pt": "O que você fala! Eu vou agora!",
+      "chars_jp": 17,
+      "chars_pt": 30,
+      "aplica_em": [
+        "f0991_2BA6"
+      ]
+    },
+    {
+      "id": "f0991_2BF8",
+      "jp": "ミューノはグマグの炎遺跡にある魔晶柱を見に行ったぞキサマも急がなくていいのか？",
+      "pt": "Murno foi ver o cristal na Ruína de Chama de Gumag. Você não precisa correr?",
+      "chars_jp": 39,
+      "chars_pt": 76,
+      "aplica_em": [
+        "f0991_2BF8"
+      ]
+    },
+    {
+      "id": "f0991_2C82",
+      "jp": "でもさ、よく考えたらオレが行っても魔晶柱を調べるのにジャマになったりしないかな…",
+      "pt": "Mas, pensando bem, eu só atrapalho na checagem do cristal...",
+      "chars_jp": 40,
+      "chars_pt": 60,
+      "aplica_em": [
+        "f0991_2C82"
+      ]
+    },
+    {
+      "id": "f0991_2CE2",
+      "jp": "でも、よく考えたらわたしが行っても魔晶柱を調べるのにジャマになったりしないかな…",
+      "pt": "Mas, pensando bem, eu só atrapalho na checagem do cristal...",
+      "chars_jp": 40,
+      "chars_pt": 60,
+      "aplica_em": [
+        "f0991_2CE2"
+      ]
+    },
+    {
+      "id": "f0991_2D60",
+      "jp": "…ちっ",
+      "pt": "...Tch.",
+      "chars_jp": 3,
+      "chars_pt": 7,
+      "aplica_em": [
+        "f0991_2D60"
+      ]
+    },
+    {
+      "id": "f0991_2D88",
+      "jp": "ああ、ウソウソ急ごう！",
+      "pt": "Ah, vamos logo!",
+      "chars_jp": 11,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f0991_2D88"
+      ]
+    },
+    {
+      "id": "f0991_2DCA",
+      "jp": "ミューノ様はグマグの炎遺跡にある魔晶柱を見に行きましたわ！私たちも急ぎましょう！",
+      "pt": "Murno foi ver o cristal na Ruína de Chama de Gumag! Vamos logo!",
+      "chars_jp": 40,
+      "chars_pt": 63,
+      "aplica_em": [
+        "f0991_2DCA"
+      ]
+    },
+    {
+      "id": "f0991_2F3E",
+      "jp": "なに弱気になってるんですか！{d}さんはジャマなくらいでちょうどいいんですよ！",
+      "pt": "Por que está tão tímido? {d} é perfeito atrapalhando!",
+      "chars_jp": 39,
+      "chars_pt": 53,
+      "aplica_em": [
+        "f0991_2F3E"
+      ]
+    },
+    {
+      "id": "f0991_2FC2",
+      "jp": "うっわ！ヒデェ！",
+      "pt": "Ugh! Que nojo!",
+      "chars_jp": 8,
+      "chars_pt": 14,
+      "aplica_em": [
+        "f0991_2FC2"
+      ]
+    },
+    {
+      "id": "f0991_2FDE",
+      "jp": "なにそれ！ひっどーい！",
+      "pt": "Que coisa! Que horrível!",
+      "chars_jp": 11,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f0991_2FDE"
+      ]
+    },
+    {
+      "id": "f0991_3128",
+      "jp": "アニスの仲間たちって本当にヒドイことをやってたんだな…",
+      "pt": "Os amigos da Anise fizeram coisas horríveis, hein...",
+      "chars_jp": 27,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f0991_3128",
+        "f0991_330E",
+        "f0991_34F0",
+        "f0991_36E0"
+      ]
+    },
+    {
+      "id": "f0991_316E",
+      "jp": "アニスの仲間たちって本当にヒドイことをやってたんだね…",
+      "pt": "Os amigos da Anise fizeram coisas horríveis, né...",
+      "chars_jp": 27,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f0991_316E",
+        "f0991_3354",
+        "f0991_3536",
+        "f0991_3726"
+      ]
+    },
+    {
+      "id": "f0991_31D4",
+      "jp": "私タチハ　アノ者タチカラみゅーの様ヲ　守ラナケレバナラナイノデス",
+      "pt": "Nós, como aqueles seres, devemos proteger Murno.",
+      "chars_jp": 32,
+      "chars_pt": 48,
+      "aplica_em": [
+        "f0991_31D4"
+      ]
+    },
+    {
+      "id": "f0991_324E",
+      "jp": "そうだな…今はとにかく遺跡の奥の魔晶柱を調べに行こう…",
+      "pt": "É isso... Por enquanto, vamos checar o cristal nas ruínas.",
+      "chars_jp": 27,
+      "chars_pt": 58,
+      "aplica_em": [
+        "f0991_324E",
+        "f0991_3430",
+        "f0991_3620",
+        "f0991_3812"
+      ]
+    },
+    {
+      "id": "f0991_3294",
+      "jp": "そうだね…今はとにかく遺跡の奥の魔晶柱を調べに行こう…",
+      "pt": "É isso... Por enquanto, vamos checar o cristal nas ruínas.",
+      "chars_jp": 27,
+      "chars_pt": 58,
+      "aplica_em": [
+        "f0991_3294",
+        "f0991_3476",
+        "f0991_3666",
+        "f0991_3858"
+      ]
+    },
+    {
+      "id": "f0991_33BA",
+      "jp": "しっかりするのじゃその連中からミューノを守るのが我らの役目ぞ",
+      "pt": "Sejam firmes. É nosso dever proteger Murno deles.",
+      "chars_jp": 30,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f0991_33BA"
+      ]
+    },
+    {
+      "id": "f0991_359C",
+      "jp": "ふ…、怖じ気づいたのか？その連中からミューノを守るのがキサマの役目なんだぞ",
+      "pt": "Hã... Ficou com medo? É seu trabalho proteger Murno deles!",
+      "chars_jp": 37,
+      "chars_pt": 58,
+      "aplica_em": [
+        "f0991_359C"
+      ]
+    },
+    {
+      "id": "f0991_378C",
+      "jp": "そうですよでも、そんな人たちからミューノ様をお守りするのが私たちの役目ですわ",
+      "pt": "Sim, mas proteger Murno desses é nosso dever.",
+      "chars_jp": 38,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f0991_378C"
+      ]
+    },
+    {
+      "id": "f0992_0104",
+      "jp": "ミューノが魔晶柱を調べてる何か手伝えることあるかな？",
+      "pt": "Posso ajudar Murno a investigar o cristal?",
+      "chars_jp": 26,
+      "chars_pt": 42,
+      "aplica_em": [
+        "f0992_0104",
+        "f0992_01E4",
+        "f0992_02C2",
+        "f0992_0392"
+      ]
+    },
+    {
+      "id": "f0992_0160",
+      "jp": "ソレヲサガスノモ手伝ウトイウコトデス",
+      "pt": "Significa ajudar na busca por isso.",
+      "chars_jp": 18,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f0992_0160"
+      ]
+    },
+    {
+      "id": "f0992_01AA",
+      "jp": "おっしゃる通りです",
+      "pt": "É exatamente isso.",
+      "chars_jp": 9,
+      "chars_pt": 18,
+      "aplica_em": [
+        "f0992_01AA",
+        "f0992_0288"
+      ]
+    },
+    {
+      "id": "f0992_0240",
+      "jp": "それを考えるのもおぬしの仕事だろう",
+      "pt": "Pensar nisso é seu trabalho.",
+      "chars_jp": 17,
+      "chars_pt": 28,
+      "aplica_em": [
+        "f0992_0240"
+      ]
+    },
+    {
+      "id": "f0992_031E",
+      "jp": "まずはジャマをしないことだ",
+      "pt": "Primeiro, não atrapalhe.",
+      "chars_jp": 13,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f0992_031E"
+      ]
+    },
+    {
+      "id": "f0992_035A",
+      "jp": "わかりましたよ！",
+      "pt": "Entendido!",
+      "chars_jp": 8,
+      "chars_pt": 10,
+      "aplica_em": [
+        "f0992_035A"
+      ]
+    },
+    {
+      "id": "f0992_03EE",
+      "jp": "なにか問題をおこさないようにマグドラドさんには絶対近づかないことですわ！",
+      "pt": "Para não causar problemas, não se aproxime de Magdrad!",
+      "chars_jp": 36,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f0992_03EE"
+      ]
+    },
+    {
+      "id": "f0992_059C",
+      "jp": "アニスを連れてくるように牢屋の番人に伝えなきゃ！",
+      "pt": "Tenho que avisar o guarda pra trazer Anise!",
+      "chars_jp": 24,
+      "chars_pt": 43,
+      "aplica_em": [
+        "f0992_059C",
+        "f0992_0756",
+        "f0992_091C",
+        "f0992_0AD4"
+      ]
+    },
+    {
+      "id": "f0992_05D8",
+      "jp": "アニスを連れてくるように牢屋の番人さんに伝えなきゃ！",
+      "pt": "Tenho que avisar o guarda pra trazer Anise!",
+      "chars_jp": 26,
+      "chars_pt": 43,
+      "aplica_em": [
+        "f0992_05D8",
+        "f0992_0792",
+        "f0992_0958",
+        "f0992_0B10"
+      ]
+    },
+    {
+      "id": "f0992_0638",
+      "jp": "シカシ　イクラ召喚主トハイエ彼女ヲ連レテ行ッテ事態ガ　解決スルノデショウカ？",
+      "pt": "Mas mesmo sendo uma Mestra de Invocação, levar ela resolve a situação?",
+      "chars_jp": 38,
+      "chars_pt": 70,
+      "aplica_em": [
+        "f0992_0638"
+      ]
+    },
+    {
+      "id": "f0992_06AE",
+      "jp": "それはわからないけどできるだけのことを",
+      "pt": "Não sei, mas farei o que puder.",
+      "chars_jp": 19,
+      "chars_pt": 31,
+      "aplica_em": [
+        "f0992_06AE"
+      ]
+    },
+    {
+      "id": "f0992_06EC",
+      "jp": "やるしかないんだ！",
+      "pt": "Tenho que fazer isso!",
+      "chars_jp": 9,
+      "chars_pt": 21,
+      "aplica_em": [
+        "f0992_06EC",
+        "f0992_08B2",
+        "f0992_0A6A",
+        "f0992_0C24"
+      ]
+    },
+    {
+      "id": "f0992_0706",
+      "jp": "やるしかないでしょ！",
+      "pt": "Temos que fazer isso!",
+      "chars_jp": 10,
+      "chars_pt": 21,
+      "aplica_em": [
+        "f0992_0706",
+        "f0992_08CC",
+        "f0992_0A84",
+        "f0992_0C3E"
+      ]
+    },
+    {
+      "id": "f0992_07F2",
+      "jp": "しかし、いくら召喚主とはいえあの娘を連れて行くなど火に油を注ぐようなものではないか？",
+      "pt": "Mas mesmo sendo Mestra de Invocação, levar ela não pioraria as coisas?",
+      "chars_jp": 42,
+      "chars_pt": 70,
+      "aplica_em": [
+        "f0992_07F2"
+      ]
+    },
+    {
+      "id": "f0992_0870",
+      "jp": "それはわからないけど今はできるだけのことを",
+      "pt": "Não sei, mas farei o que puder por enquanto.",
+      "chars_jp": 21,
+      "chars_pt": 44,
+      "aplica_em": [
+        "f0992_0870",
+        "f0992_0A28"
+      ]
+    },
+    {
+      "id": "f0992_09B8",
+      "jp": "しかし、いくら召喚主とはいえあんなヤツを連れて行って何かの役に立つのか",
+      "pt": "Mas mesmo sendo Mestra, levar essa pessoa vai ajudar em algo?",
+      "chars_jp": 35,
+      "chars_pt": 61,
+      "aplica_em": [
+        "f0992_09B8"
+      ]
+    },
+    {
+      "id": "f0992_0B70",
+      "jp": "でも、いくら召喚主といってもあの人を連れて行くなんてイヤな予感がしますわ…",
+      "pt": "Mas, mesmo sendo Mestre de Invocação, tenho um pressentimento ruim sobre levar essa pessoa...",
+      "chars_jp": 37,
+      "chars_pt": 93,
+      "aplica_em": [
+        "f0992_0B70"
+      ]
+    },
+    {
+      "id": "f0992_0BE4",
+      "jp": "気持ちはわかるけど今はできるだけのことを",
+      "pt": "Entendo o sentimento, mas faça o que puder agora.",
+      "chars_jp": 20,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f0992_0BE4"
+      ]
+    },
+    {
+      "id": "f0992_0D72",
+      "jp": "このままじゃアニスが出られないから牢屋のカギをハンマーでこわそう！",
+      "pt": "Anise não sai assim, então vamos quebrar a chave da cela com um martelo!",
+      "chars_jp": 33,
+      "chars_pt": 72,
+      "aplica_em": [
+        "f0992_0D72",
+        "f0992_0E14",
+        "f0992_0EBC",
+        "f0992_0F72"
+      ]
+    },
+    {
+      "id": "f0992_0DDC",
+      "jp": "仕方アリマセンネ",
+      "pt": "Não tem jeito.",
+      "chars_jp": 8,
+      "chars_pt": 14,
+      "aplica_em": [
+        "f0992_0DDC"
+      ]
+    },
+    {
+      "id": "f0992_0E7E",
+      "jp": "背に腹は代えられんな！",
+      "pt": "Não tem outra saída!",
+      "chars_jp": 11,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f0992_0E7E"
+      ]
+    },
+    {
+      "id": "f0992_0F26",
+      "jp": "私をあてにしないことはほめてやる",
+      "pt": "Vou elogiar por não contar comigo.",
+      "chars_jp": 16,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f0992_0F26"
+      ]
+    },
+    {
+      "id": "f0992_0FDC",
+      "jp": "仕方ないですわ！",
+      "pt": "Não tem jeito!",
+      "chars_jp": 8,
+      "chars_pt": 14,
+      "aplica_em": [
+        "f0992_0FDC"
+      ]
+    },
+    {
+      "id": "f0992_107C",
+      "jp": "アニスを遺跡に連れて行ってマグドラドがおとなしくなるといいんだけど",
+      "pt": "Espero que levar Anise às ruínas acalme Magdrad.",
+      "chars_jp": 33,
+      "chars_pt": 48,
+      "aplica_em": [
+        "f0992_107C"
+      ]
+    },
+    {
+      "id": "f0992_119C",
+      "jp": "逃ゲヨウナドトハ考エナイデ　クダサイ",
+      "pt": "Não pense em",
+      "chars_jp": 18,
+      "chars_pt": 12,
+      "aplica_em": [
+        "f0992_119C"
+      ]
+    },
+    {
+      "id": "f0992_11DC",
+      "jp": "逃げようなどとはユメにも考えるでないぞ",
+      "pt": "Nem sonhe em fugir.",
+      "chars_jp": 19,
+      "chars_pt": 19,
+      "aplica_em": [
+        "f0992_11DC"
+      ]
+    },
+    {
+      "id": "f0992_121E",
+      "jp": "逃げたければ逃げてもいいぞキサマを消す理由ができるからな",
+      "pt": "Se quiser fugir, vá. Dá um motivo pra eu te apagar.",
+      "chars_jp": 28,
+      "chars_pt": 51,
+      "aplica_em": [
+        "f0992_121E"
+      ]
+    },
+    {
+      "id": "f0992_1272",
+      "jp": "逃げようなんてしたら絶対にダメですからね！",
+      "pt": "Não adianta tentar fugir, não!",
+      "chars_jp": 21,
+      "chars_pt": 30,
+      "aplica_em": [
+        "f0992_1272"
+      ]
+    },
+    {
+      "id": "f0992_12C8",
+      "jp": "無駄口を叩いているヒマがあるならさっさと行け",
+      "pt": "Se tem tempo pra falar bobagem, vai logo.",
+      "chars_jp": 22,
+      "chars_pt": 41,
+      "aplica_em": [
+        "f0992_12C8"
+      ]
+    },
+    {
+      "id": "f0992_1410",
+      "jp": "トラムたちが村の出口で待ってるとりあえず、帰ろう…",
+      "pt": "Os Tram estão na saída da vila. Vamos voltar por agora...",
+      "chars_jp": 25,
+      "chars_pt": 57,
+      "aplica_em": [
+        "f0992_1410"
+      ]
+    },
+    {
+      "id": "f0992_144E",
+      "jp": "トラムたちが村の出口で待ってるよとりあえず、帰ろう…",
+      "pt": "Os Tram estão na saída da vila. Vamos voltar por enquanto...",
+      "chars_jp": 26,
+      "chars_pt": 60,
+      "aplica_em": [
+        "f0992_144E"
+      ]
+    },
+    {
+      "id": "f0992_1538",
+      "jp": "了解デスコノ村ニトドマル必要ハ無イト　思ワレマス",
+      "pt": "Entendi. Não acho que precise ficar na Vila Descno.",
+      "chars_jp": 24,
+      "chars_pt": 51,
+      "aplica_em": [
+        "f0992_1538"
+      ]
+    },
+    {
+      "id": "f0992_1588",
+      "jp": "そうじゃなもはや長居は無用じゃ",
+      "pt": "É isso. Não vale ficar mais aqui.",
+      "chars_jp": 15,
+      "chars_pt": 33,
+      "aplica_em": [
+        "f0992_1588"
+      ]
+    },
+    {
+      "id": "f0992_15C2",
+      "jp": "やっとだなこの村にはあきあきだ",
+      "pt": "Que tédio essa vila.",
+      "chars_jp": 15,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f0992_15C2"
+      ]
+    },
+    {
+      "id": "f0992_15FC",
+      "jp": "そうですね早く戻って次の手を考えなければなりませんわ",
+      "pt": "Sim, precisamos voltar e pensar no próximo passo.",
+      "chars_jp": 26,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f0992_15FC"
+      ]
+    },
+    {
+      "id": "f0992_166E",
+      "jp": "アニスも逃がしちゃったしな…",
+      "pt": "Deixei a Anise escapar...",
+      "chars_jp": 14,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f0992_166E"
+      ]
+    },
+    {
+      "id": "f0992_1692",
+      "jp": "アニスも逃がしちゃったしね…",
+      "pt": "Deixei a Anise escapar...",
+      "chars_jp": 14,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f0992_1692"
+      ]
+    },
+    {
+      "id": "f0992_16FA",
+      "jp": "ひどい状況だったじゃない仕方ないわ{d}はがんばったわよ…",
+      "pt": "Foi difícil, não deu jeito. {d} fez o melhor...",
+      "chars_jp": 29,
+      "chars_pt": 47,
+      "aplica_em": [
+        "f0992_16FA"
+      ]
+    },
+    {
+      "id": "f0992_175C",
+      "jp": "ありがとうミューノ…",
+      "pt": "Obrigado, Murno...",
+      "chars_jp": 10,
+      "chars_pt": 18,
+      "aplica_em": [
+        "f0992_175C"
+      ]
+    },
+    {
+      "id": "f0992_188C",
+      "jp": "親方に怒られるのはイヤだけどとにかくプロスバンの町に戻るしかないみたいだ…",
+      "pt": "Não quero que o mestre me repreenda, mas temos que voltar para Prosban.",
+      "chars_jp": 37,
+      "chars_pt": 71,
+      "aplica_em": [
+        "f0992_188C"
+      ]
+    },
+    {
+      "id": "f0992_18E6",
+      "jp": "親方に怒られるのはイヤだけどとにかくプロスバンの町に戻るしかないみたい…",
+      "pt": "Não quero ser repreendida pelo Mestre, mas parece que tenho que voltar para Prosban...",
+      "chars_jp": 36,
+      "chars_pt": 86,
+      "aplica_em": [
+        "f0992_18E6"
+      ]
+    },
+    {
+      "id": "f0992_19EA",
+      "jp": "親方ダケデナク　あにきサンモ怒ルヨウニ　思ワレマス",
+      "pt": "Não só o Mestre, mas acho que meu irmão também será repreendido.",
+      "chars_jp": 25,
+      "chars_pt": 64,
+      "aplica_em": [
+        "f0992_19EA"
+      ]
+    },
+    {
+      "id": "f0992_1A38",
+      "jp": "町に戻ったらおぬしアニキも叱られるじゃろうなぁ",
+      "pt": "Se voltarmos à cidade, seu irmão também será repreendido, né?",
+      "chars_jp": 23,
+      "chars_pt": 61,
+      "aplica_em": [
+        "f0992_1A38"
+      ]
+    },
+    {
+      "id": "f0992_1A82",
+      "jp": "町に戻ったらキサマアニキにも叱られるぞふ…、楽しみだ",
+      "pt": "Se voltarmos à cidade, você também será repreendido... Estou ansioso.",
+      "chars_jp": 26,
+      "chars_pt": 69,
+      "aplica_em": [
+        "f0992_1A82"
+      ]
+    },
+    {
+      "id": "f0992_1AD6",
+      "jp": "絶対にアニキさんにもものすごくコワイ顔で怒られますわ…",
+      "pt": "Com certeza meu irmão vai me repreender com uma cara assustadora...",
+      "chars_jp": 27,
+      "chars_pt": 67,
+      "aplica_em": [
+        "f0992_1AD6"
+      ]
+    },
+    {
+      "id": "f0992_1B60",
+      "jp": "きっとティエちゃんが一番コワイわよ{d}のことすっごく心配してそうだし",
+      "pt": "Tier deve ser a mais assustadora, ela parece muito preocupada com {d}.",
+      "chars_jp": 35,
+      "chars_pt": 70,
+      "aplica_em": [
+        "f0992_1B60"
+      ]
+    },
+    {
+      "id": "f0992_1BCE",
+      "jp": "（今はミューノが一番コワイかも…）",
+      "pt": "(Murno pode ser a mais assustadora agora",
+      "chars_jp": 17,
+      "chars_pt": 40,
+      "aplica_em": [
+        "f0992_1BCE"
+      ]
+    },
+    {
+      "id": "f0992_1D08",
+      "jp": "誰かがオレをさがしてるみたいだ誰だろう…",
+      "pt": "Parece que alguém me procura. Quem será?",
+      "chars_jp": 20,
+      "chars_pt": 40,
+      "aplica_em": [
+        "f0992_1D08"
+      ]
+    },
+    {
+      "id": "f0992_1D3C",
+      "jp": "誰かがわたしをさがしてるみたい誰だろう…",
+      "pt": "Alguém me procura. Quem será?",
+      "chars_jp": 20,
+      "chars_pt": 29,
+      "aplica_em": [
+        "f0992_1D3C"
+      ]
+    },
+    {
+      "id": "f0992_1E1C",
+      "jp": "親方カモシレマセン再会シタ場合　怒リガ爆発シテ戦闘ニナル可能性モ　アリマス",
+      "pt": "Pode ser o Mestre. Se nos encontrarmos, ele pode explodir de raiva e lutar.",
+      "chars_jp": 37,
+      "chars_pt": 75,
+      "aplica_em": [
+        "f0992_1E1C"
+      ]
+    },
+    {
+      "id": "f0992_1E86",
+      "jp": "親方かもしれんの…あの娘のことじゃ、おぬしを見た途端頭に血が上って何をするかわからんぞ",
+      "pt": "Pode ser o Oyakata... Ele ficou bravo ao te ver. Não sei o que vai fazer.",
+      "chars_jp": 43,
+      "chars_pt": 73,
+      "aplica_em": [
+        "f0992_1E86"
+      ]
+    },
+    {
+      "id": "f0992_1EFC",
+      "jp": "親方かもしれんな見つかったらどうなるかふ…、楽しみだ",
+      "pt": "Pode ser o chefe. O que vai rolar se me pegarem... que emoção.",
+      "chars_jp": 26,
+      "chars_pt": 62,
+      "aplica_em": [
+        "f0992_1EFC"
+      ]
+    },
+    {
+      "id": "f0992_1F50",
+      "jp": "お、親方さんかもしれませんわ！見つかったらどんな風に怒られるか…！",
+      "pt": "Olha, pode ser o Mestre! Se acharem, como vão brigar?",
+      "chars_jp": 33,
+      "chars_pt": 53,
+      "aplica_em": [
+        "f0992_1F50"
+      ]
+    },
+    {
+      "id": "f0992_1FC0",
+      "jp": "そ、そう言われるとコワイなぁ…アニキだったとしてもヒドイ目にあいそうな…",
+      "pt": "S-dizer isso me dá medo... Mesmo que seja o Aniki, vou sofrer...",
+      "chars_jp": 36,
+      "chars_pt": 64,
+      "aplica_em": [
+        "f0992_1FC0"
+      ]
+    },
+    {
+      "id": "f0992_2058",
+      "jp": "ティエちゃんだってどうなることやら…",
+      "pt": "Será que a Tier vai se dar bem...?",
+      "chars_jp": 18,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f0992_2058"
+      ]
+    },
+    {
+      "id": "f0992_20A4",
+      "jp": "そ…、装備の確認をしておこう",
+      "pt": "S... vamos checar o equipamento.",
+      "chars_jp": 14,
+      "chars_pt": 32,
+      "aplica_em": [
+        "f0992_20A4"
+      ]
+    },
+    {
+      "id": "f0992_211C",
+      "jp": "安心したらお腹がへってきたよ早くプロスバンの町に帰ろう",
+      "pt": "Agora que estamos seguros, estou com fome. Vamos a Prosban!",
+      "chars_jp": 27,
+      "chars_pt": 59,
+      "aplica_em": [
+        "f0992_211C"
+      ]
+    },
+    {
+      "id": "f0992_219A",
+      "jp": "うふふ、{d}ったらでも、たしかにお腹すいたかも",
+      "pt": "Ufufu, {d}, acho que estou com fome.",
+      "chars_jp": 24,
+      "chars_pt": 36,
+      "aplica_em": [
+        "f0992_219A"
+      ]
+    },
+    {
+      "id": "f0992_22A0",
+      "jp": "安心スルノハ　マダ早イデス工房ニハ　べんそん親方ガ待ッテイマス",
+      "pt": "Ainda é cedo para relaxar. O Mestre Benson espera na oficina!",
+      "chars_jp": 31,
+      "chars_pt": 61,
+      "aplica_em": [
+        "f0992_22A0"
+      ]
+    },
+    {
+      "id": "f0992_22FE",
+      "jp": "安心するのは、まだ早いぞ工房にはベンソン親方が待っておるのじゃ！",
+      "pt": "É cedo demais para relaxar! O Mestre Benson espera na oficina!",
+      "chars_jp": 32,
+      "chars_pt": 62,
+      "aplica_em": [
+        "f0992_22FE"
+      ]
+    },
+    {
+      "id": "f0992_235E",
+      "jp": "ちっ…、のんきなヤツだ…工房にはあのベンソンってヤツがいるんだぞ",
+      "pt": "Tsk... que cara despreocupado... O Benson está na oficina!",
+      "chars_jp": 32,
+      "chars_pt": 58,
+      "aplica_em": [
+        "f0992_235E"
+      ]
+    },
+    {
+      "id": "f0992_23BE",
+      "jp": "気をゆるめてはダメですわ！工房にはあの、ベンソン親方がいるんですよ…！",
+      "pt": "Não podemos relaxar! No workshop, tem o Mestre Benson...!",
+      "chars_jp": 35,
+      "chars_pt": 57,
+      "aplica_em": [
+        "f0992_23BE"
+      ]
+    },
+    {
+      "id": "f0992_2432",
+      "jp": "そう言われるとちょっとコワイな…",
+      "pt": "Fico um pouco com medo...",
+      "chars_jp": 16,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f0992_2432"
+      ]
+    },
+    {
+      "id": "f1001_1080",
+      "jp": "何かいろいろあるみたいだな",
+      "pt": "Parece que tem algo.",
+      "chars_jp": 13,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f1001_1080"
+      ]
+    },
+    {
+      "id": "f1002_0DAC",
+      "jp": "ゆうしゃもけんしもなるのはむずかしそうだからかじしになろうかな",
+      "pt": "Parece difícil ser herói ou espadachim, então talvez eu seja só um plebeu.",
+      "chars_jp": 31,
+      "chars_pt": 74,
+      "aplica_em": [
+        "f1002_0DAC",
+        "f1101_1142",
+        "f1201_0FBA"
+      ]
+    },
+    {
+      "id": "f1002_0E3A",
+      "jp": "アカバネを退治しようって言ってる奴らがいるらしいがあんな凶暴なヤツと戦うなんて",
+      "pt": "Dizem que tem gente querendo derrotar Akabane, mas lutar contra algo tão feroz...",
+      "chars_jp": 39,
+      "chars_pt": 81,
+      "aplica_em": [
+        "f1002_0E3A"
+      ]
+    },
+    {
+      "id": "f1002_0E96",
+      "jp": "あぶなくってしょうがないて",
+      "pt": "É muito perigoso.",
+      "chars_jp": 13,
+      "chars_pt": 17,
+      "aplica_em": [
+        "f1002_0E96"
+      ]
+    },
+    {
+      "id": "f1004_0B62",
+      "jp": "近頃の若いヤツはなっとらんワシがもっと若ければとっくにアカバネなんぞ",
+      "pt": "Eu, que não entendo a juventude, se fosse mais novo, já teria matado Akabane.",
+      "chars_jp": 34,
+      "chars_pt": 77,
+      "aplica_em": [
+        "f1004_0B62"
+      ]
+    },
+    {
+      "id": "f1004_0BB4",
+      "jp": "倒しておるワイ",
+      "pt": "Eu já matei.",
+      "chars_jp": 7,
+      "chars_pt": 12,
+      "aplica_em": [
+        "f1004_0BB4"
+      ]
+    },
+    {
+      "id": "f1010_0A64",
+      "jp": "何だよ",
+      "pt": "O quê?",
+      "chars_jp": 3,
+      "chars_pt": 6,
+      "aplica_em": [
+        "f1010_0A64"
+      ]
+    },
+    {
+      "id": "f1010_0AB2",
+      "jp": "アカバネっていう凶暴な召喚獣と戦おうって人いるらしいけどそんな怖いこと",
+      "pt": "Dizem que tem gente querendo lutar contra a fera Akabane, mas que coisa assustadora.",
+      "chars_jp": 35,
+      "chars_pt": 84,
+      "aplica_em": [
+        "f1010_0AB2"
+      ]
+    },
+    {
+      "id": "f1010_0B06",
+      "jp": "いったい何がおもしろいのかしら",
+      "pt": "O que tem de tão interessante?",
+      "chars_jp": 15,
+      "chars_pt": 30,
+      "aplica_em": [
+        "f1010_0B06"
+      ]
+    },
+    {
+      "id": "f1012_0A36",
+      "jp": "やらなきゃならんことがあるなら今はそれに全力を注げ",
+      "pt": "Se tem algo pra fazer, dedique-se a isso agora.",
+      "chars_jp": 25,
+      "chars_pt": 47,
+      "aplica_em": [
+        "f1012_0A36"
+      ]
+    },
+    {
+      "id": "f1012_0AB4",
+      "jp": "あ〜何だその〜あれだま〜そういうことだ",
+      "pt": "Ah, entendi. É isso.",
+      "chars_jp": 19,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f1012_0AB4"
+      ]
+    },
+    {
+      "id": "f1021_1212",
+      "jp": "高いところにある木の実はスピアがあれば取れるわ一家に一本欲しいわね",
+      "pt": "Fruta da árvore alta é fácil de pegar com",
+      "chars_jp": 33,
+      "chars_pt": 41,
+      "aplica_em": [
+        "f1021_1212"
+      ]
+    },
+    {
+      "id": "f1022_0A3A",
+      "jp": "宿の夫婦は良い夫婦じゃ…",
+      "pt": "O casal da pousada é bom...",
+      "chars_jp": 12,
+      "chars_pt": 27,
+      "aplica_em": [
+        "f1022_0A3A"
+      ]
+    },
+    {
+      "id": "f1023_0686",
+      "jp": "ガケから落ちたそうじゃない元気そうでよかったわティエにあまり心配させないでね",
+      "pt": "Que bom que está bem, mesmo tendo caído. Não faça Tier se preocupar.",
+      "chars_jp": 38,
+      "chars_pt": 68,
+      "aplica_em": [
+        "f1023_0686"
+      ]
+    },
+    {
+      "id": "f1023_0722",
+      "jp": "君がいない間、ティエがどれだけ心配していたか…",
+      "pt": "Tier se preocupou muito enquanto você não estava...",
+      "chars_jp": 23,
+      "chars_pt": 51,
+      "aplica_em": [
+        "f1023_0722"
+      ]
+    },
+    {
+      "id": "f1023_075A",
+      "jp": "あまりムチャはしないようにね",
+      "pt": "Não faça besteira, tá?",
+      "chars_jp": 14,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f1023_075A"
+      ]
+    },
+    {
+      "id": "f1031_0848",
+      "jp": "ねらわれてるミューノをつれてあまりウロウロしない方がいいな…とにかく工房に行こう",
+      "pt": "Com Murno sendo alvo, é melhor não andar muito... Vamos para a oficina.",
+      "chars_jp": 40,
+      "chars_pt": 71,
+      "aplica_em": [
+        "f1031_0848",
+        "f1034_02CA",
+        "f1036_02FE",
+        "f1037_0598"
+      ]
+    },
+    {
+      "id": "f1031_08A8",
+      "jp": "ねらわれてるミューノをつれてあまりウロウロしない方がいいよね…とにかく工房に行こう",
+      "pt": "Com Murno sendo alvo, é melhor não andar muito, né? Vamos para a oficina.",
+      "chars_jp": 41,
+      "chars_pt": 73,
+      "aplica_em": [
+        "f1031_08A8",
+        "f1034_032A",
+        "f1036_035E",
+        "f1037_05F8"
+      ]
+    },
+    {
+      "id": "f1031_14BC",
+      "jp": "ひさしぶりですね",
+      "pt": "Há quanto tempo.",
+      "chars_jp": 8,
+      "chars_pt": 16,
+      "aplica_em": [
+        "f1031_14BC"
+      ]
+    },
+    {
+      "id": "f1031_1514",
+      "jp": "金の派閥がはぐれを何とかしてくれないかなぁ",
+      "pt": "Será que a facção do ouro ajuda com o desvio?",
+      "chars_jp": 21,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f1031_1514"
+      ]
+    },
+    {
+      "id": "f1031_158A",
+      "jp": "プロスバンの西にはスレンジ採掘場があるんだ",
+      "pt": "No oeste de Prosban tem a mina Slenj.",
+      "chars_jp": 21,
+      "chars_pt": 37,
+      "aplica_em": [
+        "f1031_158A"
+      ]
+    },
+    {
+      "id": "f1031_15BE",
+      "jp": "でも、アカバネって恐ろしいはぐれ召喚獣がでるってうわさで近づく人もいなくなったんだ",
+      "pt": "Mas, por causa do boato de monstros de Akabane, ninguém mais se aproxima.",
+      "chars_jp": 41,
+      "chars_pt": 73,
+      "aplica_em": [
+        "f1031_15BE"
+      ]
+    },
+    {
+      "id": "f1031_1644",
+      "jp": "良質な武器の完成にはパートナーも大きく影響しているとベンソンさんはにらんでいるらしい…",
+      "pt": "Benson diz que o parceiro influencia muito na arma final.",
+      "chars_jp": 43,
+      "chars_pt": 57,
+      "aplica_em": [
+        "f1031_1644",
+        "f1131_158A"
+      ]
+    },
+    {
+      "id": "f1031_16A8",
+      "jp": "しかし、彼は一言も語らないので真意は定かではない…",
+      "pt": "Mas ele não fala nada, então não sei o que pensa.",
+      "chars_jp": 25,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f1031_16A8",
+        "f1131_15EE"
+      ]
+    },
+    {
+      "id": "f1032_12C8",
+      "jp": "釣り仲間新聞　第２号",
+      "pt": "Revista de Pesca, Ed. 2.",
+      "chars_jp": 10,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f1032_12C8"
+      ]
+    },
+    {
+      "id": "f1032_12EE",
+      "jp": "釣りを続けていると釣り上げたエモノのポイントがたくさんもらえる時があるらしいぞ",
+      "pt": "Parece que se continuar pescando, às vezes ganha muitos pontos pelos monstros que fisca.",
+      "chars_jp": 39,
+      "chars_pt": 88,
+      "aplica_em": [
+        "f1032_12EE"
+      ]
+    },
+    {
+      "id": "f1032_13CA",
+      "jp": "パラメータに物足りなさを感じたらぜひアクセサリーを装備してください道具屋からのお知らせでした",
+      "pt": "Se sentir falta nos parâmetros, use acessórios. Avisos da loja de itens.",
+      "chars_jp": 46,
+      "chars_pt": 72,
+      "aplica_em": [
+        "f1032_13CA",
+        "f1132_1208"
+      ]
+    },
+    {
+      "id": "f1033_0B00",
+      "jp": "ねぇキミはどっちかって言うと攻撃系？回復系？",
+      "pt": "Ei, você é mais ataque ou cura?",
+      "chars_jp": 22,
+      "chars_pt": 31,
+      "aplica_em": [
+        "f1033_0B00"
+      ]
+    },
+    {
+      "id": "f1033_0B36",
+      "jp": "ん？ああ、召喚獣を呼ぶ戦略として主にどちらを優先してるかって話",
+      "pt": "Hã? É sobre qual priorizar na estratégia de chamar monstros.",
+      "chars_jp": 31,
+      "chars_pt": 60,
+      "aplica_em": [
+        "f1033_0B36"
+      ]
+    },
+    {
+      "id": "f1033_0B82",
+      "jp": "ボクの場合は、いやし系だねああ、いやされるよミョータロウ",
+      "pt": "No meu caso, sou cura. Ah, você vai ser curado, Myotorou.",
+      "chars_jp": 28,
+      "chars_pt": 57,
+      "aplica_em": [
+        "f1033_0B82"
+      ]
+    },
+    {
+      "id": "f1033_0C02",
+      "jp": "福引き券のご利用は計画的に！",
+      "pt": "Use os bilhetes com estratégia!",
+      "chars_jp": 14,
+      "chars_pt": 31,
+      "aplica_em": [
+        "f1033_0C02",
+        "f1133_0B48"
+      ]
+    },
+    {
+      "id": "f1034_0E0E",
+      "jp": "スポート洞窟はまだ立ち入り禁止だよ",
+      "pt": "Caverna Sport ainda está proibida.",
+      "chars_jp": 17,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f1034_0E0E"
+      ]
+    },
+    {
+      "id": "f1034_0F92",
+      "jp": "選ばれたお客様だけに最高の一時を差し上げます福引きしてみませんか？",
+      "pt": "Oferecemos o melhor só aos escolhidos. Que tal um sorteio?",
+      "chars_jp": 33,
+      "chars_pt": 58,
+      "aplica_em": [
+        "f1034_0F92",
+        "f1134_0EA2",
+        "f1234_0D78",
+        "f1334_0FB0",
+        "f1434_0FD8",
+        "f1534_0F4E"
+      ]
+    },
+    {
+      "id": "f1035_0EFC",
+      "jp": "アカバネの羽が赤いのは全部、…って噂だ…",
+      "pt": "Dizem que todas as penas de Akabane são vermelhas...",
+      "chars_jp": 20,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f1035_0EFC"
+      ]
+    },
+    {
+      "id": "f1035_0F32",
+      "jp": "こわくて口に出せねぇ",
+      "pt": "Tenho medo de dizer isso.",
+      "chars_jp": 10,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f1035_0F32"
+      ]
+    },
+    {
+      "id": "f1035_0F72",
+      "jp": "●←のぞき穴",
+      "pt": "Olho de espião",
+      "chars_jp": 6,
+      "chars_pt": 14,
+      "aplica_em": [
+        "f1035_0F72",
+        "f1135_11C0",
+        "f1237_0F5E",
+        "f1335_0DF2",
+        "f1437_12AE",
+        "f1537_10C8"
+      ]
+    },
+    {
+      "id": "f1035_0F9A",
+      "jp": "そんなわけないでしょ",
+      "pt": "Não pode ser.",
+      "chars_jp": 10,
+      "chars_pt": 13,
+      "aplica_em": [
+        "f1035_0F9A"
+      ]
+    },
+    {
+      "id": "f1035_0FCC",
+      "jp": "今日できることは明日するな！せっかち男",
+      "pt": "Não adie o que pode hoje! Impaciente.",
+      "chars_jp": 19,
+      "chars_pt": 37,
+      "aplica_em": [
+        "f1035_0FCC"
+      ]
+    },
+    {
+      "id": "f1035_1028",
+      "jp": "ドク・マヒ・ネムリ・サビを受けるととても辛いですが、時間がたてば効果は消えます",
+      "pt": "Tomar Doc Mahi Nemuri Sabi dói muito, mas o efeito passa com o tempo.",
+      "chars_jp": 39,
+      "chars_pt": 69,
+      "aplica_em": [
+        "f1035_1028"
+      ]
+    },
+    {
+      "id": "f1035_109C",
+      "jp": "マーネイル宿場にお立ちよりの際はぜひ「ほほえみ亭」をご利用ください！",
+      "pt": "Ao visitar Estacao Marneil, use o \"Hohoemitei\"!",
+      "chars_jp": 34,
+      "chars_pt": 47,
+      "aplica_em": [
+        "f1035_109C"
+      ]
+    },
+    {
+      "id": "f1035_10EA",
+      "jp": "かわいい看板娘ティエちゃんがサービスしちゃいます！∞",
+      "pt": "A Tier, a garota fofa do letreiro, vai te atender!",
+      "chars_jp": 26,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f1035_10EA"
+      ]
+    },
+    {
+      "id": "f1036_0DA6",
+      "jp": "このあたりも最近ブッソウになってきたなぁ…",
+      "pt": "Esse lugar tá ficando muito perigoso...",
+      "chars_jp": 21,
+      "chars_pt": 39,
+      "aplica_em": [
+        "f1036_0DA6"
+      ]
+    },
+    {
+      "id": "f1036_0E1C",
+      "jp": "召喚獣はやっぱり攻撃重視だよなただひたすら攻撃のために召喚するこれに限るね",
+      "pt": "As criaturas invocadas têm que focar em ataque, né? Só invocando pra atacar funciona.",
+      "chars_jp": 37,
+      "chars_pt": 85,
+      "aplica_em": [
+        "f1036_0E1C"
+      ]
+    },
+    {
+      "id": "f1036_0E74",
+      "jp": "オマエも、そう思うだろ",
+      "pt": "Você também pensa assim.",
+      "chars_jp": 11,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f1036_0E74"
+      ]
+    },
+    {
+      "id": "f1037_10E8",
+      "jp": "いつもの門番がカゼひいたから今日はオレが代わりだよメンドウだなぁ…",
+      "pt": "O guarda de sempre pegou um resfriado, então hoje sou eu. Que saco...",
+      "chars_jp": 33,
+      "chars_pt": 69,
+      "aplica_em": [
+        "f1037_10E8"
+      ]
+    },
+    {
+      "id": "f1037_1138",
+      "jp": "この先にはアカバネってコワイはぐれがいるらしいけど行きたいなら止めないぜ",
+      "pt": "Dizem que tem monstros perigosos em Akabane, mas se quiser ir, eu não vou impedir.",
+      "chars_jp": 36,
+      "chars_pt": 82,
+      "aplica_em": [
+        "f1037_1138"
+      ]
+    },
+    {
+      "id": "f1037_11B4",
+      "jp": "わう！",
+      "pt": "Uau!",
+      "chars_jp": 3,
+      "chars_pt": 4,
+      "aplica_em": [
+        "f1037_11B4"
+      ]
+    },
+    {
+      "id": "f1037_11D8",
+      "jp": "この先のスレンジ採掘場には凶悪なはぐれ召喚獣が出ます！お出かけの時にはご注意ください",
+      "pt": "Na mina Slenj, há monstros invocados perigosos! Ten cuidado ao sair.",
+      "chars_jp": 42,
+      "chars_pt": 68,
+      "aplica_em": [
+        "f1037_11D8"
+      ]
+    },
+    {
+      "id": "f1037_1252",
+      "jp": "何度武器で攻撃してもダメージが１の場合には、魔法しか効かない恐ろしい相手の可能性があります",
+      "pt": "Se o dano for 1 mesmo com ataques, pode ser um inimigo que só magia vence.",
+      "chars_jp": 45,
+      "chars_pt": 74,
+      "aplica_em": [
+        "f1037_1252",
+        "f1137_1060"
+      ]
+    },
+    {
+      "id": "f1037_12E2",
+      "jp": "↑上を見たい時はＳＴＡＲＴボタン",
+      "pt": "Para ver para cima, use o botão START.",
+      "chars_jp": 16,
+      "chars_pt": 38,
+      "aplica_em": [
+        "f1037_12E2",
+        "f1137_10F0"
+      ]
+    },
+    {
+      "id": "f1038_01EA",
+      "jp": "ロブ親方のことは",
+      "pt": "Sobre o mestre Rob...",
+      "chars_jp": 8,
+      "chars_pt": 21,
+      "aplica_em": [
+        "f1038_01EA"
+      ]
+    },
+    {
+      "id": "f1038_023A",
+      "jp": "{g}にも言えなかったな…",
+      "pt": "Nem falei com o {g}...",
+      "chars_jp": 13,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f1038_023A",
+        "f1038_0276",
+        "f1038_02B0",
+        "f1038_02E8",
+        "f1038_031E",
+        "f1038_0352"
+      ]
+    },
+    {
+      "id": "f1038_03A6",
+      "jp": "そうだ、関係なんかあるわけないロブ親方がヴォイジンって人を殺したなんて…",
+      "pt": "Não tem como o mestre Rob ter matado o Voijin...",
+      "chars_jp": 36,
+      "chars_pt": 48,
+      "aplica_em": [
+        "f1038_03A6"
+      ]
+    },
+    {
+      "id": "f1038_042C",
+      "jp": "アニスのウソに決まってる…！",
+      "pt": "A Anise está mentindo!",
+      "chars_jp": 14,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f1038_042C"
+      ]
+    },
+    {
+      "id": "f1040_07FC",
+      "jp": "がんばってね！　おにーちゃん",
+      "pt": "Força, irmão!",
+      "chars_jp": 14,
+      "chars_pt": 13,
+      "aplica_em": [
+        "f1040_07FC"
+      ]
+    },
+    {
+      "id": "f1040_0820",
+      "jp": "がんばってね！　おねーちゃん",
+      "pt": "Força, irmã!",
+      "chars_jp": 14,
+      "chars_pt": 12,
+      "aplica_em": [
+        "f1040_0820"
+      ]
+    },
+    {
+      "id": "f1040_08D4",
+      "jp": "ん",
+      "pt": "Hmm.",
+      "chars_jp": 1,
+      "chars_pt": 4,
+      "aplica_em": [
+        "f1040_08D4",
+        "f1140_08AE",
+        "f2407_0352",
+        "f2407_03DA",
+        "f2407_0434",
+        "f2407_0792",
+        "f2407_08E8",
+        "f2407_0A02"
+      ]
+    },
+    {
+      "id": "f1040_091E",
+      "jp": "気をつけてね、{d}…",
+      "pt": "Cuidado, {d}...",
+      "chars_jp": 11,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f1040_091E",
+        "f3275_08F8"
+      ]
+    },
+    {
+      "id": "f1040_0978",
+      "jp": "今日は床掃除なんです",
+      "pt": "Hoje é dia de limpar o chão.",
+      "chars_jp": 10,
+      "chars_pt": 28,
+      "aplica_em": [
+        "f1040_0978"
+      ]
+    },
+    {
+      "id": "f1041_0B3C",
+      "jp": "用も無いのに来るんじゃねぇよ",
+      "pt": "Não venha sem motivo.",
+      "chars_jp": 14,
+      "chars_pt": 21,
+      "aplica_em": [
+        "f1041_0B3C"
+      ]
+    },
+    {
+      "id": "f1042_0BFC",
+      "jp": "金の派閥って言うけど中には、さらに派閥があるんだよねベルヴォレン派か、イアナ派か",
+      "pt": "Dizem que é a facção de ouro, mas tem facções dentro dela: Velworen ou Iana.",
+      "chars_jp": 40,
+      "chars_pt": 76,
+      "aplica_em": [
+        "f1042_0BFC"
+      ]
+    },
+    {
+      "id": "f1042_0C5A",
+      "jp": "え？どっちに入ってるかって？いちおうベルヴォレン派なんだけど抜けようかと思ってるよ",
+      "pt": "Hã? Em qual facção? Sou Velworen, mas tô pensando em sair.",
+      "chars_jp": 41,
+      "chars_pt": 58,
+      "aplica_em": [
+        "f1042_0C5A"
+      ]
+    },
+    {
+      "id": "f1043_0B26",
+      "jp": "何かいい手はないかしら…",
+      "pt": "Tem algum plano bom?",
+      "chars_jp": 12,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f1043_0B26"
+      ]
+    },
+    {
+      "id": "f1048_02E8",
+      "jp": "当店をご利用のお客様へ当店では福引き券５枚で１回の福引きとなっております",
+      "pt": "Para clientes: 5 cupons dão 1 sorte aqui na loja.",
+      "chars_jp": 36,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f1048_02E8",
+        "f1148_02E8",
+        "f1348_02E8",
+        "f1448_02E8",
+        "f1548_0318"
+      ]
+    },
+    {
+      "id": "f1061_0E92",
+      "jp": "この村を守るためには強力な武器が必要だと思うんだ",
+      "pt": "Precisa de arma forte pra proteger a vila.",
+      "chars_jp": 24,
+      "chars_pt": 42,
+      "aplica_em": [
+        "f1061_0E92",
+        "f1163_0F4C",
+        "f1263_0DC4",
+        "f1361_0CAC",
+        "f1471_0F46"
+      ]
+    },
+    {
+      "id": "f1061_106A",
+      "jp": "えっとね、強化で「気合い鉢巻」と「達人の証」を使うと、必殺技の「百烈拳」が武器に付加されるの",
+      "pt": "Com \"Kiai Hachimaki\" e \"Prova Mestre\" no reforço, o ataque \"Hyakuretsuken\" é adicionado à arma.",
+      "chars_jp": 46,
+      "chars_pt": 95,
+      "aplica_em": [
+        "f1061_106A"
+      ]
+    },
+    {
+      "id": "f1061_10D4",
+      "jp": "ただし、ナックルタイプに使った場合だけ「百烈拳」が出来るから他の武器タイプで何が出来るかは…",
+      "pt": "Mas \"Hyakuretsuken\" só funciona no tipo Punho. O que dá nos outros tipos...",
+      "chars_jp": 46,
+      "chars_pt": 75,
+      "aplica_em": [
+        "f1061_10D4"
+      ]
+    },
+    {
+      "id": "f1061_113E",
+      "jp": "買ってもらってからのおったのしみ〜",
+      "pt": "Mal posso esperar você comprar!",
+      "chars_jp": 17,
+      "chars_pt": 31,
+      "aplica_em": [
+        "f1061_113E"
+      ]
+    },
+    {
+      "id": "f1061_116A",
+      "jp": "でもって、今回はなんと「気合い鉢巻」と「達人の証」を１２００バームで販売中なの〜",
+      "pt": "Mas agora, \"Kiai Hachimaki\" e \"Prova Mestre\" estão por 1200 Baumes!",
+      "chars_jp": 40,
+      "chars_pt": 67,
+      "aplica_em": [
+        "f1061_116A"
+      ]
+    },
+    {
+      "id": "f1061_13F4",
+      "jp": "みー",
+      "pt": "Mii...",
+      "chars_jp": 2,
+      "chars_pt": 6,
+      "aplica_em": [
+        "f1061_13F4"
+      ]
+    },
+    {
+      "id": "f1062_119E",
+      "jp": "ギャラハンさんは、いい人なんだけどねあれ以来、ちょっと近寄りがたいよまあ、しょうがないけどね",
+      "pt": "O Gallahan é legal, mas depois daquele lance, ele ficou meio distante. É o que tem.",
+      "chars_jp": 46,
+      "chars_pt": 83,
+      "aplica_em": [
+        "f1062_119E"
+      ]
+    },
+    {
+      "id": "f1063_0D52",
+      "jp": "ギャラハンさんの奥さん若くて、キレイだったよな…娘ほど年の離れた奥さんもらって",
+      "pt": "A esposa do Gallahan era jovem e bonita... Ele casou com alguém muito mais velha que a filha.",
+      "chars_jp": 39,
+      "chars_pt": 93,
+      "aplica_em": [
+        "f1063_0D52"
+      ]
+    },
+    {
+      "id": "f1063_0DAE",
+      "jp": "村中から冷やかされてたけどあんな事になるなんて…",
+      "pt": "A vila zombava dele, mas nunca pensei que fosse assim...",
+      "chars_jp": 24,
+      "chars_pt": 56,
+      "aplica_em": [
+        "f1063_0DAE"
+      ]
+    },
+    {
+      "id": "f1063_0E2A",
+      "jp": "ギャラハンさんは怒ると怖いけどとてもやさしいんだよ",
+      "pt": "Gallahan assusta quando fica bravo, mas é muito gentil.",
+      "chars_jp": 25,
+      "chars_pt": 55,
+      "aplica_em": [
+        "f1063_0E2A"
+      ]
+    },
+    {
+      "id": "f1063_0E66",
+      "jp": "でも時々、ボクを見ながらすごく、寂しそうな顔をするんだよ",
+      "pt": "Mas às vezes, ele olha pra mim e parece muito triste.",
+      "chars_jp": 28,
+      "chars_pt": 53,
+      "aplica_em": [
+        "f1063_0E66"
+      ]
+    },
+    {
+      "id": "f1064_0C76",
+      "jp": "逃げたんじゃないです村中に避難を呼びかけてたんですホントですよ",
+      "pt": "Não fugi. Estava chamando evacuação na vila, juro.",
+      "chars_jp": 31,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f1064_0C76",
+        "f1164_0C76",
+        "f1264_0C6C"
+      ]
+    },
+    {
+      "id": "f1071_0654",
+      "jp": "なんだ？　また来たのか仕方ないヤツだな…ま、ゆっくりしていけ",
+      "pt": "O quê? Veio de novo? É um cara inútil... vá com calma.",
+      "chars_jp": 30,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f1071_0654"
+      ]
+    },
+    {
+      "id": "f1071_10B4",
+      "jp": "とっておきの情報なんだけど良質な武器が出来る秘密を教えてあげるね",
+      "pt": "Tenho uma dica especial: vou te contar o segredo de armas boas.",
+      "chars_jp": 32,
+      "chars_pt": 63,
+      "aplica_em": [
+        "f1071_10B4"
+      ]
+    },
+    {
+      "id": "f1071_1102",
+      "jp": "普通に作製すると武器ランクが鍛冶ランクよりも高いと確率は低くてなかなかできないの",
+      "pt": "Se fizer normalmente, a chance de a arma ser melhor que o nível da forja é baixa.",
+      "chars_jp": 40,
+      "chars_pt": 81,
+      "aplica_em": [
+        "f1071_1102"
+      ]
+    },
+    {
+      "id": "f1071_1160",
+      "jp": "でもね、鍛冶ランクより低い武器を作製すると確率が高くなるのよ",
+      "pt": "Mas se fizer armas abaixo do nível da forja, a chance aumenta.",
+      "chars_jp": 30,
+      "chars_pt": 62,
+      "aplica_em": [
+        "f1071_1160"
+      ]
+    },
+    {
+      "id": "f1071_11A6",
+      "jp": "それから、パートナーが得意な武器を作るときには確率がさらに上がることがわかったの",
+      "pt": "E descobri que se fizer armas que o parceiro domina, a chance sobe mais.",
+      "chars_jp": 40,
+      "chars_pt": 72,
+      "aplica_em": [
+        "f1071_11A6"
+      ]
+    },
+    {
+      "id": "f1071_1216",
+      "jp": "じゃ、今回はとっておきの解体を教えてあげるね",
+      "pt": "Então, vou te ensinar um desmonte especial.",
+      "chars_jp": 22,
+      "chars_pt": 43,
+      "aplica_em": [
+        "f1071_1216"
+      ]
+    },
+    {
+      "id": "f1071_124C",
+      "jp": "解体には普通の解体の他に解体改って言うのがあるのを知ってるかな？",
+      "pt": "Sabe que tem um desmonte além do normal? Chamam de Desmonte Revisado.",
+      "chars_jp": 32,
+      "chars_pt": 69,
+      "aplica_em": [
+        "f1071_124C"
+      ]
+    },
+    {
+      "id": "f1071_129A",
+      "jp": "これはね、熟練度が最大の武器を解体すると必殺技や特殊効果が残ったマテルが手にはいるの",
+      "pt": "Se desmontar uma arma de nível máximo, ganha um Materia com habilidades especiais.",
+      "chars_jp": 42,
+      "chars_pt": 82,
+      "aplica_em": [
+        "f1071_129A"
+      ]
+    },
+    {
+      "id": "f1071_12FC",
+      "jp": "このマテルを使えば、好きな武器に好きな効果がつけられて便利よね",
+      "pt": "Com esse Materia, dá pra colocar qualquer efeito em qualquer arma.",
+      "chars_jp": 31,
+      "chars_pt": 66,
+      "aplica_em": [
+        "f1071_12FC"
+      ]
+    },
+    {
+      "id": "f1072_0254",
+      "jp": "また会いに来てくれたのですねうれしいなぁ…もしかして、忘れ物でもしました？",
+      "pt": "Que bom que veio de novo. Perdeu algo?",
+      "chars_jp": 37,
+      "chars_pt": 38,
+      "aplica_em": [
+        "f1072_0254"
+      ]
+    },
+    {
+      "id": "f1073_0A52",
+      "jp": "わしら誰にも迷惑かけずに静かに暮らしておるのにあの娘ときたら…",
+      "pt": "A gente vive quieto, sem incomodar ninguém, mas aquela garota...",
+      "chars_jp": 31,
+      "chars_pt": 64,
+      "aplica_em": [
+        "f1073_0A52",
+        "f1173_09EA",
+        "f1273_09E0"
+      ]
+    },
+    {
+      "id": "f1073_0A9E",
+      "jp": "また、恐ろしいことが起きなければよいのじゃが",
+      "pt": "Só espero que nada terrível aconteça de novo.",
+      "chars_jp": 22,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f1073_0A9E",
+        "f1173_0A36",
+        "f1273_0A2C"
+      ]
+    },
+    {
+      "id": "f1073_0B26",
+      "jp": "ギャラハンの息子は",
+      "pt": "O filho de Gallahan...",
+      "chars_jp": 9,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f1073_0B26",
+        "f1162_1090",
+        "f1262_0FB6"
+      ]
+    },
+    {
+      "id": "f1073_0B40",
+      "jp": "ギャラハンの娘は",
+      "pt": "A filha de Gallahan...",
+      "chars_jp": 8,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f1073_0B40",
+        "f1162_10AA",
+        "f1262_0FD0"
+      ]
+    },
+    {
+      "id": "f1073_0B58",
+      "jp": "ヴォイジンという男に殺されたんじゃ",
+      "pt": "Foi morta por um homem chamado Voijin.",
+      "chars_jp": 17,
+      "chars_pt": 38,
+      "aplica_em": [
+        "f1073_0B58",
+        "f1162_10C2",
+        "f1262_0FE8"
+      ]
+    },
+    {
+      "id": "f1091_0114",
+      "jp": "今日は話し合いだ金の派閥に行かなきゃがんばるぞ！",
+      "pt": "Hoje é negociação! Tenho que ir à facção do dinheiro, vou dar o meu melhor!",
+      "chars_jp": 24,
+      "chars_pt": 75,
+      "aplica_em": [
+        "f1091_0114",
+        "f1091_026C",
+        "f1091_043C",
+        "f1091_05A0",
+        "f1091_0820",
+        "f1091_0978",
+        "f1091_0B48",
+        "f1091_0CAC"
+      ]
+    },
+    {
+      "id": "f1091_0154",
+      "jp": "今日は話し合いだよ金の派閥に行かなきゃがんばるぞ！",
+      "pt": "Hoje é negociação! Tenho que ir à facção do dinheiro, vou dar o meu melhor!",
+      "chars_jp": 25,
+      "chars_pt": 75,
+      "aplica_em": [
+        "f1091_0154",
+        "f1091_02AC",
+        "f1091_047C",
+        "f1091_05E0",
+        "f1091_0860",
+        "f1091_09B8",
+        "f1091_0B88",
+        "f1091_0CEC"
+      ]
+    },
+    {
+      "id": "f1091_01EA",
+      "jp": "{g}はたよりにならないみたいだ",
+      "pt": "Parece que o {g} não serve de nada.",
+      "chars_jp": 16,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f1091_01EA",
+        "f1091_08F6"
+      ]
+    },
+    {
+      "id": "f1091_0212",
+      "jp": "{g}はたよりにならないみたい",
+      "pt": "Parece que o {g} não serve de nada.",
+      "chars_jp": 15,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f1091_0212",
+        "f1091_091E"
+      ]
+    },
+    {
+      "id": "f1091_030E",
+      "jp": "そうじゃの二度聞いて一度物言え、と言って相手の言うことを良く聞いてから…",
+      "pt": "Escute duas vezes e fale uma vez. Ouça bem o outro antes de falar...",
+      "chars_jp": 36,
+      "chars_pt": 68,
+      "aplica_em": [
+        "f1091_030E",
+        "f1091_0A1A"
+      ]
+    },
+    {
+      "id": "f1091_0380",
+      "jp": "そんなに心配しなくても大丈夫だって！なんとかなるよ",
+      "pt": "Não se preocupe tanto! Vai dar tudo certo!",
+      "chars_jp": 25,
+      "chars_pt": 42,
+      "aplica_em": [
+        "f1091_0380",
+        "f1091_0A8C"
+      ]
+    },
+    {
+      "id": "f1091_03DC",
+      "jp": "だからまず人の話を聞けと言っておる！",
+      "pt": "Então, primeiro escute o que os outros falam!",
+      "chars_jp": 18,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f1091_03DC",
+        "f1091_0AE8"
+      ]
+    },
+    {
+      "id": "f1091_04DE",
+      "jp": "キサマはだまっていた方が上手くいくと思うが",
+      "pt": "Acho que seria melhor se você ficasse ignorante.",
+      "chars_jp": 21,
+      "chars_pt": 48,
+      "aplica_em": [
+        "f1091_04DE",
+        "f1091_0BEA"
+      ]
+    },
+    {
+      "id": "f1091_0642",
+      "jp": "私もがんばりますわ！ミューノ様のミリョクをみなさんにお伝えするために！",
+      "pt": "Eu também vou me esforçar! Para passar o poder de Murno para todos!",
+      "chars_jp": 35,
+      "chars_pt": 67,
+      "aplica_em": [
+        "f1091_0642",
+        "f1091_0D4E"
+      ]
+    },
+    {
+      "id": "f1091_06C2",
+      "jp": "なんかズレてないか？",
+      "pt": "Algo não está certo?",
+      "chars_jp": 10,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f1091_06C2",
+        "f1091_0DCE"
+      ]
+    },
+    {
+      "id": "f1091_06DE",
+      "jp": "なんかズレてない？",
+      "pt": "Algo não está certo?",
+      "chars_jp": 9,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f1091_06DE",
+        "f1091_0DEA"
+      ]
+    },
+    {
+      "id": "f1091_0E60",
+      "jp": "ミューノを工房までしっかり送り届けなきゃ！",
+      "pt": "Preciso levar Murno até a oficina!",
+      "chars_jp": 21,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f1091_0E60"
+      ]
+    },
+    {
+      "id": "f1091_0ED2",
+      "jp": "ごめんなさい私のせいでこんなことになってるのに役に立たなくて…",
+      "pt": "Desculpe, não ajudei, mesmo com tudo isso por minha culpa...",
+      "chars_jp": 31,
+      "chars_pt": 60,
+      "aplica_em": [
+        "f1091_0ED2"
+      ]
+    },
+    {
+      "id": "f1091_0F4C",
+      "jp": "なに言ってるんだミューノは魔石を守るんだろ？立派に役に立ってるよ！",
+      "pt": "O que você diz? Murno protege a pedra, certo? Você ajuda muito!",
+      "chars_jp": 33,
+      "chars_pt": 63,
+      "aplica_em": [
+        "f1091_0F4C"
+      ]
+    },
+    {
+      "id": "f1091_0F9E",
+      "jp": "なに言ってるのミューノは魔石を守ってるし立派に役に立ってるって！",
+      "pt": "O que você diz? Murno protege a pedra e ajuda muito!",
+      "chars_jp": 32,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f1091_0F9E"
+      ]
+    },
+    {
+      "id": "f1091_10D2",
+      "jp": "ソノ通リデス一番重要ナ役割ト　言エルデショウ",
+      "pt": "Certo, você é a parte mais importante.",
+      "chars_jp": 22,
+      "chars_pt": 38,
+      "aplica_em": [
+        "f1091_10D2"
+      ]
+    },
+    {
+      "id": "f1091_111A",
+      "jp": "そうじゃぞ一番重要な役割じゃたのんだぞ",
+      "pt": "É isso. Você é o papel mais importante.",
+      "chars_jp": 19,
+      "chars_pt": 39,
+      "aplica_em": [
+        "f1091_111A"
+      ]
+    },
+    {
+      "id": "f1091_1160",
+      "jp": "責任重大だなせいぜいがんばることだ",
+      "pt": "É muita responsabilidade. Se esforça.",
+      "chars_jp": 17,
+      "chars_pt": 37,
+      "aplica_em": [
+        "f1091_1160"
+      ]
+    },
+    {
+      "id": "f1091_119E",
+      "jp": "そうですよ！ミューノ様の役目が一番重要ですわ！がんばってくださいね！",
+      "pt": "É isso mesmo! O papel de Murno é o mais importante! Por favor, dê o seu melhor!",
+      "chars_jp": 34,
+      "chars_pt": 79,
+      "aplica_em": [
+        "f1091_119E"
+      ]
+    },
+    {
+      "id": "f1091_1212",
+      "jp": "ありがとう{d}{g}…",
+      "pt": "Obrigado, {d}{g}...",
+      "chars_jp": 12,
+      "chars_pt": 19,
+      "aplica_em": [
+        "f1091_1212"
+      ]
+    },
+    {
+      "id": "f1092_0104",
+      "jp": "さて！アニスたちの居場所をさがしに行こう！",
+      "pt": "Certo! Vamos procurar onde estão as de Anise!",
+      "chars_jp": 21,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f1092_0104",
+        "f1092_025A",
+        "f1092_03BE",
+        "f1092_0520"
+      ]
+    },
+    {
+      "id": "f1092_015A",
+      "jp": "私タチノ　分担ハまーねいる宿場マデノ道ノリデスネ",
+      "pt": "Nossa parte é o caminho até a Estacao Marneil, certo?",
+      "chars_jp": 24,
+      "chars_pt": 53,
+      "aplica_em": [
+        "f1092_015A"
+      ]
+    },
+    {
+      "id": "f1092_01C4",
+      "jp": "うん！どんな手がかりも見落とさないぞ！",
+      "pt": "Sim! Não vou perder nenhuma pista!",
+      "chars_jp": 19,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f1092_01C4",
+        "f1092_0328",
+        "f1092_048A",
+        "f1092_0600"
+      ]
+    },
+    {
+      "id": "f1092_01FA",
+      "jp": "うん！どんな手がかりも見落とさないんだから！",
+      "pt": "Sim! Não vou perder nenhuma pista!",
+      "chars_jp": 22,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f1092_01FA",
+        "f1092_035E",
+        "f1092_04C0",
+        "f1092_0636"
+      ]
+    },
+    {
+      "id": "f1092_02B0",
+      "jp": "我らの分担は、ほほえみ亭のあるマーネイル宿場までの道のりじゃな",
+      "pt": "Nossa missão é o caminho até a Estacao Marneil, onde fica o Hotel Sorriso.",
+      "chars_jp": 31,
+      "chars_pt": 74,
+      "aplica_em": [
+        "f1092_02B0"
+      ]
+    },
+    {
+      "id": "f1092_0414",
+      "jp": "マーネイル宿場までの道がキサマの分担かせいぜいがんばることだ",
+      "pt": "O caminho até a Estacao Marneil é sua responsabilidade. Dê o seu melhor!",
+      "chars_jp": 30,
+      "chars_pt": 72,
+      "aplica_em": [
+        "f1092_0414"
+      ]
+    },
+    {
+      "id": "f1092_0576",
+      "jp": "私たちの担当はほほえみ亭のあるマーネイル宿場のあたりまでですわがんばりましょう！",
+      "pt": "Nossa responsabilidade é até a área da Estacao Marneil, onde fica o Hotel Sorriso. Vamos nos esforçar!",
+      "chars_jp": 40,
+      "chars_pt": 102,
+      "aplica_em": [
+        "f1092_0576"
+      ]
+    },
+    {
+      "id": "f1092_079A",
+      "jp": "アニスたちはスレンジ採掘場のどこかにいるみたいださがしに行こう！",
+      "pt": "Anise e as outras parecem estar em algum lugar da mina Slenj. Vamos procurar!",
+      "chars_jp": 32,
+      "chars_pt": 77,
+      "aplica_em": [
+        "f1092_079A",
+        "f1092_0920",
+        "f1092_0B34",
+        "f1092_0CB4",
+        "f1092_0F28",
+        "f1092_10AE",
+        "f1092_12C2",
+        "f1092_1442"
+      ]
+    },
+    {
+      "id": "f1092_07EA",
+      "jp": "アニスたちはスレンジ採掘場のどこかにいるみたいだよさがしに行こう！",
+      "pt": "Anise e as outras parecem estar na mina Slenj. Vamos procurar!",
+      "chars_jp": 33,
+      "chars_pt": 62,
+      "aplica_em": [
+        "f1092_07EA",
+        "f1092_0970",
+        "f1092_0B84",
+        "f1092_0D04",
+        "f1092_0F78",
+        "f1092_10FE",
+        "f1092_1312",
+        "f1092_1492"
+      ]
+    },
+    {
+      "id": "f1092_085C",
+      "jp": "すれんじ採掘場ニハ　あかばねトイウ凶暴ナ召喚獣ガ　イルヨウデス十分注意シテクダサイ",
+      "pt": "Na mina Slenj há um invocador feroz chamado Akabane. Tenham muito cuidado.",
+      "chars_jp": 41,
+      "chars_pt": 74,
+      "aplica_em": [
+        "f1092_085C",
+        "f1092_0FEA"
+      ]
+    },
+    {
+      "id": "f1092_09E2",
+      "jp": "そこにはアカバネと呼ばれる凶暴な召喚獣がいるようじゃ虎の尾をふむようなことにならぬよう",
+      "pt": "Parece que tem um monstro Akabane lá. Cuidado para não provocar ele.",
+      "chars_jp": 43,
+      "chars_pt": 68,
+      "aplica_em": [
+        "f1092_09E2",
+        "f1092_1170"
+      ]
+    },
+    {
+      "id": "f1092_0A5A",
+      "jp": "十分注意するのじゃぞ",
+      "pt": "Tenha muito cuidado.",
+      "chars_jp": 10,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f1092_0A5A",
+        "f1092_11E8"
+      ]
+    },
+    {
+      "id": "f1092_0A90",
+      "jp": "{g}のシッポをふむな…ってこと？",
+      "pt": "Não pise na cauda do {g}?",
+      "chars_jp": 17,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f1092_0A90",
+        "f1092_121E"
+      ]
+    },
+    {
+      "id": "f1092_0AD4",
+      "jp": "それくらい気をつけろと言うことじゃ！",
+      "pt": "É para ter cuidado com isso!",
+      "chars_jp": 18,
+      "chars_pt": 28,
+      "aplica_em": [
+        "f1092_0AD4",
+        "f1092_1262"
+      ]
+    },
+    {
+      "id": "f1092_0BF6",
+      "jp": "そこにはアカバネと呼ばれる凶暴な召喚獣がいるらしい楽しみだな…",
+      "pt": "Parece que tem um monstro Akabane lá. Que divertido...",
+      "chars_jp": 31,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f1092_0BF6",
+        "f1092_1384"
+      ]
+    },
+    {
+      "id": "f1092_0C5E",
+      "jp": "そっちは見つけなくていいから！",
+      "pt": "Não precisa achar esse!",
+      "chars_jp": 15,
+      "chars_pt": 23,
+      "aplica_em": [
+        "f1092_0C5E",
+        "f1092_13EC"
+      ]
+    },
+    {
+      "id": "f1092_0D76",
+      "jp": "そこにはアカバネと呼ばれる凶暴な召喚獣がいるみたいですわき、気をつけないと…",
+      "pt": "Parece que tem um monstro Akabane lá. Temos que ter cuidado...",
+      "chars_jp": 38,
+      "chars_pt": 62,
+      "aplica_em": [
+        "f1092_0D76",
+        "f1092_1504"
+      ]
+    },
+    {
+      "id": "f1092_16CE",
+      "jp": "やっぱりアニスたちはスレンジ採掘場にいるみたいだ奥に行ってみよう！",
+      "pt": "Anise e os outros estão na mina Slenj. Vamos para lá!",
+      "chars_jp": 33,
+      "chars_pt": 53,
+      "aplica_em": [
+        "f1092_16CE",
+        "f1092_1872",
+        "f1092_1A28",
+        "f1092_1BB0",
+        "f1092_1E72",
+        "f1092_2004",
+        "f1092_21DA",
+        "f1092_2396",
+        "f1092_2676",
+        "f1092_27EC",
+        "f1092_29D0",
+        "f1092_2BAA"
+      ]
+    },
+    {
+      "id": "f1092_1720",
+      "jp": "やっぱりアニスたちはスレンジ採掘場にいるみたい奥に行ってみよう！",
+      "pt": "Anise e os outros estão na mina Slenj. Vamos para lá!",
+      "chars_jp": 32,
+      "chars_pt": 53,
+      "aplica_em": [
+        "f1092_1720",
+        "f1092_18C4",
+        "f1092_1A7A",
+        "f1092_1C02",
+        "f1092_1EC4",
+        "f1092_2056",
+        "f1092_222C",
+        "f1092_23E8",
+        "f1092_26C8",
+        "f1092_283E",
+        "f1092_2A22",
+        "f1092_2BFC"
+      ]
+    },
+    {
+      "id": "f1092_1790",
+      "jp": "奥ニハ　敵ガイルト　思ワレマス十分警戒シテ下サイ",
+      "pt": "Lá dentro há inimigos. Mantenham a cautela.",
+      "chars_jp": 24,
+      "chars_pt": 43,
+      "aplica_em": [
+        "f1092_1790"
+      ]
+    },
+    {
+      "id": "f1092_17F6",
+      "jp": "そうだな気をつけないと…",
+      "pt": "Temos que ter cuidado...",
+      "chars_jp": 12,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f1092_17F6"
+      ]
+    },
+    {
+      "id": "f1092_181A",
+      "jp": "そうだね気をつけないと…",
+      "pt": "Temos que ter cuidado...",
+      "chars_jp": 12,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f1092_181A"
+      ]
+    },
+    {
+      "id": "f1092_1934",
+      "jp": "近くにあやつらのアジトがあるやもしれん…気をつけるのじゃぞ",
+      "pt": "Talvez o esconderijo deles esteja perto... Cuidado, hein.",
+      "chars_jp": 29,
+      "chars_pt": 57,
+      "aplica_em": [
+        "f1092_1934"
+      ]
+    },
+    {
+      "id": "f1092_19A8",
+      "jp": "そうだなシンチョウに行こう",
+      "pt": "É, vamos ao Shinchou.",
+      "chars_jp": 13,
+      "chars_pt": 21,
+      "aplica_em": [
+        "f1092_19A8",
+        "f1092_1CF2"
+      ]
+    },
+    {
+      "id": "f1092_19CE",
+      "jp": "そうだねシンチョウに行こう",
+      "pt": "Certo, vamos ao Shinchou.",
+      "chars_jp": 13,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f1092_19CE",
+        "f1092_1D18"
+      ]
+    },
+    {
+      "id": "f1092_1AEA",
+      "jp": "クズどもの吹きだまりがありそうなフンイキだ…見つけたらきれいに消してやる",
+      "pt": "Que cheiro de lixo... Se achar, vou acabar com eles de vez.",
+      "chars_jp": 36,
+      "chars_pt": 59,
+      "aplica_em": [
+        "f1092_1AEA"
+      ]
+    },
+    {
+      "id": "f1092_1B5C",
+      "jp": "ちょっと、{g}落ちついて！",
+      "pt": "Ei, {g}, calma!",
+      "chars_jp": 14,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f1092_1B5C"
+      ]
+    },
+    {
+      "id": "f1092_1C72",
+      "jp": "うぅ…、近くにあの人たちのアジトがあるかもしれませんわ気をつけましょう",
+      "pt": "Hum... Pode ter o esconderijo deles por perto. Cuidado.",
+      "chars_jp": 35,
+      "chars_pt": 55,
+      "aplica_em": [
+        "f1092_1C72"
+      ]
+    },
+    {
+      "id": "f1092_1F34",
+      "jp": "先程ノ戦闘デ　私タチノコトガ察知サレタ　可能性ガアリマス十分注意シテクダサイ",
+      "pt": "Na luta, podem ter nos notado. Por favor, fiquem atentos.",
+      "chars_jp": 38,
+      "chars_pt": 57,
+      "aplica_em": [
+        "f1092_1F34"
+      ]
+    },
+    {
+      "id": "f1092_1FAA",
+      "jp": "うんシンチョウにシンチョウに…",
+      "pt": "Sim, para o Shinchou...",
+      "chars_jp": 15,
+      "chars_pt": 23,
+      "aplica_em": [
+        "f1092_1FAA"
+      ]
+    },
+    {
+      "id": "f1092_20C6",
+      "jp": "さっきの戦いで我らのことが気づかれていないと良いのじゃが…",
+      "pt": "Espero que não tenham notado a gente na luta passada...",
+      "chars_jp": 29,
+      "chars_pt": 55,
+      "aplica_em": [
+        "f1092_20C6"
+      ]
+    },
+    {
+      "id": "f1092_213A",
+      "jp": "そうだな…とにかくもう少し行ってみよう",
+      "pt": "É... vamos tentar ir um pouco mais.",
+      "chars_jp": 19,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f1092_213A"
+      ]
+    },
+    {
+      "id": "f1092_2170",
+      "jp": "そうだね…とにかくもう少し行ってみよう",
+      "pt": "Certo... vamos tentar ir um pouco mais.",
+      "chars_jp": 19,
+      "chars_pt": 39,
+      "aplica_em": [
+        "f1092_2170"
+      ]
+    },
+    {
+      "id": "f1092_229C",
+      "jp": "クズどもがさっきの戦いでこっちに気づいたかもしれん",
+      "pt": "Os lixos podem ter nos notado na última luta.",
+      "chars_jp": 25,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f1092_229C"
+      ]
+    },
+    {
+      "id": "f1092_22EC",
+      "jp": "ま、どうせ全員消し去るんだ関係ないがな",
+      "pt": "Vou acabar com todos de qualquer jeito.",
+      "chars_jp": 19,
+      "chars_pt": 39,
+      "aplica_em": [
+        "f1092_22EC"
+      ]
+    },
+    {
+      "id": "f1092_2338",
+      "jp": "ちょっと、{g}落ちついて落ちついて…",
+      "pt": "{g}, calma, calma...",
+      "chars_jp": 19,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f1092_2338"
+      ]
+    },
+    {
+      "id": "f1092_2458",
+      "jp": "うぅ…さっきの戦いで私たちのことがバレてないといいんですけど…",
+      "pt": "Ugh... espero que não tenham descoberto quem somos na luta.",
+      "chars_jp": 31,
+      "chars_pt": 59,
+      "aplica_em": [
+        "f1092_2458"
+      ]
+    },
+    {
+      "id": "f1092_24D0",
+      "jp": "がんばれ、{g}とにかくもう少し行ってみよう",
+      "pt": "Força, {g}. Vamos tentar ir um pouco mais.",
+      "chars_jp": 22,
+      "chars_pt": 42,
+      "aplica_em": [
+        "f1092_24D0"
+      ]
+    },
+    {
+      "id": "f1092_2508",
+      "jp": "がんばって、{g}とにかくもう少し行ってみよう",
+      "pt": "Força, {g}. Vamos tentar ir um pouco mais.",
+      "chars_jp": 23,
+      "chars_pt": 42,
+      "aplica_em": [
+        "f1092_2508"
+      ]
+    },
+    {
+      "id": "f1092_2738",
+      "jp": "先程アッタ反応ノ正体ガ判明シテオリマセン注意シテ下サイ",
+      "pt": "A reação vista antes não foi identificada. Cuidado.",
+      "chars_jp": 27,
+      "chars_pt": 51,
+      "aplica_em": [
+        "f1092_2738"
+      ]
+    },
+    {
+      "id": "f1092_2798",
+      "jp": "わかった！気をつけるよ！",
+      "pt": "Entendi! Vou ter cuidado!",
+      "chars_jp": 12,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f1092_2798"
+      ]
+    },
+    {
+      "id": "f1092_28AE",
+      "jp": "さっきの気配の正体がつかめておらん気をつけるのじゃ",
+      "pt": "Não pegamos a natureza daquele cheiro. Cuidado.",
+      "chars_jp": 25,
+      "chars_pt": 47,
+      "aplica_em": [
+        "f1092_28AE"
+      ]
+    },
+    {
+      "id": "f1092_2916",
+      "jp": "そうだな念には念を、だろ？",
+      "pt": "É, é melhor prevenir, né?",
+      "chars_jp": 13,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f1092_2916"
+      ]
+    },
+    {
+      "id": "f1092_293C",
+      "jp": "そうだな念には念を、でしょ？",
+      "pt": "É, é melhor prevenir, né?",
+      "chars_jp": 14,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f1092_293C"
+      ]
+    },
+    {
+      "id": "f1092_2982",
+      "jp": "うむその通りじゃぞ",
+      "pt": "Exatamente.",
+      "chars_jp": 9,
+      "chars_pt": 11,
+      "aplica_em": [
+        "f1092_2982"
+      ]
+    },
+    {
+      "id": "f1092_2A92",
+      "jp": "待ち伏せされているかもしれんがその時はその時か…",
+      "pt": "Podemos ser emboscados, mas se for, será.",
+      "chars_jp": 24,
+      "chars_pt": 41,
+      "aplica_em": [
+        "f1092_2A92"
+      ]
+    },
+    {
+      "id": "f1092_2AF8",
+      "jp": "ちょ…っ！おどかすなよな！",
+      "pt": "Ei... não me assuste!",
+      "chars_jp": 13,
+      "chars_pt": 21,
+      "aplica_em": [
+        "f1092_2AF8"
+      ]
+    },
+    {
+      "id": "f1092_2B1E",
+      "jp": "ちょっと…！おどかさないでよ！",
+      "pt": "Puxa... não me assuste!",
+      "chars_jp": 15,
+      "chars_pt": 23,
+      "aplica_em": [
+        "f1092_2B1E"
+      ]
+    },
+    {
+      "id": "f1092_2B66",
+      "jp": "どうだかな？",
+      "pt": "Será que será?",
+      "chars_jp": 6,
+      "chars_pt": 14,
+      "aplica_em": [
+        "f1092_2B66"
+      ]
+    },
+    {
+      "id": "f1092_2C6C",
+      "jp": "たしかにさっき、誰かいましたわ気をつけて下さいね",
+      "pt": "De fato, alguém estava aqui. Ten cuidado, ok?",
+      "chars_jp": 24,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f1092_2C6C"
+      ]
+    },
+    {
+      "id": "f1092_2CC2",
+      "jp": "わかった気をつけるよ",
+      "pt": "Certo. Vou ter cuidado.",
+      "chars_jp": 10,
+      "chars_pt": 23,
+      "aplica_em": [
+        "f1092_2CC2",
+        "f2292_07F0"
+      ]
+    },
+    {
+      "id": "f1092_2CFC",
+      "jp": "イヤな予感がしますわ…本当に気のせいならいいんですが",
+      "pt": "Tenho um pressentimento ruim... Se for só imaginação, tudo bem.",
+      "chars_jp": 26,
+      "chars_pt": 63,
+      "aplica_em": [
+        "f1092_2CFC"
+      ]
+    },
+    {
+      "id": "f1092_2DB0",
+      "jp": "…っ！まずは{g}を助けにいかなきゃ",
+      "pt": "Preciso ir salvar o {g}!",
+      "chars_jp": 18,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f1092_2DB0"
+      ]
+    },
+    {
+      "id": "f1092_2DE0",
+      "jp": "…もうっ！まずは{g}を助けにいかなきゃ",
+      "pt": "Preciso ir salvar o {g}!",
+      "chars_jp": 20,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f1092_2DE0"
+      ]
+    },
+    {
+      "id": "f1092_2F2A",
+      "jp": "大丈夫か、{g}？とにかくここから出よう！",
+      "pt": "Tudo bem, {g}? Vamos sair daqui!",
+      "chars_jp": 21,
+      "chars_pt": 32,
+      "aplica_em": [
+        "f1092_2F2A"
+      ]
+    },
+    {
+      "id": "f1092_2F5C",
+      "jp": "大丈夫、{g}？とにかくここから出よう！",
+      "pt": "Tudo bem, {g}? Vamos sair daqui!",
+      "chars_jp": 20,
+      "chars_pt": 32,
+      "aplica_em": [
+        "f1092_2F5C"
+      ]
+    },
+    {
+      "id": "f1092_3058",
+      "jp": "うむ…、そうじゃの",
+      "pt": "Hum... é isso aí.",
+      "chars_jp": 9,
+      "chars_pt": 17,
+      "aplica_em": [
+        "f1092_3058"
+      ]
+    },
+    {
+      "id": "f1092_3082",
+      "jp": "わかった…",
+      "pt": "Entendi...",
+      "chars_jp": 5,
+      "chars_pt": 10,
+      "aplica_em": [
+        "f1092_3082",
+        "f1708_2512",
+        "f1820_10F8",
+        "f1922_1C4A",
+        "f2315_0B78"
+      ]
+    },
+    {
+      "id": "f1092_31D6",
+      "jp": "待ってろレミィ今行くからな！",
+      "pt": "Espera aí, Lemmy, já vou!",
+      "chars_jp": 14,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f1092_31D6",
+        "f1092_3296",
+        "f1092_3354",
+        "f1092_3416"
+      ]
+    },
+    {
+      "id": "f1092_31FE",
+      "jp": "待っててレミィ今行くから！",
+      "pt": "Lemmy, espera, já vou!",
+      "chars_jp": 13,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f1092_31FE",
+        "f1092_32BE",
+        "f1092_337C",
+        "f1092_343E"
+      ]
+    },
+    {
+      "id": "f1092_3304",
+      "jp": "そうじゃな！急ぐぞ！",
+      "pt": "É isso! Vou correr!",
+      "chars_jp": 10,
+      "chars_pt": 19,
+      "aplica_em": [
+        "f1092_3304"
+      ]
+    },
+    {
+      "id": "f1092_33C2",
+      "jp": "ふ…世話のかかるヤツらだ",
+      "pt": "Hã... que gente chata.",
+      "chars_jp": 12,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f1092_33C2"
+      ]
+    },
+    {
+      "id": "f1092_3484",
+      "jp": "はい！急ぎましょう！",
+      "pt": "Sim! Vamos logo!",
+      "chars_jp": 10,
+      "chars_pt": 16,
+      "aplica_em": [
+        "f1092_3484"
+      ]
+    },
+    {
+      "id": "f1101_11E6",
+      "jp": "ま、がんばれ",
+      "pt": "Bom, boa sorte.",
+      "chars_jp": 6,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f1101_11E6",
+        "f1201_105E"
+      ]
+    },
+    {
+      "id": "f1102_0DE0",
+      "jp": "アカバネを倒したヤツがこの辺をウロウロしてるらしい",
+      "pt": "Dizem que quem bateu Akabane anda por aqui.",
+      "chars_jp": 25,
+      "chars_pt": 43,
+      "aplica_em": [
+        "f1102_0DE0",
+        "f1202_0EEC"
+      ]
+    },
+    {
+      "id": "f1102_0E1C",
+      "jp": "そんな危ないヤツがいるかもしれないあぶなくってしょうがない",
+      "pt": "Pode ter gente perigosa por aqui. É muito assustador.",
+      "chars_jp": 29,
+      "chars_pt": 53,
+      "aplica_em": [
+        "f1102_0E1C",
+        "f1202_0F28"
+      ]
+    },
+    {
+      "id": "f1102_0E86",
+      "jp": "にゃ〜ん",
+      "pt": "Miau.",
+      "chars_jp": 4,
+      "chars_pt": 5,
+      "aplica_em": [
+        "f1102_0E86"
+      ]
+    },
+    {
+      "id": "f1104_0B62",
+      "jp": "あら、おかえり町はどうだった？",
+      "pt": "Oi, como foi a cidade?",
+      "chars_jp": 15,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f1104_0B62",
+        "f1204_0B58"
+      ]
+    },
+    {
+      "id": "f1110_09FC",
+      "jp": "あ〜",
+      "pt": "Ah...",
+      "chars_jp": 2,
+      "chars_pt": 5,
+      "aplica_em": [
+        "f1110_09FC",
+        "f1210_09F2"
+      ]
+    },
+    {
+      "id": "f1110_0A0E",
+      "jp": "はっ！？べっ、別にサボってたわけじゃねーからな！",
+      "pt": "Hã!? N-não estava de folga, viu!",
+      "chars_jp": 24,
+      "chars_pt": 32,
+      "aplica_em": [
+        "f1110_0A0E",
+        "f1210_0A04"
+      ]
+    },
+    {
+      "id": "f1112_09CE",
+      "jp": "どんな時も油断はするなよ",
+      "pt": "Nunca relaxe, não.",
+      "chars_jp": 12,
+      "chars_pt": 18,
+      "aplica_em": [
+        "f1112_09CE",
+        "f1212_09C4"
+      ]
+    },
+    {
+      "id": "f1121_1094",
+      "jp": "あたし見たのよ！弓矢で的を撃ったら突然、女の子が飛び出してきたの！",
+      "pt": "Eu vi! Quando atirei na flecha, uma garota saiu do alvo!",
+      "chars_jp": 33,
+      "chars_pt": 56,
+      "aplica_em": [
+        "f1121_1094"
+      ]
+    },
+    {
+      "id": "f1121_10E4",
+      "jp": "何だったのかしら？",
+      "pt": "O que será aquilo?",
+      "chars_jp": 9,
+      "chars_pt": 18,
+      "aplica_em": [
+        "f1121_10E4"
+      ]
+    },
+    {
+      "id": "f1123_0686",
+      "jp": "ウワサのアカバネをたおしたそうねすごいわ",
+      "pt": "Dizem que derrotou a Akabane. Que incrível!",
+      "chars_jp": 20,
+      "chars_pt": 43,
+      "aplica_em": [
+        "f1123_0686"
+      ]
+    },
+    {
+      "id": "f1123_06B8",
+      "jp": "わたしも好きになっちゃいそう",
+      "pt": "Acho que vou gostar também.",
+      "chars_jp": 14,
+      "chars_pt": 27,
+      "aplica_em": [
+        "f1123_06B8"
+      ]
+    },
+    {
+      "id": "f1123_071C",
+      "jp": "ウワサのアカバネをたおしたんだってすごいなぁ",
+      "pt": "É incrível que derrotaram a Akabane.",
+      "chars_jp": 22,
+      "chars_pt": 36,
+      "aplica_em": [
+        "f1123_071C"
+      ]
+    },
+    {
+      "id": "f1123_0752",
+      "jp": "それは娘もホれるわけだ…",
+      "pt": "Até uma filha cairia.",
+      "chars_jp": 12,
+      "chars_pt": 21,
+      "aplica_em": [
+        "f1123_0752"
+      ]
+    },
+    {
+      "id": "f1123_100E",
+      "jp": "ここの娘はしっかり者じゃ…",
+      "pt": "A garota daqui é séria...",
+      "chars_jp": 13,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f1123_100E"
+      ]
+    },
+    {
+      "id": "f1131_0936",
+      "jp": "ザックならいないぜ",
+      "pt": "Zakk não tá aqui.",
+      "chars_jp": 9,
+      "chars_pt": 17,
+      "aplica_em": [
+        "f1131_0936",
+        "f2510_00A8"
+      ]
+    },
+    {
+      "id": "f1131_1400",
+      "jp": "アカバネが倒されてもはぐれの被害は減ってないんだ",
+      "pt": "Mesmo Akabane caindo, o dano dos perdidos não diminuiu.",
+      "chars_jp": 24,
+      "chars_pt": 55,
+      "aplica_em": [
+        "f1131_1400"
+      ]
+    },
+    {
+      "id": "f1131_147C",
+      "jp": "プロスバンの東にリュート岩窟があるけど、そこからスポート洞窟につながっているんだ",
+      "pt": "Lá a leste de Prosban tem a Caverna Lute, que liga à Caverna Sport.",
+      "chars_jp": 40,
+      "chars_pt": 67,
+      "aplica_em": [
+        "f1131_147C"
+      ]
+    },
+    {
+      "id": "f1131_14DA",
+      "jp": "最近までは、危険な状態で入れないようになっていたんだけどね扉のカギがあいてたみたいだな",
+      "pt": "Até agora, não dava pra entrar por causa do perigo. A chave da porta estava aberta.",
+      "chars_jp": 43,
+      "chars_pt": 83,
+      "aplica_em": [
+        "f1131_14DA"
+      ]
+    },
+    {
+      "id": "f1131_1564",
+      "jp": "わぅん？",
+      "pt": "Hã?",
+      "chars_jp": 4,
+      "chars_pt": 3,
+      "aplica_em": [
+        "f1131_1564"
+      ]
+    },
+    {
+      "id": "f1132_101E",
+      "jp": "金欠って悲しいよな…",
+      "pt": "Ficar sem grana é triste, né...",
+      "chars_jp": 10,
+      "chars_pt": 31,
+      "aplica_em": [
+        "f1132_101E"
+      ]
+    },
+    {
+      "id": "f1132_107A",
+      "jp": "な、なんだよオマエは",
+      "pt": "Q-Que merda você é?",
+      "chars_jp": 10,
+      "chars_pt": 19,
+      "aplica_em": [
+        "f1132_107A"
+      ]
+    },
+    {
+      "id": "f1132_1094",
+      "jp": "金の派閥の一員は福引きしちゃいけないとでも言いたいのか！",
+      "pt": "Quer dizer que membros da Facção do Dinheiro não podem ser sortudos?!",
+      "chars_jp": 28,
+      "chars_pt": 69,
+      "aplica_em": [
+        "f1132_1094"
+      ]
+    },
+    {
+      "id": "f1132_1100",
+      "jp": "贅沢は",
+      "pt": "Luxo é...",
+      "chars_jp": 3,
+      "chars_pt": 9,
+      "aplica_em": [
+        "f1132_1100"
+      ]
+    },
+    {
+      "id": "f1132_1144",
+      "jp": "素敵だ",
+      "pt": "Que legal.",
+      "chars_jp": 3,
+      "chars_pt": 10,
+      "aplica_em": [
+        "f1132_1144"
+      ]
+    },
+    {
+      "id": "f1133_0AC4",
+      "jp": "ねぇアカバネごっこしようよボクがアカバネをたいじするからキミがたおされるアカバネ",
+      "pt": "Ei, vamos brincar de Akabane. Eu cuido do Akabane, e você é o Akabane que vai ser derrotado.",
+      "chars_jp": 40,
+      "chars_pt": 92,
+      "aplica_em": [
+        "f1133_0AC4"
+      ]
+    },
+    {
+      "id": "f1134_0CF8",
+      "jp": "オレはここの番をしているんだ何があってもはなれるワケにはいかないぞ！",
+      "pt": "Eu sou o responsável por aqui. Não posso sair, não importa o que aconteça!",
+      "chars_jp": 34,
+      "chars_pt": 74,
+      "aplica_em": [
+        "f1134_0CF8"
+      ]
+    },
+    {
+      "id": "f1135_0F28",
+      "jp": "とりあえず、お互いに武器を持つのはヤバイって、実感したよ",
+      "pt": "Percebi que ter armas é perigoso para nós dois.",
+      "chars_jp": 28,
+      "chars_pt": 47,
+      "aplica_em": [
+        "f1135_0F28"
+      ]
+    },
+    {
+      "id": "f1135_0FB0",
+      "jp": "うう…今日は、コツコツためた商品券までカケに負けて同僚に取られちゃったよ",
+      "pt": "Ugh... Perdi os cupons que guardei em uma aposta e meu colega pegou.",
+      "chars_jp": 36,
+      "chars_pt": 68,
+      "aplica_em": [
+        "f1135_0FB0"
+      ]
+    },
+    {
+      "id": "f1135_10EA",
+      "jp": "明日できることは今日するな！なまけもの",
+      "pt": "Não seja preguiçoso! Faça o que pode hoje.",
+      "chars_jp": 19,
+      "chars_pt": 42,
+      "aplica_em": [
+        "f1135_10EA"
+      ]
+    },
+    {
+      "id": "f1135_1146",
+      "jp": "ネムリ攻撃を受けると瞬時に眠れて体力も回復しますが、起こされる時はイタイ目にあいます",
+      "pt": "Receber ataque de sono faz dormir e recuperar HP, mas acordar dói.",
+      "chars_jp": 42,
+      "chars_pt": 66,
+      "aplica_em": [
+        "f1135_1146",
+        "f1235_0F46"
+      ]
+    },
+    {
+      "id": "f1135_11E0",
+      "jp": "やっぱりだまされたな",
+      "pt": "Fui enganado, afinal.",
+      "chars_jp": 10,
+      "chars_pt": 21,
+      "aplica_em": [
+        "f1135_11E0"
+      ]
+    },
+    {
+      "id": "f1136_0C9A",
+      "jp": "アカバネを倒した子供がいるらしい",
+      "pt": "Tem criança que derrotou Akabane.",
+      "chars_jp": 16,
+      "chars_pt": 33,
+      "aplica_em": [
+        "f1136_0C9A"
+      ]
+    },
+    {
+      "id": "f1136_0CC0",
+      "jp": "それはもう、鬼のような形相でとても子供とは思えない凶暴なヤツって噂だ",
+      "pt": "Dizem que é uma coisa feroz, com cara de demônio, não parece criança.",
+      "chars_jp": 34,
+      "chars_pt": 69,
+      "aplica_em": [
+        "f1136_0CC0"
+      ]
+    },
+    {
+      "id": "f1137_0EA8",
+      "jp": "アカバネをたおしたんだって？すごいなぁ…",
+      "pt": "Derrotou Akabane? Que demais...",
+      "chars_jp": 20,
+      "chars_pt": 31,
+      "aplica_em": [
+        "f1137_0EA8"
+      ]
+    },
+    {
+      "id": "f1137_0F9A",
+      "jp": "この先のスレンジ採掘場の凶悪なはぐれ召喚獣アカバネが退治されました",
+      "pt": "O Akabane, monstro perdido da mina, foi derrotado.",
+      "chars_jp": 33,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f1137_0F9A"
+      ]
+    },
+    {
+      "id": "f1137_0FEA",
+      "jp": "しかし、その他のはぐれにもキケンなものがいるのでお出かけの時にはご注意ください∞",
+      "pt": "Mas há outros perigos por aí. Tenha cuidado ao sair.",
+      "chars_jp": 40,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f1137_0FEA"
+      ]
+    },
+    {
+      "id": "f1140_07DC",
+      "jp": "無事に戻ってきてね約束よ、{d}",
+      "pt": "Promete voltar bem, {d}.",
+      "chars_jp": 16,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f1140_07DC"
+      ]
+    },
+    {
+      "id": "f1140_0844",
+      "jp": "わるいひとたちをやっつけてね！",
+      "pt": "Derrote os maus!",
+      "chars_jp": 15,
+      "chars_pt": 16,
+      "aplica_em": [
+        "f1140_0844"
+      ]
+    },
+    {
+      "id": "f1140_08F8",
+      "jp": "おやかた、だいじょうぶかなぁ",
+      "pt": "A senhora está bem?",
+      "chars_jp": 14,
+      "chars_pt": 19,
+      "aplica_em": [
+        "f1140_08F8",
+        "f2510_002A"
+      ]
+    },
+    {
+      "id": "f1140_095C",
+      "jp": "どうしてこんなことに…",
+      "pt": "Por que isso...",
+      "chars_jp": 11,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f1140_095C"
+      ]
+    },
+    {
+      "id": "f1140_09BA",
+      "jp": "うぅっ…床掃除までやりなおしなんて…",
+      "pt": "Ugh... ter que refazer a limpeza...",
+      "chars_jp": 18,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f1140_09BA"
+      ]
+    },
+    {
+      "id": "f1141_0B68",
+      "jp": "てめぇの相手してるヒマなんてねぇんだよ",
+      "pt": "Não tenho tempo pra te dar atenção.",
+      "chars_jp": 19,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f1141_0B68"
+      ]
+    },
+    {
+      "id": "f1142_0BC2",
+      "jp": "スポート洞窟は強い風が吹き上げる場所があるから十分気をつけるように",
+      "pt": "Dizem que Caverna Sport tem ventos fortes. Mas não adianta nada, mesmo se eu tomar cuidado.",
+      "chars_jp": 33,
+      "chars_pt": 91,
+      "aplica_em": [
+        "f1142_0BC2"
+      ]
+    },
+    {
+      "id": "f1142_0C12",
+      "jp": "って言われてるけど気をつけたところでどうにもならないよね",
+      "pt": "Dizem isso, mas não adianta nada, mesmo se eu tomar cuidado.",
+      "chars_jp": 28,
+      "chars_pt": 60,
+      "aplica_em": [
+        "f1142_0C12"
+      ]
+    },
+    {
+      "id": "f1161_0D3C",
+      "jp": "ギャラハンさんは怒ると怖いけどとてもやさしんんだよでも時々、ボクを見ながら",
+      "pt": "Gallahan é assustador quando bravo, mas gentil. Mas às vezes, olhando para mim, ele parece solitário.",
+      "chars_jp": 37,
+      "chars_pt": 101,
+      "aplica_em": [
+        "f1161_0D3C",
+        "f1261_0EB0"
+      ]
+    },
+    {
+      "id": "f1161_0D94",
+      "jp": "すごく、寂しそうな顔をするんだよ",
+      "pt": "Ele parece muito solitário.",
+      "chars_jp": 16,
+      "chars_pt": 27,
+      "aplica_em": [
+        "f1161_0D94",
+        "f1261_0F08"
+      ]
+    },
+    {
+      "id": "f1162_1130",
+      "jp": "最近のお母様は、とにかくすごい鍛冶師を見つける事だけに集中してて大変なの",
+      "pt": "Minha mãe só foca em achar um ferreiro bom. Se eu não ganhar, não temos onde ficar.",
+      "chars_jp": 36,
+      "chars_pt": 83,
+      "aplica_em": [
+        "f1162_1130"
+      ]
+    },
+    {
+      "id": "f1162_1186",
+      "jp": "まったくお金を儲けてきてくれないから私が稼がないと泊まるとこにも困っちゃうの",
+      "pt": "Não tá ganhando dinheiro, então se eu não ganhar, não temos onde ficar.",
+      "chars_jp": 38,
+      "chars_pt": 71,
+      "aplica_em": [
+        "f1162_1186"
+      ]
+    },
+    {
+      "id": "f1162_127A",
+      "jp": "えっとね、強化で「伝説の青竹」を使うと特殊効果の「中ヒール」が武器に付加されるの",
+      "pt": "Usar \"Bambu Azul Lendário\" na melhoria adiciona o efeito Cura Média à arma.",
+      "chars_jp": 40,
+      "chars_pt": 75,
+      "aplica_em": [
+        "f1162_127A"
+      ]
+    },
+    {
+      "id": "f1162_12D8",
+      "jp": "でもって、今回はなんと「伝説の青竹」を、１５００バームで販売中なの〜",
+      "pt": "Mas desta vez, estão vendendo \"Bambu Azul Lendário\" por 1500 Baums!",
+      "chars_jp": 34,
+      "chars_pt": 67,
+      "aplica_em": [
+        "f1162_12D8"
+      ]
+    },
+    {
+      "id": "f1163_0ED0",
+      "jp": "いつでも遊びに来てください特に歓迎はできませんが",
+      "pt": "Podem vir sempre. Não posso receber ninguém, mas...",
+      "chars_jp": 24,
+      "chars_pt": 51,
+      "aplica_em": [
+        "f1163_0ED0",
+        "f1263_0D48",
+        "f1363_0DBA",
+        "f1563_0EE6"
+      ]
+    },
+    {
+      "id": "f1171_0650",
+      "jp": "いい鍛冶師になりたいのなら迷いは禁物だぞ信じる心が道を切り開くのだ",
+      "pt": "Se quer ser bom ferreiro, não hesite. A fé abre o caminho.",
+      "chars_jp": 33,
+      "chars_pt": 58,
+      "aplica_em": [
+        "f1171_0650"
+      ]
+    },
+    {
+      "id": "f1171_0FB6",
+      "jp": "私はね、すごい鍛冶師を捜しているのそんな鍛冶師と一緒に商売が出来たらすごく儲かって…",
+      "pt": "Procuro um ferreiro incrível. Se pudesse fazer negócio com ele, ganharia muito...",
+      "chars_jp": 42,
+      "chars_pt": 81,
+      "aplica_em": [
+        "f1171_0FB6"
+      ]
+    },
+    {
+      "id": "f1171_1018",
+      "jp": "娘にも安心して生活がさせてあげられると思うの",
+      "pt": "Acho que posso dar uma vida tranquila à minha filha.",
+      "chars_jp": 22,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f1171_1018"
+      ]
+    },
+    {
+      "id": "f1171_104E",
+      "jp": "どこかに、すごい鍛冶師はいないかな〜",
+      "pt": "Tem algum ferreiro incrível por aí?",
+      "chars_jp": 18,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f1171_104E"
+      ]
+    },
+    {
+      "id": "f1171_10BA",
+      "jp": "どっかに景気のいい話、落ちてないかな〜",
+      "pt": "Tem alguma boa notícia por aí?",
+      "chars_jp": 19,
+      "chars_pt": 30,
+      "aplica_em": [
+        "f1171_10BA",
+        "f1271_0DF8",
+        "f1363_0ECC",
+        "f1461_0E2A",
+        "f1562_12A2"
+      ]
+    },
+    {
+      "id": "f1172_0254",
+      "jp": "幻龍鬼の気が立っているみたいです…悪いことが起きなければいいのですが…",
+      "pt": "Parece que Genryu Oni está agitado... Espero que nada de ruim aconteça...",
+      "chars_jp": 35,
+      "chars_pt": 73,
+      "aplica_em": [
+        "f1172_0254"
+      ]
+    },
+    {
+      "id": "f1191_0104",
+      "jp": "アニスたちをさがしに行こう！今日こそ絶対捕まえるんだ！",
+      "pt": "Vamos procurar Anise e os outros! Hoje vamos pegá-los!",
+      "chars_jp": 27,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f1191_0104",
+        "f1191_026E",
+        "f1191_03B4",
+        "f1191_04F2"
+      ]
+    },
+    {
+      "id": "f1191_0162",
+      "jp": "生ケ捕リニスレバ問題アリマセンネ？",
+      "pt": "Não tem problema pegá-los vivos?",
+      "chars_jp": 17,
+      "chars_pt": 32,
+      "aplica_em": [
+        "f1191_0162"
+      ]
+    },
+    {
+      "id": "f1191_01BA",
+      "jp": "それは、そうだけど…あまりムチャなことは考えないようにな",
+      "pt": "É verdade, mas... não pense em nada muito louco, hein.",
+      "chars_jp": 28,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f1191_01BA"
+      ]
+    },
+    {
+      "id": "f1191_0202",
+      "jp": "それは、そうだけど…あまりムチャなことは考えないようにね",
+      "pt": "É verdade, mas... não pense em nada muito louco, tá?",
+      "chars_jp": 28,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f1191_0202"
+      ]
+    },
+    {
+      "id": "f1191_02CC",
+      "jp": "要は、生きたまま捕らえれば良いということじゃな",
+      "pt": "Ou seja, basta pegá-los vivos.",
+      "chars_jp": 23,
+      "chars_pt": 30,
+      "aplica_em": [
+        "f1191_02CC"
+      ]
+    },
+    {
+      "id": "f1191_0330",
+      "jp": "あまりムチャなことは考えないようにな",
+      "pt": "Não pense em nada muito louco.",
+      "chars_jp": 18,
+      "chars_pt": 30,
+      "aplica_em": [
+        "f1191_0330",
+        "f1191_046E",
+        "f1191_05AA"
+      ]
+    },
+    {
+      "id": "f1191_0360",
+      "jp": "あまりムチャなことは考えないようにね",
+      "pt": "Não pense em nada muito louco, tá?",
+      "chars_jp": 18,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f1191_0360",
+        "f1191_049E",
+        "f1191_05DA"
+      ]
+    },
+    {
+      "id": "f1191_0412",
+      "jp": "生け捕りにさえすれば文句はないんだな？",
+      "pt": "Se pegarmos vivos, não tem problema, certo?",
+      "chars_jp": 19,
+      "chars_pt": 43,
+      "aplica_em": [
+        "f1191_0412"
+      ]
+    },
+    {
+      "id": "f1191_0550",
+      "jp": "生け捕りにさえすればいいんですよね？",
+      "pt": "Só precisamos capturá-los vivos, certo?",
+      "chars_jp": 18,
+      "chars_pt": 39,
+      "aplica_em": [
+        "f1191_0550"
+      ]
+    },
+    {
+      "id": "f1191_0722",
+      "jp": "こんな時にはぐれ召喚獣だなんて…アニスたちをさがしに行くのはどうなるんだろう…",
+      "pt": "Uma criatura invocada perdida assim... será que vai dar certo indo procurar a Anise e os outros?",
+      "chars_jp": 39,
+      "chars_pt": 96,
+      "aplica_em": [
+        "f1191_0722",
+        "f1191_0874",
+        "f1191_09B8",
+        "f1191_0B1A"
+      ]
+    },
+    {
+      "id": "f1191_079C",
+      "jp": "マズハ　親方タチニ　状況ヲ確認スルノガ　良イト思イマス",
+      "pt": "Primeiro, acho melhor checar a situação com os chefes.",
+      "chars_jp": 27,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f1191_079C"
+      ]
+    },
+    {
+      "id": "f1191_082C",
+      "jp": "まずは、みんなのところに行こう！",
+      "pt": "Primeiro, vamos aos amigos!",
+      "chars_jp": 16,
+      "chars_pt": 27,
+      "aplica_em": [
+        "f1191_082C",
+        "f1191_0970",
+        "f1191_0C3C"
+      ]
+    },
+    {
+      "id": "f1191_08EE",
+      "jp": "とにかく親方たちと今後の計画を立てねばな",
+      "pt": "De qualquer forma, temos que planejar com os chefes.",
+      "chars_jp": 20,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f1191_08EE"
+      ]
+    },
+    {
+      "id": "f1191_0A32",
+      "jp": "ここでキサマが考えていても何も解決しないことだけはたしかだな",
+      "pt": "Tenho certeza que pensar aqui não resolve nada.",
+      "chars_jp": 30,
+      "chars_pt": 47,
+      "aplica_em": [
+        "f1191_0A32"
+      ]
+    },
+    {
+      "id": "f1191_0AA8",
+      "jp": "わかったよ",
+      "pt": "Entendi.",
+      "chars_jp": 5,
+      "chars_pt": 8,
+      "aplica_em": [
+        "f1191_0AA8",
+        "f1391_29E2",
+        "f1391_2BA6",
+        "f1391_2D4C",
+        "f1391_2F08",
+        "f2003_0D18",
+        "f2218_0342",
+        "f2218_0490",
+        "f2218_0864"
+      ]
+    },
+    {
+      "id": "f1191_0ABA",
+      "jp": "わかったわよ、もう",
+      "pt": "Entendi, já!",
+      "chars_jp": 9,
+      "chars_pt": 12,
+      "aplica_em": [
+        "f1191_0ABA"
+      ]
+    },
+    {
+      "id": "f1191_0AD4",
+      "jp": "じゃあ、みんなのところに行こう",
+      "pt": "Então, vamos aos amigos.",
+      "chars_jp": 15,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f1191_0AD4"
+      ]
+    },
+    {
+      "id": "f1191_0B94",
+      "jp": "あまり勝手もできませんからねとにかく親方さんのところに相談しに行きましょう",
+      "pt": "Não podemos fazer nada sozinhos. Vamos conversar com os chefes.",
+      "chars_jp": 37,
+      "chars_pt": 63,
+      "aplica_em": [
+        "f1191_0B94"
+      ]
+    },
+    {
+      "id": "f1191_0D78",
+      "jp": "はぐれのことはアニキたちにまかせてアニスたちをさがしに行こう",
+      "pt": "Deixem os perdidos com os mais velhos. Vamos buscar a Anise e os amigos.",
+      "chars_jp": 30,
+      "chars_pt": 72,
+      "aplica_em": [
+        "f1191_0D78",
+        "f1191_0F42",
+        "f1191_113C",
+        "f1191_1344"
+      ]
+    },
+    {
+      "id": "f1191_0DE0",
+      "jp": "…了解デス",
+      "pt": "...Entendido.",
+      "chars_jp": 5,
+      "chars_pt": 13,
+      "aplica_em": [
+        "f1191_0DE0",
+        "f1622_2062",
+        "f1703_0F92",
+        "f1708_16AC",
+        "f1813_0844",
+        "f2204_2048",
+        "f2504_0BD2"
+      ]
+    },
+    {
+      "id": "f1191_0E20",
+      "jp": "ミューノなら大丈夫だよベンソン親方もついてるしさオレたちもできることをやらなきゃ！",
+      "pt": "Murno tá bem, Benson tá junto, e a gente tem que fazer o que puder!",
+      "chars_jp": 41,
+      "chars_pt": 67,
+      "aplica_em": [
+        "f1191_0E20",
+        "f1191_0FEE",
+        "f1191_11EC",
+        "f1191_13F0"
+      ]
+    },
+    {
+      "id": "f1191_0E82",
+      "jp": "ミューノなら大丈夫だよベンソン親方もついてるしさわたしたちもできることをやらなきゃ！",
+      "pt": "Murno tá bem, Benson tá junto, e nós temos que fazer o que pudermos!",
+      "chars_jp": 42,
+      "chars_pt": 68,
+      "aplica_em": [
+        "f1191_0E82",
+        "f1191_1050",
+        "f1191_124E",
+        "f1191_1452"
+      ]
+    },
+    {
+      "id": "f1191_0F04",
+      "jp": "ソウデスネ了解デス",
+      "pt": "Entendi. Certo.",
+      "chars_jp": 9,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f1191_0F04"
+      ]
+    },
+    {
+      "id": "f1191_0FAA",
+      "jp": "…そうじゃな…",
+      "pt": "...É isso...",
+      "chars_jp": 7,
+      "chars_pt": 12,
+      "aplica_em": [
+        "f1191_0FAA"
+      ]
+    },
+    {
+      "id": "f1191_10D2",
+      "jp": "たしかに、おぬしの言う通りじゃな…さっさと連中を見つけ出さねば",
+      "pt": "De fato, você tem razão... precisamos achar esses caras logo.",
+      "chars_jp": 31,
+      "chars_pt": 61,
+      "aplica_em": [
+        "f1191_10D2"
+      ]
+    },
+    {
+      "id": "f1191_11A4",
+      "jp": "ちっ…仕方ないな…",
+      "pt": "Tsk... Não tem jeito...",
+      "chars_jp": 9,
+      "chars_pt": 23,
+      "aplica_em": [
+        "f1191_11A4"
+      ]
+    },
+    {
+      "id": "f1191_12D0",
+      "jp": "だ、誰があいつの心配など…くだらないことを言ってないでさっさと行くぞ",
+      "pt": "Quem se preocupa com ele? Não diga bobagens, vamos logo!",
+      "chars_jp": 34,
+      "chars_pt": 56,
+      "aplica_em": [
+        "f1191_12D0"
+      ]
+    },
+    {
+      "id": "f1191_13AC",
+      "jp": "…そうですね…",
+      "pt": "É verdade...",
+      "chars_jp": 7,
+      "chars_pt": 12,
+      "aplica_em": [
+        "f1191_13AC"
+      ]
+    },
+    {
+      "id": "f1191_14D4",
+      "jp": "たしかにその通りですわ！がんばってあの人たちを必ず見つけ出しましょう！",
+      "pt": "Com certeza! Vamos nos esforçar para achar essas pessoas!",
+      "chars_jp": 35,
+      "chars_pt": 57,
+      "aplica_em": [
+        "f1191_14D4"
+      ]
+    },
+    {
+      "id": "f1191_164E",
+      "jp": "アニスの仲間がリュート岩窟にいたみたいだ！急ぐぞ！",
+      "pt": "Os amigos de Anise estavam na Caverna Lute! Vamos logo!",
+      "chars_jp": 25,
+      "chars_pt": 55,
+      "aplica_em": [
+        "f1191_164E",
+        "f1191_17AE",
+        "f1191_192E",
+        "f1191_1A92"
+      ]
+    },
+    {
+      "id": "f1191_1690",
+      "jp": "アニスの仲間がリュート岩窟にいたみたい！急ごう！",
+      "pt": "O pessoal da Anise estava na Caverna Lute! Vamos!",
+      "chars_jp": 24,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f1191_1690",
+        "f1191_17F0",
+        "f1191_1970",
+        "f1191_1AD4"
+      ]
+    },
+    {
+      "id": "f1191_16F0",
+      "jp": "了解デス今回ハ　逃ガシマセン",
+      "pt": "Entendido. Não vou fugir.",
+      "chars_jp": 14,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f1191_16F0"
+      ]
+    },
+    {
+      "id": "f1603_0058",
+      "jp": "やった！勝ったぞ！",
+      "pt": "Consegui! Venci!",
+      "chars_jp": 9,
+      "chars_pt": 16,
+      "aplica_em": [
+        "f1603_0058"
+      ]
+    },
+    {
+      "id": "f1603_0076",
+      "jp": "やったぁ！勝っちゃった！",
+      "pt": "Consegui! Venci!",
+      "chars_jp": 12,
+      "chars_pt": 16,
+      "aplica_em": [
+        "f1603_0076"
+      ]
+    },
+    {
+      "id": "f1603_018C",
+      "jp": "強くなったねぇ…アンタのハンマーから鍛えた魂が伝わってきたよ",
+      "pt": "Ficou mais forte... Sinto a alma forjada no seu martelo.",
+      "chars_jp": 30,
+      "chars_pt": 56,
+      "aplica_em": [
+        "f1603_018C"
+      ]
+    },
+    {
+      "id": "f1603_01FE",
+      "jp": "カッコよかったぞ",
+      "pt": "Foi muito legal!",
+      "chars_jp": 8,
+      "chars_pt": 16,
+      "aplica_em": [
+        "f1603_01FE"
+      ]
+    },
+    {
+      "id": "f1603_025A",
+      "jp": "あ…！ありがとう、ヴィーねえちゃん！",
+      "pt": "Ah... Obrigado, V.E-nee!",
+      "chars_jp": 18,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f1603_025A"
+      ]
+    },
+    {
+      "id": "f1603_028A",
+      "jp": "あ…！ありがとう、ヴィー姉！",
+      "pt": "Ah... Obrigado, V.E-nee!",
+      "chars_jp": 14,
+      "chars_pt": 24,
+      "aplica_em": [
+        "f1603_028A"
+      ]
+    },
+    {
+      "id": "f1603_02E8",
+      "jp": "よくやったな、{b}！",
+      "pt": "Mandou bem, {b}!",
+      "chars_jp": 11,
+      "chars_pt": 16,
+      "aplica_em": [
+        "f1603_02E8"
+      ]
+    },
+    {
+      "id": "f1603_041A",
+      "jp": "ロブ…親方！！",
+      "pt": "Rob... Mestre!!",
+      "chars_jp": 7,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f1603_041A"
+      ]
+    },
+    {
+      "id": "f1603_04FC",
+      "jp": "お前もこれで一人前だな…おめでとう…{d}…",
+      "pt": "Você é um profissional agora... Parabéns... {d}...",
+      "chars_jp": 22,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f1603_04FC"
+      ]
+    },
+    {
+      "id": "f1603_067A",
+      "jp": "親方…？",
+      "pt": "Mestre...?",
+      "chars_jp": 4,
+      "chars_pt": 10,
+      "aplica_em": [
+        "f1603_067A"
+      ]
+    },
+    {
+      "id": "f1603_06D0",
+      "jp": "…",
+      "pt": "...",
+      "chars_jp": 1,
+      "chars_pt": 3,
+      "aplica_em": [
+        "f1603_06D0"
+      ]
+    },
+    {
+      "id": "f1603_0708",
+      "jp": "親方…！？",
+      "pt": "Mestre...?!",
+      "chars_jp": 5,
+      "chars_pt": 11,
+      "aplica_em": [
+        "f1603_0708"
+      ]
+    },
+    {
+      "id": "f1603_0900",
+      "jp": "どういうことなんだい？ボスタフ…！",
+      "pt": "O que significa isso? Bostaph...!",
+      "chars_jp": 17,
+      "chars_pt": 33,
+      "aplica_em": [
+        "f1603_0900"
+      ]
+    },
+    {
+      "id": "f1603_0998",
+      "jp": "ヴィーねえちゃん…泣いてるのか？",
+      "pt": "V.E-nee-chan... tá chorando?",
+      "chars_jp": 16,
+      "chars_pt": 28,
+      "aplica_em": [
+        "f1603_0998"
+      ]
+    },
+    {
+      "id": "f1603_09E8",
+      "jp": "ヴィー姉が…泣いてるの？",
+      "pt": "V.E-nee-san... tá chorando?",
+      "chars_jp": 12,
+      "chars_pt": 27,
+      "aplica_em": [
+        "f1603_09E8"
+      ]
+    },
+    {
+      "id": "f1603_0ABA",
+      "jp": "オレが見つけた時はもう手おくれだった…これを、あんたにって…",
+      "pt": "Quando encontrei, já era... dar isso a você...",
+      "chars_jp": 30,
+      "chars_pt": 46,
+      "aplica_em": [
+        "f1603_0ABA"
+      ]
+    },
+    {
+      "id": "f1603_0CA4",
+      "jp": "あれは…ロブ親方の…！",
+      "pt": "Isso é... do mestre Rob...!",
+      "chars_jp": 11,
+      "chars_pt": 27,
+      "aplica_em": [
+        "f1603_0CA4"
+      ]
+    },
+    {
+      "id": "f1603_0D94",
+      "jp": "そんな…",
+      "pt": "Não pode...",
+      "chars_jp": 4,
+      "chars_pt": 11,
+      "aplica_em": [
+        "f1603_0D94"
+      ]
+    },
+    {
+      "id": "f1603_0DA2",
+      "jp": "ロブが…はぐれ召喚獣に…",
+      "pt": "Rob... virar um monstro errante?",
+      "chars_jp": 12,
+      "chars_pt": 32,
+      "aplica_em": [
+        "f1603_0DA2"
+      ]
+    },
+    {
+      "id": "f1603_104E",
+      "jp": "なんだい、{d}？",
+      "pt": "O que foi, {d}?",
+      "chars_jp": 9,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f1603_104E"
+      ]
+    },
+    {
+      "id": "f1603_1272",
+      "jp": "あ…あれ…？",
+      "pt": "Ah... o quê...?",
+      "chars_jp": 6,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f1603_1272"
+      ]
+    },
+    {
+      "id": "f1603_12B8",
+      "jp": "いつまでたっても帰ってこないと思ったらお気に入りの場所でお昼寝とは…",
+      "pt": "Pensei que nunca voltaria, mas dormindo no lugar favorito...",
+      "chars_jp": 34,
+      "chars_pt": 60,
+      "aplica_em": [
+        "f1603_12B8"
+      ]
+    },
+    {
+      "id": "f1603_1334",
+      "jp": "いい気なもんだねぇ…",
+      "pt": "Que coisa fofa...",
+      "chars_jp": 10,
+      "chars_pt": 17,
+      "aplica_em": [
+        "f1603_1334"
+      ]
+    },
+    {
+      "id": "f1603_138E",
+      "jp": "やっぱ、ひるねをするにはここに限るね…",
+      "pt": "É aqui que dá pra tirar uma soneca, né?",
+      "chars_jp": 19,
+      "chars_pt": 39,
+      "aplica_em": [
+        "f1603_138E"
+      ]
+    },
+    {
+      "id": "f1603_13C0",
+      "jp": "やっぱ、おひるねするにはここに限るわ…",
+      "pt": "Afinal, pra tirar uma soneca, só aqui serve...",
+      "chars_jp": 19,
+      "chars_pt": 46,
+      "aplica_em": [
+        "f1603_13C0"
+      ]
+    },
+    {
+      "id": "f1603_1408",
+      "jp": "じゃなくて！あの…これは…",
+      "pt": "Não! Esperem... isso é...",
+      "chars_jp": 13,
+      "chars_pt": 25,
+      "aplica_em": [
+        "f1603_1408"
+      ]
+    },
+    {
+      "id": "f1603_1448",
+      "jp": "どうせまた、いつもみたいに調子のいいマンガみたいな夢みてたんだろ？",
+      "pt": "De novo sonhou com um sonho de mangá, como sempre?",
+      "chars_jp": 33,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f1603_1448"
+      ]
+    },
+    {
+      "id": "f1603_14C0",
+      "jp": "このアタシをやっつけるとかね？",
+      "pt": "Quer derrotar essa eu?",
+      "chars_jp": 15,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f1603_14C0"
+      ]
+    },
+    {
+      "id": "f1603_1510",
+      "jp": "うっわ！？　すっげぇ！なんでわかったのさヴィーねえちゃん？",
+      "pt": "Uau! Que demais! Como você soube, V.E-nee?",
+      "chars_jp": 29,
+      "chars_pt": 42,
+      "aplica_em": [
+        "f1603_1510"
+      ]
+    },
+    {
+      "id": "f1603_155A",
+      "jp": "うっわ！？　すごぉい！どうしてわかったの？ヴィー姉？",
+      "pt": "Uau! Incr",
+      "chars_jp": 26,
+      "chars_pt": 9,
+      "aplica_em": [
+        "f1603_155A"
+      ]
+    },
+    {
+      "id": "f1603_1854",
+      "jp": "…ってーな！なにすんだよ！",
+      "pt": "O quê?! O que você tá fazendo?!",
+      "chars_jp": 13,
+      "chars_pt": 31,
+      "aplica_em": [
+        "f1603_1854"
+      ]
+    },
+    {
+      "id": "f1603_187A",
+      "jp": "…ったぁい！ひどいよ！どうして？",
+      "pt": "Ah, não! Que crueldade! Por quê?",
+      "chars_jp": 16,
+      "chars_pt": 32,
+      "aplica_em": [
+        "f1603_187A"
+      ]
+    },
+    {
+      "id": "f1603_18DA",
+      "jp": "誰がねえちゃんだよ、ダレが！？親方って呼べって言ってるだろ？ヴィー親方！",
+      "pt": "Quem é irmã mais velha? Quem é?! Eu disse pra chamar de Mestra, V.E.!",
+      "chars_jp": 36,
+      "chars_pt": 69,
+      "aplica_em": [
+        "f1603_18DA"
+      ]
+    },
+    {
+      "id": "f1603_1932",
+      "jp": "誰がヴィー姉だよ、ダレが！？親方って呼べって言ってるだろ？ヴィー親方！",
+      "pt": "Quem é V.E. irmã? Quem é? Você disse pra chamar de Mestre, né? V.E. Mestre!",
+      "chars_jp": 35,
+      "chars_pt": 75,
+      "aplica_em": [
+        "f1603_1932"
+      ]
+    },
+    {
+      "id": "f1603_19B6",
+      "jp": "悪かったよ、親方！チョットまちがえただけだろ！",
+      "pt": "Desculpa, Oyakata! Foi só um erro bobinho, né?",
+      "chars_jp": 23,
+      "chars_pt": 46,
+      "aplica_em": [
+        "f1603_19B6"
+      ]
+    },
+    {
+      "id": "f1603_19F0",
+      "jp": "悪かったわよ、親方！でもチョットまちがえただけじゃない！",
+      "pt": "Desculpa, Mestre! Mas não foi só um erro bobinho!",
+      "chars_jp": 28,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f1603_19F0"
+      ]
+    },
+    {
+      "id": "f1603_1A56",
+      "jp": "なにがチョットだよ！アンタ、まだアタシを親方としてみとめてないつもりかい？",
+      "pt": "O que é \"um pouco\"? Você ainda não me vê como mestre?",
+      "chars_jp": 37,
+      "chars_pt": 53,
+      "aplica_em": [
+        "f1603_1A56"
+      ]
+    },
+    {
+      "id": "f1603_1AC2",
+      "jp": "アンタもアタシが召喚獣だからって言うこときけないとでも言うつもりかい！？",
+      "pt": "Você acha que não posso falar nada por ser uma invocada?",
+      "chars_jp": 36,
+      "chars_pt": 56,
+      "aplica_em": [
+        "f1603_1AC2"
+      ]
+    },
+    {
+      "id": "f1603_1B44",
+      "jp": "そ、そんなことないって…！",
+      "pt": "N-não é verdade...!",
+      "chars_jp": 13,
+      "chars_pt": 19,
+      "aplica_em": [
+        "f1603_1B44"
+      ]
+    },
+    {
+      "id": "f1603_1B66",
+      "jp": "そ、そんなことないよ…！",
+      "pt": "N-não é verdade...!",
+      "chars_jp": 12,
+      "chars_pt": 19,
+      "aplica_em": [
+        "f1603_1B66"
+      ]
+    },
+    {
+      "id": "f1603_1BA4",
+      "jp": "そうだろう？なんてったってこのアタシはよくやってるからねぇ",
+      "pt": "Claro que sim! Afinal, eu sou boa no que faço.",
+      "chars_jp": 29,
+      "chars_pt": 46,
+      "aplica_em": [
+        "f1603_1BA4"
+      ]
+    },
+    {
+      "id": "f1603_1C40",
+      "jp": "そ、そうそう",
+      "pt": "S-sim, sim.",
+      "chars_jp": 6,
+      "chars_pt": 11,
+      "aplica_em": [
+        "f1603_1C40"
+      ]
+    },
+    {
+      "id": "f1603_1C6E",
+      "jp": "アタシの魂のロックで全世界をシビれさせてやろうって家を出てすぐだっていうのに",
+      "pt": "Eu saí de casa, planejando fazer o mundo tremer com meu poder.",
+      "chars_jp": 38,
+      "chars_pt": 62,
+      "aplica_em": [
+        "f1603_1C6E"
+      ]
+    },
+    {
+      "id": "f1603_1CF0",
+      "jp": "このリィンバウムとかいう世界に鍛冶師の相方として召喚されたんだよ鍛冶なんてやったこともないのにね！",
+      "pt": "Fui invocada como parceira de ferreiro em Lyndbaum, sem saber fazer isso!",
+      "chars_jp": 49,
+      "chars_pt": 73,
+      "aplica_em": [
+        "f1603_1CF0"
+      ]
+    },
+    {
+      "id": "f1603_1D88",
+      "jp": "この村に流れつくまで色々あったけど相手がロブだったから今までなんとかやってこれたんだ",
+      "pt": "Tive muitos problemas até chegar aqui, mas consegui porque Rob estava lá.",
+      "chars_jp": 42,
+      "chars_pt": 73,
+      "aplica_em": [
+        "f1603_1D88"
+      ]
+    },
+    {
+      "id": "f1603_1DFE",
+      "jp": "それなのに…ロブは死んじゃって…",
+      "pt": "Mesmo assim... Rob morreu...",
+      "chars_jp": 16,
+      "chars_pt": 28,
+      "aplica_em": [
+        "f1603_1DFE"
+      ]
+    },
+    {
+      "id": "f1603_1E44",
+      "jp": "親方…",
+      "pt": "Mestre...",
+      "chars_jp": 3,
+      "chars_pt": 9,
+      "aplica_em": [
+        "f1603_1E44"
+      ]
+    },
+    {
+      "id": "f1603_1E6C",
+      "jp": "ロブが死んでからずっとロブのかわりにアンタの親方としてがんばってきたつもりだったのに…",
+      "pt": "Desde que Rob morreu, pense que tente ser sua mestre no lugar dele...",
+      "chars_jp": 43,
+      "chars_pt": 69,
+      "aplica_em": [
+        "f1603_1E6C"
+      ]
+    },
+    {
+      "id": "f1603_1EE4",
+      "jp": "ヒドイよね…子供はザンコクよね…ロブ…！",
+      "pt": "É horrível, né? Crianças são Zankoku, Rob...!",
+      "chars_jp": 20,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f1603_1EE4"
+      ]
+    },
+    {
+      "id": "f1603_2194",
+      "jp": "でも本当はわたしもあなたのことが忘れられないのロブ…",
+      "pt": "Mas na verdade, eu também não consigo esquecer você, Rob...",
+      "chars_jp": 26,
+      "chars_pt": 59,
+      "aplica_em": [
+        "f1603_2194"
+      ]
+    },
+    {
+      "id": "f1603_21EA",
+      "jp": "いいえ忘れるコトなんてできっこないわ！",
+      "pt": "Não, eu nunca vou esquecer!",
+      "chars_jp": 19,
+      "chars_pt": 27,
+      "aplica_em": [
+        "f1603_21EA"
+      ]
+    },
+    {
+      "id": "f1603_2232",
+      "jp": "だってあなたはわたしの…わたしの…！",
+      "pt": "Porque você é meu... meu...!",
+      "chars_jp": 18,
+      "chars_pt": 28,
+      "aplica_em": [
+        "f1603_2232"
+      ]
+    },
+    {
+      "id": "f1603_22AE",
+      "jp": "また親方のモーソーがはじまったよ今のうちに帰ろっかな、オレ",
+      "pt": "O mo-so do Mestre começou de novo. Vou para casa?",
+      "chars_jp": 29,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f1603_22AE"
+      ]
+    },
+    {
+      "id": "f1603_22F4",
+      "jp": "また親方のモーソーがはじまっちゃった今のうちに帰ろっかな、わたし",
+      "pt": "O mo-so do Mestre começou de novo. Vou para casa?",
+      "chars_jp": 32,
+      "chars_pt": 49,
+      "aplica_em": [
+        "f1603_22F4"
+      ]
+    },
+    {
+      "id": "f1603_2456",
+      "jp": "村長のとこへはちゃんと行ったのかい？",
+      "pt": "Você foi falar com o chefe da vila?",
+      "chars_jp": 18,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f1603_2456"
+      ]
+    },
+    {
+      "id": "f1603_24B0",
+      "jp": "修理した剣はちゃんと返したよ！お金だって、ほら！買い物だってちゃんと！",
+      "pt": "Devolvi a espada consertada! O dinheiro e as compras também!",
+      "chars_jp": 35,
+      "chars_pt": 60,
+      "aplica_em": [
+        "f1603_24B0"
+      ]
+    },
+    {
+      "id": "f1603_2506",
+      "jp": "修理した剣はちゃんと返したよ！お金だって、ほら！お買い物だってちゃんと！",
+      "pt": "Devolvi a espada consertada! O dinheiro e as compras também!",
+      "chars_jp": 36,
+      "chars_pt": 60,
+      "aplica_em": [
+        "f1603_2506"
+      ]
+    },
+    {
+      "id": "f1603_257C",
+      "jp": "おーご苦労ご苦労これで寄り道と居眠りしてなければカンペキだったのにねぇ…",
+      "pt": "Bom trabalho. Se não tivesse parado e dormido, seria perfeito",
+      "chars_jp": 36,
+      "chars_pt": 61,
+      "aplica_em": [
+        "f1603_257C"
+      ]
+    },
+    {
+      "id": "f1603_25FE",
+      "jp": "あはは…いやー、ひと仕事おわったんでちょっとひと休みしようと…",
+      "pt": "Ahaha... Terminei um trabalho, então queria dar uma descansada...",
+      "chars_jp": 31,
+      "chars_pt": 65,
+      "aplica_em": [
+        "f1603_25FE"
+      ]
+    },
+    {
+      "id": "f1603_264C",
+      "jp": "あはは…いやー、ひと仕事おわったんでちょっとひと休みしよっかなって…",
+      "pt": "Ahaha... Puxa, termine um trabalho, então acho que vou descansar um pouco...",
+      "chars_jp": 34,
+      "chars_pt": 76,
+      "aplica_em": [
+        "f1603_264C"
+      ]
+    },
+    {
+      "id": "f1603_26BE",
+      "jp": "そんなんだからいつまでたっても半人前なんだよアンタは！",
+      "pt": "Por causa disso, você nunca vai sair de meio caminho!",
+      "chars_jp": 27,
+      "chars_pt": 53,
+      "aplica_em": [
+        "f1603_26BE"
+      ]
+    },
+    {
+      "id": "f1603_2762",
+      "jp": "半人前って言うな！",
+      "pt": "Não me chame de meio caminho!",
+      "chars_jp": 9,
+      "chars_pt": 29,
+      "aplica_em": [
+        "f1603_2762"
+      ]
+    },
+    {
+      "id": "f1603_2790",
+      "jp": "たしかにまだ鍛冶師のタマゴだけどすぐに親方をやったはぐれ召喚獣をたおせるくらい強くなってやる！",
+      "pt": "Sou só um ovo de ferreiro, mas vou ficar forte pra matar a besta que venceu o mestre!",
+      "chars_jp": 47,
+      "chars_pt": 85,
+      "aplica_em": [
+        "f1603_2790"
+      ]
+    },
+    {
+      "id": "f1603_2810",
+      "jp": "このオレが絶対に親方のカタキをうってみせる！",
+      "pt": "Eu vou mostrar o Kataki do mestre, com certeza!",
+      "chars_jp": 22,
+      "chars_pt": 47,
+      "aplica_em": [
+        "f1603_2810"
+      ]
+    },
+    {
+      "id": "f1603_2848",
+      "jp": "半人前って言わないでよ！",
+      "pt": "Não me chame de meio caminho!",
+      "chars_jp": 12,
+      "chars_pt": 29,
+      "aplica_em": [
+        "f1603_2848"
+      ]
+    },
+    {
+      "id": "f1603_287C",
+      "jp": "たしかにまだ鍛冶師のタマゴだけどすぐに親方をやっつけたはぐれ召喚獣をたおせるくらい強くなるんだから！",
+      "pt": "Sou só um ovo de ferreiro, mas vou ficar forte pra matar a besta que venceu o mestre!",
+      "chars_jp": 50,
+      "chars_pt": 85,
+      "aplica_em": [
+        "f1603_287C"
+      ]
+    },
+    {
+      "id": "f1603_2902",
+      "jp": "このわたしが絶対に親方のカタキをうってみせる！",
+      "pt": "Eu vou mostrar o Kataki do mestre, com certeza!",
+      "chars_jp": 23,
+      "chars_pt": 47,
+      "aplica_em": [
+        "f1603_2902"
+      ]
+    },
+    {
+      "id": "f1603_295A",
+      "jp": "それが半人前だって言うんだよ！",
+      "pt": "É isso que eu digo, meio caminho",
+      "chars_jp": 15,
+      "chars_pt": 32,
+      "aplica_em": [
+        "f1603_295A"
+      ]
+    },
+    {
+      "id": "f1603_29AA",
+      "jp": "う…！なんでだよ！？",
+      "pt": "Ah! Por que, cara?!",
+      "chars_jp": 10,
+      "chars_pt": 19,
+      "aplica_em": [
+        "f1603_29AA"
+      ]
+    },
+    {
+      "id": "f1603_29CA",
+      "jp": "う…！どうして！？",
+      "pt": "Ugh... ! Por quê?!",
+      "chars_jp": 9,
+      "chars_pt": 18,
+      "aplica_em": [
+        "f1603_29CA"
+      ]
+    },
+    {
+      "id": "f1603_2A06",
+      "jp": "アンタは今どうしてここにいるんだ！なんのために毎日修行してるんだ！？",
+      "pt": "Por que você está aqui? Por que treinar todos os dias?",
+      "chars_jp": 34,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f1603_2A06"
+      ]
+    },
+    {
+      "id": "f1603_2A74",
+      "jp": "それは…",
+      "pt": "É que...",
+      "chars_jp": 4,
+      "chars_pt": 8,
+      "aplica_em": [
+        "f1603_2A74"
+      ]
+    },
+    {
+      "id": "f1603_2AAA",
+      "jp": "先代の…ロブ親方みたいなカッコイイ鍛冶師になりたいから…！",
+      "pt": "Quero ser um ferreiro legal como o mestre Rob!",
+      "chars_jp": 29,
+      "chars_pt": 46,
+      "aplica_em": [
+        "f1603_2AAA"
+      ]
+    },
+    {
+      "id": "f1603_2B0A",
+      "jp": "だったら仇討ちなんてバカなこと考えてるヒマがあったらちゃんと武器作りの修行しな、修行！",
+      "pt": "Se tem tempo pra pensar em vingança, treine fazer armas! Treine!",
+      "chars_jp": 43,
+      "chars_pt": 64,
+      "aplica_em": [
+        "f1603_2B0A"
+      ]
+    },
+    {
+      "id": "f1603_2B96",
+      "jp": "早く一人前の鍛冶師になってアンタのやさしいパパとママを安心させてやるこったな",
+      "pt": "Vira um ferreiro de verdade e tranquiliza seu pai e mãe.",
+      "chars_jp": 38,
+      "chars_pt": 56,
+      "aplica_em": [
+        "f1603_2B96"
+      ]
+    },
+    {
+      "id": "f1603_2C1C",
+      "jp": "う…父さんと母さん、か…",
+      "pt": "U... pai e mãe, hein...",
+      "chars_jp": 12,
+      "chars_pt": 23,
+      "aplica_em": [
+        "f1603_2C1C"
+      ]
+    },
+    {
+      "id": "f1603_2C40",
+      "jp": "う…お父さんとお母さん、か…",
+      "pt": "U... pai e mãe, hein...",
+      "chars_jp": 14,
+      "chars_pt": 23,
+      "aplica_em": [
+        "f1603_2C40"
+      ]
+    },
+    {
+      "id": "f1603_2C7E",
+      "jp": "わかった！修行してくる！武器の材料でも集めてくるよ",
+      "pt": "Entendi! Vou treinar! Vou juntar materiais pra arma.",
+      "chars_jp": 25,
+      "chars_pt": 52,
+      "aplica_em": [
+        "f1603_2C7E"
+      ]
+    },
+    {
+      "id": "f1603_2CEE",
+      "jp": "その意気だ！がんばンな！",
+      "pt": "Esse é o espírito! Vai com tudo!",
+      "chars_jp": 12,
+      "chars_pt": 32,
+      "aplica_em": [
+        "f1603_2CEE"
+      ]
+    },
+    {
+      "id": "f1603_2D24",
+      "jp": "じゃ、お使いのごほうびでもあげるとするか…ほれ",
+      "pt": "Então, vou te dar uma recompensa por isso... Toma.",
+      "chars_jp": 23,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f1603_2D24"
+      ]
+    },
+    {
+      "id": "f1603_2DE6",
+      "jp": "これは武器の材料！すっげぇ！親方、カッコイー！",
+      "pt": "São materiais de arma! Incrível! Mestre, que legal!",
+      "chars_jp": 23,
+      "chars_pt": 51,
+      "aplica_em": [
+        "f1603_2DE6"
+      ]
+    },
+    {
+      "id": "f1603_2E24",
+      "jp": "これは武器の材料！すごぉい！親方、カッコイー！",
+      "pt": "São materiais de arma! Incrível! Mestre, que legal!",
+      "chars_jp": 23,
+      "chars_pt": 51,
+      "aplica_em": [
+        "f1603_2E24"
+      ]
+    },
+    {
+      "id": "f1603_2E96",
+      "jp": "そうだろ？アタシはカッコイーんだよ",
+      "pt": "Né? Eu sou demais!",
+      "chars_jp": 17,
+      "chars_pt": 18,
+      "aplica_em": [
+        "f1603_2E96"
+      ]
+    },
+    {
+      "id": "f1603_2EEC",
+      "jp": "だからそいつに合成する材料まであげるほど、アマかないよ後は自分で見つけてくるんだね",
+      "pt": "Não vou te dar materiais pra síntese. Tem que achar por conta.",
+      "chars_jp": 41,
+      "chars_pt": 62,
+      "aplica_em": [
+        "f1603_2EEC"
+      ]
+    },
+    {
+      "id": "f1603_2F68",
+      "jp": "わかってるって！材料さがしも鍛冶師の仕事ってね！",
+      "pt": "Eu sei! Procurar materiais é trabalho de ferreiro!",
+      "chars_jp": 24,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f1603_2F68"
+      ]
+    },
+    {
+      "id": "f1603_2FBE",
+      "jp": "気をつけて行くんだよアンタに何かあったらご両親に申し訳ないからね",
+      "pt": "Vá com cuidado. Se algo acontecer, sinto muito aos seus pais.",
+      "chars_jp": 32,
+      "chars_pt": 61,
+      "aplica_em": [
+        "f1603_2FBE"
+      ]
+    },
+    {
+      "id": "f1603_3028",
+      "jp": "はい！じゃ、材料さがし行ってきます！",
+      "pt": "Sim! Então, vou procurar os materiais!",
+      "chars_jp": 18,
+      "chars_pt": 38,
+      "aplica_em": [
+        "f1603_3028"
+      ]
+    },
+    {
+      "id": "f1603_3086",
+      "jp": "おお！　行ってきな！そのハンマーでアンタの男を鍛えるんだ！",
+      "pt": "Oba! Vai lá! Usa esse martelo pra forjar o seu homem!",
+      "chars_jp": 29,
+      "chars_pt": 53,
+      "aplica_em": [
+        "f1603_3086"
+      ]
+    },
+    {
+      "id": "f1603_30D0",
+      "jp": "おお！　行ってきな！そのハンマーでアンタの女を鍛えるんだ！",
+      "pt": "Oba! Vai lá! Usa esse martelo pra forjar a sua mulher!",
+      "chars_jp": 29,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f1603_30D0"
+      ]
+    },
+    {
+      "id": "f1603_3138",
+      "jp": "おー！",
+      "pt": "Oh!",
+      "chars_jp": 3,
+      "chars_pt": 3,
+      "aplica_em": [
+        "f1603_3138"
+      ]
+    },
+    {
+      "id": "f1603_3160",
+      "jp": "じゃ、アタシは家にいるからね",
+      "pt": "Então, eu fico em casa.",
+      "chars_jp": 14,
+      "chars_pt": 23,
+      "aplica_em": [
+        "f1603_3160"
+      ]
+    },
+    {
+      "id": "f1603_3226",
+      "jp": "うれしいね{d}がやる気を出してくれたよ我ながら見事なアメとムチ、かな？",
+      "pt": "Fico feliz que {d} tenha se esforçado. Acho que fiz um ótimo combo de recompensa e punição.",
+      "chars_jp": 36,
+      "chars_pt": 91,
+      "aplica_em": [
+        "f1603_3226"
+      ]
+    },
+    {
+      "id": "f1603_328E",
+      "jp": "見てる？　ロブアタシ、がんばってるよ！",
+      "pt": "Tá vendo? Rob, eu tô me esforçando!",
+      "chars_jp": 19,
+      "chars_pt": 35,
+      "aplica_em": [
+        "f1603_328E"
+      ]
+    },
+    {
+      "id": "f1603_3380",
+      "jp": "よっし！オレも出発だ！",
+      "pt": "Certo! Eu também vou!",
+      "chars_jp": 11,
+      "chars_pt": 21,
+      "aplica_em": [
+        "f1603_3380"
+      ]
+    },
+    {
+      "id": "f1603_33A2",
+      "jp": "よぉし！わたしも行こう！",
+      "pt": "Certo! Eu também vou!",
+      "chars_jp": 12,
+      "chars_pt": 21,
+      "aplica_em": [
+        "f1603_33A2"
+      ]
+    },
+    {
+      "id": "i1603_072C",
+      "jp": "おやかたぁ！！",
+      "pt": "Boa sorte!",
+      "chars_jp": 7,
+      "chars_pt": 10,
+      "aplica_em": [
+        "i1603_072C"
+      ]
+    },
+    {
+      "id": "i1603_0EFA",
+      "jp": "ころされた…！",
+      "pt": "Fui morto...!",
+      "chars_jp": 7,
+      "chars_pt": 13,
+      "aplica_em": [
+        "i1603_0EFA"
+      ]
+    },
+    {
+      "id": "i1603_0F6A",
+      "jp": "親方ぁ！！",
+      "pt": "Mestre!!",
+      "chars_jp": 5,
+      "chars_pt": 8,
+      "aplica_em": [
+        "i1603_0F6A"
+      ]
+    },
+    {
+      "id": "i1603_23BA",
+      "jp": "で、",
+      "pt": "E...",
+      "chars_jp": 2,
+      "chars_pt": 4,
+      "aplica_em": [
+        "i1603_23BA"
+      ]
+    },
+    {
+      "id": "i1603_23FE",
+      "jp": "はい",
+      "pt": "Sim.",
+      "chars_jp": 2,
+      "chars_pt": 4,
+      "aplica_em": [
+        "i1603_23FE"
+      ]
+    },
+    {
+      "id": "f0392_24CE",
+      "jp": "たよりにしてるよ、{g}",
+      "pt": "Conto com você, {g}.",
+      "chars_jp": 12,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f0392_24CE"
+      ]
+    },
+    {
+      "id": "f0521_0608",
+      "jp": "マーネイル宿場　ほほえみ亭前",
+      "pt": "Estacao Marneil, em frente ao Hohoetemi.",
+      "chars_jp": 14,
+      "chars_pt": 40,
+      "aplica_em": [
+        "f0521_0608",
+        "f0621_0598",
+        "f0721_05C2",
+        "f1021_053E",
+        "f1121_053E",
+        "f1221_076E",
+        "f1321_053E",
+        "f1421_009A",
+        "f1521_05AC"
+      ]
+    },
+    {
+      "id": "f0523_099A",
+      "jp": "なんだかまた、大変なことになっちゃったけど…がんばってね、{d}",
+      "pt": "Parece que deu problema de novo... Boa sorte, {d}.",
+      "chars_jp": 32,
+      "chars_pt": 50,
+      "aplica_em": [
+        "f0523_099A"
+      ]
+    },
+    {
+      "id": "f0791_382C",
+      "jp": "{d}さん…ミューノ様を守ることにもう、迷いはないんですか？",
+      "pt": "{d}... Você não hesita mais em proteger {d}?",
+      "chars_jp": 30,
+      "chars_pt": 44,
+      "aplica_em": [
+        "f0791_382C"
+      ],
+      "erro": "placeholders divergem: ['{d}'] -> ['{d}', '{d}']"
+    },
+    {
+      "id": "f1135_1074",
+      "jp": "対人間戦では、武器を破壊して勝利すべきだと思います武器破壊推進委員会",
+      "pt": "Em lutas contra humanos, devemos vencer destruindo armas. Comitê de Destruição de Armas.",
+      "chars_jp": 34,
+      "chars_pt": 88,
+      "aplica_em": [
+        "f1135_1074"
+      ]
+    },
+    {
+      "id": "f1191_1742",
+      "jp": "よっし！行くぜ！",
+      "pt": "Certo! Vamos lá!",
+      "chars_jp": 8,
+      "chars_pt": 16,
+      "aplica_em": [
+        "f1191_1742",
+        "f1191_18C2",
+        "f1191_1A26",
+        "f1191_1B90"
+      ]
+    },
+    {
+      "id": "f1191_175E",
+      "jp": "よぉし！行こう！",
+      "pt": "Certo! Vamos!",
+      "chars_jp": 8,
+      "chars_pt": 13,
+      "aplica_em": [
+        "f1191_175E",
+        "f1191_18DE",
+        "f1191_1A42",
+        "f1191_1BAC"
+      ]
+    },
+    {
+      "id": "f1191_1850",
+      "jp": "このマゲにかけて絶対に逃がしはせんぞ！カクゴしておれよ！",
+      "pt": "Com esse machado, não vou deixar escapar! Fica atento!",
+      "chars_jp": 28,
+      "chars_pt": 54,
+      "aplica_em": [
+        "f1191_1850"
+      ]
+    },
+    {
+      "id": "f1191_19D0",
+      "jp": "アイツらめ…今度は絶対に逃がさん",
+      "pt": "Aqueles... Desta vez, não vou deixar escapar.",
+      "chars_jp": 16,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f1191_19D0"
+      ]
+    },
+    {
+      "id": "f1191_1B34",
+      "jp": "今度という今度は絶対に逃がしませんわ！",
+      "pt": "Desta vez, não vou deixar escapar!",
+      "chars_jp": 19,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f1191_1B34"
+      ]
+    },
+    {
+      "id": "f1191_1CF0",
+      "jp": "スポート洞窟に入っていったアニスの仲間を追いかけようきっとヤツらのアジトがあるはずだ",
+      "pt": "Vamos atrás dos amigos de Anise na Caverna Sport. Tenho certeza que o esconderijo está lá.",
+      "chars_jp": 42,
+      "chars_pt": 90,
+      "aplica_em": [
+        "f1191_1CF0",
+        "f1191_1EC6",
+        "f1191_20D0",
+        "f1191_22AC"
+      ]
+    },
+    {
+      "id": "f1191_1D54",
+      "jp": "スポート洞窟に入っていったアニスの仲間を追いかけようきっとアジトが見つかるハズよ",
+      "pt": "Vamos atrás dos amigos de Anise na Caverna Sport. Tenho certeza que acharemos o esconderijo.",
+      "chars_jp": 40,
+      "chars_pt": 92,
+      "aplica_em": [
+        "f1191_1D54",
+        "f1191_1F2A",
+        "f1191_2134",
+        "f1191_2310"
+      ]
+    },
+    {
+      "id": "f1191_1DD4",
+      "jp": "前回ノヨウニ　発見サレテ逆ニ　捕マラナイヨウ注意シテクダサイ",
+      "pt": "Cuidado para não ser pego como da última vez.",
+      "chars_jp": 30,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f1191_1DD4"
+      ]
+    },
+    {
+      "id": "f1191_1E4A",
+      "jp": "う…イタイとこ突くなぁ…",
+      "pt": "Ugh... não mexa onde dói...",
+      "chars_jp": 12,
+      "chars_pt": 27,
+      "aplica_em": [
+        "f1191_1E4A"
+      ]
+    },
+    {
+      "id": "f1191_1E6E",
+      "jp": "う…イタイとこ突くわね…",
+      "pt": "Ugh... você tá mexendo onde dói...",
+      "chars_jp": 12,
+      "chars_pt": 34,
+      "aplica_em": [
+        "f1191_1E6E"
+      ]
+    },
+    {
+      "id": "f1191_1FAA",
+      "jp": "シンチョウに行動するのじゃぞこちらが逆に捕まるような前回の二の舞はゴメンじゃからな",
+      "pt": "Aja como líder. Não repita o erro de ser pego como da última vez.",
+      "chars_jp": 41,
+      "chars_pt": 65,
+      "aplica_em": [
+        "f1191_1FAA"
+      ]
+    },
+    {
+      "id": "f1191_2036",
+      "jp": "また何かむずかしい言葉で責められてるぞ…",
+      "pt": "Tô sendo criticado com palavras difíceis de novo...",
+      "chars_jp": 20,
+      "chars_pt": 51,
+      "aplica_em": [
+        "f1191_2036"
+      ]
+    },
+    {
+      "id": "f1191_206A",
+      "jp": "また何かむずかしい言葉で責められてる…",
+      "pt": "Tô sendo criticada com palavras difíceis de novo...",
+      "chars_jp": 19,
+      "chars_pt": 51,
+      "aplica_em": [
+        "f1191_206A"
+      ]
+    },
+    {
+      "id": "f1191_21B4",
+      "jp": "この前の様に逆に捕まりたいのなら私はかまわないがそうでないなら、おとなしくしてろ",
+      "pt": "Se quiser ser pego como da última vez, eu não me importo. Senão, fique quieto.",
+      "chars_jp": 40,
+      "chars_pt": 78,
+      "aplica_em": [
+        "f1191_21B4"
+      ]
+    },
+    {
+      "id": "f1191_223E",
+      "jp": "う…わかったよ…",
+      "pt": "U... entendi...",
+      "chars_jp": 8,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f1191_223E",
+        "f1916_02F2"
+      ]
+    },
+    {
+      "id": "f1191_225A",
+      "jp": "う…わかったわよ…",
+      "pt": "U... entendi...",
+      "chars_jp": 9,
+      "chars_pt": 15,
+      "aplica_em": [
+        "f1191_225A"
+      ]
+    },
+    {
+      "id": "f1191_2390",
+      "jp": "この前みたいに、私たちの方が逆に捕まらないようにシンチョウに行動してくださいね",
+      "pt": "Por favor, aja como líder para que não sejamos pegos como da última vez.",
+      "chars_jp": 39,
+      "chars_pt": 72,
+      "aplica_em": [
+        "f1191_2390"
+      ]
+    },
+    {
+      "id": "f1191_2570",
+      "jp": "アニスの仲間がスポート洞窟の奥に逃げていったぞ！急いで追いかけよう！",
+      "pt": "Os amigos da Anise fugiram para o fundo da Caverna Sport! Vamos atrás!",
+      "chars_jp": 34,
+      "chars_pt": 70,
+      "aplica_em": [
+        "f1191_2570",
+        "f1191_2748",
+        "f1191_2934",
+        "f1191_2B24"
+      ]
+    },
+    {
+      "id": "f1191_25C4",
+      "jp": "アニスの仲間がスポート洞窟の奥に逃げていったよ！急いで追いかけよう！",
+      "pt": "Os amigos da Anise fugiram para o fundo da Caverna Sport! Vamos atrás!",
+      "chars_jp": 34,
+      "chars_pt": 70,
+      "aplica_em": [
+        "f1191_25C4",
+        "f1191_279C",
+        "f1191_2988",
+        "f1191_2B78"
+      ]
+    },
+    {
+      "id": "f1191_266C",
+      "jp": "だ、だからオレは何もしてないって！見つかったのはオレのせいじゃない",
+      "pt": "Pô, eu não fiz nada! Não foi culpa minha que me acharam.",
+      "chars_jp": 33,
+      "chars_pt": 56,
+      "aplica_em": [
+        "f1191_266C",
+        "f1191_2858",
+        "f1191_2A48",
+        "f1191_2C42"
+      ]
+    },
+    {
+      "id": "f1191_26BA",
+      "jp": "だ、だからわたし、何もしてないよ！見つかったのはわたしのせいじゃないもん！",
+      "pt": "Olha, eu não fiz nada! Não foi culpa minha que me acharam!",
+      "chars_jp": 37,
+      "chars_pt": 58,
+      "aplica_em": [
+        "f1191_26BA",
+        "f1191_28A6",
+        "f1191_2A96",
+        "f1191_2C90"
+      ]
+    },
+    {
+      "id": "f1191_2810",
+      "jp": "はぁ…仕方ないのう",
+      "pt": "Ah... não tem jeito.",
+      "chars_jp": 9,
+      "chars_pt": 20,
+      "aplica_em": [
+        "f1191_2810"
+      ]
+    },
+    {
+      "id": "f1191_29FC",
+      "jp": "ちっ…仕方ないヤツだ…",
+      "pt": "Tsk... É inevitável...",
+      "chars_jp": 11,
+      "chars_pt": 22,
+      "aplica_em": [
+        "f1191_29FC"
+      ]
+    },
+    {
+      "id": "f1191_2BEC",
+      "jp": "うぅ…また見つかっちゃいました…",
+      "pt": "Ugh... fui achado de novo...",
+      "chars_jp": 16,
+      "chars_pt": 28,
+      "aplica_em": [
+        "f1191_2BEC"
+      ]
+    },
+    {
+      "id": "f1192_0104",
+      "jp": "ミューノがさらわれたなんて…どこに連れて行かれたのか手がかりを見つけないと！",
+      "pt": "Murno foi sequestrada... Preciso achar pistas de onde levaram!",
+      "chars_jp": 38,
+      "chars_pt": 62,
+      "aplica_em": [
+        "f1192_0104",
+        "f1192_0252",
+        "f1192_03B8",
+        "f1192_0512"
+      ]
+    },
+    {
+      "id": "f1192_017C",
+      "jp": "トニカク　町ノ中ヲクマナク　サガシマショウ",
+      "pt": "De qualquer forma, vamos procurar a cidade inteira!",
+      "chars_jp": 21,
+      "chars_pt": 51,
+      "aplica_em": [
+        "f1192_017C"
+      ]
+    },
+    {
+      "id": "f1192_0200",
+      "jp": "もしかしてザックなら何か知ってるかも…",
+      "pt": "Será que o Zakk sabe alguma coisa...",
+      "chars_jp": 19,
+      "chars_pt": 36,
+      "aplica_em": [
+        "f1192_0200",
+        "f1192_0366",
+        "f1192_04C0",
+        "f1192_060C"
+      ]
+    },
+    {
+      "id": "f1192_02CA",
+      "jp": "とにかく町の中をくまなくさがすのじゃ！ネズミ１匹見逃すでないぞ！",
+      "pt": "De qualquer jeito, procure a cidade inteira! Não deixe passar nenhum detalhe!",
+      "chars_jp": 32,
+      "chars_pt": 77,
+      "aplica_em": [
+        "f1192_02CA"
+      ]
+    },
+    {
+      "id": "f1192_0356",
+      "jp": "うん…！",
+      "pt": "Sim...!",
+      "chars_jp": 4,
+      "chars_pt": 7,
+      "aplica_em": [
+        "f1192_0356",
+        "f1192_04B0"
+      ]
+    },
+    {
+      "id": "f1192_0430",
+      "jp": "とにかく町の中をくまなくさがすんだ！グズグズするな！",
+      "pt": "De qualquer forma, procure a cidade inteira! Não perca tempo!",
+      "chars_jp": 26,
+      "chars_pt": 61,
+      "aplica_em": [
+        "f1192_0430"
+      ]
+    },
+    {
+      "id": "f1192_058A",
+      "jp": "とにかく町の中を色々さがしてみましょう！",
+      "pt": "De qualquer forma, vamos procurar por tudo na cidade!",
+      "chars_jp": 20,
+      "chars_pt": 53,
+      "aplica_em": [
+        "f1192_058A"
+      ]
+    },
+    {
+      "id": "f1192_0762",
+      "jp": "アニスたちはスレンジ採掘場の方へ向かったらしいぞザックが追いかけてるみたいだけど…",
+      "pt": "Anise foi pra mina Slenj. Zakk tá correndo atrás deles, parece.",
+      "chars_jp": 41,
+      "chars_pt": 63,
+      "aplica_em": [
+        "f1192_0762",
+        "f1192_0926",
+        "f1192_0AEE",
+        "f1192_0CAC"
+      ]
+    },
+    {
+      "id": "f1192_07C4",
+      "jp": "アニスたちはスレンジ採掘場の方へ向かったらしいよザックが追いかけてるみたいだけど…",
+      "pt": "Anise foi pra mina Slenj. Zakk tá correndo atrás delas, parece.",
+      "chars_jp": 41,
+      "chars_pt": 63,
+      "aplica_em": [
+        "f1192_07C4",
+        "f1192_0988",
+        "f1192_0B50",
+        "f1192_0D0E"
+      ]
+    },
+    {
+      "id": "f1192_0846",
+      "jp": "彼ガ　発見サレタ場合あにすタチニ　危害ヲ加エラレル可能性ガアリマス",
+      "pt": "Se forem descobertos, Anise pode ser atacada.",
+      "chars_jp": 33,
+      "chars_pt": 45,
+      "aplica_em": [
+        "f1192_0846"
+      ]
+    },
+    {
+      "id": "f1192_08E6",
+      "jp": "急ごう！",
+      "pt": "Vamos logo!",
+      "chars_jp": 4,
+      "chars_pt": 11,
+      "aplica_em": [
+        "f1192_08E6",
+        "f1192_0AAE",
+        "f1192_0E38",
+        "f2212_152C",
+        "f2221_0E44"
+      ]
+    },
+    {
+      "id": "f1192_0A0A",
+      "jp": "アノこぞうめ、ムチャしおって連中に見つかったら、何をされるかわからんぞ",
+      "pt": "Aquele moleque é fraco demais. Se for pego, não sabemos o que vão fazer.",
+      "chars_jp": 35,
+      "chars_pt": 72,
+      "aplica_em": [
+        "f1192_0A0A"
+      ]
+    },
+    {
+      "id": "f1192_0BD2",
+      "jp": "ヤツひとりで連中の跡をつけて無事でいられるとでも思っているのか…全く、身の程をわきまえない子供だ",
+      "pt": "Ele acha que pode seguir sozinho e ficar bem? Que criança que não sabe o próprio lugar.",
+      "chars_jp": 48,
+      "chars_pt": 87,
+      "aplica_em": [
+        "f1192_0BD2"
+      ]
+    },
+    {
+      "id": "f1192_0C5C",
+      "jp": "{g}…とにかく急ごう！",
+      "pt": "{g}... Vamos logo!",
+      "chars_jp": 12,
+      "chars_pt": 18,
+      "aplica_em": [
+        "f1192_0C5C"
+      ]
+    },
+    {
+      "id": "f1192_0D90",
+      "jp": "あの人たちに見つかったら何をされるかわかりませんわ無事ならいいんですけど…",
+      "pt": "Se eles nos acharem, não sei o que vão fazer. O importante é estarmos seguros...",
+      "chars_jp": 37,
+      "chars_pt": 80,
+      "aplica_em": [
+        "f1192_0D90"
+      ]
+    },
+    {
+      "id": "f1192_0F6C",
+      "jp": "くっそー、あいつら…ザックにまであんなことを…絶対ゆるさないぜ…！",
+      "pt": "Droga, esses caras... Fazer isso com o Zakk... Eu não perdoo!",
+      "chars_jp": 33,
+      "chars_pt": 61,
+      "aplica_em": [
+        "f1192_0F6C",
+        "f1192_1184",
+        "f1192_139A",
+        "f1192_15B4"
+      ]
+    },
+    {
+      "id": "f1192_0FBE",
+      "jp": "あの人たち、ザックにまでヒドイことするなんて…絶対ゆるさないから…！",
+      "pt": "Esses caras fazerem algo horrível com o Zakk... Eu nunca vou perdoar!",
+      "chars_jp": 34,
+      "chars_pt": 69,
+      "aplica_em": [
+        "f1192_0FBE",
+        "f1192_11D6",
+        "f1192_13EC",
+        "f1192_1606"
+      ]
+    },
+    {
+      "id": "f1192_1032",
+      "jp": "アナタガ怒ルノハ　理解デキマスガ落チ着イテクダサイ冷静ニ行動シナイト　危険デス",
+      "pt": "Entendo sua raiva, mas acalme-se. Agir com calma é o mais seguro.",
+      "chars_jp": 39,
+      "chars_pt": 65,
+      "aplica_em": [
+        "f1192_1032"
+      ]
+    },
+    {
+      "id": "f1192_10BA",
+      "jp": "そうだな…、わかったあいつらはスポート洞窟の奥だ急ごう！",
+      "pt": "Certo... Entendi. Eles estão lá no fundo da Caverna Sport. Vamos!",
+      "chars_jp": 28,
+      "chars_pt": 65,
+      "aplica_em": [
+        "f1192_10BA",
+        "f1192_12D0",
+        "f1192_16FC"
       ]
     }
   ]

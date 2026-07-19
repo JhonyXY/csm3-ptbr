@@ -1,0 +1,67 @@
+Texto em varias linhas: quebra, insercao de linha e limpeza de bloco
+
+Uma fala nao e uma linha: no bytecode ela e uma instrucao 0x0308 por linha de
+tela, cada uma no seu offset. O extrator junta os blocos para traduzir (linha
+isolada vira portugues sem sentido) e agora o injetor sabe reparti-los de volta.
+
+QUEBRA DE LINHA
+O portugues e distribuido pelos blocos da fala, medindo em pixels de verdade
+pela mesma tabela de larguras que o jogo usa. Antes a traducao inteira caia no
+primeiro bloco: o texto vazava da caixa e o jogo travava.
+
+INSERCAO DE LINHA
+Quando o portugues precisa de mais linhas que o japones - o que e a regra, ja
+que sao ~1,7x os caracteres para dizer o mesmo - o injetor duplica a instrucao
+de texto. A quarta linha de uma fala de tres passa a existir.
+
+Funciona porque rebuild_script ja reconstruia o mapa de offsets a partir dos
+tamanhos novos. Instrucoes inseridas entram com offset None e nao viram alvo de
+salto; tudo depois delas desloca e os saltos se ajustam sozinhos. Re-validacao:
+0 saltos invalidos, 0 opcodes desconhecidos.
+
+A alternativa era encurtar a traducao ate caber. Preferiu-se dar espaco.
+
+BLOCO SOBRANDO E APAGADO
+Quando o portugues ocupa menos linhas que o japones, sobram blocos. Ignora-los
+deixava o japones original no meio da fala traduzida. Agora lista vazia
+significa "apagar", nao "pular" - as substituicoes foram de 163 para 219 num
+script de 221 blocos.
+
+LARGURA DA LINHA EM TILES, NAO PIXELS
+O campo que guarda a largura da linha e um u8. No original ele contava
+caracteres (maximo 53, cabia). Convertido para pixels, o mesmo bloco vale ate
+636 e o byte dava a volta - quebrando com texto longo em qualquer idioma. Em
+tiles da 80 e cabe, e e a unidade que todos os consumidores ja queriam: tres
+das conversoes viraram identidade e o patch ficou mais simples.
+
+INJETOR NAO ESCREVE MAIS POR CIMA DO MOTOR
+FREE_REGION_START foi medido na baserom. Injetando na csm3.gba essa area passou
+a conter o codigo novo do VWF (0x1FC0CD8, quase 22 KB depois da constante), e os
+blobs realocados sobrescreviam o proprio desenhador de fonte - tela preta ao
+escolher o personagem, com a ROM sem injecao funcionando. Agora o injetor varre
+de tras para frente ate o fim do conteudo real.
+
+Tambem: --rom para injetar sobre a build com VWF em vez da baserom.
+
+NUMERO DE SCRIPT NAO E ORDEM DA HISTORIA
+A introducao e o script 1603, nao o 11. achar_fala.py localiza uma cena pelo
+japones que aparece na tela; ver_traduzida.py responde se ela ja foi traduzida
+e se entrou na ROM. tradutor.py e preparar_injecao.py ganharam --scripts.
+
+ORCAMENTO DA TRADUCAO POR LINHA
+Era o mesmo para toda fala. Uma fala de uma linha recebia 78 caracteres onde
+cabem 25. Agora e linhas x 25 x 1,6, com a folga coberta pela insercao, e ha
+validacao com retentativa dirigida - medido: instrucao no prompt sozinha e
+desobedecida em 27% das falas.
+
+NORMALIZACAO DE CARACTERES
+O modelo produz tipografia que a fonte nao tem. Substituicao conhecida, depois
+remocao de acento, depois descarte - tudo contado e reportado, em vez de a
+injecao morrer no meio.
+
+CICLO DO MAPA DE ACENTOS
+patch_acentos.py --so-mapa calcula a alocacao sem tocar em data1.s. encoder.py
+depende do mapa e, sem ele, remove os acentos em silencio; como migrar_para_build
+roda antes, num clone novo o mapa nao existiria a tempo.
+
+docs/07-texto-em-varias-linhas.md

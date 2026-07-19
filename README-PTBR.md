@@ -75,6 +75,7 @@ Tudo que foi descoberto por engenharia reversa está em [`docs/`](docs/):
 | [04-formato-do-texto.md](docs/04-formato-do-texto.md) | o bytecode de script e como o texto é guardado |
 | [05-pipeline-traducao.md](docs/05-pipeline-traducao.md) | extração, tradução, validação, injeção |
 | [06-armadilhas.md](docs/06-armadilhas.md) | os erros que custaram caro, e como evitá-los |
+| [07-texto-em-varias-linhas.md](docs/07-texto-em-varias-linhas.md) | como uma fala é guardada, e a inserção de linhas |
 
 Vale ler [06-armadilhas.md](docs/06-armadilhas.md) antes de mexer em qualquer
 coisa. É o documento mais útil do conjunto.

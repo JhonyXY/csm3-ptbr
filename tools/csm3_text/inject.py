@@ -46,6 +46,21 @@ class InjectError(RuntimeError):
     pass
 
 
+class _FalsaIns:
+    """Instrucao so com o que code_offset_words precisa.
+
+    As instrucoes inseridas (linhas extras) nao vem do walker, entao nao ha
+    objeto Instruction para elas. Como code_offset_words so olha opcode e parts,
+    este par basta e evita depender da forma interna do walker.
+    """
+
+    __slots__ = ("opcode", "parts")
+
+    def __init__(self, opcode, parts):
+        self.opcode = opcode
+        self.parts = parts
+
+
 def code_offset_words(ins: walker.Instruction, spec: dict) -> list[int]:
     """Indices, dentro de ins.parts, dos elementos que carregam offset de codigo."""
     jf = spec.get("jump_from")
@@ -71,27 +86,66 @@ def rebuild_script(script, translations: dict[int, str], auto_map) -> tuple[byte
     result = walker.walk(body, auto_map)
     stats = Counter()
 
-    # --- passo 1: aplica as traducoes e calcula o novo tamanho de cada instrucao
-    new_sizes: list[int] = []
-    new_parts: list[list] = []
+    # --- passo 1: aplica as traducoes, INSERINDO linhas quando preciso --------
+    #
+    # Uma fala e uma sequencia de instrucoes de texto, uma por linha de tela. O
+    # portugues costuma precisar de MAIS linhas que o japones (~1,7x os
+    # caracteres para dizer o mesmo). Em vez de espremer a traducao ate caber,
+    # duplica-se a instrucao de texto: cada linha extra vira uma instrucao nova,
+    # clone da original, logo depois dela.
+    #
+    # Isso funciona porque o offset_map do passo 2 e reconstruido a partir dos
+    # TAMANHOS NOVOS: instrucoes inseridas empurram as seguintes e todos os
+    # saltos se ajustam sozinhos. So os offsets ORIGINAIS entram no mapa, que e
+    # o que os saltos referenciam.
+    #
+    # `translations` aceita str (uma linha) ou list[str] (varias).
+    plano: list[tuple[int, list, int | None]] = []   # (opcode, parts, offset)
 
     for ins in result.instructions:
         parts = [[kind, list(words)] for kind, words in ins.parts]
 
         if ins.offset in translations:
             pt = translations[ins.offset]
-            try:
-                encoded = encoder.encode(from_translatable(pt))
-            except encoder.EncodeError as exc:
-                raise InjectError(
-                    f"script {script.index} @0x{ins.offset:04X}: {exc}"
-                ) from exc
+            linhas = [pt] if isinstance(pt, str) else list(pt)
+            # Mantem a lista como veio: uma entrada vazia significa "apagar
+            # este bloco", nao "deixar como estava".
+            if not linhas:
+                linhas = [""]
+
+            def codificar(texto: str):
+                try:
+                    return encoder.encode(from_translatable(texto))
+                except encoder.EncodeError as exc:
+                    raise InjectError(
+                        f"script {script.index} @0x{ins.offset:04X}: {exc}"
+                    ) from exc
+
             for p in parts:
                 if p[0] == "string":
-                    p[1] = encoded
+                    p[1] = codificar(linhas[0])
                     stats["strings_traduzidas"] += 1
                     break
 
+            plano.append((ins.opcode, parts, ins.offset))
+
+            # As linhas que sobraram viram instrucoes novas, identicas a esta
+            # menos o texto.
+            for extra in linhas[1:]:
+                clone = [[kind, list(words)] for kind, words in ins.parts]
+                for p in clone:
+                    if p[0] == "string":
+                        p[1] = codificar(extra)
+                        break
+                plano.append((ins.opcode, clone, None))
+                stats["linhas_inseridas"] += 1
+            continue
+
+        plano.append((ins.opcode, parts, ins.offset))
+
+    new_sizes: list[int] = []
+    new_parts: list[list] = []
+    for opcode, parts, _ in plano:
         size = 2
         for kind, words in parts:
             size += len(words) * 2
@@ -100,11 +154,12 @@ def rebuild_script(script, translations: dict[int, str], auto_map) -> tuple[byte
         new_sizes.append(size)
         new_parts.append(parts)
 
-    # --- passo 2: mapa de offsets
+    # --- passo 2: mapa de offsets (so os originais; os inseridos nao sao alvo)
     offset_map: dict[int, int] = {}
     pos = 0
-    for ins, size in zip(result.instructions, new_sizes):
-        offset_map[ins.offset] = pos
+    for (opcode, parts, offset), size in zip(plano, new_sizes):
+        if offset is not None:
+            offset_map[offset] = pos
         pos += size
     new_len = pos
 
@@ -115,10 +170,11 @@ def rebuild_script(script, translations: dict[int, str], auto_map) -> tuple[byte
         )
 
     # --- passo 3: reescreve os offsets de codigo
-    for ins, parts in zip(result.instructions, new_parts):
-        spec = walker.opcode_spec.spec_for(ins.opcode, auto_map)
+    for (opcode, parts, _), _sz in zip(plano, new_sizes):
+        spec = walker.opcode_spec.spec_for(opcode, auto_map)
         if not spec:
             continue
+        ins = _FalsaIns(opcode, parts)
         for idx in code_offset_words(ins, spec):
             old_target = parts[idx][1][0] & ~1
             if old_target not in offset_map:
@@ -135,8 +191,8 @@ def rebuild_script(script, translations: dict[int, str], auto_map) -> tuple[byte
 
     # --- passo 4: serializa
     out = bytearray()
-    for ins, parts in zip(result.instructions, new_parts):
-        out += struct.pack("<H", ins.opcode)
+    for opcode, parts, _ in plano:
+        out += struct.pack("<H", opcode)
         for kind, words in parts:
             for w in words:
                 out += struct.pack("<H", w)
@@ -169,6 +225,11 @@ def main() -> int:
     ap.add_argument("--traducao", default="traducao_teste.json",
                     help="JSON com o campo pt preenchido")
     ap.add_argument("--saida", default="csm3_ptbr.gba")
+    ap.add_argument("--rom", default="baserom.gba",
+                    help="ROM de entrada. Para juntar o dialogo traduzido COM o "
+                         "motor de VWF, aponte para csm3.gba (a saida do "
+                         "build-ptbr.sh); do contrario o texto entra na ROM "
+                         "japonesa crua e sai sem largura variavel nem acentos.")
     ap.add_argument("--dry-run", action="store_true",
                     help="valida sem escrever a ROM")
     args = ap.parse_args()
@@ -179,12 +240,21 @@ def main() -> int:
         return 1
 
     payload = json.loads(trad_path.read_text(encoding="utf-8"))
-    por_script: dict[int, dict[int, str]] = {}
+    # `pt` pode ser uma string (uma linha) ou uma lista (a linha do bloco mais
+    # as que sobraram, que viram instrucoes novas depois dele).
+    por_script: dict[int, dict[int, list]] = {}
     for e in payload["strings"]:
-        pt = (e.get("pt") or "").strip()
-        if not pt:
-            continue
-        por_script.setdefault(e["script"], {})[e["offset"]] = pt
+        pt = e.get("pt") or ""
+        linhas = [pt] if isinstance(pt, str) else list(pt)
+        linhas = [l.strip() for l in linhas if isinstance(l, str) and l.strip()]
+        # LISTA VAZIA NAO E "PULAR", E "APAGAR".
+        #
+        # Quando o portugues ocupa 2 linhas onde o japones usava 3, o terceiro
+        # bloco fica sem texto. Pular esse bloco deixaria o japones original na
+        # tela, no meio da fala traduzida. Grava string vazia para limpa-lo.
+        if not linhas:
+            linhas = [""]
+        por_script.setdefault(e["script"], {})[e["offset"]] = linhas
 
     total_trad = sum(len(v) for v in por_script.values())
     print("=" * 72)
@@ -192,7 +262,12 @@ def main() -> int:
     print("=" * 72)
     print(f"  traducoes carregadas: {total_trad:,} em {len(por_script)} scripts")
 
-    rom = bytearray(csm3rom.load_rom(ROM_PATH))
+    rom_entrada = Path(__file__).resolve().parents[2] / args.rom
+    if not rom_entrada.exists():
+        print(f"ERRO: {rom_entrada} nao encontrado", file=sys.stderr)
+        return 1
+    print(f"  ROM de entrada      : {rom_entrada.name}")
+    rom = bytearray(csm3rom.load_rom(rom_entrada))
     auto_map = walker.load_auto_map()
     archive = csm3rom.open_archive(bytes(rom), csm3rom.SCRIPT_ARCHIVE)
 
@@ -223,6 +298,8 @@ def main() -> int:
     print(f"  scripts modificados : {stats['scripts_modificados']}")
     print(f"  blobs preservados   : {stats['blobs_preservados']} (bytes originais intactos)")
     print(f"  strings substituidas: {stats['strings_traduzidas']}")
+    print(f"  linhas INSERIDAS    : {stats['linhas_inseridas']} "
+          f"(o portugues precisou de mais linhas que o japones)")
     print(f"  saltos realocados   : {stats['saltos_realocados']}")
     print(f"  re-validacao        : OK (0 saltos invalidos, 0 opcodes desconhecidos)")
 
@@ -241,7 +318,26 @@ def main() -> int:
     # O offset da entrada e (posicao - base) / 16, e a base NAO e alinhada em 16
     # (0x1718FFC termina em C). Entao as posicoes validas sao as congruentes a
     # base modulo 16 - alinhar em 16 absoluto geraria um offset truncado.
-    livre_ini = base + ((FREE_REGION_START - base + 15) // 16) * 16
+    # ACHAR O FIM DO CONTEUDO, NAO CONFIAR NA CONSTANTE.
+    #
+    # FREE_REGION_START foi medido na baserom. Ao injetar na csm3.gba - que e o
+    # que junta o dialogo traduzido ao motor de VWF - essa area deixou de estar
+    # livre: o linker poe o codigo novo la (PtBrDesenhaGlifo em 0x09FC0CD8, ou
+    # seja offset 0x1FC0CD8, quase 22 KB DEPOIS de 0x1FBB1ED). Gravar blobs a
+    # partir da constante escrevia por cima do proprio desenhador de fonte, e o
+    # jogo so quebrava na hora de desenhar texto - tela preta ao escolher o
+    # personagem, enquanto a ROM sem injecao funcionava.
+    #
+    # Varre de tras para frente ate o ultimo byte com conteudo. Funciona
+    # qualquer que seja o tamanho do codigo acrescentado, hoje e depois.
+    fim_conteudo = len(rom)
+    while fim_conteudo > 0 and rom[fim_conteudo - 1] == 0:
+        fim_conteudo -= 1
+    inicio_seguro = max(FREE_REGION_START, fim_conteudo)
+    livre_ini = base + ((inicio_seguro - base + 15) // 16) * 16
+    if fim_conteudo > FREE_REGION_START:
+        print(f"  conteudo ate 0x{fim_conteudo:07X} "
+              f"({fim_conteudo - FREE_REGION_START:,} bytes depois da constante)")
     livre_fim = len(rom)
     disponivel = livre_fim - livre_ini
     print(f"  regiao livre: 0x{livre_ini:07X}..0x{livre_fim:07X} "

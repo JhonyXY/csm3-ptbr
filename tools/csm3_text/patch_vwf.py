@@ -147,15 +147,36 @@ def main() -> int:
     ok &= r
     print(f"  1b. salto longo no inicio de sub_0800B130: {'ok' if r else 'FALHOU'}")
 
+    # --- 1c. o valor devolvido vira TILES, nao pixels ----------------------
+    # O campo que guarda a largura da linha e um BYTE (strb em 3812), teto 255.
+    #
+    # No original ele guardava CONTAGEM DE CARACTERES: as linhas japonesas vao
+    # ate 53 caracteres, entao cabia com muita folga. Ao converter para PIXELS
+    # o mesmo bloco passa a valer ate 636 - o byte da a volta e o jogo se perde.
+    # Isso quebra com texto longo em QUALQUER idioma, nao so traduzido.
+    #
+    # A unidade certa e TILE: 636px / 8 = 80, cabe. E e a unidade que todos os
+    # consumidores queriam de qualquer forma - todos dividiam por 8 depois.
+    #
+    # A conversao entra no lugar da truncagem para 16 bits, que era redundante
+    # (o valor nunca chega perto de 65535). Mesmas duas instrucoes.
+    antigo = "\tlsls r0, r0, #0x10\n\tlsrs r7, r0, #0x10\n\tldr r0, _0800B2A0"
+    novo = ("\tadds r0, #7 @ VWF: pixels -> tiles, arredondando para cima.\n"
+            "\tlsrs r7, r0, #3 @ O campo e u8 e 636px nao cabe; 80 tiles cabe.\n"
+            "\tldr r0, _0800B2A0")
+    texto, r = trocar_unico(texto, antigo, novo, "retorno em tiles")
+    ok &= r
+    print(f"  1c. retorno do renderizador em tiles: {'ok' if r else 'FALHOU'}")
+
     # --- 2. avanco do buffer no chamador: n*96 -> n*8 ----------------------
     # O original avanca 96 bytes por CARACTERE (12px x 8 bytes por coluna de
     # pixel). Agora o acumulador esta em PIXELS, entao sao 8 bytes por pixel.
     antigo = "\tlsls r0, r7, #1\n\tadds r0, r0, r7\n\tlsls r0, r0, #5\n"
-    novo = ("\tlsls r0, r7, #3 @ VWF: pixels * 8 bytes por coluna (era n*96)\n"
+    novo = ("\tlsls r0, r7, #6 @ VWF: tiles * 64 bytes por coluna (era n*96)\n"
             "\tnop\n\tnop\n")
     texto, r = trocar_unico(texto, antigo, novo, "avanco do buffer")
     ok &= r
-    print(f"  2. avanco do buffer n*96 -> n*8: {'ok' if r else 'FALHOU'}")
+    print(f"  2. avanco do buffer n*96 -> tiles*64: {'ok' if r else 'FALHOU'}")
 
     # --- 3. quantos TILES a linha ocupa, em 4 sites -----------------------
     # O original guarda a contagem de CARACTERES e calcula 1,5 tile por
@@ -173,14 +194,13 @@ def main() -> int:
         r"\tsubs r3, r3, r4\n"
     )
     substituto = (r"\1"
-                  "\tadds r3, r4, #7 @ VWF: pixels -> colunas de tile,\n"
-                  "\tlsrs r3, r3, #3 @ arredondando para cima\n"
-                  "\tnop\n")
+                  "\tadds r3, r4, #0 @ VWF: o campo JA esta em tiles\n"
+                  "\tnop\n\tnop\n")
     texto, n = padrao.subn(substituto, texto)
     if n != 4:
         print(f"  ERRO: esperava 4 sites de contagem de tiles, achei {n}")
         ok = False
-    print(f"  3. contagem de tiles (1,5n -> ceil(px/8)): {n}/4 sites")
+    print(f"  3. contagem de tiles (1,5n -> identidade): {n}/4 sites")
 
     # --- 4. fatiamento em pedacos de 8 caracteres --------------------------
     # sub_0800CC28 quebra a linha em pedacos de 0x300 bytes (768 = 8 caracteres
@@ -209,11 +229,11 @@ def main() -> int:
             continue
         texto = texto.replace(
             f"{nome_lit}: .4byte 0xFFF80000",
-            f"{nome_lit}: .4byte 0xFFA00000 @ VWF: -96 pixels (era -8 caracteres)",
+            f"{nome_lit}: .4byte 0xFFF40000 @ VWF: -12 tiles (era -8 caracteres)",
             1,
         )
     if ok:
-        print(f"  4. decremento do pedaco: -8 chars -> -96 pixels: "
+        print(f"  4. decremento do pedaco: -8 chars -> -12 tiles: "
               f"{len(literais)}/{len(literais)} literais")
 
     # --- 4b. alinhamento do cursor de tiles --------------------------------
@@ -330,10 +350,9 @@ def main() -> int:
               "\tadds r0, r0, r1\n"
               "\tasrs r0, r0, #1\n"
               "\tsubs r2, r2, r0\n")
-    novo = ("\tadds r0, #96 @ VWF: resto em pixels (era 8 caracteres = 96px)\n"
-            "\tadds r2, r0, #7 @ pixels -> tiles, arredondando para cima\n"
-            "\tlsrs r2, r2, #3\n"
-            "\tnop\n\tnop\n\tnop\n")
+    novo = ("\tadds r0, #12 @ VWF: resto em tiles (era 8 caracteres = 12 tiles)\n"
+            "\tadds r2, r0, #0 @ ja esta em tiles\n"
+            "\tnop\n\tnop\n\tnop\n\tnop\n")
     texto, r = trocar_unico(texto, antigo, novo, "tiles do ultimo pedaco")
     ok &= r
     print(f"  5. tiles do ultimo pedaco: {'ok' if r else 'FALHOU'}")

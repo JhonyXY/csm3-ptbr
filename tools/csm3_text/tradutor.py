@@ -230,10 +230,17 @@ FLEXAO_MASC = re.compile(
 )
 
 
-def validar(original: str, traducao: str, genero: str = "ambos") -> str | None:
+def validar(original: str, traducao: str, genero: str = "ambos",
+            limite: int | None = None) -> str | None:
     """Devolve o motivo da rejeicao, ou None se passou."""
     if not traducao:
         return "vazia"
+    # O limite nao e capricho: o injetor distribui o texto pelos blocos da fala,
+    # um por linha de tela. Passar do orcamento faz o texto vazar da caixa e o
+    # jogo travar. Medido: instrucao no prompt sozinha e desobedecida em 27% das
+    # falas, entao aqui rejeita e pede de novo, como ja se faz com o genero.
+    if limite is not None and len(traducao) > limite:
+        return f"longa: {len(traducao)} de {limite}"
     if genero == "ambos":
         m = FLEXAO_MASC.search(traducao)
         if m:
@@ -257,10 +264,22 @@ def main() -> int:
     ap.add_argument("--capacidade", type=int, default=54,
                     help="chars por caixa: 54 sem VWF, 78 com VWF")
     ap.add_argument("--saida", default="traducao.json")
+    ap.add_argument("--scripts", default=None,
+                    help="so estes scripts, separados por virgula. NUMERO DE "
+                         "SCRIPT NAO E ORDEM DA HISTORIA: a introducao e o 1603, "
+                         "nao o 11. Use achar_fala.py para descobrir onde uma "
+                         "cena mora antes de priorizar.")
     args = ap.parse_args()
 
     dados = json.loads((OUT / "falas_originais.json").read_text(encoding="utf-8"))
     todas = [u for u in dados["falas"] + dados["itens"] if u["jp"].strip()]
+
+    if args.scripts:
+        alvo = {int(s) for s in args.scripts.split(",") if s.strip()}
+        antes = len(todas)
+        todas = [u for u in todas if u.get("script") in alvo]
+        print(f"  filtrado por script {sorted(alvo)}: "
+              f"{len(todas):,} de {antes:,} falas")
 
     # DEDUPLICACAO: o jogo repete a mesma fala varias vezes (a animacao de
     # rolagem redesenha a linha em posicoes diferentes). Traduzir cada copia
@@ -304,9 +323,28 @@ def main() -> int:
         # Orcamento por fala: o teto da caixa, mas nunca menos que o dobro do
         # japones - fala curta nao precisa ser espremida, e apertar demais
         # produz portugues truncado.
-        u["_limite"] = max(args.capacidade, min(len(u["jp"]) * 2, args.capacidade))
-        if len(u["jp"]) * 2 < args.capacidade:
-            u["_limite"] = max(24, len(u["jp"]) * 2)
+        # O ORCAMENTO E POR LINHA, NAO POR CAIXA.
+        #
+        # Uma fala e feita de varios blocos, um por linha de tela, e o injetor
+        # distribui o portugues entre eles. Dar o mesmo limite para todas fazia
+        # uma fala de UMA linha receber 78 caracteres quando cabem 26: o texto
+        # passava da caixa e o jogo travava.
+        #
+        # 25 caracteres por linha = 216px (o bloco japones mais largo, 18
+        # caracteres de 12px) dividido pelos 8,34px de media do VWF.
+        # O ORCAMENTO E FOLGADO DE PROPOSITO.
+        #
+        # 25 caracteres e o que cabe numa linha de tela. Mas o portugues precisa
+        # de ~1,7x os caracteres do japones para dizer o mesmo, entao exigir que
+        # caiba no MESMO numero de linhas seria capar a traducao.
+        #
+        # O injetor sabe INSERIR linhas: se o portugues ocupar 4 onde o japones
+        # usava 3, ele duplica a instrucao de texto e a quarta linha existe. Por
+        # isso aqui o limite e ~1,6x o espaco original - o suficiente para o
+        # texto sair natural, e ainda assim um teto contra a fala quilometrica.
+        linhas = len(u.get("estrutura") or []) or u.get("linhas") or 1
+        u["_linhas"] = linhas
+        u["_limite"] = max(32, int(linhas * 25 * 1.6))
 
     if args.dry_run:
         lote = pendentes[: args.lote]
@@ -397,7 +435,38 @@ def main() -> int:
         for k, u in enumerate(lote, 1):
             pt = traduzidas.get(k, "")
             pt = desmascarar(pt, u["_reverso"])
-            motivo = validar(u["jp"], pt, u.get("genero", "ambos"))
+            motivo = validar(u["jp"], pt, u.get("genero", "ambos"),
+                             u.get("_limite"))
+
+            # Longa demais tem conserto: pede de novo, dizendo o quanto cortar.
+            # Ate tres tentativas, cada uma com o alvo mais explicito.
+            tentativas_curtas = 0
+            while motivo and motivo.startswith("longa") and tentativas_curtas < 3:
+                tentativas_curtas += 1
+                alvo = u["_limite"]
+                menor = chamar_modelo(
+                    f"Esta frase tem {len(pt)} caracteres e precisa ter no "
+                    f"maximo {alvo}:\n\n  {pt}\n\n"
+                    f"Reescreva mais curta, em portugues do Brasil, mantendo o "
+                    f"sentido e o tom. Corte palavras dispensaveis, use "
+                    f"contracoes, troque expressoes longas por curtas. NAO use "
+                    f"abreviacoes estranhas. Responda so a frase, sem aspas e "
+                    f"sem explicacao. Maximo {alvo} caracteres.",
+                    temperatura=0.2 + 0.1 * tentativas_curtas)
+                if not menor:
+                    break
+                cand = desmascarar(
+                    PREAMBULOS.sub("", menor.strip().splitlines()[0]).strip(),
+                    u["_reverso"])
+                novo_motivo = validar(u["jp"], cand, u.get("genero", "ambos"),
+                                      u["_limite"])
+                if novo_motivo is None:
+                    pt, motivo = cand, None
+                elif not novo_motivo.startswith("longa"):
+                    break
+                elif len(cand) < len(pt):
+                    pt = cand          # encurtou, mas ainda nao chegou
+                    motivo = novo_motivo
 
             # Flexao de genero em fala compartilhada tem conserto: pede de novo,
             # dizendo exatamente qual palavra usar de outro jeito.
@@ -417,7 +486,8 @@ def main() -> int:
                     tentativa = desmascarar(
                         PREAMBULOS.sub("", corrigido.strip().splitlines()[0]).strip(),
                         u["_reverso"])
-                    if not validar(u["jp"], tentativa, u.get("genero", "ambos")):
+                    if not validar(u["jp"], tentativa, u.get("genero", "ambos"),
+                                   u.get("_limite")):
                         pt, motivo = tentativa, None
 
             registro = {"id": u["id"], "jp": u["jp"], "pt": pt,

@@ -59,3 +59,56 @@ useful
 replace.sh
 WinHex.lnk
 current.txt
+# ---------------------------------------------------------------------------
+# Traducao PT-BR: o que NAO entra no repositorio.
+# Este bloco e acrescentado ao .gitignore do decomp original.
+# ---------------------------------------------------------------------------
+
+# A ROM original. Obra protegida - cada um usa a sua.
+#   sha1: 3f5253fcf57e07ce52472bd29a61d16b98a12376
+baserom.gba
+*.sav
+*.sa1
+*.srm
+*.ss[0-9]
+
+# Backups que os patches criam para poder desfazer. Sao copias dos arquivos do
+# upstream; versiona-los seria versionar o mesmo conteudo duas vezes.
+*.pre-vwf
+*.pre-acentos
+*.pre-ptbr
+
+# Assembly e dados GERADOS pelos scripts. Quem clonar roda ./build-ptbr.sh e
+# reproduz identico - inclusive o byte a byte da ROM.
+data/ptbr.s
+data/ptbr_larguras.s
+data/ptbr_renderer.s
+data/ptbr_vwf.s
+
+# Extraidos da ROM a cada execucao: 15 MB cada, reproduziveis em segundos.
+tools/csm3_text/_out/textos_originais.json
+tools/csm3_text/_out/falas_originais.json
+tools/csm3_text/_out/handlers/
+tools/csm3_text/_out/*.bin
+tools/csm3_text/_out/resposta_crua.txt
+
+# Resultados de experimentos e pilotos, nao fazem parte do produto.
+tools/csm3_text/_out/piloto*.json
+tools/csm3_text/_out/teste*.json
+tools/csm3_text/_out/traducao_teste.json
+tools/csm3_text/_out/diag*.json
+tools/csm3_text/_out/p54.json
+tools/csm3_text/_out/p78.json
+tools/csm3_text/_out/pg*.json
+tools/csm3_text/_out/vel.json
+tools/csm3_text/_out/workflow_*.json
+tools/csm3_text/_out/*.sh
+tools/csm3_text/_out/tradutor.log
+
+__pycache__/
+*.pyc
+
+# O .gitignore do upstream tem *.py (linha 54) porque as ferramentas do decomp
+# sao em C e scripts soltos nao interessavam. O pipeline de traducao E em Python,
+# entao precisa ser reincluido explicitamente.
+!tools/csm3_text/*.py

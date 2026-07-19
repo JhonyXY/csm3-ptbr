@@ -1,0 +1,396 @@
+{
+  "_meta": {
+    "tabela": "0x0BC9EC8",
+    "entradas": 43,
+    "nota": "strings cruas na ROM, referenciadas por ponteiro - a traducao nao precisa caber no espaco original"
+  },
+  "strings": [
+    {
+      "indice": 0,
+      "ponteiro": 12361416,
+      "alvo": 765828,
+      "jp": "いくつ買いますか？",
+      "chars": 9,
+      "bytes": 20,
+      "pt": "Quanto comprar?"
+    },
+    {
+      "indice": 1,
+      "ponteiro": 12361420,
+      "alvo": 765848,
+      "jp": "いくつ売りますか？",
+      "chars": 9,
+      "bytes": 20,
+      "pt": "Quanto vender?"
+    },
+    {
+      "indice": 2,
+      "ponteiro": 12361424,
+      "alvo": 765868,
+      "jp": "いくつ作りますか？",
+      "chars": 9,
+      "bytes": 20,
+      "pt": "Quanto criar?"
+    },
+    {
+      "indice": 3,
+      "ponteiro": 12361428,
+      "alvo": 765888,
+      "jp": "いくつにしますか？",
+      "chars": 9,
+      "bytes": 20,
+      "pt": "Quantos?"
+    },
+    {
+      "indice": 4,
+      "ponteiro": 12361432,
+      "alvo": 765908,
+      "jp": "売ってもいいですか？",
+      "chars": 10,
+      "bytes": 22,
+      "pt": "Confirma venda?"
+    },
+    {
+      "indice": 5,
+      "ponteiro": 12361436,
+      "alvo": 765932,
+      "jp": "今すぐ装備しますか？",
+      "chars": 10,
+      "bytes": 22,
+      "pt": "Equipar agora?"
+    },
+    {
+      "indice": 6,
+      "ponteiro": 12361440,
+      "alvo": 765956,
+      "jp": "お金が足りません",
+      "chars": 8,
+      "bytes": 18,
+      "pt": "Sem dinheiro"
+    },
+    {
+      "indice": 7,
+      "ponteiro": 12361444,
+      "alvo": 765976,
+      "jp": "材料が足りません",
+      "chars": 8,
+      "bytes": 18,
+      "pt": "Sem materiais"
+    },
+    {
+      "indice": 8,
+      "ponteiro": 12361448,
+      "alvo": 765996,
+      "jp": "これ以上持てません",
+      "chars": 9,
+      "bytes": 20,
+      "pt": "Bolsa cheia"
+    },
+    {
+      "indice": 9,
+      "ponteiro": 12361452,
+      "alvo": 766016,
+      "jp": "売るものが無くなりました",
+      "chars": 12,
+      "bytes": 26,
+      "pt": "Estoque vazio"
+    },
+    {
+      "indice": 10,
+      "ponteiro": 12361456,
+      "alvo": 766044,
+      "jp": "売るものがありません",
+      "chars": 10,
+      "bytes": 22,
+      "pt": "Nada a vender"
+    },
+    {
+      "indice": 11,
+      "ponteiro": 12361460,
+      "alvo": 766068,
+      "jp": "ポイントが足りません",
+      "chars": 10,
+      "bytes": 22,
+      "pt": "Sem pontos"
+    },
+    {
+      "indice": 12,
+      "ponteiro": 12361464,
+      "alvo": 766092,
+      "jp": "アイテムがなくなりました",
+      "chars": 12,
+      "bytes": 26,
+      "pt": "Sem itens"
+    },
+    {
+      "indice": 13,
+      "ponteiro": 12361468,
+      "alvo": 765388,
+      "jp": "武器を持っていません",
+      "chars": 10,
+      "bytes": 22,
+      "pt": "Sem armas"
+    },
+    {
+      "indice": 14,
+      "ponteiro": 12361472,
+      "alvo": 766120,
+      "jp": "回復できません　修理が必要です",
+      "chars": 15,
+      "bytes": 32,
+      "pt": "Repare primeiro"
+    },
+    {
+      "indice": 15,
+      "ponteiro": 12361476,
+      "alvo": 766152,
+      "jp": "装備できません　修理が必要です",
+      "chars": 15,
+      "bytes": 32,
+      "pt": "Repare primeiro"
+    },
+    {
+      "indice": 16,
+      "ponteiro": 12361480,
+      "alvo": 766184,
+      "jp": "アイテム一覧に戻ります",
+      "chars": 11,
+      "bytes": 24,
+      "pt": "Voltar a lista"
+    },
+    {
+      "indice": 17,
+      "ponteiro": 12361484,
+      "alvo": 766208,
+      "jp": "使用しますか？",
+      "chars": 7,
+      "bytes": 16,
+      "pt": "Usar?"
+    },
+    {
+      "indice": 18,
+      "ponteiro": 12361488,
+      "alvo": 766224,
+      "jp": "いくつ捨てますか？",
+      "chars": 9,
+      "bytes": 20,
+      "pt": "Quanto jogar?"
+    },
+    {
+      "indice": 19,
+      "ponteiro": 12361492,
+      "alvo": 766244,
+      "jp": "捨ててもいいですか？",
+      "chars": 10,
+      "bytes": 22,
+      "pt": "Confirma?"
+    },
+    {
+      "indice": 20,
+      "ponteiro": 12361496,
+      "alvo": 766268,
+      "jp": "上書きしますか？",
+      "chars": 8,
+      "bytes": 18,
+      "pt": "Sobrescrever?"
+    },
+    {
+      "indice": 21,
+      "ponteiro": 12361500,
+      "alvo": 766288,
+      "jp": "ロードしますか？",
+      "chars": 8,
+      "bytes": 18,
+      "pt": "Carregar?"
+    },
+    {
+      "indice": 22,
+      "ponteiro": 12361504,
+      "alvo": 766308,
+      "jp": "セーブしますか？",
+      "chars": 8,
+      "bytes": 18,
+      "pt": "Salvar?"
+    },
+    {
+      "indice": 23,
+      "ponteiro": 12361508,
+      "alvo": 766328,
+      "jp": "削除しますか？",
+      "chars": 7,
+      "bytes": 16,
+      "pt": "Apagar?"
+    },
+    {
+      "indice": 24,
+      "ponteiro": 12361512,
+      "alvo": 766344,
+      "jp": "初期化しますか？",
+      "chars": 8,
+      "bytes": 18,
+      "pt": "Formatar?"
+    },
+    {
+      "indice": 25,
+      "ponteiro": 12361516,
+      "alvo": 766364,
+      "jp": "本当によろしいですか？",
+      "chars": 11,
+      "bytes": 24,
+      "pt": "Tem certeza?"
+    },
+    {
+      "indice": 26,
+      "ponteiro": 12361520,
+      "alvo": 766388,
+      "jp": "システムデータを初期化しますか？",
+      "chars": 16,
+      "bytes": 34,
+      "pt": "Apagar sistema?"
+    },
+    {
+      "indice": 27,
+      "ponteiro": 12361524,
+      "alvo": 766424,
+      "jp": "新規データ",
+      "chars": 5,
+      "bytes": 12,
+      "pt": "Vazio"
+    },
+    {
+      "indice": 28,
+      "ponteiro": 12361528,
+      "alvo": 766436,
+      "jp": "データが壊れています",
+      "chars": 10,
+      "bytes": 22,
+      "pt": "Dado corrompido"
+    },
+    {
+      "indice": 29,
+      "ponteiro": 12361532,
+      "alvo": 766460,
+      "jp": "バージョンが違います",
+      "chars": 10,
+      "bytes": 22,
+      "pt": "Outra versão"
+    },
+    {
+      "indice": 30,
+      "ponteiro": 12361536,
+      "alvo": 766484,
+      "jp": "読み込みに失敗しました",
+      "chars": 11,
+      "bytes": 24,
+      "pt": "Erro de leitura"
+    },
+    {
+      "indice": 31,
+      "ponteiro": 12361540,
+      "alvo": 766508,
+      "jp": "書き込みに失敗しました",
+      "chars": 11,
+      "bytes": 24,
+      "pt": "Erro ao salvar"
+    },
+    {
+      "indice": 32,
+      "ponteiro": 12361544,
+      "alvo": 766532,
+      "jp": "電源を切らないでください",
+      "chars": 12,
+      "bytes": 26,
+      "pt": "Não desligue"
+    },
+    {
+      "indice": 33,
+      "ponteiro": 12361548,
+      "alvo": 766560,
+      "jp": "　　　初期化中…",
+      "chars": 8,
+      "bytes": 18,
+      "pt": "Formatando..."
+    },
+    {
+      "indice": 34,
+      "ponteiro": 12361552,
+      "alvo": 766580,
+      "jp": "　　　ロード中…",
+      "chars": 8,
+      "bytes": 18,
+      "pt": "Carregando..."
+    },
+    {
+      "indice": 35,
+      "ponteiro": 12361556,
+      "alvo": 766600,
+      "jp": "セーブ完了しました",
+      "chars": 9,
+      "bytes": 20,
+      "pt": "Salvo!"
+    },
+    {
+      "indice": 36,
+      "ponteiro": 12361560,
+      "alvo": 766620,
+      "jp": "ロード完了しました",
+      "chars": 9,
+      "bytes": 20,
+      "pt": "Carregado!"
+    },
+    {
+      "indice": 37,
+      "ponteiro": 12361564,
+      "alvo": 766640,
+      "jp": "初期化完了しました",
+      "chars": 9,
+      "bytes": 20,
+      "pt": "Formatado!"
+    },
+    {
+      "indice": 38,
+      "ponteiro": 12361568,
+      "alvo": 766508,
+      "jp": "書き込みに失敗しました",
+      "chars": 11,
+      "bytes": 24,
+      "pt": "Erro ao salvar"
+    },
+    {
+      "indice": 39,
+      "ponteiro": 12361572,
+      "alvo": 766484,
+      "jp": "読み込みに失敗しました",
+      "chars": 11,
+      "bytes": 24,
+      "pt": "Erro de leitura"
+    },
+    {
+      "indice": 40,
+      "ponteiro": 12361576,
+      "alvo": 766660,
+      "jp": "アイテム画面に戻ります",
+      "chars": 11,
+      "bytes": 24,
+      "pt": "Voltar a itens"
+    },
+    {
+      "indice": 41,
+      "ponteiro": 12361580,
+      "alvo": 766692,
+      "jp": "は　い",
+      "chars": 3,
+      "bytes": 8,
+      "pt": "Sim"
+    },
+    {
+      "indice": 42,
+      "ponteiro": 12361584,
+      "alvo": 766684,
+      "jp": "いいえ",
+      "chars": 3,
+      "bytes": 8,
+      "pt": "Não"
+    }
+  ]
+}

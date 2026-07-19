@@ -1,0 +1,375 @@
+{
+  "_meta": {
+    "uso": "injetado em todo prompt de traducao para fixar os nomes",
+    "instrucoes": [
+      "Os CONFIRMADOS vieram da ROM e de wikipedia - o genero e dado duro.",
+      "O campo 'pt' e sugestao de adaptacao: mude se preferir outra grafia.",
+      "Os de REVISAR nao tem fonte; a romanizacao e palpite fundamentado.",
+      "Genero em branco = lugar ou coisa (nao precisa concordancia)."
+    ]
+  },
+  "confirmados": [
+    {
+      "jp": "ミューノ",
+      "pt": "Murno",
+      "genero": "F",
+      "ocorrencias": 1507,
+      "nota": "garota misteriosa protegida pelo heroi",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "アニス",
+      "pt": "Anise",
+      "genero": "F",
+      "ocorrencias": 316,
+      "nota": "do grupo que persegue Murno",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "プロスバン",
+      "pt": "Prosban",
+      "genero": "",
+      "ocorrencias": 214,
+      "nota": "lugar",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "ティエ",
+      "pt": "Tier",
+      "genero": "F",
+      "ocorrencias": 187,
+      "nota": "filha da estalagem",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "レミィ",
+      "pt": "Lemmy",
+      "genero": "M",
+      "ocorrencias": 166,
+      "nota": "jovem ferreiro da oficina Bostaph",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "ゴヴァン",
+      "pt": "Gunvald",
+      "genero": "",
+      "ocorrencias": 148,
+      "nota": "lido do patch (NAO era 'Govan')",
+      "fonte": "bytes do patch v1.0"
+    },
+    {
+      "jp": "ロブ",
+      "pt": "Rob",
+      "genero": "M",
+      "ocorrencias": 134,
+      "nota": "mestre-ferreiro falecido",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "ボスタフ",
+      "pt": "Bostaph",
+      "genero": "M",
+      "ocorrencias": 127,
+      "nota": "mestre da oficina rival",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "ルイーズ村",
+      "pt": "Vila Louise",
+      "genero": "",
+      "ocorrencias": 127,
+      "nota": "lugar",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "ディックル村",
+      "pt": "Vila Deckell",
+      "genero": "",
+      "ocorrencias": 111,
+      "nota": "lugar",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "ザック",
+      "pt": "Zakk",
+      "genero": "",
+      "ocorrencias": 111,
+      "nota": "lido do patch",
+      "fonte": "bytes do patch v1.0"
+    },
+    {
+      "jp": "スポート洞",
+      "pt": "Caverna Sport",
+      "genero": "",
+      "ocorrencias": 97,
+      "nota": "lugar",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "スレンジ",
+      "pt": "Slenj",
+      "genero": "",
+      "ocorrencias": 81,
+      "nota": "lugar (mina)",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "マグドラド",
+      "pt": "Magdrad",
+      "genero": "",
+      "ocorrencias": 72,
+      "nota": "lido do patch",
+      "fonte": "bytes do patch v1.0"
+    },
+    {
+      "jp": "ヴィー",
+      "pt": "V.E",
+      "genero": "F",
+      "ocorrencias": 70,
+      "nota": "mestra da oficina Rob; grafia lida dos bytes do patch",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "トラム",
+      "pt": "Tram",
+      "genero": "",
+      "ocorrencias": 70,
+      "nota": "lido do patch",
+      "fonte": "bytes do patch v1.0"
+    },
+    {
+      "jp": "ジェイド",
+      "pt": "Jade",
+      "genero": "M",
+      "ocorrencias": 59,
+      "nota": "ferreiro da oficina Benson; 'o Imortal Jade'",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "マーネイル",
+      "pt": "Estacao Marneil",
+      "genero": "",
+      "ocorrencias": 39,
+      "nota": "lugar (posto de parada)",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "ベルヴォレン",
+      "pt": "Velworen",
+      "genero": "",
+      "ocorrencias": 34,
+      "nota": "lido do patch (NAO era 'Belvoren')",
+      "fonte": "bytes do patch v1.0"
+    },
+    {
+      "jp": "ギラン",
+      "pt": "Gillan",
+      "genero": "M",
+      "ocorrencias": 22,
+      "nota": "membro do mesmo grupo; 'o Belo Gillan'",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "パイク",
+      "pt": "Pike",
+      "genero": "M",
+      "ocorrencias": 20,
+      "nota": "guerreiro do mesmo grupo; 'Pike de Aco'",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "ミシュース村",
+      "pt": "Vila Mishus",
+      "genero": "",
+      "ocorrencias": 15,
+      "nota": "lugar",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "フラード洞",
+      "pt": "Caverna Flard",
+      "genero": "",
+      "ocorrencias": 14,
+      "nota": "lugar",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "リッチバーン",
+      "pt": "Ritchburn",
+      "genero": "M",
+      "ocorrencias": 0,
+      "nota": "protagonista masculino, 13 anos",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "リッチー",
+      "pt": "Ritchie",
+      "genero": "M",
+      "ocorrencias": 0,
+      "nota": "apelido padrao do protagonista",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "リフモニカ",
+      "pt": "Rifmonica",
+      "genero": "F",
+      "ocorrencias": 0,
+      "nota": "protagonista feminina, 13 anos",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "リフ",
+      "pt": "Rif",
+      "genero": "F",
+      "ocorrencias": 0,
+      "nota": "apelido padrao da protagonista",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "ランドル",
+      "pt": "Randol",
+      "genero": "M",
+      "ocorrencias": 0,
+      "nota": "soldado-maquina; katakana truncado; patch EN: Run-dor",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "エンジ",
+      "pt": "Enzi",
+      "genero": "M",
+      "ocorrencias": 0,
+      "nota": "tigre-youkai com cara de gato; usa ワガハイ",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "キルフィス",
+      "pt": "Killfith",
+      "genero": "M",
+      "ocorrencias": 0,
+      "nota": "frio e calado; sem tique de fala",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "ルフィール",
+      "pt": "Rufeel",
+      "genero": "F",
+      "ocorrencias": 0,
+      "nota": "unica femea; medrosa que se faz de durona; usa ～わ",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "ディックル鉱洞",
+      "pt": "Mina de Deckell",
+      "genero": "",
+      "ocorrencias": 0,
+      "nota": "lugar",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "リィンバウム",
+      "pt": "Lyndbaum",
+      "genero": "",
+      "ocorrencias": 0,
+      "nota": "o mundo do jogo; grafia oficial da Atlus",
+      "fonte": "patch v1.0 + glossario da equipe"
+    },
+    {
+      "jp": "サージ",
+      "pt": "Serj",
+      "genero": "",
+      "ocorrencias": 0,
+      "nota": "lido do patch",
+      "fonte": "bytes do patch v1.0"
+    },
+    {
+      "jp": "ソードボルト",
+      "pt": "Swordbolt",
+      "genero": "",
+      "ocorrencias": 0,
+      "nota": "lido do patch",
+      "fonte": "bytes do patch v1.0"
+    }
+  ],
+  "revisar": [
+    {
+      "jp": "レクイ",
+      "pt": "Rekui",
+      "genero": "",
+      "ocorrencias": 73,
+      "nota": "romanizacao SUGERIDA, sem fonte - confirme a grafia",
+      "fonte": "sugestao"
+    },
+    {
+      "jp": "ギャラハン",
+      "pt": "Gallahan",
+      "genero": "",
+      "ocorrencias": 67,
+      "nota": "romanizacao SUGERIDA, sem fonte - confirme a grafia",
+      "fonte": "sugestao"
+    },
+    {
+      "jp": "アカバネ",
+      "pt": "Akabane",
+      "genero": "",
+      "ocorrencias": 65,
+      "nota": "romanizacao SUGERIDA, sem fonte - confirme a grafia",
+      "fonte": "sugestao"
+    },
+    {
+      "jp": "ウェルマン",
+      "pt": "Wellman",
+      "genero": "",
+      "ocorrencias": 62,
+      "nota": "romanizacao SUGERIDA, sem fonte - confirme a grafia",
+      "fonte": "sugestao"
+    },
+    {
+      "jp": "ベンソン",
+      "pt": "Benson",
+      "genero": "",
+      "ocorrencias": 58,
+      "nota": "romanizacao SUGERIDA, sem fonte - confirme a grafia",
+      "fonte": "sugestao"
+    },
+    {
+      "jp": "ヴォイジン",
+      "pt": "Voijin",
+      "genero": "",
+      "ocorrencias": 56,
+      "nota": "romanizacao SUGERIDA, sem fonte - confirme a grafia",
+      "fonte": "sugestao"
+    },
+    {
+      "jp": "リュート",
+      "pt": "Lute",
+      "genero": "",
+      "ocorrencias": 55,
+      "nota": "romanizacao SUGERIDA, sem fonte - confirme a grafia",
+      "fonte": "sugestao"
+    },
+    {
+      "jp": "エリエ",
+      "pt": "Erie",
+      "genero": "",
+      "ocorrencias": 50,
+      "nota": "romanizacao SUGERIDA, sem fonte - confirme a grafia",
+      "fonte": "sugestao"
+    },
+    {
+      "jp": "キッカ",
+      "pt": "Kikka",
+      "genero": "",
+      "ocorrencias": 47,
+      "nota": "romanizacao SUGERIDA, sem fonte - confirme a grafia",
+      "fonte": "sugestao"
+    },
+    {
+      "jp": "イアナ",
+      "pt": "Iana",
+      "genero": "",
+      "ocorrencias": 0,
+      "nota": "romanizacao SUGERIDA, sem fonte - confirme a grafia",
+      "fonte": "sugestao"
+    }
+  ]
+}

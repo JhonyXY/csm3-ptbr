@@ -1,0 +1,3242 @@
+[
+  {
+    "addr": "0x0800CFF8",
+    "opcodes": [
+      "hi=0x03[0x07]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:7613",
+    "lines": 71,
+    "file": "_out/handlers/0800CFF8.txt"
+  },
+  {
+    "addr": "0x0800D084",
+    "opcodes": [
+      "hi=0x03[0x08]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:7684",
+    "lines": 43,
+    "file": "_out/handlers/0800D084.txt"
+  },
+  {
+    "addr": "0x0800D36C",
+    "opcodes": [
+      "hi=0x03[0x09]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:8072",
+    "lines": 290,
+    "file": "_out/handlers/0800D36C.txt"
+  },
+  {
+    "addr": "0x0800D5D0",
+    "opcodes": [
+      "hi=0x03[0x0A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:8362",
+    "lines": 275,
+    "file": "_out/handlers/0800D5D0.txt"
+  },
+  {
+    "addr": "0x0800D81C",
+    "opcodes": [
+      "hi=0x03[0x0B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:8637",
+    "lines": 102,
+    "file": "_out/handlers/0800D81C.txt"
+  },
+  {
+    "addr": "0x0800D904",
+    "opcodes": [
+      "hi=0x03[0x0C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:8739",
+    "lines": 195,
+    "file": "_out/handlers/0800D904.txt"
+  },
+  {
+    "addr": "0x0800DAA8",
+    "opcodes": [
+      "hi=0x03[0x0D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:8934",
+    "lines": 55,
+    "file": "_out/handlers/0800DAA8.txt"
+  },
+  {
+    "addr": "0x0800DB1C",
+    "opcodes": [
+      "hi=0x03[0x0E]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:8989",
+    "lines": 585,
+    "file": "_out/handlers/0800DB1C.txt"
+  },
+  {
+    "addr": "0x0800E048",
+    "opcodes": [
+      "hi=0x03[0x14]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:9574",
+    "lines": 44,
+    "file": "_out/handlers/0800E048.txt"
+  },
+  {
+    "addr": "0x0800E0A4",
+    "opcodes": [
+      "hi=0x03[0x15]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:9618",
+    "lines": 192,
+    "file": "_out/handlers/0800E0A4.txt"
+  },
+  {
+    "addr": "0x0800E23C",
+    "opcodes": [
+      "hi=0x03[0x18]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:9810",
+    "lines": 216,
+    "file": "_out/handlers/0800E23C.txt"
+  },
+  {
+    "addr": "0x0800E40C",
+    "opcodes": [
+      "hi=0x03[0x10]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:10026",
+    "lines": 312,
+    "file": "_out/handlers/0800E40C.txt"
+  },
+  {
+    "addr": "0x0800EDE8",
+    "opcodes": [
+      "hi=0x03[0x11]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:11381",
+    "lines": 22,
+    "file": "_out/handlers/0800EDE8.txt"
+  },
+  {
+    "addr": "0x0800EE14",
+    "opcodes": [
+      "hi=0x03[0x12]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:11403",
+    "lines": 15,
+    "file": "_out/handlers/0800EE14.txt"
+  },
+  {
+    "addr": "0x0800EE30",
+    "opcodes": [
+      "hi=0x03[0x13]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:11418",
+    "lines": 21,
+    "file": "_out/handlers/0800EE30.txt"
+  },
+  {
+    "addr": "0x0800EE88",
+    "opcodes": [
+      "hi=0x03[0x17]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:11460",
+    "lines": 35,
+    "file": "_out/handlers/0800EE88.txt"
+  },
+  {
+    "addr": "0x0800EED4",
+    "opcodes": [
+      "hi=0x03[0x0F]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:11495",
+    "lines": 25,
+    "file": "_out/handlers/0800EED4.txt"
+  },
+  {
+    "addr": "0x0800EF08",
+    "opcodes": [
+      "hi=0x03[0x16]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:11520",
+    "lines": 31,
+    "file": "_out/handlers/0800EF08.txt"
+  },
+  {
+    "addr": "0x08010BB0",
+    "opcodes": [
+      "hi=0x03[0x1C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:15064",
+    "lines": 46,
+    "file": "_out/handlers/08010BB0.txt"
+  },
+  {
+    "addr": "0x08010C04",
+    "opcodes": [
+      "hi=0x03[0x1D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:15110",
+    "lines": 54,
+    "file": "_out/handlers/08010C04.txt"
+  },
+  {
+    "addr": "0x08010C6C",
+    "opcodes": [
+      "hi=0x03[0x20]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:15164",
+    "lines": 58,
+    "file": "_out/handlers/08010C6C.txt"
+  },
+  {
+    "addr": "0x08011510",
+    "opcodes": [
+      "hi=0x03[0x1A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:16403",
+    "lines": 38,
+    "file": "_out/handlers/08011510.txt"
+  },
+  {
+    "addr": "0x08011560",
+    "opcodes": [
+      "hi=0x03[0x1B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:16441",
+    "lines": 45,
+    "file": "_out/handlers/08011560.txt"
+  },
+  {
+    "addr": "0x080115C0",
+    "opcodes": [
+      "hi=0x03[0x1E]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:16486",
+    "lines": 38,
+    "file": "_out/handlers/080115C0.txt"
+  },
+  {
+    "addr": "0x08011610",
+    "opcodes": [
+      "hi=0x03[0x1F]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:16524",
+    "lines": 51,
+    "file": "_out/handlers/08011610.txt"
+  },
+  {
+    "addr": "0x08011674",
+    "opcodes": [
+      "hi=0x03[0x21]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:16575",
+    "lines": 26,
+    "file": "_out/handlers/08011674.txt"
+  },
+  {
+    "addr": "0x080116A8",
+    "opcodes": [
+      "hi=0x03[0x22]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:16601",
+    "lines": 33,
+    "file": "_out/handlers/080116A8.txt"
+  },
+  {
+    "addr": "0x080116EC",
+    "opcodes": [
+      "hi=0x03[0x23]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:16634",
+    "lines": 47,
+    "file": "_out/handlers/080116EC.txt"
+  },
+  {
+    "addr": "0x08011750",
+    "opcodes": [
+      "hi=0x03[0x24]"
+    ],
+    "status": "asm",
+    "source": "asm/code_copy.s:16681",
+    "lines": 34,
+    "file": "_out/handlers/08011750.txt"
+  },
+  {
+    "addr": "0x080128BC",
+    "opcodes": [
+      "hi=0x00[0x01]"
+    ],
+    "status": "asm",
+    "source": "asm/code_080123E4.s:658",
+    "lines": 124,
+    "file": "_out/handlers/080128BC.txt"
+  },
+  {
+    "addr": "0x080129B0",
+    "opcodes": [
+      "hi=0x00[0x04]"
+    ],
+    "status": "asm",
+    "source": "asm/code_080123E4.s:782",
+    "lines": 34,
+    "file": "_out/handlers/080129B0.txt"
+  },
+  {
+    "addr": "0x080129EC",
+    "opcodes": [
+      "hi=0x00[0x05]"
+    ],
+    "status": "asm",
+    "source": "asm/code_080123E4.s:816",
+    "lines": 82,
+    "file": "_out/handlers/080129EC.txt"
+  },
+  {
+    "addr": "0x08012A94",
+    "opcodes": [
+      "hi=0x00[0x06]"
+    ],
+    "status": "asm",
+    "source": "asm/code_080123E4.s:898",
+    "lines": 99,
+    "file": "_out/handlers/08012A94.txt"
+  },
+  {
+    "addr": "0x08012B60",
+    "opcodes": [
+      "hi=0x00[0x07]"
+    ],
+    "status": "asm",
+    "source": "asm/code_080123E4.s:997",
+    "lines": 36,
+    "file": "_out/handlers/08012B60.txt"
+  },
+  {
+    "addr": "0x08012BA4",
+    "opcodes": [
+      "hi=0x00[0x08]"
+    ],
+    "status": "asm",
+    "source": "asm/code_080123E4.s:1033",
+    "lines": 35,
+    "file": "_out/handlers/08012BA4.txt"
+  },
+  {
+    "addr": "0x08012BE8",
+    "opcodes": [
+      "hi=0x00[0x09]"
+    ],
+    "status": "c",
+    "source": "src/script.c:14",
+    "lines": 13,
+    "file": "_out/handlers/08012BE8.txt"
+  },
+  {
+    "addr": "0x080131DC",
+    "opcodes": [
+      "hi=0x00[0x02]"
+    ],
+    "status": "c",
+    "source": "src/script.c:255",
+    "lines": 14,
+    "file": "_out/handlers/080131DC.txt"
+  },
+  {
+    "addr": "0x08013220",
+    "opcodes": [
+      "hi=0x00[0x03]"
+    ],
+    "status": "c",
+    "source": "src/script.c:269",
+    "lines": 8,
+    "file": "_out/handlers/08013220.txt"
+  },
+  {
+    "addr": "0x0801324C",
+    "opcodes": [
+      "hi=0x00[0x0A]"
+    ],
+    "status": "c",
+    "source": "src/script.c:277",
+    "lines": 7,
+    "file": "_out/handlers/0801324C.txt"
+  },
+  {
+    "addr": "0x08013278",
+    "opcodes": [
+      "hi=0x00[0x0B]"
+    ],
+    "status": "c",
+    "source": "src/script.c:284",
+    "lines": 9,
+    "file": "_out/handlers/08013278.txt"
+  },
+  {
+    "addr": "0x080132B0",
+    "opcodes": [
+      "hi=0x00[0x0C]"
+    ],
+    "status": "c",
+    "source": "src/script.c:293",
+    "lines": 5,
+    "file": "_out/handlers/080132B0.txt"
+  },
+  {
+    "addr": "0x080132B4",
+    "opcodes": [
+      "hi=0x00[0x0D]"
+    ],
+    "status": "c",
+    "source": "src/script.c:298",
+    "lines": 7,
+    "file": "_out/handlers/080132B4.txt"
+  },
+  {
+    "addr": "0x080140F4",
+    "opcodes": [
+      "hi=0x03[0x30]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:1829",
+    "lines": 92,
+    "file": "_out/handlers/080140F4.txt"
+  },
+  {
+    "addr": "0x080141D0",
+    "opcodes": [
+      "hi=0x03[0x31]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:1921",
+    "lines": 73,
+    "file": "_out/handlers/080141D0.txt"
+  },
+  {
+    "addr": "0x0801426C",
+    "opcodes": [
+      "hi=0x03[0x33]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:1994",
+    "lines": 37,
+    "file": "_out/handlers/0801426C.txt"
+  },
+  {
+    "addr": "0x080142B4",
+    "opcodes": [
+      "hi=0x03[0x3D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:2031",
+    "lines": 119,
+    "file": "_out/handlers/080142B4.txt"
+  },
+  {
+    "addr": "0x080143A8",
+    "opcodes": [
+      "hi=0x03[0x3E]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:2150",
+    "lines": 78,
+    "file": "_out/handlers/080143A8.txt"
+  },
+  {
+    "addr": "0x080149C4",
+    "opcodes": [
+      "hi=0x03[0x32]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:2959",
+    "lines": 21,
+    "file": "_out/handlers/080149C4.txt"
+  },
+  {
+    "addr": "0x080149F0",
+    "opcodes": [
+      "hi=0x03[0x34]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:2980",
+    "lines": 25,
+    "file": "_out/handlers/080149F0.txt"
+  },
+  {
+    "addr": "0x08014A18",
+    "opcodes": [
+      "hi=0x03[0x35]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3005",
+    "lines": 23,
+    "file": "_out/handlers/08014A18.txt"
+  },
+  {
+    "addr": "0x08014A48",
+    "opcodes": [
+      "hi=0x03[0x36]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3028",
+    "lines": 23,
+    "file": "_out/handlers/08014A48.txt"
+  },
+  {
+    "addr": "0x08014A78",
+    "opcodes": [
+      "hi=0x03[0x37]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3051",
+    "lines": 50,
+    "file": "_out/handlers/08014A78.txt"
+  },
+  {
+    "addr": "0x08014AE4",
+    "opcodes": [
+      "hi=0x03[0x38]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3101",
+    "lines": 25,
+    "file": "_out/handlers/08014AE4.txt"
+  },
+  {
+    "addr": "0x08014B1C",
+    "opcodes": [
+      "hi=0x03[0x39]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3126",
+    "lines": 27,
+    "file": "_out/handlers/08014B1C.txt"
+  },
+  {
+    "addr": "0x08014B58",
+    "opcodes": [
+      "hi=0x03[0x3A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3153",
+    "lines": 26,
+    "file": "_out/handlers/08014B58.txt"
+  },
+  {
+    "addr": "0x08014B8C",
+    "opcodes": [
+      "hi=0x03[0x3B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3179",
+    "lines": 54,
+    "file": "_out/handlers/08014B8C.txt"
+  },
+  {
+    "addr": "0x08014C00",
+    "opcodes": [
+      "hi=0x03[0x3C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3233",
+    "lines": 59,
+    "file": "_out/handlers/08014C00.txt"
+  },
+  {
+    "addr": "0x08014C80",
+    "opcodes": [
+      "hi=0x03[0x3F]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3292",
+    "lines": 25,
+    "file": "_out/handlers/08014C80.txt"
+  },
+  {
+    "addr": "0x08014CB4",
+    "opcodes": [
+      "hi=0x03[0x40]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3317",
+    "lines": 17,
+    "file": "_out/handlers/08014CB4.txt"
+  },
+  {
+    "addr": "0x08014CD4",
+    "opcodes": [
+      "hi=0x03[0x41]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3334",
+    "lines": 22,
+    "file": "_out/handlers/08014CD4.txt"
+  },
+  {
+    "addr": "0x08014CF8",
+    "opcodes": [
+      "hi=0x03[0x42]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3356",
+    "lines": 8,
+    "file": "_out/handlers/08014CF8.txt"
+  },
+  {
+    "addr": "0x08014D04",
+    "opcodes": [
+      "hi=0x03[0x2F]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:3364",
+    "lines": 5,
+    "file": "_out/handlers/08014D04.txt"
+  },
+  {
+    "addr": "0x080174A0",
+    "opcodes": [
+      "hi=0x03[0x63]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:8445",
+    "lines": 55,
+    "file": "_out/handlers/080174A0.txt"
+  },
+  {
+    "addr": "0x08017510",
+    "opcodes": [
+      "hi=0x03[0x64]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:8500",
+    "lines": 85,
+    "file": "_out/handlers/08017510.txt"
+  },
+  {
+    "addr": "0x080175C8",
+    "opcodes": [
+      "hi=0x03[0x66]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:8585",
+    "lines": 49,
+    "file": "_out/handlers/080175C8.txt"
+  },
+  {
+    "addr": "0x08017630",
+    "opcodes": [
+      "hi=0x03[0x68]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:8634",
+    "lines": 65,
+    "file": "_out/handlers/08017630.txt"
+  },
+  {
+    "addr": "0x080176B4",
+    "opcodes": [
+      "hi=0x03[0x6A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:8699",
+    "lines": 88,
+    "file": "_out/handlers/080176B4.txt"
+  },
+  {
+    "addr": "0x0801775C",
+    "opcodes": [
+      "hi=0x03[0x6F]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:8787",
+    "lines": 43,
+    "file": "_out/handlers/0801775C.txt"
+  },
+  {
+    "addr": "0x080177B0",
+    "opcodes": [
+      "hi=0x03[0x79]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:8830",
+    "lines": 77,
+    "file": "_out/handlers/080177B0.txt"
+  },
+  {
+    "addr": "0x08017854",
+    "opcodes": [
+      "hi=0x03[0x7F]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:8907",
+    "lines": 54,
+    "file": "_out/handlers/08017854.txt"
+  },
+  {
+    "addr": "0x080178C4",
+    "opcodes": [
+      "hi=0x03[0x6D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:8961",
+    "lines": 65,
+    "file": "_out/handlers/080178C4.txt"
+  },
+  {
+    "addr": "0x0801793C",
+    "opcodes": [
+      "hi=0x03[0x75]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:9026",
+    "lines": 89,
+    "file": "_out/handlers/0801793C.txt"
+  },
+  {
+    "addr": "0x080179E4",
+    "opcodes": [
+      "hi=0x03[0x76]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:9115",
+    "lines": 82,
+    "file": "_out/handlers/080179E4.txt"
+  },
+  {
+    "addr": "0x08017A84",
+    "opcodes": [
+      "hi=0x03[0x70]"
+    ],
+    "status": "asm",
+    "source": "asm/code_script.s:9197",
+    "lines": 76,
+    "file": "_out/handlers/08017A84.txt"
+  },
+  {
+    "addr": "0x08019304",
+    "opcodes": [
+      "hi=0x03[0x60]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:372",
+    "lines": 24,
+    "file": "_out/handlers/08019304.txt"
+  },
+  {
+    "addr": "0x08019334",
+    "opcodes": [
+      "hi=0x03[0x61]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:396",
+    "lines": 36,
+    "file": "_out/handlers/08019334.txt"
+  },
+  {
+    "addr": "0x08019380",
+    "opcodes": [
+      "hi=0x03[0x62]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:432",
+    "lines": 17,
+    "file": "_out/handlers/08019380.txt"
+  },
+  {
+    "addr": "0x080193A0",
+    "opcodes": [
+      "hi=0x03[0x65]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:449",
+    "lines": 10,
+    "file": "_out/handlers/080193A0.txt"
+  },
+  {
+    "addr": "0x080193B0",
+    "opcodes": [
+      "hi=0x03[0x67]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:459",
+    "lines": 10,
+    "file": "_out/handlers/080193B0.txt"
+  },
+  {
+    "addr": "0x080193C0",
+    "opcodes": [
+      "hi=0x03[0x69]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:469",
+    "lines": 14,
+    "file": "_out/handlers/080193C0.txt"
+  },
+  {
+    "addr": "0x080193D8",
+    "opcodes": [
+      "hi=0x03[0x6B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:483",
+    "lines": 61,
+    "file": "_out/handlers/080193D8.txt"
+  },
+  {
+    "addr": "0x08019448",
+    "opcodes": [
+      "hi=0x03[0x6C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:544",
+    "lines": 39,
+    "file": "_out/handlers/08019448.txt"
+  },
+  {
+    "addr": "0x08019498",
+    "opcodes": [
+      "hi=0x03[0x6E]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:583",
+    "lines": 88,
+    "file": "_out/handlers/08019498.txt"
+  },
+  {
+    "addr": "0x0801953C",
+    "opcodes": [
+      "hi=0x03[0x7B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:671",
+    "lines": 24,
+    "file": "_out/handlers/0801953C.txt"
+  },
+  {
+    "addr": "0x0801956C",
+    "opcodes": [
+      "hi=0x03[0x80]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:695",
+    "lines": 28,
+    "file": "_out/handlers/0801956C.txt"
+  },
+  {
+    "addr": "0x080195A4",
+    "opcodes": [
+      "hi=0x03[0x81]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:723",
+    "lines": 28,
+    "file": "_out/handlers/080195A4.txt"
+  },
+  {
+    "addr": "0x080195DC",
+    "opcodes": [
+      "hi=0x03[0x82]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:751",
+    "lines": 28,
+    "file": "_out/handlers/080195DC.txt"
+  },
+  {
+    "addr": "0x08019614",
+    "opcodes": [
+      "hi=0x03[0x83]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:779",
+    "lines": 28,
+    "file": "_out/handlers/08019614.txt"
+  },
+  {
+    "addr": "0x0801964C",
+    "opcodes": [
+      "hi=0x03[0x77]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:807",
+    "lines": 29,
+    "file": "_out/handlers/0801964C.txt"
+  },
+  {
+    "addr": "0x0801B4D8",
+    "opcodes": [
+      "hi=0x03[0x00]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:4943",
+    "lines": 235,
+    "file": "_out/handlers/0801B4D8.txt"
+  },
+  {
+    "addr": "0x0801B6E0",
+    "opcodes": [
+      "hi=0x03[0x01]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:5178",
+    "lines": 147,
+    "file": "_out/handlers/0801B6E0.txt"
+  },
+  {
+    "addr": "0x0801B804",
+    "opcodes": [
+      "hi=0x03[0x02]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:5325",
+    "lines": 118,
+    "file": "_out/handlers/0801B804.txt"
+  },
+  {
+    "addr": "0x0801BCC4",
+    "opcodes": [
+      "hi=0x03[0x03]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:5993",
+    "lines": 22,
+    "file": "_out/handlers/0801BCC4.txt"
+  },
+  {
+    "addr": "0x0801BCF4",
+    "opcodes": [
+      "hi=0x03[0x04]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:6015",
+    "lines": 41,
+    "file": "_out/handlers/0801BCF4.txt"
+  },
+  {
+    "addr": "0x0801BD48",
+    "opcodes": [
+      "hi=0x03[0x05]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:6056",
+    "lines": 20,
+    "file": "_out/handlers/0801BD48.txt"
+  },
+  {
+    "addr": "0x0802B95C",
+    "opcodes": [
+      "hi=0x01[0x01]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:37881",
+    "lines": 378,
+    "file": "_out/handlers/0802B95C.txt"
+  },
+  {
+    "addr": "0x0802BE6C",
+    "opcodes": [
+      "hi=0x01[0x00]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:38475",
+    "lines": 55,
+    "file": "_out/handlers/0802BE6C.txt"
+  },
+  {
+    "addr": "0x0802BEF8",
+    "opcodes": [
+      "hi=0x01[0x0C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:38530",
+    "lines": 35,
+    "file": "_out/handlers/0802BEF8.txt"
+  },
+  {
+    "addr": "0x0802BF40",
+    "opcodes": [
+      "hi=0x01[0x0D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_attribute.s:38565",
+    "lines": 10,
+    "file": "_out/handlers/0802BF40.txt"
+  },
+  {
+    "addr": "0x08058CB8",
+    "opcodes": [
+      "hi=0x02[0x00]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:53427",
+    "lines": 360,
+    "file": "_out/handlers/08058CB8.txt"
+  },
+  {
+    "addr": "0x08058FA8",
+    "opcodes": [
+      "hi=0x02[0x41]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:53787",
+    "lines": 551,
+    "file": "_out/handlers/08058FA8.txt"
+  },
+  {
+    "addr": "0x0805941C",
+    "opcodes": [
+      "hi=0x02[0x0F]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:54338",
+    "lines": 86,
+    "file": "_out/handlers/0805941C.txt"
+  },
+  {
+    "addr": "0x0805957C",
+    "opcodes": [
+      "hi=0x02[0x2E]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:54514",
+    "lines": 182,
+    "file": "_out/handlers/0805957C.txt"
+  },
+  {
+    "addr": "0x080596F0",
+    "opcodes": [
+      "hi=0x02[0x2F]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:54696",
+    "lines": 142,
+    "file": "_out/handlers/080596F0.txt"
+  },
+  {
+    "addr": "0x080598E4",
+    "opcodes": [
+      "hi=0x02[0x50]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:54954",
+    "lines": 89,
+    "file": "_out/handlers/080598E4.txt"
+  },
+  {
+    "addr": "0x080599A0",
+    "opcodes": [
+      "hi=0x02[0x51]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:55043",
+    "lines": 153,
+    "file": "_out/handlers/080599A0.txt"
+  },
+  {
+    "addr": "0x08059D90",
+    "opcodes": [
+      "hi=0x02[0x30]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:55543",
+    "lines": 94,
+    "file": "_out/handlers/08059D90.txt"
+  },
+  {
+    "addr": "0x08059E64",
+    "opcodes": [
+      "hi=0x02[0x34]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:55637",
+    "lines": 52,
+    "file": "_out/handlers/08059E64.txt"
+  },
+  {
+    "addr": "0x08059EDC",
+    "opcodes": [
+      "hi=0x02[0x10]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:55689",
+    "lines": 355,
+    "file": "_out/handlers/08059EDC.txt"
+  },
+  {
+    "addr": "0x0805A1C8",
+    "opcodes": [
+      "hi=0x02[0x11]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:56044",
+    "lines": 62,
+    "file": "_out/handlers/0805A1C8.txt"
+  },
+  {
+    "addr": "0x0805A24C",
+    "opcodes": [
+      "hi=0x02[0x13]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:56106",
+    "lines": 80,
+    "file": "_out/handlers/0805A24C.txt"
+  },
+  {
+    "addr": "0x0805A2F4",
+    "opcodes": [
+      "hi=0x02[0x14]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:56186",
+    "lines": 66,
+    "file": "_out/handlers/0805A2F4.txt"
+  },
+  {
+    "addr": "0x0805A380",
+    "opcodes": [
+      "hi=0x02[0x1C]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:56252",
+    "lines": 89,
+    "file": "_out/handlers/0805A380.txt"
+  },
+  {
+    "addr": "0x0805A43C",
+    "opcodes": [
+      "hi=0x02[0x16]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:56341",
+    "lines": 48,
+    "file": "_out/handlers/0805A43C.txt"
+  },
+  {
+    "addr": "0x0805A4A4",
+    "opcodes": [
+      "hi=0x02[0x17]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:56389",
+    "lines": 55,
+    "file": "_out/handlers/0805A4A4.txt"
+  },
+  {
+    "addr": "0x0805A51C",
+    "opcodes": [
+      "hi=0x02[0x1B]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:56444",
+    "lines": 52,
+    "file": "_out/handlers/0805A51C.txt"
+  },
+  {
+    "addr": "0x0805A588",
+    "opcodes": [
+      "hi=0x02[0x20]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:56496",
+    "lines": 278,
+    "file": "_out/handlers/0805A588.txt"
+  },
+  {
+    "addr": "0x0805A7D4",
+    "opcodes": [
+      "hi=0x02[0x23]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:56774",
+    "lines": 189,
+    "file": "_out/handlers/0805A7D4.txt"
+  },
+  {
+    "addr": "0x0805A95C",
+    "opcodes": [
+      "hi=0x02[0x29]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:56963",
+    "lines": 174,
+    "file": "_out/handlers/0805A95C.txt"
+  },
+  {
+    "addr": "0x0805AAC8",
+    "opcodes": [
+      "hi=0x02[0x24]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57137",
+    "lines": 93,
+    "file": "_out/handlers/0805AAC8.txt"
+  },
+  {
+    "addr": "0x0805AB74",
+    "opcodes": [
+      "hi=0x02[0x25]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57230",
+    "lines": 176,
+    "file": "_out/handlers/0805AB74.txt"
+  },
+  {
+    "addr": "0x0805ACDC",
+    "opcodes": [
+      "hi=0x02[0x26]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57406",
+    "lines": 41,
+    "file": "_out/handlers/0805ACDC.txt"
+  },
+  {
+    "addr": "0x0805AD34",
+    "opcodes": [
+      "hi=0x02[0x27]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57447",
+    "lines": 77,
+    "file": "_out/handlers/0805AD34.txt"
+  },
+  {
+    "addr": "0x0805ADBC",
+    "opcodes": [
+      "hi=0x02[0x01]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57524",
+    "lines": 29,
+    "file": "_out/handlers/0805ADBC.txt"
+  },
+  {
+    "addr": "0x0805ADF0",
+    "opcodes": [
+      "hi=0x02[0x02]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57553",
+    "lines": 31,
+    "file": "_out/handlers/0805ADF0.txt"
+  },
+  {
+    "addr": "0x0805AE30",
+    "opcodes": [
+      "hi=0x02[0x03]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57584",
+    "lines": 23,
+    "file": "_out/handlers/0805AE30.txt"
+  },
+  {
+    "addr": "0x0805AE60",
+    "opcodes": [
+      "hi=0x02[0x42]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57607",
+    "lines": 20,
+    "file": "_out/handlers/0805AE60.txt"
+  },
+  {
+    "addr": "0x0805AE88",
+    "opcodes": [
+      "hi=0x02[0x48]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57627",
+    "lines": 21,
+    "file": "_out/handlers/0805AE88.txt"
+  },
+  {
+    "addr": "0x0805AEB4",
+    "opcodes": [
+      "hi=0x02[0x44]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57648",
+    "lines": 35,
+    "file": "_out/handlers/0805AEB4.txt"
+  },
+  {
+    "addr": "0x0805AEFC",
+    "opcodes": [
+      "hi=0x02[0x45]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57683",
+    "lines": 51,
+    "file": "_out/handlers/0805AEFC.txt"
+  },
+  {
+    "addr": "0x0805AF68",
+    "opcodes": [
+      "hi=0x02[0x46]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57734",
+    "lines": 17,
+    "file": "_out/handlers/0805AF68.txt"
+  },
+  {
+    "addr": "0x0805AF88",
+    "opcodes": [
+      "hi=0x02[0x04]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57751",
+    "lines": 41,
+    "file": "_out/handlers/0805AF88.txt"
+  },
+  {
+    "addr": "0x0805AFD0",
+    "opcodes": [
+      "hi=0x02[0x05]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57792",
+    "lines": 41,
+    "file": "_out/handlers/0805AFD0.txt"
+  },
+  {
+    "addr": "0x0805B018",
+    "opcodes": [
+      "hi=0x02[0x06]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57833",
+    "lines": 41,
+    "file": "_out/handlers/0805B018.txt"
+  },
+  {
+    "addr": "0x0805B060",
+    "opcodes": [
+      "hi=0x02[0x07]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57874",
+    "lines": 41,
+    "file": "_out/handlers/0805B060.txt"
+  },
+  {
+    "addr": "0x0805B0A8",
+    "opcodes": [
+      "hi=0x02[0x08]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57915",
+    "lines": 11,
+    "file": "_out/handlers/0805B0A8.txt"
+  },
+  {
+    "addr": "0x0805B0BC",
+    "opcodes": [
+      "hi=0x02[0x0A]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57926",
+    "lines": 24,
+    "file": "_out/handlers/0805B0BC.txt"
+  },
+  {
+    "addr": "0x0805B0EC",
+    "opcodes": [
+      "hi=0x02[0x0D]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57950",
+    "lines": 46,
+    "file": "_out/handlers/0805B0EC.txt"
+  },
+  {
+    "addr": "0x0805B14C",
+    "opcodes": [
+      "hi=0x02[0x0E]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:57996",
+    "lines": 32,
+    "file": "_out/handlers/0805B14C.txt"
+  },
+  {
+    "addr": "0x0805B18C",
+    "opcodes": [
+      "hi=0x02[0x2C]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58028",
+    "lines": 44,
+    "file": "_out/handlers/0805B18C.txt"
+  },
+  {
+    "addr": "0x0805B1DC",
+    "opcodes": [
+      "hi=0x02[0x2B]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58072",
+    "lines": 24,
+    "file": "_out/handlers/0805B1DC.txt"
+  },
+  {
+    "addr": "0x0805B20C",
+    "opcodes": [
+      "hi=0x02[0x2D]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58096",
+    "lines": 42,
+    "file": "_out/handlers/0805B20C.txt"
+  },
+  {
+    "addr": "0x0805B258",
+    "opcodes": [
+      "hi=0x02[0x31]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58138",
+    "lines": 32,
+    "file": "_out/handlers/0805B258.txt"
+  },
+  {
+    "addr": "0x0805B290",
+    "opcodes": [
+      "hi=0x02[0x32]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58170",
+    "lines": 18,
+    "file": "_out/handlers/0805B290.txt"
+  },
+  {
+    "addr": "0x0805B2B4",
+    "opcodes": [
+      "hi=0x02[0x0B]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58188",
+    "lines": 31,
+    "file": "_out/handlers/0805B2B4.txt"
+  },
+  {
+    "addr": "0x0805B2F4",
+    "opcodes": [
+      "hi=0x02[0x0C]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58219",
+    "lines": 21,
+    "file": "_out/handlers/0805B2F4.txt"
+  },
+  {
+    "addr": "0x0805B318",
+    "opcodes": [
+      "hi=0x02[0x35]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58240",
+    "lines": 18,
+    "file": "_out/handlers/0805B318.txt"
+  },
+  {
+    "addr": "0x0805B33C",
+    "opcodes": [
+      "hi=0x02[0x38]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58258",
+    "lines": 17,
+    "file": "_out/handlers/0805B33C.txt"
+  },
+  {
+    "addr": "0x0805B35C",
+    "opcodes": [
+      "hi=0x02[0x39]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58275",
+    "lines": 17,
+    "file": "_out/handlers/0805B35C.txt"
+  },
+  {
+    "addr": "0x0805B37C",
+    "opcodes": [
+      "hi=0x02[0x3A]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58292",
+    "lines": 22,
+    "file": "_out/handlers/0805B37C.txt"
+  },
+  {
+    "addr": "0x0805B3AC",
+    "opcodes": [
+      "hi=0x02[0x3B]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58314",
+    "lines": 17,
+    "file": "_out/handlers/0805B3AC.txt"
+  },
+  {
+    "addr": "0x0805B3CC",
+    "opcodes": [
+      "hi=0x02[0x3C]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58331",
+    "lines": 17,
+    "file": "_out/handlers/0805B3CC.txt"
+  },
+  {
+    "addr": "0x0805B3EC",
+    "opcodes": [
+      "hi=0x02[0x40]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58348",
+    "lines": 29,
+    "file": "_out/handlers/0805B3EC.txt"
+  },
+  {
+    "addr": "0x0805B428",
+    "opcodes": [
+      "hi=0x02[0x4A]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58377",
+    "lines": 24,
+    "file": "_out/handlers/0805B428.txt"
+  },
+  {
+    "addr": "0x0805B458",
+    "opcodes": [
+      "hi=0x02[0x4B]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58401",
+    "lines": 24,
+    "file": "_out/handlers/0805B458.txt"
+  },
+  {
+    "addr": "0x0805B488",
+    "opcodes": [
+      "hi=0x02[0x12]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58425",
+    "lines": 24,
+    "file": "_out/handlers/0805B488.txt"
+  },
+  {
+    "addr": "0x0805B4B8",
+    "opcodes": [
+      "hi=0x02[0x15]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58449",
+    "lines": 46,
+    "file": "_out/handlers/0805B4B8.txt"
+  },
+  {
+    "addr": "0x0805B50C",
+    "opcodes": [
+      "hi=0x02[0x18]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58495",
+    "lines": 48,
+    "file": "_out/handlers/0805B50C.txt"
+  },
+  {
+    "addr": "0x0805B564",
+    "opcodes": [
+      "hi=0x02[0x19]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58543",
+    "lines": 31,
+    "file": "_out/handlers/0805B564.txt"
+  },
+  {
+    "addr": "0x0805B5AC",
+    "opcodes": [
+      "hi=0x02[0x1A]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58574",
+    "lines": 34,
+    "file": "_out/handlers/0805B5AC.txt"
+  },
+  {
+    "addr": "0x0805B5E8",
+    "opcodes": [
+      "hi=0x02[0x21]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58608",
+    "lines": 39,
+    "file": "_out/handlers/0805B5E8.txt"
+  },
+  {
+    "addr": "0x0805B63C",
+    "opcodes": [
+      "hi=0x02[0x22]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58647",
+    "lines": 53,
+    "file": "_out/handlers/0805B63C.txt"
+  },
+  {
+    "addr": "0x0805B6A8",
+    "opcodes": [
+      "hi=0x02[0x28]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:58700",
+    "lines": 21,
+    "file": "_out/handlers/0805B6A8.txt"
+  },
+  {
+    "addr": "0x080604C8",
+    "opcodes": [
+      "hi=0x04[0x79]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:68197",
+    "lines": 65,
+    "file": "_out/handlers/080604C8.txt"
+  },
+  {
+    "addr": "0x0806055C",
+    "opcodes": [
+      "hi=0x04[0x80]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:68262",
+    "lines": 63,
+    "file": "_out/handlers/0806055C.txt"
+  },
+  {
+    "addr": "0x080607C4",
+    "opcodes": [
+      "hi=0x04[0x78]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:68579",
+    "lines": 24,
+    "file": "_out/handlers/080607C4.txt"
+  },
+  {
+    "addr": "0x080607F4",
+    "opcodes": [
+      "hi=0x04[0x7A]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:68603",
+    "lines": 34,
+    "file": "_out/handlers/080607F4.txt"
+  },
+  {
+    "addr": "0x0806083C",
+    "opcodes": [
+      "hi=0x04[0x7B]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:68637",
+    "lines": 23,
+    "file": "_out/handlers/0806083C.txt"
+  },
+  {
+    "addr": "0x08060864",
+    "opcodes": [
+      "hi=0x04[0x7C]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:68660",
+    "lines": 29,
+    "file": "_out/handlers/08060864.txt"
+  },
+  {
+    "addr": "0x080608A0",
+    "opcodes": [
+      "hi=0x04[0x7D]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:68689",
+    "lines": 29,
+    "file": "_out/handlers/080608A0.txt"
+  },
+  {
+    "addr": "0x080608DC",
+    "opcodes": [
+      "hi=0x04[0x7E]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:68718",
+    "lines": 27,
+    "file": "_out/handlers/080608DC.txt"
+  },
+  {
+    "addr": "0x08060914",
+    "opcodes": [
+      "hi=0x04[0x7F]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:68745",
+    "lines": 20,
+    "file": "_out/handlers/08060914.txt"
+  },
+  {
+    "addr": "0x0806093C",
+    "opcodes": [
+      "hi=0x04[0x81]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:68765",
+    "lines": 25,
+    "file": "_out/handlers/0806093C.txt"
+  },
+  {
+    "addr": "0x0806096C",
+    "opcodes": [
+      "hi=0x04[0x82]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:68790",
+    "lines": 26,
+    "file": "_out/handlers/0806096C.txt"
+  },
+  {
+    "addr": "0x08062D80",
+    "opcodes": [
+      "hi=0x03[0x47]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:72984",
+    "lines": 81,
+    "file": "_out/handlers/08062D80.txt"
+  },
+  {
+    "addr": "0x08062E18",
+    "opcodes": [
+      "hi=0x03[0x48]"
+    ],
+    "status": "asm",
+    "source": "asm/code.s:73065",
+    "lines": 81,
+    "file": "_out/handlers/08062E18.txt"
+  },
+  {
+    "addr": "0x08067D4C",
+    "opcodes": [
+      "hi=0x03[0x4A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:6774",
+    "lines": 187,
+    "file": "_out/handlers/08067D4C.txt"
+  },
+  {
+    "addr": "0x08067EC8",
+    "opcodes": [
+      "hi=0x03[0x46]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:6961",
+    "lines": 181,
+    "file": "_out/handlers/08067EC8.txt"
+  },
+  {
+    "addr": "0x08068038",
+    "opcodes": [
+      "hi=0x03[0x49]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:7142",
+    "lines": 10,
+    "file": "_out/handlers/08068038.txt"
+  },
+  {
+    "addr": "0x08068048",
+    "opcodes": [
+      "hi=0x03[0x45]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:7152",
+    "lines": 10,
+    "file": "_out/handlers/08068048.txt"
+  },
+  {
+    "addr": "0x08069634",
+    "opcodes": [
+      "hi=0x03[0x4B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:9834",
+    "lines": 29,
+    "file": "_out/handlers/08069634.txt"
+  },
+  {
+    "addr": "0x08069670",
+    "opcodes": [
+      "hi=0x03[0x4C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:9863",
+    "lines": 14,
+    "file": "_out/handlers/08069670.txt"
+  },
+  {
+    "addr": "0x0806DF50",
+    "opcodes": [
+      "hi=0x03[0x4F]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:18767",
+    "lines": 101,
+    "file": "_out/handlers/0806DF50.txt"
+  },
+  {
+    "addr": "0x0806E020",
+    "opcodes": [
+      "hi=0x03[0x56]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:18868",
+    "lines": 99,
+    "file": "_out/handlers/0806E020.txt"
+  },
+  {
+    "addr": "0x0806E0EC",
+    "opcodes": [
+      "hi=0x03[0x57]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:18967",
+    "lines": 93,
+    "file": "_out/handlers/0806E0EC.txt"
+  },
+  {
+    "addr": "0x0806E1B8",
+    "opcodes": [
+      "hi=0x03[0x58]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:19060",
+    "lines": 96,
+    "file": "_out/handlers/0806E1B8.txt"
+  },
+  {
+    "addr": "0x0806E27C",
+    "opcodes": [
+      "hi=0x03[0x87]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:19156",
+    "lines": 138,
+    "file": "_out/handlers/0806E27C.txt"
+  },
+  {
+    "addr": "0x0806E394",
+    "opcodes": [
+      "hi=0x03[0x88]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:19294",
+    "lines": 136,
+    "file": "_out/handlers/0806E394.txt"
+  },
+  {
+    "addr": "0x0806E4A8",
+    "opcodes": [
+      "hi=0x03[0x59]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:19430",
+    "lines": 125,
+    "file": "_out/handlers/0806E4A8.txt"
+  },
+  {
+    "addr": "0x0806E5AC",
+    "opcodes": [
+      "hi=0x03[0x5A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:19555",
+    "lines": 107,
+    "file": "_out/handlers/0806E5AC.txt"
+  },
+  {
+    "addr": "0x0806E684",
+    "opcodes": [
+      "hi=0x03[0x7A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:19662",
+    "lines": 308,
+    "file": "_out/handlers/0806E684.txt"
+  },
+  {
+    "addr": "0x0806E968",
+    "opcodes": [
+      "hi=0x03[0x8B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:19970",
+    "lines": 686,
+    "file": "_out/handlers/0806E968.txt"
+  },
+  {
+    "addr": "0x0806F6C4",
+    "opcodes": [
+      "hi=0x03[0x7C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:21666",
+    "lines": 42,
+    "file": "_out/handlers/0806F6C4.txt"
+  },
+  {
+    "addr": "0x0808E990",
+    "opcodes": [
+      "hi=0x03[0x51]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:81033",
+    "lines": 621,
+    "file": "_out/handlers/0808E990.txt"
+  },
+  {
+    "addr": "0x0808EEEC",
+    "opcodes": [
+      "hi=0x03[0x52]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:81654",
+    "lines": 118,
+    "file": "_out/handlers/0808EEEC.txt"
+  },
+  {
+    "addr": "0x0808EFDC",
+    "opcodes": [
+      "hi=0x03[0x55]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:81772",
+    "lines": 105,
+    "file": "_out/handlers/0808EFDC.txt"
+  },
+  {
+    "addr": "0x0808F0C0",
+    "opcodes": [
+      "hi=0x03[0x53]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:81877",
+    "lines": 86,
+    "file": "_out/handlers/0808F0C0.txt"
+  },
+  {
+    "addr": "0x0808F474",
+    "opcodes": [
+      "hi=0x03[0x50]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:82310",
+    "lines": 29,
+    "file": "_out/handlers/0808F474.txt"
+  },
+  {
+    "addr": "0x0808F4B0",
+    "opcodes": [
+      "hi=0x03[0x54]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:82339",
+    "lines": 25,
+    "file": "_out/handlers/0808F4B0.txt"
+  },
+  {
+    "addr": "0x08093038",
+    "opcodes": [
+      "hi=0x03[0x4E]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:89267",
+    "lines": 435,
+    "file": "_out/handlers/08093038.txt"
+  },
+  {
+    "addr": "0x08093648",
+    "opcodes": [
+      "hi=0x03[0x5B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:89986",
+    "lines": 18,
+    "file": "_out/handlers/08093648.txt"
+  },
+  {
+    "addr": "0x0809366C",
+    "opcodes": [
+      "hi=0x03[0x5C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:90004",
+    "lines": 14,
+    "file": "_out/handlers/0809366C.txt"
+  },
+  {
+    "addr": "0x08093684",
+    "opcodes": [
+      "hi=0x03[0x5D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:90018",
+    "lines": 18,
+    "file": "_out/handlers/08093684.txt"
+  },
+  {
+    "addr": "0x080936A8",
+    "opcodes": [
+      "hi=0x03[0x5E]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:90036",
+    "lines": 18,
+    "file": "_out/handlers/080936A8.txt"
+  },
+  {
+    "addr": "0x080936CC",
+    "opcodes": [
+      "hi=0x03[0x5F]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:90054",
+    "lines": 49,
+    "file": "_out/handlers/080936CC.txt"
+  },
+  {
+    "addr": "0x0809373C",
+    "opcodes": [
+      "hi=0x03[0x4D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:90103",
+    "lines": 20,
+    "file": "_out/handlers/0809373C.txt"
+  },
+  {
+    "addr": "0x08093764",
+    "opcodes": [
+      "hi=0x03[0x74]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:90123",
+    "lines": 45,
+    "file": "_out/handlers/08093764.txt"
+  },
+  {
+    "addr": "0x080A598C",
+    "opcodes": [
+      "hi=0x04[0x0C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:127721",
+    "lines": 50,
+    "file": "_out/handlers/080A598C.txt"
+  },
+  {
+    "addr": "0x080A59E8",
+    "opcodes": [
+      "hi=0x04[0x0D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:127771",
+    "lines": 44,
+    "file": "_out/handlers/080A59E8.txt"
+  },
+  {
+    "addr": "0x080A5A3C",
+    "opcodes": [
+      "hi=0x04[0xA5]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:127815",
+    "lines": 61,
+    "file": "_out/handlers/080A5A3C.txt"
+  },
+  {
+    "addr": "0x080A5AB8",
+    "opcodes": [
+      "hi=0x04[0x8A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:127876",
+    "lines": 36,
+    "file": "_out/handlers/080A5AB8.txt"
+  },
+  {
+    "addr": "0x080A5B04",
+    "opcodes": [
+      "hi=0x04[0x8B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:127912",
+    "lines": 46,
+    "file": "_out/handlers/080A5B04.txt"
+  },
+  {
+    "addr": "0x080A5B64",
+    "opcodes": [
+      "hi=0x04[0x8C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:127958",
+    "lines": 47,
+    "file": "_out/handlers/080A5B64.txt"
+  },
+  {
+    "addr": "0x080A5BBC",
+    "opcodes": [
+      "hi=0x04[0x8D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128005",
+    "lines": 46,
+    "file": "_out/handlers/080A5BBC.txt"
+  },
+  {
+    "addr": "0x080A5C14",
+    "opcodes": [
+      "hi=0x04[0x8F]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128051",
+    "lines": 64,
+    "file": "_out/handlers/080A5C14.txt"
+  },
+  {
+    "addr": "0x080A5CA0",
+    "opcodes": [
+      "hi=0x04[0x10]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128115",
+    "lines": 35,
+    "file": "_out/handlers/080A5CA0.txt"
+  },
+  {
+    "addr": "0x080A5CEC",
+    "opcodes": [
+      "hi=0x04[0x11]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128150",
+    "lines": 55,
+    "file": "_out/handlers/080A5CEC.txt"
+  },
+  {
+    "addr": "0x080A5D58",
+    "opcodes": [
+      "hi=0x04[0x17]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128205",
+    "lines": 45,
+    "file": "_out/handlers/080A5D58.txt"
+  },
+  {
+    "addr": "0x080A5DB0",
+    "opcodes": [
+      "hi=0x04[0x19]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128250",
+    "lines": 56,
+    "file": "_out/handlers/080A5DB0.txt"
+  },
+  {
+    "addr": "0x080A5E28",
+    "opcodes": [
+      "hi=0x04[0x1D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128306",
+    "lines": 61,
+    "file": "_out/handlers/080A5E28.txt"
+  },
+  {
+    "addr": "0x080A5E9C",
+    "opcodes": [
+      "hi=0x04[0x28]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128367",
+    "lines": 84,
+    "file": "_out/handlers/080A5E9C.txt"
+  },
+  {
+    "addr": "0x080A5F48",
+    "opcodes": [
+      "hi=0x04[0x9B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128451",
+    "lines": 58,
+    "file": "_out/handlers/080A5F48.txt"
+  },
+  {
+    "addr": "0x080A5FC8",
+    "opcodes": [
+      "hi=0x04[0x3E]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128509",
+    "lines": 39,
+    "file": "_out/handlers/080A5FC8.txt"
+  },
+  {
+    "addr": "0x080A601C",
+    "opcodes": [
+      "hi=0x04[0x3F]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128548",
+    "lines": 52,
+    "file": "_out/handlers/080A601C.txt"
+  },
+  {
+    "addr": "0x080A6084",
+    "opcodes": [
+      "hi=0x04[0x41]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128600",
+    "lines": 107,
+    "file": "_out/handlers/080A6084.txt"
+  },
+  {
+    "addr": "0x080A6154",
+    "opcodes": [
+      "hi=0x04[0x46]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128707",
+    "lines": 95,
+    "file": "_out/handlers/080A6154.txt"
+  },
+  {
+    "addr": "0x080A620C",
+    "opcodes": [
+      "hi=0x04[0x4A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128802",
+    "lines": 107,
+    "file": "_out/handlers/080A620C.txt"
+  },
+  {
+    "addr": "0x080A62DC",
+    "opcodes": [
+      "hi=0x04[0x53]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128909",
+    "lines": 48,
+    "file": "_out/handlers/080A62DC.txt"
+  },
+  {
+    "addr": "0x080A6340",
+    "opcodes": [
+      "hi=0x04[0x56]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:128957",
+    "lines": 53,
+    "file": "_out/handlers/080A6340.txt"
+  },
+  {
+    "addr": "0x080A63AC",
+    "opcodes": [
+      "hi=0x04[0x91]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129010",
+    "lines": 115,
+    "file": "_out/handlers/080A63AC.txt"
+  },
+  {
+    "addr": "0x080A649C",
+    "opcodes": [
+      "hi=0x04[0x92]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129125",
+    "lines": 66,
+    "file": "_out/handlers/080A649C.txt"
+  },
+  {
+    "addr": "0x080A6524",
+    "opcodes": [
+      "hi=0x04[0x68]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129191",
+    "lines": 54,
+    "file": "_out/handlers/080A6524.txt"
+  },
+  {
+    "addr": "0x080A6588",
+    "opcodes": [
+      "hi=0x04[0x6D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129245",
+    "lines": 54,
+    "file": "_out/handlers/080A6588.txt"
+  },
+  {
+    "addr": "0x080A6600",
+    "opcodes": [
+      "hi=0x04[0x6E]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129299",
+    "lines": 80,
+    "file": "_out/handlers/080A6600.txt"
+  },
+  {
+    "addr": "0x080A66AC",
+    "opcodes": [
+      "hi=0x04[0x72]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129379",
+    "lines": 150,
+    "file": "_out/handlers/080A66AC.txt"
+  },
+  {
+    "addr": "0x080A67D8",
+    "opcodes": [
+      "hi=0x04[0x76]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129529",
+    "lines": 187,
+    "file": "_out/handlers/080A67D8.txt"
+  },
+  {
+    "addr": "0x080A6954",
+    "opcodes": [
+      "hi=0x04[0x08]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129716",
+    "lines": 17,
+    "file": "_out/handlers/080A6954.txt"
+  },
+  {
+    "addr": "0x080A6974",
+    "opcodes": [
+      "hi=0x04[0x09]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129733",
+    "lines": 44,
+    "file": "_out/handlers/080A6974.txt"
+  },
+  {
+    "addr": "0x080A69D8",
+    "opcodes": [
+      "hi=0x04[0x0A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129777",
+    "lines": 44,
+    "file": "_out/handlers/080A69D8.txt"
+  },
+  {
+    "addr": "0x080A6A30",
+    "opcodes": [
+      "hi=0x04[0x0B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129821",
+    "lines": 16,
+    "file": "_out/handlers/080A6A30.txt"
+  },
+  {
+    "addr": "0x080A6A4C",
+    "opcodes": [
+      "hi=0x04[0xA0]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129837",
+    "lines": 14,
+    "file": "_out/handlers/080A6A4C.txt"
+  },
+  {
+    "addr": "0x080A6A64",
+    "opcodes": [
+      "hi=0x04[0xA1]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129851",
+    "lines": 14,
+    "file": "_out/handlers/080A6A64.txt"
+  },
+  {
+    "addr": "0x080A6A7C",
+    "opcodes": [
+      "hi=0x04[0xA2]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129865",
+    "lines": 19,
+    "file": "_out/handlers/080A6A7C.txt"
+  },
+  {
+    "addr": "0x080A6AA0",
+    "opcodes": [
+      "hi=0x04[0xA3]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129884",
+    "lines": 19,
+    "file": "_out/handlers/080A6AA0.txt"
+  },
+  {
+    "addr": "0x080A6AC4",
+    "opcodes": [
+      "hi=0x04[0xA4]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129903",
+    "lines": 21,
+    "file": "_out/handlers/080A6AC4.txt"
+  },
+  {
+    "addr": "0x080A6AF0",
+    "opcodes": [
+      "hi=0x04[0x88]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129924",
+    "lines": 24,
+    "file": "_out/handlers/080A6AF0.txt"
+  },
+  {
+    "addr": "0x080A6B20",
+    "opcodes": [
+      "hi=0x04[0x89]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129948",
+    "lines": 29,
+    "file": "_out/handlers/080A6B20.txt"
+  },
+  {
+    "addr": "0x080A6B5C",
+    "opcodes": [
+      "hi=0x04[0x8E]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:129977",
+    "lines": 45,
+    "file": "_out/handlers/080A6B5C.txt"
+  },
+  {
+    "addr": "0x080A6BB4",
+    "opcodes": [
+      "hi=0x04[0x12]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130022",
+    "lines": 24,
+    "file": "_out/handlers/080A6BB4.txt"
+  },
+  {
+    "addr": "0x080A6BE4",
+    "opcodes": [
+      "hi=0x04[0x13]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130046",
+    "lines": 31,
+    "file": "_out/handlers/080A6BE4.txt"
+  },
+  {
+    "addr": "0x080A6C24",
+    "opcodes": [
+      "hi=0x04[0x14]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130077",
+    "lines": 29,
+    "file": "_out/handlers/080A6C24.txt"
+  },
+  {
+    "addr": "0x080A6C60",
+    "opcodes": [
+      "hi=0x04[0x15]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130106",
+    "lines": 31,
+    "file": "_out/handlers/080A6C60.txt"
+  },
+  {
+    "addr": "0x080A6CA0",
+    "opcodes": [
+      "hi=0x04[0x16]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130137",
+    "lines": 31,
+    "file": "_out/handlers/080A6CA0.txt"
+  },
+  {
+    "addr": "0x080A6CE0",
+    "opcodes": [
+      "hi=0x04[0x18]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130168",
+    "lines": 22,
+    "file": "_out/handlers/080A6CE0.txt"
+  },
+  {
+    "addr": "0x080A6D0C",
+    "opcodes": [
+      "hi=0x04[0x1A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130190",
+    "lines": 24,
+    "file": "_out/handlers/080A6D0C.txt"
+  },
+  {
+    "addr": "0x080A6D3C",
+    "opcodes": [
+      "hi=0x04[0x1B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130214",
+    "lines": 43,
+    "file": "_out/handlers/080A6D3C.txt"
+  },
+  {
+    "addr": "0x080A6D90",
+    "opcodes": [
+      "hi=0x04[0x1C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130257",
+    "lines": 38,
+    "file": "_out/handlers/080A6D90.txt"
+  },
+  {
+    "addr": "0x080A6DE0",
+    "opcodes": [
+      "hi=0x04[0x20]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130295",
+    "lines": 29,
+    "file": "_out/handlers/080A6DE0.txt"
+  },
+  {
+    "addr": "0x080A6E1C",
+    "opcodes": [
+      "hi=0x04[0x21]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130324",
+    "lines": 17,
+    "file": "_out/handlers/080A6E1C.txt"
+  },
+  {
+    "addr": "0x080A6E3C",
+    "opcodes": [
+      "hi=0x04[0x22]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130341",
+    "lines": 24,
+    "file": "_out/handlers/080A6E3C.txt"
+  },
+  {
+    "addr": "0x080A6E6C",
+    "opcodes": [
+      "hi=0x04[0x23]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130365",
+    "lines": 24,
+    "file": "_out/handlers/080A6E6C.txt"
+  },
+  {
+    "addr": "0x080A6E9C",
+    "opcodes": [
+      "hi=0x04[0x24]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130389",
+    "lines": 54,
+    "file": "_out/handlers/080A6E9C.txt"
+  },
+  {
+    "addr": "0x080A6F10",
+    "opcodes": [
+      "hi=0x04[0x25]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130443",
+    "lines": 17,
+    "file": "_out/handlers/080A6F10.txt"
+  },
+  {
+    "addr": "0x080A6F30",
+    "opcodes": [
+      "hi=0x04[0x26]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130460",
+    "lines": 24,
+    "file": "_out/handlers/080A6F30.txt"
+  },
+  {
+    "addr": "0x080A6F60",
+    "opcodes": [
+      "hi=0x04[0x27]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130484",
+    "lines": 24,
+    "file": "_out/handlers/080A6F60.txt"
+  },
+  {
+    "addr": "0x080A6F90",
+    "opcodes": [
+      "hi=0x04[0x29]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130508",
+    "lines": 40,
+    "file": "_out/handlers/080A6F90.txt"
+  },
+  {
+    "addr": "0x080A6FDC",
+    "opcodes": [
+      "hi=0x04[0x30]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130548",
+    "lines": 23,
+    "file": "_out/handlers/080A6FDC.txt"
+  },
+  {
+    "addr": "0x080A700C",
+    "opcodes": [
+      "hi=0x04[0x31]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130571",
+    "lines": 52,
+    "file": "_out/handlers/080A700C.txt"
+  },
+  {
+    "addr": "0x080A707C",
+    "opcodes": [
+      "hi=0x04[0x32]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130623",
+    "lines": 38,
+    "file": "_out/handlers/080A707C.txt"
+  },
+  {
+    "addr": "0x080A70CC",
+    "opcodes": [
+      "hi=0x04[0x98]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130661",
+    "lines": 46,
+    "file": "_out/handlers/080A70CC.txt"
+  },
+  {
+    "addr": "0x080A7130",
+    "opcodes": [
+      "hi=0x04[0x99]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130707",
+    "lines": 17,
+    "file": "_out/handlers/080A7130.txt"
+  },
+  {
+    "addr": "0x080A7150",
+    "opcodes": [
+      "hi=0x04[0x9A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130724",
+    "lines": 29,
+    "file": "_out/handlers/080A7150.txt"
+  },
+  {
+    "addr": "0x080A718C",
+    "opcodes": [
+      "hi=0x04[0x9C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130753",
+    "lines": 21,
+    "file": "_out/handlers/080A718C.txt"
+  },
+  {
+    "addr": "0x080A71B8",
+    "opcodes": [
+      "hi=0x04[0x9D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130774",
+    "lines": 52,
+    "file": "_out/handlers/080A71B8.txt"
+  },
+  {
+    "addr": "0x080A7228",
+    "opcodes": [
+      "hi=0x04[0x38]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130826",
+    "lines": 34,
+    "file": "_out/handlers/080A7228.txt"
+  },
+  {
+    "addr": "0x080A7270",
+    "opcodes": [
+      "hi=0x04[0x39]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130860",
+    "lines": 17,
+    "file": "_out/handlers/080A7270.txt"
+  },
+  {
+    "addr": "0x080A7290",
+    "opcodes": [
+      "hi=0x04[0x3A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130877",
+    "lines": 29,
+    "file": "_out/handlers/080A7290.txt"
+  },
+  {
+    "addr": "0x080A72CC",
+    "opcodes": [
+      "hi=0x04[0x3B]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130906",
+    "lines": 17,
+    "file": "_out/handlers/080A72CC.txt"
+  },
+  {
+    "addr": "0x080A72EC",
+    "opcodes": [
+      "hi=0x04[0x3C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130923",
+    "lines": 24,
+    "file": "_out/handlers/080A72EC.txt"
+  },
+  {
+    "addr": "0x080A731C",
+    "opcodes": [
+      "hi=0x04[0x3D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130947",
+    "lines": 31,
+    "file": "_out/handlers/080A731C.txt"
+  },
+  {
+    "addr": "0x080A735C",
+    "opcodes": [
+      "hi=0x04[0x40]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:130978",
+    "lines": 38,
+    "file": "_out/handlers/080A735C.txt"
+  },
+  {
+    "addr": "0x080A73AC",
+    "opcodes": [
+      "hi=0x04[0x42]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131016",
+    "lines": 24,
+    "file": "_out/handlers/080A73AC.txt"
+  },
+  {
+    "addr": "0x080A73DC",
+    "opcodes": [
+      "hi=0x04[0x43]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131040",
+    "lines": 29,
+    "file": "_out/handlers/080A73DC.txt"
+  },
+  {
+    "addr": "0x080A7418",
+    "opcodes": [
+      "hi=0x04[0x44]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131069",
+    "lines": 24,
+    "file": "_out/handlers/080A7418.txt"
+  },
+  {
+    "addr": "0x080A7448",
+    "opcodes": [
+      "hi=0x04[0x45]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131093",
+    "lines": 24,
+    "file": "_out/handlers/080A7448.txt"
+  },
+  {
+    "addr": "0x080A7478",
+    "opcodes": [
+      "hi=0x04[0x47]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131117",
+    "lines": 25,
+    "file": "_out/handlers/080A7478.txt"
+  },
+  {
+    "addr": "0x080A74AC",
+    "opcodes": [
+      "hi=0x04[0x48]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131142",
+    "lines": 35,
+    "file": "_out/handlers/080A74AC.txt"
+  },
+  {
+    "addr": "0x080A74F8",
+    "opcodes": [
+      "hi=0x04[0x49]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131177",
+    "lines": 42,
+    "file": "_out/handlers/080A74F8.txt"
+  },
+  {
+    "addr": "0x080A7550",
+    "opcodes": [
+      "hi=0x04[0x50]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131219",
+    "lines": 29,
+    "file": "_out/handlers/080A7550.txt"
+  },
+  {
+    "addr": "0x080A758C",
+    "opcodes": [
+      "hi=0x04[0x51]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131248",
+    "lines": 17,
+    "file": "_out/handlers/080A758C.txt"
+  },
+  {
+    "addr": "0x080A75AC",
+    "opcodes": [
+      "hi=0x04[0x52]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131265",
+    "lines": 31,
+    "file": "_out/handlers/080A75AC.txt"
+  },
+  {
+    "addr": "0x080A75EC",
+    "opcodes": [
+      "hi=0x04[0x54]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131296",
+    "lines": 25,
+    "file": "_out/handlers/080A75EC.txt"
+  },
+  {
+    "addr": "0x080A7620",
+    "opcodes": [
+      "hi=0x04[0x55]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131321",
+    "lines": 37,
+    "file": "_out/handlers/080A7620.txt"
+  },
+  {
+    "addr": "0x080A7670",
+    "opcodes": [
+      "hi=0x04[0x57]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131358",
+    "lines": 34,
+    "file": "_out/handlers/080A7670.txt"
+  },
+  {
+    "addr": "0x080A76B8",
+    "opcodes": [
+      "hi=0x04[0x58]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131392",
+    "lines": 38,
+    "file": "_out/handlers/080A76B8.txt"
+  },
+  {
+    "addr": "0x080A7704",
+    "opcodes": [
+      "hi=0x04[0x60]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131430",
+    "lines": 29,
+    "file": "_out/handlers/080A7704.txt"
+  },
+  {
+    "addr": "0x080A7740",
+    "opcodes": [
+      "hi=0x04[0x61]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131459",
+    "lines": 17,
+    "file": "_out/handlers/080A7740.txt"
+  },
+  {
+    "addr": "0x080A7760",
+    "opcodes": [
+      "hi=0x04[0x62]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131476",
+    "lines": 52,
+    "file": "_out/handlers/080A7760.txt"
+  },
+  {
+    "addr": "0x080A77D0",
+    "opcodes": [
+      "hi=0x04[0x63]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131528",
+    "lines": 25,
+    "file": "_out/handlers/080A77D0.txt"
+  },
+  {
+    "addr": "0x080A7804",
+    "opcodes": [
+      "hi=0x04[0x90]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131553",
+    "lines": 17,
+    "file": "_out/handlers/080A7804.txt"
+  },
+  {
+    "addr": "0x080A7824",
+    "opcodes": [
+      "hi=0x04[0x93]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131570",
+    "lines": 14,
+    "file": "_out/handlers/080A7824.txt"
+  },
+  {
+    "addr": "0x080A783C",
+    "opcodes": [
+      "hi=0x04[0x6C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131584",
+    "lines": 26,
+    "file": "_out/handlers/080A783C.txt"
+  },
+  {
+    "addr": "0x080A7870",
+    "opcodes": [
+      "hi=0x04[0x6F]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131610",
+    "lines": 37,
+    "file": "_out/handlers/080A7870.txt"
+  },
+  {
+    "addr": "0x080A78B8",
+    "opcodes": [
+      "hi=0x04[0x70]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131647",
+    "lines": 37,
+    "file": "_out/handlers/080A78B8.txt"
+  },
+  {
+    "addr": "0x080A7900",
+    "opcodes": [
+      "hi=0x04[0x71]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131684",
+    "lines": 41,
+    "file": "_out/handlers/080A7900.txt"
+  },
+  {
+    "addr": "0x080A7950",
+    "opcodes": [
+      "hi=0x04[0x73]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131725",
+    "lines": 27,
+    "file": "_out/handlers/080A7950.txt"
+  },
+  {
+    "addr": "0x080A7988",
+    "opcodes": [
+      "hi=0x04[0x74]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131752",
+    "lines": 27,
+    "file": "_out/handlers/080A7988.txt"
+  },
+  {
+    "addr": "0x080A79C0",
+    "opcodes": [
+      "hi=0x04[0x75]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:131779",
+    "lines": 14,
+    "file": "_out/handlers/080A79C0.txt"
+  },
+  {
+    "addr": "0x080A93AC",
+    "opcodes": [
+      "hi=0x04[0x00]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:134979",
+    "lines": 14,
+    "file": "_out/handlers/080A93AC.txt"
+  },
+  {
+    "addr": "0x080A93C4",
+    "opcodes": [
+      "hi=0x04[0x01]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:134993",
+    "lines": 10,
+    "file": "_out/handlers/080A93C4.txt"
+  },
+  {
+    "addr": "0x080A93D4",
+    "opcodes": [
+      "hi=0x04[0x02]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:135003",
+    "lines": 14,
+    "file": "_out/handlers/080A93D4.txt"
+  },
+  {
+    "addr": "0x080AB2DC",
+    "opcodes": [
+      "hi=0x01[0x10]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:138576",
+    "lines": 45,
+    "file": "_out/handlers/080AB2DC.txt"
+  },
+  {
+    "addr": "0x080AB330",
+    "opcodes": [
+      "hi=0x01[0x11]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:138621",
+    "lines": 41,
+    "file": "_out/handlers/080AB330.txt"
+  },
+  {
+    "addr": "0x080AB378",
+    "opcodes": [
+      "hi=0x01[0x12]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:138662",
+    "lines": 48,
+    "file": "_out/handlers/080AB378.txt"
+  },
+  {
+    "addr": "0x080AB3D8",
+    "opcodes": [
+      "hi=0x01[0x13]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:138710",
+    "lines": 44,
+    "file": "_out/handlers/080AB3D8.txt"
+  },
+  {
+    "addr": "0x080AB428",
+    "opcodes": [
+      "hi=0x01[0x15]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:138754",
+    "lines": 43,
+    "file": "_out/handlers/080AB428.txt"
+  },
+  {
+    "addr": "0x080AB478",
+    "opcodes": [
+      "hi=0x01[0x14]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:138797",
+    "lines": 26,
+    "file": "_out/handlers/080AB478.txt"
+  },
+  {
+    "addr": "0x080AB5B8",
+    "opcodes": [
+      "hi=0x01[0x08]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:138976",
+    "lines": 103,
+    "file": "_out/handlers/080AB5B8.txt"
+  },
+  {
+    "addr": "0x080AB69C",
+    "opcodes": [
+      "hi=0x01[0x09]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:139079",
+    "lines": 123,
+    "file": "_out/handlers/080AB69C.txt"
+  },
+  {
+    "addr": "0x080B3178",
+    "opcodes": [
+      "hi=0x03[0x89]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:153950",
+    "lines": 67,
+    "file": "_out/handlers/080B3178.txt"
+  },
+  {
+    "addr": "0x080B31F4",
+    "opcodes": [
+      "hi=0x03[0x8A]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:154017",
+    "lines": 67,
+    "file": "_out/handlers/080B31F4.txt"
+  },
+  {
+    "addr": "0x080B47A8",
+    "opcodes": [
+      "hi=0x03[0x8C]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:156521",
+    "lines": 69,
+    "file": "_out/handlers/080B47A8.txt"
+  },
+  {
+    "addr": "0x080B482C",
+    "opcodes": [
+      "hi=0x03[0x8D]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:156590",
+    "lines": 70,
+    "file": "_out/handlers/080B482C.txt"
+  },
+  {
+    "addr": "0x080B48C0",
+    "opcodes": [
+      "hi=0x03[0x8E]"
+    ],
+    "status": "asm",
+    "source": "asm/code_small_structures.s:156660",
+    "lines": 82,
+    "file": "_out/handlers/080B48C0.txt"
+  }
+]

@@ -1,0 +1,2971 @@
+{
+  "0x0001": {
+    "addr": "0x080128BC",
+    "seq": [
+      "word",
+      "word",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0002": {
+    "addr": "0x080131DC",
+    "seq": [
+      "word",
+      "expr"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0003": {
+    "addr": "0x08013220",
+    "seq": [
+      "word"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0004": {
+    "addr": "0x080129B0",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0005": {
+    "addr": "0x080129EC",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0006": {
+    "addr": "0x08012A94",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0007": {
+    "addr": "0x08012B60",
+    "seq": [
+      "word"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0008": {
+    "addr": "0x08012BA4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0009": {
+    "addr": "0x08012BE8",
+    "seq": [
+      "expr",
+      "word"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x000A": {
+    "addr": "0x0801324C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x000B": {
+    "addr": "0x08013278",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x000C": {
+    "addr": "0x080132B0",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x000D": {
+    "addr": "0x080132B4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0100": {
+    "addr": "0x0802BE6C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0101": {
+    "addr": "0x0802B95C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0108": {
+    "addr": "0x080AB5B8",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0109": {
+    "addr": "0x080AB69C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x010C": {
+    "addr": "0x0802BEF8",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x010D": {
+    "addr": "0x0802BF40",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0110": {
+    "addr": "0x080AB2DC",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0111": {
+    "addr": "0x080AB330",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0112": {
+    "addr": "0x080AB378",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0113": {
+    "addr": "0x080AB3D8",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0114": {
+    "addr": "0x080AB478",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0115": {
+    "addr": "0x080AB428",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0200": {
+    "addr": "0x08058CB8",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0201": {
+    "addr": "0x0805ADBC",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0202": {
+    "addr": "0x0805ADF0",
+    "seq": [
+      "word"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0203": {
+    "addr": "0x0805AE30",
+    "seq": [
+      "word"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0204": {
+    "addr": "0x0805AF88",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0205": {
+    "addr": "0x0805AFD0",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0206": {
+    "addr": "0x0805B018",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0207": {
+    "addr": "0x0805B060",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0208": {
+    "addr": "0x0805B0A8",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x020A": {
+    "addr": "0x0805B0BC",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x020B": {
+    "addr": "0x0805B2B4",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x020C": {
+    "addr": "0x0805B2F4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x020D": {
+    "addr": "0x0805B0EC",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x020E": {
+    "addr": "0x0805B14C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x020F": {
+    "addr": "0x0805941C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0210": {
+    "addr": "0x08059EDC",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0211": {
+    "addr": "0x0805A1C8",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0212": {
+    "addr": "0x0805B488",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0213": {
+    "addr": "0x0805A24C",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0214": {
+    "addr": "0x0805A2F4",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0215": {
+    "addr": "0x0805B4B8",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0216": {
+    "addr": "0x0805A43C",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0217": {
+    "addr": "0x0805A4A4",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0218": {
+    "addr": "0x0805B50C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0219": {
+    "addr": "0x0805B564",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x021A": {
+    "addr": "0x0805B5AC",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x021B": {
+    "addr": "0x0805A51C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x021C": {
+    "addr": "0x0805A380",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0220": {
+    "addr": "0x0805A588",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0221": {
+    "addr": "0x0805B5E8",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0222": {
+    "addr": "0x0805B63C",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0223": {
+    "addr": "0x0805A7D4",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0224": {
+    "addr": "0x0805AAC8",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0225": {
+    "addr": "0x0805AB74",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0226": {
+    "addr": "0x0805ACDC",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0227": {
+    "addr": "0x0805AD34",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0228": {
+    "addr": "0x0805B6A8",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0229": {
+    "addr": "0x0805A95C",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x022B": {
+    "addr": "0x0805B1DC",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x022C": {
+    "addr": "0x0805B18C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x022D": {
+    "addr": "0x0805B20C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x022E": {
+    "addr": "0x0805957C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x022F": {
+    "addr": "0x080596F0",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0230": {
+    "addr": "0x08059D90",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0231": {
+    "addr": "0x0805B258",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0232": {
+    "addr": "0x0805B290",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0234": {
+    "addr": "0x08059E64",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0235": {
+    "addr": "0x0805B318",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0238": {
+    "addr": "0x0805B33C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0239": {
+    "addr": "0x0805B35C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x023A": {
+    "addr": "0x0805B37C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x023B": {
+    "addr": "0x0805B3AC",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x023C": {
+    "addr": "0x0805B3CC",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0240": {
+    "addr": "0x0805B3EC",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0241": {
+    "addr": "0x08058FA8",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0242": {
+    "addr": "0x0805AE60",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0244": {
+    "addr": "0x0805AEB4",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0245": {
+    "addr": "0x0805AEFC",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0246": {
+    "addr": "0x0805AF68",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0248": {
+    "addr": "0x0805AE88",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x024A": {
+    "addr": "0x0805B428",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x024B": {
+    "addr": "0x0805B458",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0250": {
+    "addr": "0x080598E4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0251": {
+    "addr": "0x080599A0",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0300": {
+    "addr": "0x0801B4D8",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0301": {
+    "addr": "0x0801B6E0",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0302": {
+    "addr": "0x0801B804",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0303": {
+    "addr": "0x0801BCC4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0304": {
+    "addr": "0x0801BCF4",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0305": {
+    "addr": "0x0801BD48",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0307": {
+    "addr": "0x0800CFF8",
+    "seq": [
+      "expr",
+      "string"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0308": {
+    "addr": "0x0800D084",
+    "seq": [
+      "string"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0309": {
+    "addr": "0x0800D36C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x030A": {
+    "addr": "0x0800D5D0",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x030B": {
+    "addr": "0x0800D81C",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "string"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x030C": {
+    "addr": "0x0800D904",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x030D": {
+    "addr": "0x0800DAA8",
+    "seq": [
+      "word",
+      "string"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x030E": {
+    "addr": "0x0800DB1C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x030F": {
+    "addr": "0x0800EED4",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0310": {
+    "addr": "0x0800E40C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0311": {
+    "addr": "0x0800EDE8",
+    "seq": [
+      "string"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0312": {
+    "addr": "0x0800EE14",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0313": {
+    "addr": "0x0800EE30",
+    "seq": [
+      "word"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0314": {
+    "addr": "0x0800E048",
+    "seq": [
+      "word",
+      "string"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0315": {
+    "addr": "0x0800E0A4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0316": {
+    "addr": "0x0800EF08",
+    "seq": [
+      "expr",
+      "string"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0317": {
+    "addr": "0x0800EE88",
+    "seq": [
+      "string"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0318": {
+    "addr": "0x0800E23C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x031A": {
+    "addr": "0x08011510",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x031B": {
+    "addr": "0x08011560",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x031C": {
+    "addr": "0x08010BB0",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x031D": {
+    "addr": "0x08010C04",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x031E": {
+    "addr": "0x080115C0",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x031F": {
+    "addr": "0x08011610",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0320": {
+    "addr": "0x08010C6C",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0321": {
+    "addr": "0x08011674",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0322": {
+    "addr": "0x080116A8",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0323": {
+    "addr": "0x080116EC",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0324": {
+    "addr": "0x08011750",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x032F": {
+    "addr": "0x08014D04",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0330": {
+    "addr": "0x080140F4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0331": {
+    "addr": "0x080141D0",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0332": {
+    "addr": "0x080149C4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0333": {
+    "addr": "0x0801426C",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0334": {
+    "addr": "0x080149F0",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0335": {
+    "addr": "0x08014A18",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0336": {
+    "addr": "0x08014A48",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0337": {
+    "addr": "0x08014A78",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0338": {
+    "addr": "0x08014AE4",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0339": {
+    "addr": "0x08014B1C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x033A": {
+    "addr": "0x08014B58",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x033B": {
+    "addr": "0x08014B8C",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x033C": {
+    "addr": "0x08014C00",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x033D": {
+    "addr": "0x080142B4",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x033E": {
+    "addr": "0x080143A8",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x033F": {
+    "addr": "0x08014C80",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0340": {
+    "addr": "0x08014CB4",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0341": {
+    "addr": "0x08014CD4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0342": {
+    "addr": "0x08014CF8",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0345": {
+    "addr": "0x08068048",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0346": {
+    "addr": "0x08067EC8",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0347": {
+    "addr": "0x08062D80",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0348": {
+    "addr": "0x08062E18",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0349": {
+    "addr": "0x08068038",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x034A": {
+    "addr": "0x08067D4C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x034B": {
+    "addr": "0x08069634",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x034C": {
+    "addr": "0x08069670",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x034D": {
+    "addr": "0x0809373C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x034E": {
+    "addr": "0x08093038",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x034F": {
+    "addr": "0x0806DF50",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0350": {
+    "addr": "0x0808F474",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0351": {
+    "addr": "0x0808E990",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0352": {
+    "addr": "0x0808EEEC",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0353": {
+    "addr": "0x0808F0C0",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0354": {
+    "addr": "0x0808F4B0",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0355": {
+    "addr": "0x0808EFDC",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0356": {
+    "addr": "0x0806E020",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0357": {
+    "addr": "0x0806E0EC",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0358": {
+    "addr": "0x0806E1B8",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0359": {
+    "addr": "0x0806E4A8",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x035A": {
+    "addr": "0x0806E5AC",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x035B": {
+    "addr": "0x08093648",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x035C": {
+    "addr": "0x0809366C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x035D": {
+    "addr": "0x08093684",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x035E": {
+    "addr": "0x080936A8",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x035F": {
+    "addr": "0x080936CC",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0360": {
+    "addr": "0x08019304",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0361": {
+    "addr": "0x08019334",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0362": {
+    "addr": "0x08019380",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0363": {
+    "addr": "0x080174A0",
+    "seq": [
+      "string"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0364": {
+    "addr": "0x08017510",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0365": {
+    "addr": "0x080193A0",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0366": {
+    "addr": "0x080175C8",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0367": {
+    "addr": "0x080193B0",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0368": {
+    "addr": "0x08017630",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0369": {
+    "addr": "0x080193C0",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x036A": {
+    "addr": "0x080176B4",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x036B": {
+    "addr": "0x080193D8",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x036C": {
+    "addr": "0x08019448",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x036D": {
+    "addr": "0x080178C4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x036E": {
+    "addr": "0x08019498",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x036F": {
+    "addr": "0x0801775C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0370": {
+    "addr": "0x08017A84",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0374": {
+    "addr": "0x08093764",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0375": {
+    "addr": "0x0801793C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0376": {
+    "addr": "0x080179E4",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0377": {
+    "addr": "0x0801964C",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0379": {
+    "addr": "0x080177B0",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x037A": {
+    "addr": "0x0806E684",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x037B": {
+    "addr": "0x0801953C",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x037C": {
+    "addr": "0x0806F6C4",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x037F": {
+    "addr": "0x08017854",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0380": {
+    "addr": "0x0801956C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0381": {
+    "addr": "0x080195A4",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0382": {
+    "addr": "0x080195DC",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0383": {
+    "addr": "0x08019614",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0387": {
+    "addr": "0x0806E27C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0388": {
+    "addr": "0x0806E394",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0389": {
+    "addr": "0x080B3178",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x038A": {
+    "addr": "0x080B31F4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x038B": {
+    "addr": "0x0806E968",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x038C": {
+    "addr": "0x080B47A8",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x038D": {
+    "addr": "0x080B482C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x038E": {
+    "addr": "0x080B48C0",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0400": {
+    "addr": "0x080A93AC",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0401": {
+    "addr": "0x080A93C4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0402": {
+    "addr": "0x080A93D4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0408": {
+    "addr": "0x080A6954",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0409": {
+    "addr": "0x080A6974",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x040A": {
+    "addr": "0x080A69D8",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x040B": {
+    "addr": "0x080A6A30",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x040C": {
+    "addr": "0x080A598C",
+    "seq": [
+      "expr",
+      "word"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x040D": {
+    "addr": "0x080A59E8",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0410": {
+    "addr": "0x080A5CA0",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0411": {
+    "addr": "0x080A5CEC",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0412": {
+    "addr": "0x080A6BB4",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0413": {
+    "addr": "0x080A6BE4",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0414": {
+    "addr": "0x080A6C24",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0415": {
+    "addr": "0x080A6C60",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0416": {
+    "addr": "0x080A6CA0",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0417": {
+    "addr": "0x080A5D58",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0418": {
+    "addr": "0x080A6CE0",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0419": {
+    "addr": "0x080A5DB0",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x041A": {
+    "addr": "0x080A6D0C",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x041B": {
+    "addr": "0x080A6D3C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x041C": {
+    "addr": "0x080A6D90",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x041D": {
+    "addr": "0x080A5E28",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0420": {
+    "addr": "0x080A6DE0",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0421": {
+    "addr": "0x080A6E1C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0422": {
+    "addr": "0x080A6E3C",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0423": {
+    "addr": "0x080A6E6C",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0424": {
+    "addr": "0x080A6E9C",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0425": {
+    "addr": "0x080A6F10",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0426": {
+    "addr": "0x080A6F30",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0427": {
+    "addr": "0x080A6F60",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0428": {
+    "addr": "0x080A5E9C",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0429": {
+    "addr": "0x080A6F90",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0430": {
+    "addr": "0x080A6FDC",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0431": {
+    "addr": "0x080A700C",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0432": {
+    "addr": "0x080A707C",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0438": {
+    "addr": "0x080A7228",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0439": {
+    "addr": "0x080A7270",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x043A": {
+    "addr": "0x080A7290",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x043B": {
+    "addr": "0x080A72CC",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x043C": {
+    "addr": "0x080A72EC",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x043D": {
+    "addr": "0x080A731C",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x043E": {
+    "addr": "0x080A5FC8",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x043F": {
+    "addr": "0x080A601C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0440": {
+    "addr": "0x080A735C",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0441": {
+    "addr": "0x080A6084",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0442": {
+    "addr": "0x080A73AC",
+    "seq": [
+      "expr",
+      "word"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0443": {
+    "addr": "0x080A73DC",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0444": {
+    "addr": "0x080A7418",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0445": {
+    "addr": "0x080A7448",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0446": {
+    "addr": "0x080A6154",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0447": {
+    "addr": "0x080A7478",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0448": {
+    "addr": "0x080A74AC",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0449": {
+    "addr": "0x080A74F8",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x044A": {
+    "addr": "0x080A620C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0450": {
+    "addr": "0x080A7550",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0451": {
+    "addr": "0x080A758C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0452": {
+    "addr": "0x080A75AC",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0453": {
+    "addr": "0x080A62DC",
+    "seq": [
+      "expr",
+      "word",
+      "expr"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0454": {
+    "addr": "0x080A75EC",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0455": {
+    "addr": "0x080A7620",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0456": {
+    "addr": "0x080A6340",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0457": {
+    "addr": "0x080A7670",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0458": {
+    "addr": "0x080A76B8",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0460": {
+    "addr": "0x080A7704",
+    "seq": [
+      "expr",
+      "word",
+      "expr"
+    ],
+    "jump_from": "word0",
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0461": {
+    "addr": "0x080A7740",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0462": {
+    "addr": "0x080A7760",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0463": {
+    "addr": "0x080A77D0",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0468": {
+    "addr": "0x080A6524",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x046C": {
+    "addr": "0x080A783C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x046D": {
+    "addr": "0x080A6588",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x046E": {
+    "addr": "0x080A6600",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x046F": {
+    "addr": "0x080A7870",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0470": {
+    "addr": "0x080A78B8",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0471": {
+    "addr": "0x080A7900",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0472": {
+    "addr": "0x080A66AC",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0473": {
+    "addr": "0x080A7950",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0474": {
+    "addr": "0x080A7988",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0475": {
+    "addr": "0x080A79C0",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0476": {
+    "addr": "0x080A67D8",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0478": {
+    "addr": "0x080607C4",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0479": {
+    "addr": "0x080604C8",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x047A": {
+    "addr": "0x080607F4",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x047B": {
+    "addr": "0x0806083C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x047C": {
+    "addr": "0x08060864",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x047D": {
+    "addr": "0x080608A0",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x047E": {
+    "addr": "0x080608DC",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x047F": {
+    "addr": "0x08060914",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0480": {
+    "addr": "0x0806055C",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0481": {
+    "addr": "0x0806093C",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0482": {
+    "addr": "0x0806096C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0488": {
+    "addr": "0x080A6AF0",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0489": {
+    "addr": "0x080A6B20",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x048A": {
+    "addr": "0x080A5AB8",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x048B": {
+    "addr": "0x080A5B04",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x048C": {
+    "addr": "0x080A5B64",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x048D": {
+    "addr": "0x080A5BBC",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x048E": {
+    "addr": "0x080A6B5C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x048F": {
+    "addr": "0x080A5C14",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0490": {
+    "addr": "0x080A7804",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0491": {
+    "addr": "0x080A63AC",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0492": {
+    "addr": "0x080A649C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0493": {
+    "addr": "0x080A7824",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x0498": {
+    "addr": "0x080A70CC",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x0499": {
+    "addr": "0x080A7130",
+    "seq": [
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x049A": {
+    "addr": "0x080A7150",
+    "seq": [
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x049B": {
+    "addr": "0x080A5F48",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x049C": {
+    "addr": "0x080A718C",
+    "seq": [
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x049D": {
+    "addr": "0x080A71B8",
+    "seq": [
+      "expr",
+      "expr",
+      "expr",
+      "expr",
+      "expr"
+    ],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": true
+  },
+  "0x04A0": {
+    "addr": "0x080A6A4C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x04A1": {
+    "addr": "0x080A6A64",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x04A2": {
+    "addr": "0x080A6A7C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x04A3": {
+    "addr": "0x080A6AA0",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x04A4": {
+    "addr": "0x080A6AC4",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  },
+  "0x04A5": {
+    "addr": "0x080A5A3C",
+    "seq": [],
+    "jump_from": null,
+    "confidence": "alta",
+    "verificado": false
+  }
+}

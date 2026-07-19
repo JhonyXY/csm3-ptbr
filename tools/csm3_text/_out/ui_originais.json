@@ -1,0 +1,5071 @@
+{
+  "_meta": {
+    "origem": "tabelas de ponteiros na area nao comprimida da ROM",
+    "tabelas": 23,
+    "instrucoes": [
+      "Preencha 'pt'. Estas sao strings de INTERFACE: menus, nomes de",
+      "item e arma, mensagens de sistema. Precisam ser CURTAS - varias",
+      "aparecem em caixas estreitas de menu.",
+      "Mantenha o comprimento proximo do original quando possivel."
+    ]
+  },
+  "tabelas": [
+    {
+      "endereco": "0x0BCB5F8",
+      "entradas": 685,
+      "amostra": [
+        "リッチバーン０１",
+        "リッチバーン０２",
+        "リッチバーン０３",
+        "リッチバーン０４",
+        "リッチバーン０５"
+      ]
+    },
+    {
+      "endereco": "0x0BCB0A0",
+      "entradas": 173,
+      "amostra": [
+        "おまけバトル",
+        "サウンドモード",
+        "ミニゲーム練習",
+        "おまけ条件",
+        "終了"
+      ]
+    },
+    {
+      "endereco": "0x0BC9FA8",
+      "entradas": 60,
+      "amostra": [
+        "材料がありません",
+        "武器を持っていません",
+        "強化可能な武器を持っていません",
+        "強刃可能な武器を持っていません",
+        "解体しますか？"
+      ]
+    },
+    {
+      "endereco": "0x0BCD668",
+      "entradas": 59,
+      "amostra": [
+        "通信待機中です",
+        "通信に失敗しました",
+        "対戦",
+        "超対戦",
+        "交換"
+      ]
+    },
+    {
+      "endereco": "0x0BCD828",
+      "entradas": 57,
+      "amostra": [
+        "対戦を行います",
+        "巨大召喚獣を使った対戦を行います",
+        "武器やアイテムの交換を行います",
+        "おまけ条件のコピーを行います",
+        "通信を終了します"
+      ]
+    },
+    {
+      "endereco": "0x0BC9EC8",
+      "entradas": 43,
+      "amostra": [
+        "いくつ買いますか？",
+        "いくつ売りますか？",
+        "いくつ作りますか？",
+        "いくつにしますか？",
+        "売ってもいいですか？"
+      ]
+    },
+    {
+      "endereco": "0x0BCB468",
+      "entradas": 42,
+      "amostra": [
+        "プレリュード〜はじまりの石",
+        "オープニングテーマ〜出会い",
+        "エピローグ〜ふたつの奇跡",
+        "やっつけろ！",
+        "友情の証"
+      ]
+    },
+    {
+      "endereco": "0x0BCB3A0",
+      "entradas": 34,
+      "amostra": [
+        "タイトルテーマ",
+        "オープニングテーマ",
+        "エンドタイトル",
+        "戦いに赴いて",
+        "発動！モノシフト"
+      ]
+    },
+    {
+      "endereco": "0x0BDA0C0",
+      "entradas": 19,
+      "amostra": [
+        "いくぞ！",
+        "よし、ペースアップだ！",
+        "ハンマーに当たるなよ！",
+        "どんどんいくぞ！",
+        "よく見るんだ！"
+      ]
+    },
+    {
+      "endereco": "0x0BD5618",
+      "entradas": 16,
+      "amostra": [
+        "あいうえお　や　ゆ　よ　がぎぐげご",
+        "かきくけこ　らりるれろ　ざじずぜぞ",
+        "さしすせそ　わ　を　ん　だぢづでど",
+        "たちつてと　ぁぃぅぇぉ　ばびぶべぼ",
+        "なにぬねの　っゃゅょ　　ぱぴぷぺぽ"
+      ]
+    },
+    {
+      "endereco": "0x0BC9DD4",
+      "entradas": 14,
+      "amostra": [
+        "秘伝を持っていません",
+        "回復",
+        "素材",
+        "特殊",
+        "装備"
+      ]
+    },
+    {
+      "endereco": "0x0BBC9D4",
+      "entradas": 13,
+      "amostra": [
+        "β　レベルアップ！！",
+        "γ　レベルアップ！！",
+        "ポイント振り分け",
+        "ポイントを残して",
+        "終了しますか？"
+      ]
+    },
+    {
+      "endereco": "0x0BC9E10",
+      "entradas": 10,
+      "amostra": [
+        "０",
+        "１",
+        "２",
+        "３",
+        "４"
+      ]
+    },
+    {
+      "endereco": "0x0BC9E60",
+      "entradas": 10,
+      "amostra": [
+        "共通",
+        "戦闘",
+        "マップ",
+        "攻撃",
+        "回復"
+      ]
+    },
+    {
+      "endereco": "0x0BD1B98",
+      "entradas": 9,
+      "amostra": [
+        "このデータは使用できません",
+        "セーブデータを継承しますか？",
+        "クリアしたセーブデータから",
+        "・秘伝　　　　　・お金",
+        "・鍛冶ランク　　・召喚獣事典"
+      ]
+    },
+    {
+      "endereco": "0x0B801AC",
+      "entradas": 8,
+      "amostra": [
+        "リッチバーン",
+        "リフモニカ",
+        "リッチー",
+        "リフ",
+        "ランドル"
+      ]
+    },
+    {
+      "endereco": "0x0BC9D40",
+      "entradas": 8,
+      "amostra": [
+        "貴重品",
+        "鍛冶ランク",
+        "秘伝",
+        "必殺技",
+        "特殊効果"
+      ]
+    },
+    {
+      "endereco": "0x0BC9E3C",
+      "entradas": 8,
+      "amostra": [
+        "作製",
+        "強化",
+        "解除",
+        "解除・改",
+        "強刃"
+      ]
+    },
+    {
+      "endereco": "0x0BC9D00",
+      "entradas": 7,
+      "amostra": [
+        "装備",
+        "補助装備",
+        "アイテム",
+        "魔法",
+        "武器"
+      ]
+    },
+    {
+      "endereco": "0x0BC9D20",
+      "entradas": 7,
+      "amostra": [
+        "貴重品",
+        "鍛冶ランク",
+        "秘伝",
+        "必殺技",
+        "特殊効果"
+      ]
+    },
+    {
+      "endereco": "0x0BC9D80",
+      "entradas": 7,
+      "amostra": [
+        "デバッグ１",
+        "デバッグ２",
+        "デバッグ３",
+        "レジスタ",
+        "Ｍセーブ"
+      ]
+    },
+    {
+      "endereco": "0x0BC9D64",
+      "entradas": 6,
+      "amostra": [
+        "ソード",
+        "アクス",
+        "スピア",
+        "ナックル",
+        "ドリル"
+      ]
+    },
+    {
+      "endereco": "0x0BD5788",
+      "entradas": 6,
+      "amostra": [
+        "リッチバーン",
+        "リフモニカ",
+        "ランドル",
+        "エンジ",
+        "キルフィス"
+      ]
+    }
+  ],
+  "strings": [
+    {
+      "offset": 764760,
+      "ponteiros": [
+        "0x0B801B0"
+      ],
+      "jp": "リフモニカ",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 764772,
+      "ponteiros": [
+        "0x0B801AC"
+      ],
+      "jp": "リッチバーン",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 764788,
+      "ponteiros": [
+        "0x0B801B8"
+      ],
+      "jp": "リフ",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 764796,
+      "ponteiros": [
+        "0x0B801B4"
+      ],
+      "jp": "リッチー",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 764808,
+      "ponteiros": [
+        "0x0B801C8"
+      ],
+      "jp": "ルフィール",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 764820,
+      "ponteiros": [
+        "0x0B801C4"
+      ],
+      "jp": "キルフィス",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 764832,
+      "ponteiros": [
+        "0x0B801C0"
+      ],
+      "jp": "エンジ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 764840,
+      "ponteiros": [
+        "0x0B801BC"
+      ],
+      "jp": "ランドル",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 765112,
+      "ponteiros": [
+        "0x0BC9D18"
+      ],
+      "jp": "＞",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 765116,
+      "ponteiros": [
+        "0x0BC9D14"
+      ],
+      "jp": "ステータス",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 765128,
+      "ponteiros": [
+        "0x0BC9D10"
+      ],
+      "jp": "武器",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765136,
+      "ponteiros": [
+        "0x0BC9D0C"
+      ],
+      "jp": "魔法",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765144,
+      "ponteiros": [
+        "0x0BC9D08"
+      ],
+      "jp": "アイテム",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 765156,
+      "ponteiros": [
+        "0x0BC9D04"
+      ],
+      "jp": "補助装備",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 765168,
+      "ponteiros": [
+        "0x0BC9D00",
+        "0x0BC9DE4"
+      ],
+      "jp": "装備",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765176,
+      "ponteiros": [
+        "0x0BC9D38",
+        "0x0BC9D58"
+      ],
+      "jp": "コンフィグ",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 765188,
+      "ponteiros": [
+        "0x0BC9D34",
+        "0x0BC9D54"
+      ],
+      "jp": "召喚獣事典",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 765200,
+      "ponteiros": [
+        "0x0BC9D30",
+        "0x0BC9D50"
+      ],
+      "jp": "特殊効果",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 765212,
+      "ponteiros": [
+        "0x0BC9D2C",
+        "0x0BC9D4C"
+      ],
+      "jp": "必殺技",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 765220,
+      "ponteiros": [
+        "0x0BC9D28",
+        "0x0BC9D48"
+      ],
+      "jp": "秘伝",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765228,
+      "ponteiros": [
+        "0x0BC9D24",
+        "0x0BC9D44"
+      ],
+      "jp": "鍛冶ランク",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 765240,
+      "ponteiros": [
+        "0x0BC9D20",
+        "0x0BC9D40",
+        "0x0BC9DF0"
+      ],
+      "jp": "貴重品",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 765248,
+      "ponteiros": [
+        "0x0BC9D5C"
+      ],
+      "jp": "デバッグ",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 765260,
+      "ponteiros": [
+        "0x0BC9D78",
+        "0x0BC9E08"
+      ],
+      "jp": "ボウ",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765268,
+      "ponteiros": [
+        "0x0BC9D74",
+        "0x0BC9E04"
+      ],
+      "jp": "ドリル",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 765276,
+      "ponteiros": [
+        "0x0BC9D70",
+        "0x0BC9E00"
+      ],
+      "jp": "ナックル",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 765288,
+      "ponteiros": [
+        "0x0BC9D6C",
+        "0x0BC9DFC"
+      ],
+      "jp": "スピア",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 765296,
+      "ponteiros": [
+        "0x0BC9D68",
+        "0x0BC9DF8"
+      ],
+      "jp": "アクス",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 765304,
+      "ponteiros": [
+        "0x0BC9D64",
+        "0x0BC9DF4"
+      ],
+      "jp": "ソード",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 765312,
+      "ponteiros": [
+        "0x0BC9D98"
+      ],
+      "jp": "ロード",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 765320,
+      "ponteiros": [
+        "0x0BC9D94"
+      ],
+      "jp": "セーブ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 765328,
+      "ponteiros": [
+        "0x0BC9D90"
+      ],
+      "jp": "Ｍセーブ",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 765340,
+      "ponteiros": [
+        "0x0BC9D8C"
+      ],
+      "jp": "レジスタ",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 765388,
+      "ponteiros": [
+        "0x0BC9EFC",
+        "0x0BC9FAC"
+      ],
+      "jp": "武器を持っていません",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 765564,
+      "ponteiros": [
+        "0x0BC9DD4"
+      ],
+      "jp": "秘伝を持っていません",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 765588,
+      "ponteiros": [
+        "0x0BC9DEC",
+        "0x0BC9E40"
+      ],
+      "jp": "強化",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765596,
+      "ponteiros": [
+        "0x0BC9DE8"
+      ],
+      "jp": "合成",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765604,
+      "ponteiros": [
+        "0x0BC9DE0"
+      ],
+      "jp": "特殊",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765612,
+      "ponteiros": [
+        "0x0BC9DDC"
+      ],
+      "jp": "素材",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765620,
+      "ponteiros": [
+        "0x0BC9DD8",
+        "0x0BC9E70"
+      ],
+      "jp": "回復",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765628,
+      "ponteiros": [
+        "0x0BC9E34"
+      ],
+      "jp": "９",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 765632,
+      "ponteiros": [
+        "0x0BC9E30"
+      ],
+      "jp": "８",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 765636,
+      "ponteiros": [
+        "0x0BC9E2C"
+      ],
+      "jp": "７",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 765640,
+      "ponteiros": [
+        "0x0BC9E28"
+      ],
+      "jp": "６",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 765644,
+      "ponteiros": [
+        "0x0BC9E24"
+      ],
+      "jp": "５",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 765648,
+      "ponteiros": [
+        "0x0BC9E20"
+      ],
+      "jp": "４",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 765652,
+      "ponteiros": [
+        "0x0BC9E1C"
+      ],
+      "jp": "３",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 765656,
+      "ponteiros": [
+        "0x0BC9E18"
+      ],
+      "jp": "２",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 765660,
+      "ponteiros": [
+        "0x0BC9E14"
+      ],
+      "jp": "１",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 765664,
+      "ponteiros": [
+        "0x0BC9E10"
+      ],
+      "jp": "０",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 765668,
+      "ponteiros": [
+        "0x0BC9E58"
+      ],
+      "jp": "修理",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765676,
+      "ponteiros": [
+        "0x0BC9E54"
+      ],
+      "jp": "解体・改",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 765688,
+      "ponteiros": [
+        "0x0BC9E50"
+      ],
+      "jp": "解体",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765696,
+      "ponteiros": [
+        "0x0BC9E4C"
+      ],
+      "jp": "強刃",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765704,
+      "ponteiros": [
+        "0x0BC9E48"
+      ],
+      "jp": "解除・改",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 765716,
+      "ponteiros": [
+        "0x0BC9E44"
+      ],
+      "jp": "解除",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765724,
+      "ponteiros": [
+        "0x0BC9E3C"
+      ],
+      "jp": "作製",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765732,
+      "ponteiros": [
+        "0x0BC9E68"
+      ],
+      "jp": "マップ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 765740,
+      "ponteiros": [
+        "0x0BC9E64"
+      ],
+      "jp": "戦闘",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765748,
+      "ponteiros": [
+        "0x0BC9E60"
+      ],
+      "jp": "共通",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765756,
+      "ponteiros": [
+        "0x0BC9E78",
+        "0x0BC9E7C"
+      ],
+      "jp": "交代",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765764,
+      "ponteiros": [
+        "0x0BC9E74"
+      ],
+      "jp": "補助",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765772,
+      "ponteiros": [
+        "0x0BC9E6C"
+      ],
+      "jp": "攻撃",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 765780,
+      "ponteiros": [
+        "0x0BC9E84"
+      ],
+      "jp": "外　す",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 765788,
+      "ponteiros": [
+        "0x0BC9E80"
+      ],
+      "jp": "装　備",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 765828,
+      "ponteiros": [
+        "0x0BC9EC8"
+      ],
+      "jp": "いくつ買いますか？",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 765848,
+      "ponteiros": [
+        "0x0BC9ECC"
+      ],
+      "jp": "いくつ売りますか？",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 765868,
+      "ponteiros": [
+        "0x0BC9ED0"
+      ],
+      "jp": "いくつ作りますか？",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 765888,
+      "ponteiros": [
+        "0x0BC9ED4"
+      ],
+      "jp": "いくつにしますか？",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 765908,
+      "ponteiros": [
+        "0x0BC9ED8"
+      ],
+      "jp": "売ってもいいですか？",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 765932,
+      "ponteiros": [
+        "0x0BC9EDC"
+      ],
+      "jp": "今すぐ装備しますか？",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 765956,
+      "ponteiros": [
+        "0x0BC9EE0"
+      ],
+      "jp": "お金が足りません",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 765976,
+      "ponteiros": [
+        "0x0BC9EE4"
+      ],
+      "jp": "材料が足りません",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 765996,
+      "ponteiros": [
+        "0x0BC9EE8",
+        "0x0BCA090"
+      ],
+      "jp": "これ以上持てません",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 766016,
+      "ponteiros": [
+        "0x0BC9EEC"
+      ],
+      "jp": "売るものが無くなりました",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 766044,
+      "ponteiros": [
+        "0x0BC9EF0"
+      ],
+      "jp": "売るものがありません",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 766068,
+      "ponteiros": [
+        "0x0BC9EF4"
+      ],
+      "jp": "ポイントが足りません",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 766092,
+      "ponteiros": [
+        "0x0BC9EF8"
+      ],
+      "jp": "アイテムがなくなりました",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 766120,
+      "ponteiros": [
+        "0x0BC9F00"
+      ],
+      "jp": "回復できません　修理が必要です",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 766152,
+      "ponteiros": [
+        "0x0BC9F04"
+      ],
+      "jp": "装備できません　修理が必要です",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 766184,
+      "ponteiros": [
+        "0x0BC9F08"
+      ],
+      "jp": "アイテム一覧に戻ります",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 766208,
+      "ponteiros": [
+        "0x0BC9F0C"
+      ],
+      "jp": "使用しますか？",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 766224,
+      "ponteiros": [
+        "0x0BC9F10"
+      ],
+      "jp": "いくつ捨てますか？",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 766244,
+      "ponteiros": [
+        "0x0BC9F14"
+      ],
+      "jp": "捨ててもいいですか？",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 766268,
+      "ponteiros": [
+        "0x0BC9F18"
+      ],
+      "jp": "上書きしますか？",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 766288,
+      "ponteiros": [
+        "0x0BC9F1C"
+      ],
+      "jp": "ロードしますか？",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 766308,
+      "ponteiros": [
+        "0x0BC9F20"
+      ],
+      "jp": "セーブしますか？",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 766328,
+      "ponteiros": [
+        "0x0BC9F24"
+      ],
+      "jp": "削除しますか？",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 766344,
+      "ponteiros": [
+        "0x0BC9F28"
+      ],
+      "jp": "初期化しますか？",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 766364,
+      "ponteiros": [
+        "0x0BC9F2C"
+      ],
+      "jp": "本当によろしいですか？",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 766388,
+      "ponteiros": [
+        "0x0BC9F30"
+      ],
+      "jp": "システムデータを初期化しますか？",
+      "pt": "",
+      "chars": 16
+    },
+    {
+      "offset": 766424,
+      "ponteiros": [
+        "0x0BC9F34"
+      ],
+      "jp": "新規データ",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 766436,
+      "ponteiros": [
+        "0x0BC9F38"
+      ],
+      "jp": "データが壊れています",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 766460,
+      "ponteiros": [
+        "0x0BC9F3C"
+      ],
+      "jp": "バージョンが違います",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 766484,
+      "ponteiros": [
+        "0x0BC9F40",
+        "0x0BC9F64"
+      ],
+      "jp": "読み込みに失敗しました",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 766508,
+      "ponteiros": [
+        "0x0BC9F44",
+        "0x0BC9F60"
+      ],
+      "jp": "書き込みに失敗しました",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 766532,
+      "ponteiros": [
+        "0x0BC9F48"
+      ],
+      "jp": "電源を切らないでください",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 766560,
+      "ponteiros": [
+        "0x0BC9F4C"
+      ],
+      "jp": "　　　初期化中…",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 766580,
+      "ponteiros": [
+        "0x0BC9F50"
+      ],
+      "jp": "　　　ロード中…",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 766600,
+      "ponteiros": [
+        "0x0BC9F54"
+      ],
+      "jp": "セーブ完了しました",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 766620,
+      "ponteiros": [
+        "0x0BC9F58"
+      ],
+      "jp": "ロード完了しました",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 766640,
+      "ponteiros": [
+        "0x0BC9F5C"
+      ],
+      "jp": "初期化完了しました",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 766660,
+      "ponteiros": [
+        "0x0BC9F68"
+      ],
+      "jp": "アイテム画面に戻ります",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 766684,
+      "ponteiros": [
+        "0x0BC9F70",
+        "0x0BCA084"
+      ],
+      "jp": "いいえ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 766692,
+      "ponteiros": [
+        "0x0BC9F6C",
+        "0x0BCA080"
+      ],
+      "jp": "は　い",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 766728,
+      "ponteiros": [
+        "0x0BC9FA8"
+      ],
+      "jp": "材料がありません",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 766748,
+      "ponteiros": [
+        "0x0BC9FB0"
+      ],
+      "jp": "強化可能な武器を持っていません",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 766780,
+      "ponteiros": [
+        "0x0BC9FB4"
+      ],
+      "jp": "強刃可能な武器を持っていません",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 766812,
+      "ponteiros": [
+        "0x0BC9FB8"
+      ],
+      "jp": "解体しますか？",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 766828,
+      "ponteiros": [
+        "0x0BC9FBC"
+      ],
+      "jp": "必殺技の選択",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 766844,
+      "ponteiros": [
+        "0x0BC9FC0"
+      ],
+      "jp": "特殊効果の選択",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 766860,
+      "ponteiros": [
+        "0x0BC9FC4",
+        "0x0BC9FD4"
+      ],
+      "jp": "鍛冶師ランクが足りません",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 766888,
+      "ponteiros": [
+        "0x0BC9FC8"
+      ],
+      "jp": "すでに強化済みです",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 766908,
+      "ponteiros": [
+        "0x0BC9FCC"
+      ],
+      "jp": "アイテムがありません",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 766932,
+      "ponteiros": [
+        "0x0BC9FD0"
+      ],
+      "jp": "アイテムが設定されていません",
+      "pt": "",
+      "chars": 14
+    },
+    {
+      "offset": 766964,
+      "ponteiros": [
+        "0x0BC9FD8"
+      ],
+      "jp": "ポイントが残っています",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 766988,
+      "ponteiros": [
+        "0x0BC9FDC"
+      ],
+      "jp": "これでいいですか？",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 767008,
+      "ponteiros": [
+        "0x0BC9FE0"
+      ],
+      "jp": "ＴＥＣが２５５必要です",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 767032,
+      "ponteiros": [
+        "0x0BC9FEC"
+      ],
+      "jp": "ＡＧＬ＋１　ＤＵＲ＋５",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 767056,
+      "ponteiros": [
+        "0x0BC9FE8"
+      ],
+      "jp": "ＡＴＫ＋２　ＤＥＦ＋３",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 767080,
+      "ponteiros": [
+        "0x0BC9FE4"
+      ],
+      "jp": "１ポイントにつき",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 767100,
+      "ponteiros": [
+        "0x0BC9FF0"
+      ],
+      "jp": "ζ鍛冶ランクがηになりました",
+      "pt": "",
+      "chars": 14
+    },
+    {
+      "offset": 767132,
+      "ponteiros": [
+        "0x0BCA064"
+      ],
+      "jp": "４ポイントになりました",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 767156,
+      "ponteiros": [
+        "0x0BCA058"
+      ],
+      "jp": "３ポイントになりました",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 767180,
+      "ponteiros": [
+        "0x0BCA04C"
+      ],
+      "jp": "２ポイントになりました",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 767204,
+      "ponteiros": [
+        "0x0BCA048",
+        "0x0BCA054",
+        "0x0BCA060"
+      ],
+      "jp": "「強刃」で振り分けられるポイントが",
+      "pt": "",
+      "chars": 17
+    },
+    {
+      "offset": 767240,
+      "ponteiros": [
+        "0x0BCA044"
+      ],
+      "jp": "取り出せます",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 767256,
+      "ponteiros": [
+        "0x0BCA040"
+      ],
+      "jp": "強化を無効にしてアイテムを",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 767284,
+      "ponteiros": [
+        "0x0BCA03C"
+      ],
+      "jp": "新たに「強化解除」を習得しました",
+      "pt": "",
+      "chars": 16
+    },
+    {
+      "offset": 767320,
+      "ponteiros": [
+        "0x0BCA038"
+      ],
+      "jp": "マテルに戻せます",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 767340,
+      "ponteiros": [
+        "0x0BCA034"
+      ],
+      "jp": "ＴＥＣを使い　付加効果を残して",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 767372,
+      "ponteiros": [
+        "0x0BCA030"
+      ],
+      "jp": "新たに「解体・改」を習得しました",
+      "pt": "",
+      "chars": 16
+    },
+    {
+      "offset": 767408,
+      "ponteiros": [
+        "0x0BCA028"
+      ],
+      "jp": "３個になりました",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 767428,
+      "ponteiros": [
+        "0x0BCA020"
+      ],
+      "jp": "１ポイント振り分けられます",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 767456,
+      "ponteiros": [
+        "0x0BCA01C"
+      ],
+      "jp": "ＴＥＣを使い　武器のパラメータを",
+      "pt": "",
+      "chars": 16
+    },
+    {
+      "offset": 767492,
+      "ponteiros": [
+        "0x0BCA018"
+      ],
+      "jp": "新たに「強刃」を習得しました",
+      "pt": "",
+      "chars": 14
+    },
+    {
+      "offset": 767524,
+      "ponteiros": [
+        "0x0BCA010"
+      ],
+      "jp": "２個になりました",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 767544,
+      "ponteiros": [
+        "0x0BCA00C",
+        "0x0BCA024"
+      ],
+      "jp": "「強化」で使用出来るアイテムが",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 767576,
+      "ponteiros": [
+        "0x0BCA004"
+      ],
+      "jp": "１個のアイテムを武器に強化できます",
+      "pt": "",
+      "chars": 17
+    },
+    {
+      "offset": 767612,
+      "ponteiros": [
+        "0x0BCA000"
+      ],
+      "jp": "新たに「強化」を習得しました",
+      "pt": "",
+      "chars": 14
+    },
+    {
+      "offset": 767644,
+      "ponteiros": [
+        "0x0BC9FF4",
+        "0x0BC9FF8",
+        "0x0BC9FFC",
+        "0x0BCA008",
+        "0x0BCA014",
+        "0x0BCA02C",
+        "0x0BCA050",
+        "0x0BCA05C",
+        "0x0BCA068",
+        "0x0BCA07C"
+      ],
+      "jp": "　",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 767648,
+      "ponteiros": [
+        "0x0BCA06C"
+      ],
+      "jp": "＜解説＞",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 767660,
+      "ponteiros": [
+        "0x0BCA070"
+      ],
+      "jp": "−−−−−−−−",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 767680,
+      "ponteiros": [
+        "0x0BCA074"
+      ],
+      "jp": "−−−−−−−",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 767696,
+      "ponteiros": [
+        "0x0BCA078"
+      ],
+      "jp": "？？？？？？？？",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 767716,
+      "ponteiros": [
+        "0x0BCA088"
+      ],
+      "jp": "を入手！",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 767728,
+      "ponteiros": [
+        "0x0BCA08C"
+      ],
+      "jp": "を渡しました",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 767744,
+      "ponteiros": [
+        "0x0BCA094"
+      ],
+      "jp": "を支払いました",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 768344,
+      "ponteiros": [
+        "0x0BCB1B8",
+        "0x0BCB2D4"
+      ],
+      "jp": "　",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 768348,
+      "ponteiros": [
+        "0x0BCB1B4"
+      ],
+      "jp": "ガンヴァルド改と対戦",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 768372,
+      "ponteiros": [
+        "0x0BCB1B0"
+      ],
+      "jp": "ボルガノと対戦",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 768388,
+      "ponteiros": [
+        "0x0BCB1AC"
+      ],
+      "jp": "ガンヴァルドと対戦",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 768408,
+      "ponteiros": [
+        "0x0BCB1A8"
+      ],
+      "jp": "マグドラドと対戦",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 768428,
+      "ponteiros": [
+        "0x0BCB1A4"
+      ],
+      "jp": "幻龍鬼と対戦",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 768444,
+      "ponteiros": [
+        "0x0BCB1A0"
+      ],
+      "jp": "セーブ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 768452,
+      "ponteiros": [
+        "0x0BCB18C"
+      ],
+      "jp": "「２」巨大召喚獣",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 768472,
+      "ponteiros": [
+        "0x0BCB188"
+      ],
+      "jp": "巨大召喚獣",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 768484,
+      "ponteiros": [
+        "0x0BCB13C",
+        "0x0BCB194"
+      ],
+      "jp": "ＶＯＩＣＥ",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 768496,
+      "ponteiros": [
+        "0x0BCB138"
+      ],
+      "jp": "ＳＥ",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 768504,
+      "ponteiros": [
+        "0x0BCB134",
+        "0x0BCB190"
+      ],
+      "jp": "ＢＧＭ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 768512,
+      "ponteiros": [
+        "0x0BCB130"
+      ],
+      "jp": "２ＢＧＭ",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 768524,
+      "ponteiros": [
+        "0x0BCB12C"
+      ],
+      "jp": "１ＢＧＭ",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 768536,
+      "ponteiros": [
+        "0x0BCB128",
+        "0x0BCB19C"
+      ],
+      "jp": "マキ割り",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 768548,
+      "ponteiros": [
+        "0x0BCB124",
+        "0x0BCB198"
+      ],
+      "jp": "釣り",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 768556,
+      "ponteiros": [
+        "0x0BCB120"
+      ],
+      "jp": "ガンヴァルド改",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 768572,
+      "ponteiros": [
+        "0x0BCB11C"
+      ],
+      "jp": "ボルガノ",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 768584,
+      "ponteiros": [
+        "0x0BCB118"
+      ],
+      "jp": "ガンヴァルド",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 768600,
+      "ponteiros": [
+        "0x0BCB114"
+      ],
+      "jp": "マグドラド",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 768612,
+      "ponteiros": [
+        "0x0BCB110"
+      ],
+      "jp": "幻龍鬼",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 768620,
+      "ponteiros": [
+        "0x0BCB10C"
+      ],
+      "jp": "キャンセル",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 768632,
+      "ponteiros": [
+        "0x0BCB108"
+      ],
+      "jp": "補助装備",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 768644,
+      "ponteiros": [
+        "0x0BCB104"
+      ],
+      "jp": "装備",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 768652,
+      "ponteiros": [
+        "0x0BCB100"
+      ],
+      "jp": "決定",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 768660,
+      "ponteiros": [
+        "0x0BCB0FC",
+        "0x0BCB170"
+      ],
+      "jp": "サージ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 768668,
+      "ponteiros": [
+        "0x0BCB0F8",
+        "0x0BCB16C"
+      ],
+      "jp": "戦士",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 768676,
+      "ponteiros": [
+        "0x0BCB0F4",
+        "0x0BCB168"
+      ],
+      "jp": "ボスタフ",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 768688,
+      "ponteiros": [
+        "0x0BCB0F0",
+        "0x0BCB164"
+      ],
+      "jp": "トラム",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 768696,
+      "ponteiros": [
+        "0x0BCB0EC",
+        "0x0BCB160"
+      ],
+      "jp": "パイク",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 768704,
+      "ponteiros": [
+        "0x0BCB0E8",
+        "0x0BCB15C"
+      ],
+      "jp": "ギラン",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 768712,
+      "ponteiros": [
+        "0x0BCB0E4",
+        "0x0BCB158"
+      ],
+      "jp": "ミューノ",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 768724,
+      "ponteiros": [
+        "0x0BCB0E0",
+        "0x0BCB154"
+      ],
+      "jp": "ロブ",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 768732,
+      "ponteiros": [
+        "0x0BCB0DC",
+        "0x0BCB150"
+      ],
+      "jp": "アニス",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 768740,
+      "ponteiros": [
+        "0x0BCB0D8",
+        "0x0BCB14C"
+      ],
+      "jp": "ティエ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 768748,
+      "ponteiros": [
+        "0x0BCB0D4",
+        "0x0BCB148"
+      ],
+      "jp": "レミィ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 768756,
+      "ponteiros": [
+        "0x0BCB0D0",
+        "0x0BCB144"
+      ],
+      "jp": "ジェイド",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 768768,
+      "ponteiros": [
+        "0x0BCB0CC",
+        "0x0BCB140"
+      ],
+      "jp": "ヴィー",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 768776,
+      "ponteiros": [
+        "0x0BCB0C8"
+      ],
+      "jp": "β",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 768780,
+      "ponteiros": [
+        "0x0BCB0C4",
+        "0x0BCB184"
+      ],
+      "jp": "超バトルアタック",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 768800,
+      "ponteiros": [
+        "0x0BCB0C0",
+        "0x0BCB178"
+      ],
+      "jp": "ＥＸ２アタック",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 768816,
+      "ponteiros": [
+        "0x0BCB0BC",
+        "0x0BCB174"
+      ],
+      "jp": "ＥＸ１アタック",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 768832,
+      "ponteiros": [
+        "0x0BCB0B8",
+        "0x0BCB180"
+      ],
+      "jp": "ライバルアタック",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 768852,
+      "ponteiros": [
+        "0x0BCB0B4",
+        "0x0BCB17C"
+      ],
+      "jp": "ボスアタック",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 768868,
+      "ponteiros": [
+        "0x0BCB0B0"
+      ],
+      "jp": "終了",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 768876,
+      "ponteiros": [
+        "0x0BCB0AC"
+      ],
+      "jp": "おまけ条件",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 768888,
+      "ponteiros": [
+        "0x0BCB0A8"
+      ],
+      "jp": "ミニゲーム練習",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 768904,
+      "ponteiros": [
+        "0x0BCB0A4"
+      ],
+      "jp": "サウンドモード",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 768920,
+      "ponteiros": [
+        "0x0BCB0A0"
+      ],
+      "jp": "おまけバトル",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 768936,
+      "ponteiros": [
+        "0x0BCB2D0"
+      ],
+      "jp": "ガンヴァルド改と対戦します",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 768964,
+      "ponteiros": [
+        "0x0BCB2CC"
+      ],
+      "jp": "ボルガノと対戦します",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 768988,
+      "ponteiros": [
+        "0x0BCB2C8"
+      ],
+      "jp": "ガンヴァルドと対戦します",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 769016,
+      "ponteiros": [
+        "0x0BCB2C4"
+      ],
+      "jp": "マグドラドと対戦します",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 769040,
+      "ponteiros": [
+        "0x0BCB2C0"
+      ],
+      "jp": "幻龍鬼と対戦します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 769060,
+      "ponteiros": [
+        "0x0BCB2BC"
+      ],
+      "jp": "データをセーブします",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 769084,
+      "ponteiros": [
+        "0x0BCB2B8"
+      ],
+      "jp": "マキ割りゲームが使用出来る条件",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 769116,
+      "ponteiros": [
+        "0x0BCB2B4"
+      ],
+      "jp": "釣りゲームが使用出来る条件",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 769144,
+      "ponteiros": [
+        "0x0BCB2B0"
+      ],
+      "jp": "ＶＯＩＣＥが使用出来る条件",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 769172,
+      "ponteiros": [
+        "0x0BCB2AC"
+      ],
+      "jp": "ＢＧＭが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 769196,
+      "ponteiros": [
+        "0x0BCB2A8"
+      ],
+      "jp": "２の巨大召喚獣が使用出来る条件",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 769228,
+      "ponteiros": [
+        "0x0BCB2A4"
+      ],
+      "jp": "巨大召喚獣が使用出来る条件",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 769256,
+      "ponteiros": [
+        "0x0BCB2A0"
+      ],
+      "jp": "超バトルアタックが使用出来る条件",
+      "pt": "",
+      "chars": 16
+    },
+    {
+      "offset": 769292,
+      "ponteiros": [
+        "0x0BCB29C"
+      ],
+      "jp": "ライバルアタックが使用出来る条件",
+      "pt": "",
+      "chars": 16
+    },
+    {
+      "offset": 769328,
+      "ponteiros": [
+        "0x0BCB298"
+      ],
+      "jp": "ボスアタックが使用出来る条件",
+      "pt": "",
+      "chars": 14
+    },
+    {
+      "offset": 769360,
+      "ponteiros": [
+        "0x0BCB294"
+      ],
+      "jp": "ＥＸ２アタックが使用出来る条件",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 769392,
+      "ponteiros": [
+        "0x0BCB290"
+      ],
+      "jp": "ＥＸ１アタックが使用出来る条件",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 769424,
+      "ponteiros": [
+        "0x0BCB28C"
+      ],
+      "jp": "サージが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 769448,
+      "ponteiros": [
+        "0x0BCB288"
+      ],
+      "jp": "戦士が使用出来る条件",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 769472,
+      "ponteiros": [
+        "0x0BCB284"
+      ],
+      "jp": "ボスタフが使用出来る条件",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 769500,
+      "ponteiros": [
+        "0x0BCB280"
+      ],
+      "jp": "トラムが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 769524,
+      "ponteiros": [
+        "0x0BCB27C"
+      ],
+      "jp": "パイクが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 769548,
+      "ponteiros": [
+        "0x0BCB278"
+      ],
+      "jp": "ギランが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 769572,
+      "ponteiros": [
+        "0x0BCB274"
+      ],
+      "jp": "ミューノが使用出来る条件",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 769600,
+      "ponteiros": [
+        "0x0BCB270"
+      ],
+      "jp": "ロブが使用出来る条件",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 769624,
+      "ponteiros": [
+        "0x0BCB26C"
+      ],
+      "jp": "アニスが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 769648,
+      "ponteiros": [
+        "0x0BCB268"
+      ],
+      "jp": "ティエが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 769672,
+      "ponteiros": [
+        "0x0BCB264"
+      ],
+      "jp": "レミィが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 769696,
+      "ponteiros": [
+        "0x0BCB260"
+      ],
+      "jp": "ジェイドが使用出来る条件",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 769724,
+      "ponteiros": [
+        "0x0BCB25C"
+      ],
+      "jp": "ヴィーが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 769748,
+      "ponteiros": [
+        "0x0BCB258"
+      ],
+      "jp": "ゲーム中の音声",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 769764,
+      "ponteiros": [
+        "0x0BCB254"
+      ],
+      "jp": "ＳＥダミー",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 769776,
+      "ponteiros": [
+        "0x0BCB250"
+      ],
+      "jp": "ゲーム中のＢＧＭ",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 769832,
+      "ponteiros": [
+        "0x0BCB248"
+      ],
+      "jp": "サモンナイトクラフトソード物語",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 769864,
+      "ponteiros": [
+        "0x0BCB244"
+      ],
+      "jp": "マキ割りゲームが練習できます",
+      "pt": "",
+      "chars": 14
+    },
+    {
+      "offset": 769896,
+      "ponteiros": [
+        "0x0BCB240"
+      ],
+      "jp": "釣りゲームが練習できます",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 769924,
+      "ponteiros": [
+        "0x0BCB23C"
+      ],
+      "jp": "ガンヴァルド改を使用します",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 769952,
+      "ponteiros": [
+        "0x0BCB238"
+      ],
+      "jp": "ボルガノを使用します",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 769976,
+      "ponteiros": [
+        "0x0BCB234"
+      ],
+      "jp": "ガンヴァルドを使用します",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 770004,
+      "ponteiros": [
+        "0x0BCB230"
+      ],
+      "jp": "マグドラドを使用します",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 770028,
+      "ponteiros": [
+        "0x0BCB22C"
+      ],
+      "jp": "幻龍鬼を使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 770048,
+      "ponteiros": [
+        "0x0BCB228"
+      ],
+      "jp": "キャンセルします",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 770068,
+      "ponteiros": [
+        "0x0BCB224"
+      ],
+      "jp": "補助装備を変更します",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 770092,
+      "ponteiros": [
+        "0x0BCB220"
+      ],
+      "jp": "装備を変更します",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 770112,
+      "ponteiros": [
+        "0x0BCB21C"
+      ],
+      "jp": "決定します",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 770124,
+      "ponteiros": [
+        "0x0BCB218"
+      ],
+      "jp": "サージを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 770144,
+      "ponteiros": [
+        "0x0BCB214"
+      ],
+      "jp": "戦士を使用します",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 770164,
+      "ponteiros": [
+        "0x0BCB210"
+      ],
+      "jp": "ボスタフを使用します",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 770188,
+      "ponteiros": [
+        "0x0BCB20C"
+      ],
+      "jp": "トラムを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 770208,
+      "ponteiros": [
+        "0x0BCB208"
+      ],
+      "jp": "パイクを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 770228,
+      "ponteiros": [
+        "0x0BCB204"
+      ],
+      "jp": "ギランを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 770248,
+      "ponteiros": [
+        "0x0BCB200"
+      ],
+      "jp": "ミューノを使用します",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 770272,
+      "ponteiros": [
+        "0x0BCB1FC"
+      ],
+      "jp": "ロブを使用します",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 770292,
+      "ponteiros": [
+        "0x0BCB1F8"
+      ],
+      "jp": "アニスを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 770312,
+      "ponteiros": [
+        "0x0BCB1F4"
+      ],
+      "jp": "ティエを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 770332,
+      "ponteiros": [
+        "0x0BCB1F0"
+      ],
+      "jp": "レミィを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 770352,
+      "ponteiros": [
+        "0x0BCB1EC"
+      ],
+      "jp": "ジェイドを使用します",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 770376,
+      "ponteiros": [
+        "0x0BCB1E8"
+      ],
+      "jp": "ヴィーを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 770396,
+      "ponteiros": [
+        "0x0BCB1E4"
+      ],
+      "jp": "βを使用します",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 770412,
+      "ponteiros": [
+        "0x0BCB1E0"
+      ],
+      "jp": "超バトルアタックが遊べます",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 770440,
+      "ponteiros": [
+        "0x0BCB1DC"
+      ],
+      "jp": "ＥＸ２アタックバトルが遊べます",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 770472,
+      "ponteiros": [
+        "0x0BCB1D8"
+      ],
+      "jp": "ＥＸ１アタックバトルが遊べます",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 770504,
+      "ponteiros": [
+        "0x0BCB1D4"
+      ],
+      "jp": "ライバルアタックバトルが遊べます",
+      "pt": "",
+      "chars": 16
+    },
+    {
+      "offset": 770540,
+      "ponteiros": [
+        "0x0BCB1D0"
+      ],
+      "jp": "ボスアタックバトルが遊べます",
+      "pt": "",
+      "chars": 14
+    },
+    {
+      "offset": 770572,
+      "ponteiros": [
+        "0x0BCB1CC"
+      ],
+      "jp": "おまけを終了します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 770592,
+      "ponteiros": [
+        "0x0BCB1C8"
+      ],
+      "jp": "使用可能なおまけ条件が確認出来ます",
+      "pt": "",
+      "chars": 17
+    },
+    {
+      "offset": 770628,
+      "ponteiros": [
+        "0x0BCB1C4"
+      ],
+      "jp": "ミニゲームが遊べます",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 770652,
+      "ponteiros": [
+        "0x0BCB1C0"
+      ],
+      "jp": "ゲーム中のＢＧＭなどが聴けます",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 770684,
+      "ponteiros": [
+        "0x0BCB1BC"
+      ],
+      "jp": "おまけバトルが遊べます",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 770716,
+      "ponteiros": [
+        "0x0BCB50C"
+      ],
+      "jp": "終焉の調べ",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 770728,
+      "ponteiros": [
+        "0x0BCB508"
+      ],
+      "jp": "おかし話し",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 770740,
+      "ponteiros": [
+        "0x0BCB504"
+      ],
+      "jp": "明日へ！",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 770752,
+      "ponteiros": [
+        "0x0BCB500"
+      ],
+      "jp": "見えない気配",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 770768,
+      "ponteiros": [
+        "0x0BCB4FC"
+      ],
+      "jp": "召集会議",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 770780,
+      "ponteiros": [
+        "0x0BCB4F8"
+      ],
+      "jp": "凶悪な陰謀",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 770792,
+      "ponteiros": [
+        "0x0BCB4F4"
+      ],
+      "jp": "揺れる心",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 770804,
+      "ponteiros": [
+        "0x0BCB4F0"
+      ],
+      "jp": "ｈｕｒｒｙ　ｕｐ！！",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 770828,
+      "ponteiros": [
+        "0x0BCB4EC"
+      ],
+      "jp": "抑えられない怒り",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 770848,
+      "ponteiros": [
+        "0x0BCB4E8"
+      ],
+      "jp": "悲しみの果てに",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 770864,
+      "ponteiros": [
+        "0x0BCB4E4"
+      ],
+      "jp": "笑顔が一番",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 770876,
+      "ponteiros": [
+        "0x0BCB4E0"
+      ],
+      "jp": "和やかな一時",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 770892,
+      "ponteiros": [
+        "0x0BCB4DC"
+      ],
+      "jp": "一獲千金！？",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 770908,
+      "ponteiros": [
+        "0x0BCB4D8"
+      ],
+      "jp": "星を見上げて",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 770924,
+      "ponteiros": [
+        "0x0BCB4D4"
+      ],
+      "jp": "何があるかな？",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 770940,
+      "ponteiros": [
+        "0x0BCB4D0"
+      ],
+      "jp": "Ｌｅｔ’ｓ　Ｔｒｙ！",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 770964,
+      "ponteiros": [
+        "0x0BCB4CC"
+      ],
+      "jp": "終わりからの始まり",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 770984,
+      "ponteiros": [
+        "0x0BCB4C8"
+      ],
+      "jp": "決戦の地へ",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 770996,
+      "ponteiros": [
+        "0x0BCB4C4"
+      ],
+      "jp": "廃墟に潜む物達",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 771012,
+      "ponteiros": [
+        "0x0BCB4C0"
+      ],
+      "jp": "風の道標",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 771024,
+      "ponteiros": [
+        "0x0BCB4BC"
+      ],
+      "jp": "朱の遺跡",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 771036,
+      "ponteiros": [
+        "0x0BCB4B8"
+      ],
+      "jp": "蒼の神殿",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 771048,
+      "ponteiros": [
+        "0x0BCB4B4"
+      ],
+      "jp": "湿った採掘場",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 771064,
+      "ponteiros": [
+        "0x0BCB4B0"
+      ],
+      "jp": "災いの森",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 771076,
+      "ponteiros": [
+        "0x0BCB4AC"
+      ],
+      "jp": "厳岩の道を往く",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 771092,
+      "ponteiros": [
+        "0x0BCB4A8"
+      ],
+      "jp": "亡郷の詩",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 771104,
+      "ponteiros": [
+        "0x0BCB4A4"
+      ],
+      "jp": "ルイーズ遺跡",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 771120,
+      "ponteiros": [
+        "0x0BCB4A0"
+      ],
+      "jp": "プロスバンのにぎわい",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 771144,
+      "ponteiros": [
+        "0x0BCB49C"
+      ],
+      "jp": "マーネイルでのひととき",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 771168,
+      "ponteiros": [
+        "0x0BCB498"
+      ],
+      "jp": "採掘場の朝",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 771180,
+      "ponteiros": [
+        "0x0BCB494"
+      ],
+      "jp": "敗者のレクイエム",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 771200,
+      "ponteiros": [
+        "0x0BCB48C"
+      ],
+      "jp": "勝つのはどっちだ！？",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 771224,
+      "ponteiros": [
+        "0x0BCB488"
+      ],
+      "jp": "蒼と朱の決戦",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 771240,
+      "ponteiros": [
+        "0x0BCB484"
+      ],
+      "jp": "最終決戦〜思いを乗せて",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 771264,
+      "ponteiros": [
+        "0x0BCB480"
+      ],
+      "jp": "巨大な強敵",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 771276,
+      "ponteiros": [
+        "0x0BCB47C"
+      ],
+      "jp": "激闘必至",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 771288,
+      "ponteiros": [
+        "0x0BCB478"
+      ],
+      "jp": "友情の証",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 771300,
+      "ponteiros": [
+        "0x0BCB474"
+      ],
+      "jp": "やっつけろ！",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 771316,
+      "ponteiros": [
+        "0x0BCB470"
+      ],
+      "jp": "エピローグ〜ふたつの奇跡",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 771344,
+      "ponteiros": [
+        "0x0BCB46C"
+      ],
+      "jp": "オープニングテーマ〜出会い",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 771372,
+      "ponteiros": [
+        "0x0BCB468"
+      ],
+      "jp": "プレリュード〜はじまりの石",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 771400,
+      "ponteiros": [
+        "0x0BCB424"
+      ],
+      "jp": "発進！！ガンヴァルド〜戦闘中Ｖｅｒ",
+      "pt": "",
+      "chars": 17
+    },
+    {
+      "offset": 771436,
+      "ponteiros": [
+        "0x0BCB420"
+      ],
+      "jp": "敗者のレクイエム",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 771456,
+      "ponteiros": [
+        "0x0BCB41C"
+      ],
+      "jp": "勝利の証",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 771468,
+      "ponteiros": [
+        "0x0BCB418"
+      ],
+      "jp": "カレーの殿堂",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 771484,
+      "ponteiros": [
+        "0x0BCB414"
+      ],
+      "jp": "発進！！ガンヴァルド",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 771508,
+      "ponteiros": [
+        "0x0BCB410"
+      ],
+      "jp": "負けないキモチ",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 771524,
+      "ponteiros": [
+        "0x0BCB40C"
+      ],
+      "jp": "神秘的",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 771532,
+      "ponteiros": [
+        "0x0BCB408"
+      ],
+      "jp": "作戦会議",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 771544,
+      "ponteiros": [
+        "0x0BCB404"
+      ],
+      "jp": "悪意の渦",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 771556,
+      "ponteiros": [
+        "0x0BCB400"
+      ],
+      "jp": "すれ違う心",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 771568,
+      "ponteiros": [
+        "0x0BCB3FC"
+      ],
+      "jp": "緊急事態発生！",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 771584,
+      "ponteiros": [
+        "0x0BCB3F8"
+      ],
+      "jp": "怒り爆発！！",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 771600,
+      "ponteiros": [
+        "0x0BCB3F4"
+      ],
+      "jp": "哀しみの調べ",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 771616,
+      "ponteiros": [
+        "0x0BCB3F0"
+      ],
+      "jp": "Ａ・Ｏ・ＺＯ・ＲＡ",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 771636,
+      "ponteiros": [
+        "0x0BCB3EC"
+      ],
+      "jp": "穏やかな日々",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 771652,
+      "ponteiros": [
+        "0x0BCB3E8"
+      ],
+      "jp": "君と二人で　ある新米鍛冶師の場合〜",
+      "pt": "",
+      "chars": 17
+    },
+    {
+      "offset": 771688,
+      "ponteiros": [
+        "0x0BCB3E4"
+      ],
+      "jp": "ただいま商い中♪",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 771708,
+      "ponteiros": [
+        "0x0BCB3E0"
+      ],
+      "jp": "新たな冒険へ",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 771724,
+      "ponteiros": [
+        "0x0BCB3DC"
+      ],
+      "jp": "謎めくゴウラの迷宮",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 771744,
+      "ponteiros": [
+        "0x0BCB3D8"
+      ],
+      "jp": "湧き上がる湯煙の温泉",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 771768,
+      "ponteiros": [
+        "0x0BCB3D4"
+      ],
+      "jp": "木霊する氷の渓谷",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 771788,
+      "ponteiros": [
+        "0x0BCB3D0"
+      ],
+      "jp": "常夏の海岸",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 771800,
+      "ponteiros": [
+        "0x0BCB3CC"
+      ],
+      "jp": "古の機械工場",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 771816,
+      "ponteiros": [
+        "0x0BCB3C8"
+      ],
+      "jp": "巨獣の潜む洞穴",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 771832,
+      "ponteiros": [
+        "0x0BCB3C4"
+      ],
+      "jp": "未開の森をいく",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 771848,
+      "ponteiros": [
+        "0x0BCB3C0"
+      ],
+      "jp": "風と滝の唄",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 771860,
+      "ponteiros": [
+        "0x0BCB3BC"
+      ],
+      "jp": "何が出来るかな？",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 771880,
+      "ponteiros": [
+        "0x0BCB3B8"
+      ],
+      "jp": "ゴウラ降臨",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 771892,
+      "ponteiros": [
+        "0x0BCB3B4"
+      ],
+      "jp": "行く手を阻む使者",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 771912,
+      "ponteiros": [
+        "0x0BCB3B0"
+      ],
+      "jp": "発動！モノシフト",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 771932,
+      "ponteiros": [
+        "0x0BCB3AC"
+      ],
+      "jp": "戦いに赴いて",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 771948,
+      "ponteiros": [
+        "0x0BCB3A8"
+      ],
+      "jp": "エンドタイトル",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 771964,
+      "ponteiros": [
+        "0x0BCB3A4"
+      ],
+      "jp": "オープニングテーマ",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 771984,
+      "ponteiros": [
+        "0x0BCB3A0"
+      ],
+      "jp": "タイトルテーマ",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 772000,
+      "ponteiros": [
+        "0x0BCB350",
+        "0x0BCB490"
+      ],
+      "jp": "勝利の証",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 772012,
+      "ponteiros": [
+        "0x0BCB34C"
+      ],
+      "jp": "真剣勝負！（対戦ｖｅｒ）",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 772040,
+      "ponteiros": [
+        "0x0BCB348"
+      ],
+      "jp": "負けられない戦い",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 772060,
+      "ponteiros": [
+        "0x0BCB344"
+      ],
+      "jp": "忍び寄る恐怖",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 772076,
+      "ponteiros": [
+        "0x0BCB340"
+      ],
+      "jp": "間に合わない！",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 772092,
+      "ponteiros": [
+        "0x0BCB33C"
+      ],
+      "jp": "激昂！！",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 772104,
+      "ponteiros": [
+        "0x0BCB338"
+      ],
+      "jp": "寂しさの中に",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 772120,
+      "ponteiros": [
+        "0x0BCB334"
+      ],
+      "jp": "うれしい！楽しい！",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 772140,
+      "ponteiros": [
+        "0x0BCB330"
+      ],
+      "jp": "暖かいまなざし",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 772156,
+      "ponteiros": [
+        "0x0BCB32C"
+      ],
+      "jp": "君と二人で〜ある新米鍛冶師の場合〜",
+      "pt": "",
+      "chars": 17
+    },
+    {
+      "offset": 772192,
+      "ponteiros": [
+        "0x0BCB328"
+      ],
+      "jp": "ただいま商い中♪",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 772212,
+      "ponteiros": [
+        "0x0BCB324"
+      ],
+      "jp": "中央工城",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 772224,
+      "ponteiros": [
+        "0x0BCB320"
+      ],
+      "jp": "カレーの殿堂",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 772240,
+      "ponteiros": [
+        "0x0BCB31C"
+      ],
+      "jp": "Ｎｅｘｔ",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 772252,
+      "ponteiros": [
+        "0x0BCB318"
+      ],
+      "jp": "最後の砦",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 772264,
+      "ponteiros": [
+        "0x0BCB314"
+      ],
+      "jp": "氷の牢獄",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 772276,
+      "ponteiros": [
+        "0x0BCB310"
+      ],
+      "jp": "雪の舞う港町",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 772292,
+      "ponteiros": [
+        "0x0BCB30C"
+      ],
+      "jp": "炎獄の踊り",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 772304,
+      "ponteiros": [
+        "0x0BCB308"
+      ],
+      "jp": "火山島の波止場",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 772320,
+      "ponteiros": [
+        "0x0BCB304"
+      ],
+      "jp": "海底洞窟",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 772332,
+      "ponteiros": [
+        "0x0BCB300"
+      ],
+      "jp": "感謝の宴",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 772344,
+      "ponteiros": [
+        "0x0BCB2FC"
+      ],
+      "jp": "潜入作戦",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 772356,
+      "ponteiros": [
+        "0x0BCB2F8"
+      ],
+      "jp": "封印の迷宮ｖｉｓｉｏｎ２",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 772384,
+      "ponteiros": [
+        "0x0BCB2F4"
+      ],
+      "jp": "封印の迷宮",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 772396,
+      "ponteiros": [
+        "0x0BCB2F0"
+      ],
+      "jp": "剣と水の都",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 772408,
+      "ponteiros": [
+        "0x0BCB2EC"
+      ],
+      "jp": "作っちゃおう",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 772424,
+      "ponteiros": [
+        "0x0BCB2E8"
+      ],
+      "jp": "パリスタパリス",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 772440,
+      "ponteiros": [
+        "0x0BCB2E4"
+      ],
+      "jp": "強敵現る！",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 772452,
+      "ponteiros": [
+        "0x0BCB2E0"
+      ],
+      "jp": "真剣勝負！",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 772464,
+      "ponteiros": [
+        "0x0BCB2DC"
+      ],
+      "jp": "エンディングテーマ",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 772484,
+      "ponteiros": [
+        "0x0BCB2D8"
+      ],
+      "jp": "タイトルテーマ",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 783832,
+      "ponteiros": [
+        "0x0BCD668"
+      ],
+      "jp": "通信待機中です",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 783848,
+      "ponteiros": [
+        "0x0BCD66C"
+      ],
+      "jp": "通信に失敗しました",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 783868,
+      "ponteiros": [
+        "0x0BCD750"
+      ],
+      "jp": "ガンヴァルド改",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 783884,
+      "ponteiros": [
+        "0x0BCD74C"
+      ],
+      "jp": "　",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 783888,
+      "ponteiros": [
+        "0x0BCD748"
+      ],
+      "jp": "マキ割り",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 783900,
+      "ponteiros": [
+        "0x0BCD744"
+      ],
+      "jp": "釣り",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 783908,
+      "ponteiros": [
+        "0x0BCD740"
+      ],
+      "jp": "ＶＯＩＣＥ",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 783920,
+      "ponteiros": [
+        "0x0BCD73C"
+      ],
+      "jp": "ＢＧＭ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 783928,
+      "ponteiros": [
+        "0x0BCD738"
+      ],
+      "jp": "「２」巨大召喚獣",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 783948,
+      "ponteiros": [
+        "0x0BCD734"
+      ],
+      "jp": "超バトルアタック",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 783968,
+      "ponteiros": [
+        "0x0BCD730"
+      ],
+      "jp": "ライバルアタック",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 783988,
+      "ponteiros": [
+        "0x0BCD72C"
+      ],
+      "jp": "ボスアタック",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 784004,
+      "ponteiros": [
+        "0x0BCD728"
+      ],
+      "jp": "ＥＸ２アタック",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 784020,
+      "ponteiros": [
+        "0x0BCD724"
+      ],
+      "jp": "ＥＸ１アタック",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 784036,
+      "ponteiros": [
+        "0x0BCD6EC",
+        "0x0BCD720"
+      ],
+      "jp": "サージ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784044,
+      "ponteiros": [
+        "0x0BCD6E8",
+        "0x0BCD71C"
+      ],
+      "jp": "戦士",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 784052,
+      "ponteiros": [
+        "0x0BCD6E4",
+        "0x0BCD718"
+      ],
+      "jp": "ボスタフ",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 784064,
+      "ponteiros": [
+        "0x0BCD6E0",
+        "0x0BCD714"
+      ],
+      "jp": "トラム",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784072,
+      "ponteiros": [
+        "0x0BCD6DC",
+        "0x0BCD710"
+      ],
+      "jp": "パイク",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784080,
+      "ponteiros": [
+        "0x0BCD6D8",
+        "0x0BCD70C"
+      ],
+      "jp": "ギラン",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784088,
+      "ponteiros": [
+        "0x0BCD6D4",
+        "0x0BCD708"
+      ],
+      "jp": "ミューノ",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 784100,
+      "ponteiros": [
+        "0x0BCD6D0",
+        "0x0BCD704"
+      ],
+      "jp": "ロブ",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 784108,
+      "ponteiros": [
+        "0x0BCD6CC",
+        "0x0BCD700"
+      ],
+      "jp": "アニス",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784116,
+      "ponteiros": [
+        "0x0BCD6C8",
+        "0x0BCD6FC"
+      ],
+      "jp": "ティエ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784124,
+      "ponteiros": [
+        "0x0BCD6C4",
+        "0x0BCD6F8"
+      ],
+      "jp": "レミィ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784132,
+      "ponteiros": [
+        "0x0BCD6C0",
+        "0x0BCD6F4"
+      ],
+      "jp": "ジェイド",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 784144,
+      "ponteiros": [
+        "0x0BCD6BC",
+        "0x0BCD6F0"
+      ],
+      "jp": "ヴィー",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784152,
+      "ponteiros": [
+        "0x0BCD6B8"
+      ],
+      "jp": "γ",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 784156,
+      "ponteiros": [
+        "0x0BCD6B4"
+      ],
+      "jp": "キャンセル",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 784168,
+      "ponteiros": [
+        "0x0BCD6B0"
+      ],
+      "jp": "決定",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 784176,
+      "ponteiros": [
+        "0x0BCD6AC"
+      ],
+      "jp": "補助装備",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 784188,
+      "ponteiros": [
+        "0x0BCD6A8"
+      ],
+      "jp": "装備",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 784196,
+      "ponteiros": [
+        "0x0BCD6A4"
+      ],
+      "jp": "消費アイテム",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 784212,
+      "ponteiros": [
+        "0x0BCD6A0"
+      ],
+      "jp": "武器",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 784220,
+      "ponteiros": [
+        "0x0BCD69C"
+      ],
+      "jp": "マグドラド",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 784232,
+      "ponteiros": [
+        "0x0BCD698"
+      ],
+      "jp": "幻龍鬼",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784240,
+      "ponteiros": [
+        "0x0BCD694"
+      ],
+      "jp": "ボルガノ",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 784252,
+      "ponteiros": [
+        "0x0BCD690"
+      ],
+      "jp": "ガンヴァルド",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 784268,
+      "ponteiros": [
+        "0x0BCD68C"
+      ],
+      "jp": "召喚獣",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784276,
+      "ponteiros": [
+        "0x0BCD688"
+      ],
+      "jp": "ライバル",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 784288,
+      "ponteiros": [
+        "0x0BCD684"
+      ],
+      "jp": "主人公",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784296,
+      "ponteiros": [
+        "0x0BCD680"
+      ],
+      "jp": "終了",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 784304,
+      "ponteiros": [
+        "0x0BCD67C"
+      ],
+      "jp": "贈り物",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784312,
+      "ponteiros": [
+        "0x0BCD678"
+      ],
+      "jp": "交換",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 784320,
+      "ponteiros": [
+        "0x0BCD674"
+      ],
+      "jp": "超対戦",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 784328,
+      "ponteiros": [
+        "0x0BCD670"
+      ],
+      "jp": "対戦",
+      "pt": "",
+      "chars": 2
+    },
+    {
+      "offset": 784336,
+      "ponteiros": [
+        "0x0BCD908"
+      ],
+      "jp": "ガンヴァルド改を使用します",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 784364,
+      "ponteiros": [
+        "0x0BCD904"
+      ],
+      "jp": "　",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 784368,
+      "ponteiros": [
+        "0x0BCD900"
+      ],
+      "jp": "マキ割りゲームが使用出来る条件",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 784400,
+      "ponteiros": [
+        "0x0BCD8FC"
+      ],
+      "jp": "釣りゲームが使用出来る条件",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 784428,
+      "ponteiros": [
+        "0x0BCD8F8"
+      ],
+      "jp": "ＶＯＩＣＥが使用出来る条件",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 784456,
+      "ponteiros": [
+        "0x0BCD8F4"
+      ],
+      "jp": "ＢＧＭが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 784480,
+      "ponteiros": [
+        "0x0BCD8F0"
+      ],
+      "jp": "２の巨大召喚獣が使用出来る条件",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 784512,
+      "ponteiros": [
+        "0x0BCD8EC"
+      ],
+      "jp": "超バトルアタックが使用出来る条件",
+      "pt": "",
+      "chars": 16
+    },
+    {
+      "offset": 784548,
+      "ponteiros": [
+        "0x0BCD8E8"
+      ],
+      "jp": "ライバルアタックが使用出来る条件",
+      "pt": "",
+      "chars": 16
+    },
+    {
+      "offset": 784584,
+      "ponteiros": [
+        "0x0BCD8E4"
+      ],
+      "jp": "ボスアタックが使用出来る条件",
+      "pt": "",
+      "chars": 14
+    },
+    {
+      "offset": 784616,
+      "ponteiros": [
+        "0x0BCD8E0"
+      ],
+      "jp": "ＥＸ２アタックが使用出来る条件",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 784648,
+      "ponteiros": [
+        "0x0BCD8DC"
+      ],
+      "jp": "ＥＸ１アタックが使用出来る条件",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 784680,
+      "ponteiros": [
+        "0x0BCD8D8"
+      ],
+      "jp": "サージが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 784704,
+      "ponteiros": [
+        "0x0BCD8D4"
+      ],
+      "jp": "戦士が使用出来る条件",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 784728,
+      "ponteiros": [
+        "0x0BCD8D0"
+      ],
+      "jp": "ボスタフが使用出来る条件",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 784756,
+      "ponteiros": [
+        "0x0BCD8CC"
+      ],
+      "jp": "トラムが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 784780,
+      "ponteiros": [
+        "0x0BCD8C8"
+      ],
+      "jp": "パイクが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 784804,
+      "ponteiros": [
+        "0x0BCD8C4"
+      ],
+      "jp": "ギランが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 784828,
+      "ponteiros": [
+        "0x0BCD8C0"
+      ],
+      "jp": "ミューノが使用出来る条件",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 784856,
+      "ponteiros": [
+        "0x0BCD8BC"
+      ],
+      "jp": "ロブが使用出来る条件",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 784880,
+      "ponteiros": [
+        "0x0BCD8B8"
+      ],
+      "jp": "アニスが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 784904,
+      "ponteiros": [
+        "0x0BCD8B4"
+      ],
+      "jp": "ティエが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 784928,
+      "ponteiros": [
+        "0x0BCD8B0"
+      ],
+      "jp": "レミィが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 784952,
+      "ponteiros": [
+        "0x0BCD8AC"
+      ],
+      "jp": "ジェイドが使用出来る条件",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 784980,
+      "ponteiros": [
+        "0x0BCD8A8"
+      ],
+      "jp": "ヴィーが使用出来る条件",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 785004,
+      "ponteiros": [
+        "0x0BCD8A4"
+      ],
+      "jp": "サージを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 785024,
+      "ponteiros": [
+        "0x0BCD8A0"
+      ],
+      "jp": "戦士を使用します",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 785044,
+      "ponteiros": [
+        "0x0BCD89C"
+      ],
+      "jp": "ボスタフを使用します",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 785068,
+      "ponteiros": [
+        "0x0BCD898"
+      ],
+      "jp": "トラムを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 785088,
+      "ponteiros": [
+        "0x0BCD894"
+      ],
+      "jp": "パイクを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 785108,
+      "ponteiros": [
+        "0x0BCD890"
+      ],
+      "jp": "ギランを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 785128,
+      "ponteiros": [
+        "0x0BCD88C"
+      ],
+      "jp": "ミューノを使用します",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 785152,
+      "ponteiros": [
+        "0x0BCD888"
+      ],
+      "jp": "ロブを使用します",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 785172,
+      "ponteiros": [
+        "0x0BCD884"
+      ],
+      "jp": "アニスを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 785192,
+      "ponteiros": [
+        "0x0BCD880"
+      ],
+      "jp": "ティエを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 785212,
+      "ponteiros": [
+        "0x0BCD87C"
+      ],
+      "jp": "レミィを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 785232,
+      "ponteiros": [
+        "0x0BCD878"
+      ],
+      "jp": "ジェイドを使用します",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 785256,
+      "ponteiros": [
+        "0x0BCD874"
+      ],
+      "jp": "ヴィーを使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 785276,
+      "ponteiros": [
+        "0x0BCD870"
+      ],
+      "jp": "パートナーダミー",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 785296,
+      "ponteiros": [
+        "0x0BCD86C"
+      ],
+      "jp": "キャンセルします",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 785316,
+      "ponteiros": [
+        "0x0BCD868"
+      ],
+      "jp": "決定します",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 785328,
+      "ponteiros": [
+        "0x0BCD864"
+      ],
+      "jp": "補助装備を変更します",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 785352,
+      "ponteiros": [
+        "0x0BCD860"
+      ],
+      "jp": "装備を変更します",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 785372,
+      "ponteiros": [
+        "0x0BCD85C"
+      ],
+      "jp": "消費アイテムを交換します",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 785400,
+      "ponteiros": [
+        "0x0BCD858"
+      ],
+      "jp": "武器を交換します",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 785420,
+      "ponteiros": [
+        "0x0BCD854"
+      ],
+      "jp": "マグドラドを使用します",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 785444,
+      "ponteiros": [
+        "0x0BCD850"
+      ],
+      "jp": "幻龍鬼を使用します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 785464,
+      "ponteiros": [
+        "0x0BCD84C"
+      ],
+      "jp": "ボルガノを使用します",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 785488,
+      "ponteiros": [
+        "0x0BCD848"
+      ],
+      "jp": "ガンヴァルドを使用します",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 785516,
+      "ponteiros": [
+        "0x0BCD844"
+      ],
+      "jp": "はぐれ召喚獣を使用します",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 785544,
+      "ponteiros": [
+        "0x0BCD840"
+      ],
+      "jp": "ライバルを使用します",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 785568,
+      "ponteiros": [
+        "0x0BCD83C"
+      ],
+      "jp": "βを使用します",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 785584,
+      "ponteiros": [
+        "0x0BCD838"
+      ],
+      "jp": "通信を終了します",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 785604,
+      "ponteiros": [
+        "0x0BCD834"
+      ],
+      "jp": "おまけ条件のコピーを行います",
+      "pt": "",
+      "chars": 14
+    },
+    {
+      "offset": 785636,
+      "ponteiros": [
+        "0x0BCD830"
+      ],
+      "jp": "武器やアイテムの交換を行います",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 785668,
+      "ponteiros": [
+        "0x0BCD82C"
+      ],
+      "jp": "巨大召喚獣を使った対戦を行います",
+      "pt": "",
+      "chars": 16
+    },
+    {
+      "offset": 785704,
+      "ponteiros": [
+        "0x0BCD828"
+      ],
+      "jp": "対戦を行います",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 786468,
+      "ponteiros": [
+        "0x0BD1B98"
+      ],
+      "jp": "このデータは使用できません",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 786496,
+      "ponteiros": [
+        "0x0BD1B9C"
+      ],
+      "jp": "セーブデータを継承しますか？",
+      "pt": "",
+      "chars": 14
+    },
+    {
+      "offset": 786528,
+      "ponteiros": [
+        "0x0BD1BB8"
+      ],
+      "jp": "　以上を継承します",
+      "pt": "",
+      "chars": 9
+    },
+    {
+      "offset": 786548,
+      "ponteiros": [
+        "0x0BD1BB4"
+      ],
+      "jp": "・預けた武器",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 786564,
+      "ponteiros": [
+        "0x0BD1BB0"
+      ],
+      "jp": "・釣りポイント　・ミニゲーム記録",
+      "pt": "",
+      "chars": 16
+    },
+    {
+      "offset": 786600,
+      "ponteiros": [
+        "0x0BD1BAC"
+      ],
+      "jp": "・必殺技一覧　　・特殊効果一覧",
+      "pt": "",
+      "chars": 15
+    },
+    {
+      "offset": 786632,
+      "ponteiros": [
+        "0x0BD1BA8"
+      ],
+      "jp": "・鍛冶ランク　　・召喚獣事典",
+      "pt": "",
+      "chars": 14
+    },
+    {
+      "offset": 786664,
+      "ponteiros": [
+        "0x0BD1BA4"
+      ],
+      "jp": "・秘伝　　　　　・お金",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 786688,
+      "ponteiros": [
+        "0x0BD1BA0"
+      ],
+      "jp": "クリアしたセーブデータから",
+      "pt": "",
+      "chars": 13
+    },
+    {
+      "offset": 12306676,
+      "ponteiros": [
+        "0x0BBC9D4"
+      ],
+      "jp": "β　レベルアップ！！",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 12306698,
+      "ponteiros": [
+        "0x0BBC9D8"
+      ],
+      "jp": "γ　レベルアップ！！",
+      "pt": "",
+      "chars": 10
+    },
+    {
+      "offset": 12306720,
+      "ponteiros": [
+        "0x0BBC9DC"
+      ],
+      "jp": "ポイント振り分け",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 12306738,
+      "ponteiros": [
+        "0x0BBC9E0"
+      ],
+      "jp": "ポイントを残して",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 12306756,
+      "ponteiros": [
+        "0x0BBC9E4"
+      ],
+      "jp": "終了しますか？",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 12306772,
+      "ponteiros": [
+        "0x0BBC9E8"
+      ],
+      "jp": "は　い",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 12306780,
+      "ponteiros": [
+        "0x0BBC9EC"
+      ],
+      "jp": "いいえ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 12306788,
+      "ponteiros": [
+        "0x0BBC9F0"
+      ],
+      "jp": "アイテム入手",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 12306802,
+      "ponteiros": [
+        "0x0BBC9F4"
+      ],
+      "jp": "ε　を覚えた！",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 12306818,
+      "ponteiros": [
+        "0x0BBC9F8"
+      ],
+      "jp": "ζ　を覚えた！",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 12306834,
+      "ponteiros": [
+        "0x0BBC9FC"
+      ],
+      "jp": "さらに新しい魔法を覚えた！！",
+      "pt": "",
+      "chars": 14
+    },
+    {
+      "offset": 12306864,
+      "ponteiros": [
+        "0x0BBCA00"
+      ],
+      "jp": "新しい魔法を覚えた！！",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 12306888,
+      "ponteiros": [
+        "0x0BBCA04"
+      ],
+      "jp": "＜ε＞",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 12407768,
+      "ponteiros": [
+        "0x0BD562C"
+      ],
+      "jp": "はひふへほ　ー〜　　　　　　　　　",
+      "pt": "",
+      "chars": 17
+    },
+    {
+      "offset": 12407804,
+      "ponteiros": [
+        "0x0BD5630"
+      ],
+      "jp": "まみむめも　カナ　英数　戻る　決定",
+      "pt": "",
+      "chars": 17
+    },
+    {
+      "offset": 12408020,
+      "ponteiros": [
+        "0x0BD5648"
+      ],
+      "jp": "ハヒフヘホ　ー〜　　　　　　　　　",
+      "pt": "",
+      "chars": 17
+    },
+    {
+      "offset": 12408056,
+      "ponteiros": [
+        "0x0BD564C"
+      ],
+      "jp": "マミムメモ　かな　英数　戻る　決定",
+      "pt": "",
+      "chars": 17
+    },
+    {
+      "offset": 12408092,
+      "ponteiros": [
+        "0x0BD5650"
+      ],
+      "jp": "ＡＢＣＤＥ　ａｂｃｄｅ　１２３４５",
+      "pt": "",
+      "chars": 17
+    },
+    {
+      "offset": 12408128,
+      "ponteiros": [
+        "0x0BD5654"
+      ],
+      "jp": "ＦＧＨＩＪ　ｆｇｈｉｊ　６７８９０",
+      "pt": "",
+      "chars": 17
+    },
+    {
+      "offset": 12408644,
+      "ponteiros": [
+        "0x0BD5788"
+      ],
+      "jp": "リッチバーン",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 12408658,
+      "ponteiros": [
+        "0x0BD578C"
+      ],
+      "jp": "リフモニカ",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 12408670,
+      "ponteiros": [
+        "0x0BD5790"
+      ],
+      "jp": "ランドル",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 12408680,
+      "ponteiros": [
+        "0x0BD5794"
+      ],
+      "jp": "エンジ",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 12408688,
+      "ponteiros": [
+        "0x0BD5798"
+      ],
+      "jp": "キルフィス",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 12408700,
+      "ponteiros": [
+        "0x0BD579C"
+      ],
+      "jp": "ルフィール",
+      "pt": "",
+      "chars": 5
+    },
+    {
+      "offset": 12427196,
+      "ponteiros": [
+        "0x0BDA0D8",
+        "0x0BDA0DC",
+        "0x0BDA0E0",
+        "0x0BDA0E4"
+      ],
+      "jp": "　",
+      "pt": "",
+      "chars": 1
+    },
+    {
+      "offset": 12427200,
+      "ponteiros": [
+        "0x0BDA0C0"
+      ],
+      "jp": "いくぞ！",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 12427210,
+      "ponteiros": [
+        "0x0BDA0C4"
+      ],
+      "jp": "よし、ペースアップだ！",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 12427234,
+      "ponteiros": [
+        "0x0BDA0C8"
+      ],
+      "jp": "ハンマーに当たるなよ！",
+      "pt": "",
+      "chars": 11
+    },
+    {
+      "offset": 12427258,
+      "ponteiros": [
+        "0x0BDA0CC"
+      ],
+      "jp": "どんどんいくぞ！",
+      "pt": "",
+      "chars": 8
+    },
+    {
+      "offset": 12427276,
+      "ponteiros": [
+        "0x0BDA0D0"
+      ],
+      "jp": "よく見るんだ！",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 12427292,
+      "ponteiros": [
+        "0x0BDA0D4"
+      ],
+      "jp": "これでどうだ！",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 12427308,
+      "ponteiros": [
+        "0x0BDA0E8"
+      ],
+      "jp": "いい感じだ！！",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 12427324,
+      "ponteiros": [
+        "0x0BDA0EC"
+      ],
+      "jp": "いいぞ！",
+      "pt": "",
+      "chars": 4
+    },
+    {
+      "offset": 12427334,
+      "ponteiros": [
+        "0x0BDA0F0"
+      ],
+      "jp": "いい感じだ！！",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 12427350,
+      "ponteiros": [
+        "0x0BDA0F4"
+      ],
+      "jp": "うまい！！！",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 12427364,
+      "ponteiros": [
+        "0x0BDA0F8"
+      ],
+      "jp": "すごい！！！！",
+      "pt": "",
+      "chars": 7
+    },
+    {
+      "offset": 12427380,
+      "ponteiros": [
+        "0x0BDA0FC"
+      ],
+      "jp": "おしい",
+      "pt": "",
+      "chars": 3
+    },
+    {
+      "offset": 12427388,
+      "ponteiros": [
+        "0x0BDA100"
+      ],
+      "jp": "ハンマーはガードでふせげ",
+      "pt": "",
+      "chars": 12
+    },
+    {
+      "offset": 12427414,
+      "ponteiros": [
+        "0x0BDA104"
+      ],
+      "jp": "無理をするな",
+      "pt": "",
+      "chars": 6
+    },
+    {
+      "offset": 12427428,
+      "ponteiros": [
+        "0x0BDA108"
+      ],
+      "jp": "斧やドリルならはじけるぞ",
+      "pt": "",
+      "chars": 12
+    }
+  ]
+}

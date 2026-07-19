@@ -1,0 +1,376 @@
+{
+  "_meta": {
+    "instrucoes": [
+      "Preencha 'pt' com a grafia que quer usar no jogo inteiro.",
+      "Deixe 'pt' vazio para DESCARTAR (nao e nome proprio).",
+      "Preencha 'genero' com M ou F quando for pessoa - o portugues",
+      "precisa disso para concordancia e o japones nao marca.",
+      "Este glossario vai em TODO prompt de traducao: cada entrada",
+      "custa tokens, entao mantenha so o que importa de verdade."
+    ],
+    "extraido_de": "21,062 unidades de texto"
+  },
+  "pessoas": [
+    {
+      "jp": "ミューノ",
+      "ocorrencias": 1507,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 200x"
+    },
+    {
+      "jp": "アニス",
+      "ocorrencias": 316,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 3x"
+    },
+    {
+      "jp": "ティエ",
+      "ocorrencias": 187,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 17x"
+    },
+    {
+      "jp": "レミィ",
+      "ocorrencias": 166,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 37x"
+    },
+    {
+      "jp": "ロブ",
+      "ocorrencias": 134,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 1x"
+    },
+    {
+      "jp": "ボスタフ",
+      "ocorrencias": 127,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 36x"
+    },
+    {
+      "jp": "ザック",
+      "ocorrencias": 111,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 7x"
+    },
+    {
+      "jp": "マグドラド",
+      "ocorrencias": 72,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 2x"
+    },
+    {
+      "jp": "ヴィー",
+      "ocorrencias": 70,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 29x"
+    },
+    {
+      "jp": "トラム",
+      "ocorrencias": 70,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 2x"
+    },
+    {
+      "jp": "ギャラハン",
+      "ocorrencias": 67,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 23x"
+    },
+    {
+      "jp": "アカバネ",
+      "ocorrencias": 65,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 2x"
+    },
+    {
+      "jp": "ウェルマン",
+      "ocorrencias": 62,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 53x"
+    },
+    {
+      "jp": "ジェイド",
+      "ocorrencias": 59,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 10x"
+    },
+    {
+      "jp": "ベンソン",
+      "ocorrencias": 58,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 10x"
+    },
+    {
+      "jp": "エリエ",
+      "ocorrencias": 50,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 4x"
+    },
+    {
+      "jp": "ベルヴォレン",
+      "ocorrencias": 34,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 17x"
+    },
+    {
+      "jp": "ギラン",
+      "ocorrencias": 22,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 1x"
+    },
+    {
+      "jp": "パイク",
+      "ocorrencias": 20,
+      "pt": "",
+      "genero": "",
+      "evidencia": "com honorifico 1x"
+    }
+  ],
+  "lugares": [
+    {
+      "jp": "ルイーズ村",
+      "ocorrencias": 127,
+      "pt": ""
+    },
+    {
+      "jp": "ディックル村",
+      "ocorrencias": 111,
+      "pt": ""
+    },
+    {
+      "jp": "スポート洞",
+      "ocorrencias": 97,
+      "pt": ""
+    },
+    {
+      "jp": "ミシュース村",
+      "ocorrencias": 15,
+      "pt": ""
+    },
+    {
+      "jp": "フラード洞",
+      "ocorrencias": 14,
+      "pt": ""
+    },
+    {
+      "jp": "地下宮",
+      "ocorrencias": 13,
+      "pt": ""
+    },
+    {
+      "jp": "住宅街",
+      "ocorrencias": 8,
+      "pt": ""
+    }
+  ],
+  "incertos": [
+    {
+      "jp": "プロスバン",
+      "ocorrencias": 214,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "ディックル",
+      "ocorrencias": 152,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "ゴヴァン",
+      "ocorrencias": 148,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "スレンジ",
+      "ocorrencias": 81,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "レクイ",
+      "ocorrencias": 73,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "ミシュース",
+      "ocorrencias": 61,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "ヴォイジン",
+      "ocorrencias": 56,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "リュート",
+      "ocorrencias": 55,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "ムチャ",
+      "ocorrencias": 55,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "グマグ",
+      "ocorrencias": 50,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "キッカ",
+      "ocorrencias": 47,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "コワ",
+      "ocorrencias": 43,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "バーム",
+      "ocorrencias": 41,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "ムリ",
+      "ocorrencias": 41,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "マーネイル",
+      "ocorrencias": 39,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "マテル",
+      "ocorrencias": 35,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "ウチ",
+      "ocorrencias": 34,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "カッコ",
+      "ocorrencias": 34,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "マニグ",
+      "ocorrencias": 33,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "オー",
+      "ocorrencias": 33,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "バカ",
+      "ocorrencias": 33,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "ワレマス",
+      "ocorrencias": 32,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "エサ",
+      "ocorrencias": 32,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "ヒミツ",
+      "ocorrencias": 32,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "トロッコ",
+      "ocorrencias": 31,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "アリマセン",
+      "ocorrencias": 30,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    },
+    {
+      "jp": "デハ",
+      "ocorrencias": 30,
+      "pt": "",
+      "genero": "",
+      "evidencia": ""
+    }
+  ]
+}
